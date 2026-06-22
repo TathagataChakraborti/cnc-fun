@@ -28,7 +28,7 @@ classifiers = [
 
 dependencies = [
     "pydantic",
-    "pyyaml",
+    "openpyxl",
     "pydantic",
     "requests",
     "fastapi[standard]",
