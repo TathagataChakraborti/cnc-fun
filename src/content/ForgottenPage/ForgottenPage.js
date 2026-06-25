@@ -9,6 +9,9 @@ import {
     Theme,
 } from '@carbon/react';
 
+import { DailyDistribution } from './DailyDistribution';
+import { generateUrl } from '../../components/Info';
+
 const ForgottenPage = _ => {
     return (
         <Grid className="top-relief">
@@ -24,9 +27,17 @@ const ForgottenPage = _ => {
                             </Tab>
                             <Tab>Attractor plots by neighborhood roughness</Tab>
                             <Tab>Production model for forgotten attacks</Tab>
+
+                            <img
+                                alt="serenity"
+                                src={generateUrl('images/serenity.png')}
+                                style={{ paddingRight: '4px' }}
+                            />
                         </TabListVertical>
                         <TabPanels>
-                            <TabPanel></TabPanel>
+                            <TabPanel>
+                                <DailyDistribution />
+                            </TabPanel>
                             <TabPanel></TabPanel>
                             <TabPanel></TabPanel>
                             <TabPanel></TabPanel>

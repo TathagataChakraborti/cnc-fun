@@ -38,13 +38,13 @@ class App extends Component {
                         <br />
 
                         <Tile>
-                            I build stuff that sparks joy. I am currently trying
-                            to start a new life as a freelance developer.
+                            I build stuff that sparks joy! I am trying to start
+                            a new life as a freelance developer.
                             <br />
                             <br />
-                            If this app has sparked joy in you in any way, and
-                            you would like to support my journey, consider
-                            buying me a coffee!
+                            If this app has sparked joy in you, and you would
+                            like to support my journey, consider buying me a
+                            coffee!
                             <br />
                             <br />
                             <BuyMeACoffeeButton />
@@ -54,9 +54,9 @@ class App extends Component {
                         <br />
 
                         <Tile>
-                            This little project is open source! Consider
-                            contributing your feedback, comments, critiques, and
-                            even code. &#129303;
+                            This little project is open source! Contribute your
+                            feedback, comments, critiques, and even code.
+                            &#129303;
                             <br />
                             <br />
                             The data collection for this work has been largely

@@ -18,6 +18,7 @@
     "@carbon/charts-react": "^1.11.10",
     "@carbon/react": "^1.31.3",
     "@carbon/styles": "^1.33.1",
+    "@stdlib/stats-kstest": "0.2.3",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-github-btn": "^1.4.0",

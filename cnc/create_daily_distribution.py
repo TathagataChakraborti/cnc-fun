@@ -1,0 +1,18 @@
+from typing import List
+
+from cnc.models.forgotten import Timeline
+from cnc.models.plots import DailyDistribution
+
+
+def create_data(timeline: Timeline) -> List[DailyDistribution]:
+    data: List[DailyDistribution] = []
+
+    for report in timeline.reports:
+        data.append(
+            DailyDistribution(
+                datetime=f"{report.datetime:%Y-%m-%dT%H:%M:%S+05:30}",
+                type=report.defending_against,
+            )
+        )
+
+    return data

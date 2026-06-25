@@ -1,11 +1,11 @@
 from __future__ import annotations
 
-from datetime import datetime
+from datetime import datetime as dt
 from enum import StrEnum, auto
 from statistics import fmean
 from typing import List, Optional, Tuple
 
-from openpyxl.workbook.workbook import Worksheet
+from openpyxl.worksheet.worksheet import Worksheet
 from pydantic import BaseModel
 
 
@@ -65,7 +65,7 @@ class Base(BaseModel):
 
 
 class Report(BaseModel):
-    datetime: datetime
+    datetime: dt
     defending_against: FORGOTTEN
     defending_base: str
     state_of_the_union: List[Base] = []
@@ -80,7 +80,7 @@ class Report(BaseModel):
     @classmethod
     def parse_report(cls, row: List[str], header_info: HeaderInfo) -> Report:
         report = Report(
-            datetime=datetime.strptime(row[header_info.datetime], "%m/%d/%Y, %H:%M:%S"),
+            datetime=dt.strptime(row[header_info.datetime], "%m/%d/%Y, %H:%M:%S"),
             defending_against=FORGOTTEN(row[header_info.defending_against]),
             defending_base=cls.parse_defending_base(row[header_info.defending_base]),
         )
@@ -125,11 +125,12 @@ class Timeline(BaseModel):
     reports: List[Report] = []
 
     @classmethod
-    def parse_headers(cls, row: Tuple[Optional[str]]) -> HeaderInfo:
+    def parse_headers(cls, row: Tuple[str | float | dt | None, ...]) -> HeaderInfo:
         headers = HeaderInfo()
+        str_row = [str(item) if item else None for item in row]
 
         for index, item in enumerate(
-            row[headers.starting_index :], start=headers.starting_index
+            str_row[headers.starting_index :], start=headers.starting_index
         ):
             if item is None:
                 break
@@ -139,7 +140,9 @@ class Timeline(BaseModel):
             primary_index = index
             secondary_index = primary_index + 1
 
-            for i, reference in enumerate(row[secondary_index:], start=secondary_index):
+            for i, reference in enumerate(
+                str_row[secondary_index:], start=secondary_index
+            ):
                 if reference == item:
                     secondary_index = i
                     break
@@ -155,9 +158,11 @@ class Timeline(BaseModel):
         return headers
 
     def parse_timeline(self, worksheet: Worksheet) -> Timeline:
-        header_info = self.parse_headers(next(worksheet.iter_rows(values_only=True)))
+        generator = worksheet.iter_rows(values_only=True)
+        header_info = self.parse_headers(next(generator))
 
         for row in worksheet.iter_rows(values_only=True, min_row=2):
-            self.reports.append(Report.parse_report(row, header_info))
+            str_row = [str(item) if item else "" for item in row]
+            self.reports.append(Report.parse_report(str_row, header_info))
 
         return self

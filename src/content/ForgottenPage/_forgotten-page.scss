@@ -1,3 +1,22 @@
 .top-relief {
     padding-top: 32px;
+    padding-bottom: 64px;
+}
+
+.panel-padding {
+    padding: 0;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.square-tag {
+    border-radius: 0;
+}
+
+.datepicker {
+    display: block !important;
+}
+
+.datepicker .cds--date-picker-container {
+    margin-bottom: 16px;
 }

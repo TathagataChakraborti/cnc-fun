@@ -1,13 +1,14 @@
 import json
 
 from openpyxl import load_workbook
+from openpyxl.worksheet.worksheet import Worksheet
 
 from cnc.models.forgotten import Timeline
 
 
 def read_raw_data(filename: str) -> Timeline:
-    workbook = load_workbook(filename)
-    worksheet = workbook["forgotten"]
+    workbook = load_workbook(filename, read_only=True)
+    worksheet: Worksheet = workbook["forgotten"]
 
     new_timeline = Timeline()
     new_timeline.parse_timeline(worksheet)
