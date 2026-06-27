@@ -7,11 +7,11 @@ from cnc.models.plots import DailyDistribution
 def create_data(timeline: Timeline) -> List[DailyDistribution]:
     data: List[DailyDistribution] = []
 
-    for report in timeline.reports:
+    for event in timeline.forgotten_attacks:
         data.append(
             DailyDistribution(
-                datetime=f"{report.datetime:%Y-%m-%dT%H:%M:%S+05:30}",
-                type=report.defending_against,
+                datetime=f"{event.datetime:%Y-%m-%dT%H:%M:%S+05:30}",
+                type=event.defending_against,
             )
         )
 
