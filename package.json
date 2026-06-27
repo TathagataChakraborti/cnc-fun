@@ -24,7 +24,7 @@
     "react-github-btn": "^1.4.0",
     "react-router-dom": "^5.0.0",
     "react-scripts": "^5.0.1",
-    "sass": "^1.51.0"
+    "sass": "1.77.8"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.7.1",

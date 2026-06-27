@@ -9,8 +9,9 @@ import {
     Theme,
 } from '@carbon/react';
 
-import { DailyDistribution } from './DailyDistribution';
 import { generateUrl } from '../../components/Info';
+import { DailyDistribution } from './DailyDistribution';
+import { MonthlyDistribution } from './MonthlyDistribution';
 
 const ForgottenPage = _ => {
     return (
@@ -22,10 +23,10 @@ const ForgottenPage = _ => {
                             <Tab>Forgotten activity per time of day</Tab>
                             <Tab>Forgotten activity over a month</Tab>
                             <Tab>Honeypot strategy</Tab>
+                            <Tab>Attractor plots by neighborhood roughness</Tab>
                             <Tab>
                                 Do jumps to the frontline trigger attacks?
                             </Tab>
-                            <Tab>Attractor plots by neighborhood roughness</Tab>
                             <Tab>Production model for forgotten attacks</Tab>
 
                             <img
@@ -38,7 +39,9 @@ const ForgottenPage = _ => {
                             <TabPanel>
                                 <DailyDistribution />
                             </TabPanel>
-                            <TabPanel></TabPanel>
+                            <TabPanel>
+                                <MonthlyDistribution />
+                            </TabPanel>
                             <TabPanel></TabPanel>
                             <TabPanel></TabPanel>
                             <TabPanel></TabPanel>
