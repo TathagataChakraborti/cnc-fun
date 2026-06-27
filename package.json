@@ -5,26 +5,23 @@
   "bugs": "https://github.com/TathagataChakraborti/cnc-fun/issues",
   "license": "Apache 2.0",
   "scripts": {
-    "build": "react-scripts build",
-    "clean": "yarn cache clean && yarn install",
     "format": "prettier --write \"**/*.{js,md,scss}\"",
-    "start": "react-scripts start",
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "@carbon/charts-react": "^1.11.10",
     "@carbon/react": "^1.31.3",
     "@carbon/styles": "^1.33.1",
     "@stdlib/stats-kstest": "0.2.3",
+    "@vitejs/plugin-react": "^6.0.3",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-github-btn": "^1.4.0",
     "react-router-dom": "^5.0.0",
-    "react-scripts": "^5.0.1",
-    "sass": "1.77.8"
+    "sass": "^1.101.0",
+    "vite": "^8.1.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^17.7.1",

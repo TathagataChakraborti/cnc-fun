@@ -1,5 +1,5 @@
 function generateUrl(url) {
-    return `${process.env.PUBLIC_URL}/${url}`;
+    return url;
 }
 
 export { generateUrl };

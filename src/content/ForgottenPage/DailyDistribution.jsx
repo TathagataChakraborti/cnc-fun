@@ -11,21 +11,19 @@ import {
     Modal,
     CodeSnippet,
 } from '@carbon/react';
-
+import kstest from '@stdlib/stats-kstest'
 import { InformationSquareFilled, ResetAlt } from '@carbon/icons-react';
 import {
     SimpleBarChart,
     ScaleTypes,
     AxisPositions,
 } from '@carbon/charts-react';
-import '@carbon/charts-react/styles.css';
 
-const kstest = require('@stdlib/stats-kstest');
+import '@carbon/charts-react/styles.css';
+import data from '../../cache/daily_distribution.json';
 
 const print_date = datetime => datetime.toISOString().split('T')[0];
 const print_date_str = datetime_str => print_date(new Date(datetime_str));
-
-let data = require('../../cache/daily_distribution.json');
 
 let max_date = data[0].datetime;
 let min_date = data[data.length - 1].datetime;
