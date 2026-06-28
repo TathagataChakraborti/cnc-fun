@@ -2,6 +2,8 @@
 
 ![Static Badge](https://img.shields.io/badge/CnC-Tiberium%20Alliances-green?style=for-the-badge&link=https%3A%2F%2Fwww.ea.com%2Fgames%2Fcommand-and-conquer%2Fcommand-and-conquer-tiberium-alliances) &nbsp; ![Static Badge](https://img.shields.io/badge/Tiberian-72-red?style=for-the-badge&link=https%3A%2F%2Fwww.ea.com%2Fgames%2Fcommand-and-conquer%2Fcommand-and-conquer-tiberium-alliances%2Fnews%2Fnew-tiberian-72-world-starts-on-april-30th-2026)
 
+[![cnc-fun run all tests](https://github.com/TathagataChakraborti/cnc-fun/actions/workflows/run-all-tests.yaml/badge.svg)](https://github.com/TathagataChakraborti/cnc-fun/actions/workflows/run-all-tests.yaml)
+
 ## Tracking Cadence of Forgotten Attacks
 
 ## Migration of our Alliance
