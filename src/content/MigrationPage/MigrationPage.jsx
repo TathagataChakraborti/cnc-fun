@@ -1,12 +1,11 @@
 import { Grid, Column, ToastNotification } from '@carbon/react';
-import { generateUrl } from '../../components/Info';
 
 const MigrationPage = _ => {
     return (
         <Grid
             className="top-relief"
             style={{
-                backgroundImage: `url(${generateUrl('images/serenity.png')})`,
+                backgroundImage: `url('/images/serenity.png')`,
                 backgroundPosition: 'center',
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat',

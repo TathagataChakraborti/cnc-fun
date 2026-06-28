@@ -13,6 +13,7 @@ import {
 } from '@carbon/react';
 import kstest from '@stdlib/stats-kstest';
 import { InformationSquareFilled, ResetAlt } from '@carbon/icons-react';
+import { ModalContent } from './Hypothesis';
 import {
     SimpleBarChart,
     ScaleTypes,
@@ -75,7 +76,8 @@ class DailyDistribution extends React.Component {
         this.chartRef = React.createRef();
         this.state = {
             data: data,
-            modal: false,
+            p_value_modal: false,
+            hypothesis_modal: false,
             start_date: null,
             end_date: null,
             selected_types: forgotten_types,
@@ -261,11 +263,21 @@ class DailyDistribution extends React.Component {
                 </Column>
                 <Column lg={10} md={4} sm={4}>
                     <Tile className="panel-padding">
-                        There has been <em>many</em>, largely unproven, theories
-                        about Forgotten attacks. One of the early ones that
-                        appeared in our alliance chat was whether the Forgotten
-                        become more active during certain times of the day. So
-                        here we are!
+                        There has been{' '}
+                        <Link
+                            className="link-to-modal"
+                            onClick={() => {
+                                this.setState({
+                                    ...this.state,
+                                    hypothesis_modal: true,
+                                });
+                            }}>
+                            <em>many</em>
+                        </Link>
+                        , largely unproven, theories about Forgotten attacks.
+                        One of the early ones that appeared in our alliance chat
+                        was whether the Forgotten become more active during
+                        certain times of the day. So here we are!
                         <br />
                         <br />
                         Each line on this graph appears on the timeline of a
@@ -325,7 +337,7 @@ class DailyDistribution extends React.Component {
                                 onClick={() => {
                                     this.setState({
                                         ...this.state,
-                                        modal: true,
+                                        p_value_modal: true,
                                     });
                                 }}
                             />
@@ -355,7 +367,7 @@ class DailyDistribution extends React.Component {
                             onRequestClose={() => {
                                 this.setState({
                                     ...this.state,
-                                    modal: false,
+                                    p_value_modal: false,
                                 });
                             }}
                             open={this.state.modal}
@@ -370,6 +382,23 @@ class DailyDistribution extends React.Component {
                             </CodeSnippet>
                         </Modal>
                     )}
+
+                    <Modal
+                        isFullWidth
+                        passiveModal
+                        size="lg"
+                        aria-label="Modal content"
+                        modalHeading={<>We think thoughts &#128526;</>}
+                        modalLabel="From musings to facts"
+                        open={this.state.hypothesis_modal}
+                        onRequestClose={() =>
+                            this.setState({
+                                ...this.state,
+                                hypothesis_modal: false,
+                            })
+                        }>
+                        <ModalContent />
+                    </Modal>
                 </Column>
             </Grid>
         );

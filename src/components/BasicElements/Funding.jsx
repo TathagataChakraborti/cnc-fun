@@ -1,5 +1,4 @@
 import { useEffect } from 'react';
-import { generateUrl } from '../Info';
 
 function BuyMeACoffeeWidget() {
     // From: https://gist.github.com/Evavic44/c43f74247234f2714667944a38b26942
@@ -8,8 +7,7 @@ function BuyMeACoffeeWidget() {
         const script = document.createElement('script');
         const div = document.getElementById('supportByBMC');
         script.setAttribute('data-name', 'BMC-Widget');
-        // script.src = 'https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js';
-        script.src = generateUrl('scripts/widget.prod.min.js');
+        script.src = 'scripts/widget.prod.min.js';
         script.setAttribute('data-id', 'tchakra2');
         script.setAttribute(
             'data-description',

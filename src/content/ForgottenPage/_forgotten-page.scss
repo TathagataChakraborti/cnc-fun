@@ -26,3 +26,25 @@
 .text-alert {
     color: colors.$red-60;
 }
+
+.ghostish {
+    width: 175px;
+    background-color: colors.$blue-10;
+}
+
+.note {
+    color: colors.$gray-60;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: x-small;
+}
+
+.footnote {
+    color: colors.$gray-60;
+    margin: 8px;
+    font-size: small;
+}
+
+.link-to-modal:hover {
+    cursor: pointer;
+}

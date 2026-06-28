@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import {
     Grid,
     Column,
@@ -7,34 +8,66 @@ import {
     TabPanels,
     TabPanel,
     Theme,
+    Button,
+    // Modal,
 } from '@carbon/react';
 
-import { generateUrl } from '../../components/Info';
 import { DailyDistribution } from './DailyDistribution';
 import { MonthlyDistribution } from './MonthlyDistribution';
+// import { ModalContent } from './Hypothesis';
+import { Music } from '@carbon/icons-react';
 
 const ForgottenPage = _ => {
+    const [modal_on, modalToggle] = useState(false);
+
     return (
         <Grid className="top-relief">
             <Column lg={14} md={4} sm={4}>
                 <Theme theme="g10">
-                    <TabsVertical defaultSelectedIndex={1} height="">
+                    <TabsVertical defaultSelectedIndex={2} height="">
                         <TabListVertical size="lg" className="bottomless">
                             <Tab>Forgotten activity per time of day</Tab>
                             <Tab>Forgotten activity over time</Tab>
                             <Tab>
                                 Do jumps to the frontline trigger attacks?
                             </Tab>
-                            <Tab>Honeypot strategy I -  Decoy bases for the Forgotten</Tab>
-                            <Tab>Honeypot strategy II - Forgotten level versus numbers</Tab>
-                            <Tab>Honeypot strategy III - Attractor plots</Tab>
+                            <Tab>
+                                Honeypot I - Decoy bases for the Forgotten
+                            </Tab>
+                            <Tab>
+                                Honeypot II - Forgotten level versus numbers
+                            </Tab>
+                            <Tab>Honeypot III - Attractor plots</Tab>
                             <Tab>A production model for forgotten attacks</Tab>
 
                             <img
                                 alt="serenity"
-                                src={generateUrl('images/serenity.png')}
+                                src="images/serenity.png"
                                 style={{ paddingRight: '4px' }}
                             />
+                            <br />
+                            <Button
+                                className="ghostish"
+                                size="md"
+                                kind="ghost"
+                                href="https://www.youtube.com/watch?v=5Rs2m3lhg-k"
+                                target="_blank"
+                                renderIcon={Music}
+                                iconDescription="Music">
+                                <span style={{ paddingRight: '20px' }}>
+                                    A song about The Forgotten
+                                </span>
+                            </Button>
+                            {/* <br />
+                            <Button
+                                className="ghostish"
+                                size="md"
+                                kind="ghost"
+                                renderIcon={Music}
+                                iconDescription="Music"
+                                onClick={() => modalToggle(!modal_on)}>
+                                Disclaimer
+                            </Button> */}
                         </TabListVertical>
                         <TabPanels>
                             <TabPanel>
@@ -50,6 +83,19 @@ const ForgottenPage = _ => {
                             <TabPanel></TabPanel>
                         </TabPanels>
                     </TabsVertical>
+
+                    {/* <Modal
+                        isFullWidth
+                        passiveModal
+                        size="lg"
+                        aria-label="Modal content"
+                        modalHeading={<>We think thoughts &#128526;</>}
+                        modalLabel="From musings to facts"
+                        open={modal_on}
+                        
+                                                            onRequestClose={() => modalToggle(false)}>
+                        <ModalContent />
+                    </Modal> */}
                 </Theme>
             </Column>
         </Grid>

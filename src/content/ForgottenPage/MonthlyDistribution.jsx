@@ -88,8 +88,8 @@ const MonthlyDistribution = props => (
                     prodution of attacks from Forgotten camps versus bases is
                     non-stationary on the timeline. I have separated this out on
                     the right: notice the camps are distributed evenly on the
-                    timeline while base attacks have gone up quite
-                    significantly (crowding on the right).
+                    timeline while base attacks have gone up quite significantly
+                    (crowding on the right).
                     <br />
                     <br />
                     This is as advertised, with the well-known additional
@@ -116,9 +116,10 @@ const MonthlyDistribution = props => (
                     <br />
                     <br />
                     As of {max_date}, you have an average of{' '}
-                    <span className="text-alert">{average_gap}</span> minutes and a
-                    minimum of <span className="text-alert">{min_gap}</span>{' '}
-                    minutes beteween attacks. <em>Run!</em>
+                    <span className="text-alert">{average_gap}</span> minutes
+                    and a minimum of{' '}
+                    <span className="text-alert">{min_gap}</span> minutes
+                    beteween attacks. <em>Run!</em>
                 </Tile>
             </Theme>
             <br />

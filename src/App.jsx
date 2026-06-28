@@ -1,19 +1,16 @@
 import { Component } from 'react';
 import './app.scss';
 
-import { Content, Tile } from '@carbon/react';
 import { Route, Switch } from 'react-router-dom';
-
+import { Grid, Column, Content, Tile } from '@carbon/react';
 import { PageHeader } from './components/PageHeader';
-import ForgottenPage from './content/ForgottenPage';
-import MigrationPage from './content/MigrationPage';
-
-import { Grid, Column } from '@carbon/react';
 import {
     BuyMeACoffeeWidget,
     BuyMeACoffeeButton,
 } from './components/BasicElements';
 
+import ForgottenPage from './content/ForgottenPage';
+import MigrationPage from './content/MigrationPage';
 import GitHubButton from 'react-github-btn';
 
 class App extends Component {
