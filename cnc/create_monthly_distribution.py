@@ -82,14 +82,16 @@ def create_trend_data(timeline: Timeline, window_size: int = 3) -> List[MonthlyT
         "Gap (in minutes) between consecutive Forgotten Base attacks": gap_between_attacks,
     }
 
-    for index, date_item in enumerate(dates[window_size:]):
+    truncated_index = window_size - 1
+
+    for index, date_item in enumerate(dates[truncated_index:-truncated_index]):
         for key in key_map:
             new_trend_item = MonthlyTrend(
                 date=f"{date_item:%Y-%m-%d}",
                 group=key,
             )
 
-            value = round(key_map[key][index + window_size], 2)
+            value = round(key_map[key][index + truncated_index], 2)
 
             if key == "Gap (in minutes) between consecutive Forgotten Base attacks":
                 new_trend_item.__dict__["value_secondary"] = value

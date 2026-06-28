@@ -22,12 +22,13 @@ const ForgottenPage = _ => {
                         <TabListVertical size="lg" className="bottomless">
                             <Tab>Forgotten activity per time of day</Tab>
                             <Tab>Forgotten activity over time</Tab>
-                            <Tab>The tried and tested honeypot strategy</Tab>
-                            <Tab>Attractor plots by neighborhood roughness</Tab>
                             <Tab>
                                 Do jumps to the frontline trigger attacks?
                             </Tab>
-                            <Tab>Production model for forgotten attacks</Tab>
+                            <Tab>Honeypot strategy I -  Decoy bases for the Forgotten</Tab>
+                            <Tab>Honeypot strategy II - Forgotten level versus numbers</Tab>
+                            <Tab>Honeypot strategy III - Attractor plots</Tab>
+                            <Tab>A production model for forgotten attacks</Tab>
 
                             <img
                                 alt="serenity"
@@ -42,6 +43,7 @@ const ForgottenPage = _ => {
                             <TabPanel>
                                 <MonthlyDistribution />
                             </TabPanel>
+                            <TabPanel></TabPanel>
                             <TabPanel></TabPanel>
                             <TabPanel></TabPanel>
                             <TabPanel></TabPanel>

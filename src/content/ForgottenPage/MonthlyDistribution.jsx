@@ -12,7 +12,7 @@ import base_data from '../../cache/monthly_distribution_Base.json';
 import camp_data from '../../cache/monthly_distribution_Camp.json';
 import trend_data from '../../cache/monthly_trend.json';
 
-let min_gap = 28.95;
+let min_gap = 29.6;
 let max_date = new Date(base_data[0].datetime).toISOString().split('T')[0];
 let average_gap = trend_data.filter(item => item.value_secondary)[0]
     .value_secondary;
@@ -89,7 +89,7 @@ const MonthlyDistribution = props => (
                     non-stationary on the timeline. I have separated this out on
                     the right: notice the camps are distributed evenly on the
                     timeline while base attacks have gone up quite
-                    significantly.
+                    significantly (crowding on the right).
                     <br />
                     <br />
                     This is as advertised, with the well-known additional
@@ -116,7 +116,7 @@ const MonthlyDistribution = props => (
                     <br />
                     <br />
                     As of {max_date}, you have an average of{' '}
-                    <span className="text-alert">{average_gap}</span> and a
+                    <span className="text-alert">{average_gap}</span> minutes and a
                     minimum of <span className="text-alert">{min_gap}</span>{' '}
                     minutes beteween attacks. <em>Run!</em>
                 </Tile>

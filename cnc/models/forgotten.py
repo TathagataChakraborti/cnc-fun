@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import math
 
+from datetime import date as d
 from datetime import datetime as dt
 from datetime import timedelta
 from enum import StrEnum, auto
@@ -145,16 +146,19 @@ class ForgottenAttack(BaseModel):
 
     @property
     def report(self) -> Report:
-        return next(iter(self.reports))
+        *_, first_report = iter(self.reports)
+        return first_report
+
+    def get_base_info_by_name(self, name: str) -> Base:
+        base_info: Base = next(
+            filter(lambda x: name == x.name, self.state_of_the_union)
+        )
+
+        return base_info
 
     @property
     def waves(self) -> int:
-        base_info: Base = next(
-            filter(
-                lambda x: self.report.defending_base == x.name, self.state_of_the_union
-            )
-        )
-
+        base_info = self.get_base_info_by_name(name=self.report.defending_base)
         return base_info.neighborhood_roughness
 
     @property
@@ -185,6 +189,18 @@ class ForgottenAttack(BaseModel):
 class Timeline(BaseModel):
     reports: List[Report] = []
     forgotten_attacks: List[ForgottenAttack] = []
+
+    def get_timeline_by_date(self, date: d) -> Timeline:
+        return Timeline(
+            reports=[
+                report for report in self.reports if report.datetime.date() == date
+            ],
+            forgotten_attacks=[
+                event
+                for event in self.forgotten_attacks
+                if event.datetime.date() == date
+            ],
+        )
 
     @classmethod
     def parse_headers(cls, row: Tuple[str | float | dt | None, ...]) -> HeaderInfo:
