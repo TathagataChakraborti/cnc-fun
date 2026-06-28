@@ -1,0 +1,347 @@
+[
+    {
+        "date": "2026-06-22",
+        "value": 14.0,
+        "group": "Number of Forgotten Base attacks"
+    },
+    {
+        "date": "2026-06-22",
+        "value": 64.57,
+        "group": "Maximum Forgotten Base level in range"
+    },
+    {
+        "date": "2026-06-22",
+        "value_secondary": 105.04,
+        "group": "Gap (in minutes) between consecutive Forgotten Base attacks"
+    },
+    {
+        "date": "2026-06-21",
+        "value": 15.0,
+        "group": "Number of Forgotten Base attacks"
+    },
+    {
+        "date": "2026-06-21",
+        "value": 63.57,
+        "group": "Maximum Forgotten Base level in range"
+    },
+    {
+        "date": "2026-06-21",
+        "value_secondary": 96.81,
+        "group": "Gap (in minutes) between consecutive Forgotten Base attacks"
+    },
+    {
+        "date": "2026-06-20",
+        "value": 14.0,
+        "group": "Number of Forgotten Base attacks"
+    },
+    {
+        "date": "2026-06-20",
+        "value": 62.92,
+        "group": "Maximum Forgotten Base level in range"
+    },
+    {
+        "date": "2026-06-20",
+        "value_secondary": 111.88,
+        "group": "Gap (in minutes) between consecutive Forgotten Base attacks"
+    },
+    {
+        "date": "2026-06-19",
+        "value": 14.33,
+        "group": "Number of Forgotten Base attacks"
+    },
+    {
+        "date": "2026-06-19",
+        "value": 59.51,
+        "group": "Maximum Forgotten Base level in range"
+    },
+    {
+        "date": "2026-06-19",
+        "value_secondary": 106.43,
+        "group": "Gap (in minutes) between consecutive Forgotten Base attacks"
+    },
+    {
+        "date": "2026-06-18",
+        "value": 12.67,
+        "group": "Number of Forgotten Base attacks"
+    },
+    {
+        "date": "2026-06-18",
+        "value": 55.46,
+        "group": "Maximum Forgotten Base level in range"
+    },
+    {
+        "date": "2026-06-18",
+        "value_secondary": 121.15,
+        "group": "Gap (in minutes) between consecutive Forgotten Base attacks"
+    },
+    {
+        "date": "2026-06-17",
+        "value": 12.33,
+        "group": "Number of Forgotten Base attacks"
+    },
+    {
+        "date": "2026-06-17",
+        "value": 54.33,
+        "group": "Maximum Forgotten Base level in range"
+    },
+    {
+        "date": "2026-06-17",
+        "value_secondary": 115.23,
+        "group": "Gap (in minutes) between consecutive Forgotten Base attacks"
+    },
+    {
+        "date": "2026-06-16",
+        "value": 9.33,
+        "group": "Number of Forgotten Base attacks"
+    },
+    {
+        "date": "2026-06-16",
+        "value": 55.11,
+        "group": "Maximum Forgotten Base level in range"
+    },
+    {
+        "date": "2026-06-16",
+        "value_secondary": 162.02,
+        "group": "Gap (in minutes) between consecutive Forgotten Base attacks"
+    },
+    {
+        "date": "2026-06-15",
+        "value": 9.0,
+        "group": "Number of Forgotten Base attacks"
+    },
+    {
+        "date": "2026-06-15",
+        "value": 56.35,
+        "group": "Maximum Forgotten Base level in range"
+    },
+    {
+        "date": "2026-06-15",
+        "value_secondary": 166.08,
+        "group": "Gap (in minutes) between consecutive Forgotten Base attacks"
+    },
+    {
+        "date": "2026-06-14",
+        "value": 9.33,
+        "group": "Number of Forgotten Base attacks"
+    },
+    {
+        "date": "2026-06-14",
+        "value": 55.7,
+        "group": "Maximum Forgotten Base level in range"
+    },
+    {
+        "date": "2026-06-14",
+        "value_secondary": 165.75,
+        "group": "Gap (in minutes) between consecutive Forgotten Base attacks"
+    },
+    {
+        "date": "2026-06-13",
+        "value": 9.33,
+        "group": "Number of Forgotten Base attacks"
+    },
+    {
+        "date": "2026-06-13",
+        "value": 56.87,
+        "group": "Maximum Forgotten Base level in range"
+    },
+    {
+        "date": "2026-06-13",
+        "value_secondary": 157.87,
+        "group": "Gap (in minutes) between consecutive Forgotten Base attacks"
+    },
+    {
+        "date": "2026-06-12",
+        "value": 9.67,
+        "group": "Number of Forgotten Base attacks"
+    },
+    {
+        "date": "2026-06-12",
+        "value": 58.96,
+        "group": "Maximum Forgotten Base level in range"
+    },
+    {
+        "date": "2026-06-12",
+        "value_secondary": 144.28,
+        "group": "Gap (in minutes) between consecutive Forgotten Base attacks"
+    },
+    {
+        "date": "2026-06-11",
+        "value": 8.33,
+        "group": "Number of Forgotten Base attacks"
+    },
+    {
+        "date": "2026-06-11",
+        "value": 58.84,
+        "group": "Maximum Forgotten Base level in range"
+    },
+    {
+        "date": "2026-06-11",
+        "value_secondary": 175.08,
+        "group": "Gap (in minutes) between consecutive Forgotten Base attacks"
+    },
+    {
+        "date": "2026-06-10",
+        "value": 8.33,
+        "group": "Number of Forgotten Base attacks"
+    },
+    {
+        "date": "2026-06-10",
+        "value": 57.51,
+        "group": "Maximum Forgotten Base level in range"
+    },
+    {
+        "date": "2026-06-10",
+        "value_secondary": 189.64,
+        "group": "Gap (in minutes) between consecutive Forgotten Base attacks"
+    },
+    {
+        "date": "2026-06-09",
+        "value": 7.67,
+        "group": "Number of Forgotten Base attacks"
+    },
+    {
+        "date": "2026-06-09",
+        "value": 56.63,
+        "group": "Maximum Forgotten Base level in range"
+    },
+    {
+        "date": "2026-06-09",
+        "value_secondary": 210.23,
+        "group": "Gap (in minutes) between consecutive Forgotten Base attacks"
+    },
+    {
+        "date": "2026-06-08",
+        "value": 9.33,
+        "group": "Number of Forgotten Base attacks"
+    },
+    {
+        "date": "2026-06-08",
+        "value": 56.03,
+        "group": "Maximum Forgotten Base level in range"
+    },
+    {
+        "date": "2026-06-08",
+        "value_secondary": 182.55,
+        "group": "Gap (in minutes) between consecutive Forgotten Base attacks"
+    },
+    {
+        "date": "2026-06-07",
+        "value": 9.33,
+        "group": "Number of Forgotten Base attacks"
+    },
+    {
+        "date": "2026-06-07",
+        "value": 56.16,
+        "group": "Maximum Forgotten Base level in range"
+    },
+    {
+        "date": "2026-06-07",
+        "value_secondary": 159.4,
+        "group": "Gap (in minutes) between consecutive Forgotten Base attacks"
+    },
+    {
+        "date": "2026-06-06",
+        "value": 9.67,
+        "group": "Number of Forgotten Base attacks"
+    },
+    {
+        "date": "2026-06-06",
+        "value": 55.55,
+        "group": "Maximum Forgotten Base level in range"
+    },
+    {
+        "date": "2026-06-06",
+        "value_secondary": 151.53,
+        "group": "Gap (in minutes) between consecutive Forgotten Base attacks"
+    },
+    {
+        "date": "2026-06-05",
+        "value": 9.0,
+        "group": "Number of Forgotten Base attacks"
+    },
+    {
+        "date": "2026-06-05",
+        "value": 55.08,
+        "group": "Maximum Forgotten Base level in range"
+    },
+    {
+        "date": "2026-06-05",
+        "value_secondary": 162.09,
+        "group": "Gap (in minutes) between consecutive Forgotten Base attacks"
+    },
+    {
+        "date": "2026-06-04",
+        "value": 8.0,
+        "group": "Number of Forgotten Base attacks"
+    },
+    {
+        "date": "2026-06-04",
+        "value": 54.85,
+        "group": "Maximum Forgotten Base level in range"
+    },
+    {
+        "date": "2026-06-04",
+        "value_secondary": 192.59,
+        "group": "Gap (in minutes) between consecutive Forgotten Base attacks"
+    },
+    {
+        "date": "2026-06-03",
+        "value": 5.67,
+        "group": "Number of Forgotten Base attacks"
+    },
+    {
+        "date": "2026-06-03",
+        "value": 54.07,
+        "group": "Maximum Forgotten Base level in range"
+    },
+    {
+        "date": "2026-06-03",
+        "value_secondary": 273.42,
+        "group": "Gap (in minutes) between consecutive Forgotten Base attacks"
+    },
+    {
+        "date": "2026-06-02",
+        "value": 4.0,
+        "group": "Number of Forgotten Base attacks"
+    },
+    {
+        "date": "2026-06-02",
+        "value": 52.73,
+        "group": "Maximum Forgotten Base level in range"
+    },
+    {
+        "date": "2026-06-02",
+        "value_secondary": 326.03,
+        "group": "Gap (in minutes) between consecutive Forgotten Base attacks"
+    },
+    {
+        "date": "2026-06-01",
+        "value": 2.67,
+        "group": "Number of Forgotten Base attacks"
+    },
+    {
+        "date": "2026-06-01",
+        "value": 51.0,
+        "group": "Maximum Forgotten Base level in range"
+    },
+    {
+        "date": "2026-06-01",
+        "value_secondary": 452.63,
+        "group": "Gap (in minutes) between consecutive Forgotten Base attacks"
+    },
+    {
+        "date": "2026-05-31",
+        "value": 2.67,
+        "group": "Number of Forgotten Base attacks"
+    },
+    {
+        "date": "2026-05-31",
+        "value": 49.75,
+        "group": "Maximum Forgotten Base level in range"
+    },
+    {
+        "date": "2026-05-31",
+        "value_secondary": 548.74,
+        "group": "Gap (in minutes) between consecutive Forgotten Base attacks"
+    }
+]

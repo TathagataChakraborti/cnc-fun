@@ -18,11 +18,11 @@ const ForgottenPage = _ => {
         <Grid className="top-relief">
             <Column lg={14} md={4} sm={4}>
                 <Theme theme="g10">
-                    <TabsVertical height="">
-                        <TabListVertical size="xl" className="bottomless">
+                    <TabsVertical defaultSelectedIndex={1} height="">
+                        <TabListVertical size="lg" className="bottomless">
                             <Tab>Forgotten activity per time of day</Tab>
-                            <Tab>Forgotten activity over a month</Tab>
-                            <Tab>Honeypot strategy</Tab>
+                            <Tab>Forgotten activity over time</Tab>
+                            <Tab>The tried and tested honeypot strategy</Tab>
                             <Tab>Attractor plots by neighborhood roughness</Tab>
                             <Tab>
                                 Do jumps to the frontline trigger attacks?

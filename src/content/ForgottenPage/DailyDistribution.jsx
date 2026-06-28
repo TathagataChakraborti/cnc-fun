@@ -11,7 +11,7 @@ import {
     Modal,
     CodeSnippet,
 } from '@carbon/react';
-import kstest from '@stdlib/stats-kstest'
+import kstest from '@stdlib/stats-kstest';
 import { InformationSquareFilled, ResetAlt } from '@carbon/icons-react';
 import {
     SimpleBarChart,
@@ -203,7 +203,8 @@ class DailyDistribution extends React.Component {
                 <Column lg={14} md={4} sm={4}>
                     <SimpleBarChart
                         data={formatted_data_top}
-                        options={options}></SimpleBarChart>
+                        options={options}
+                    />
 
                     <br />
                     <br />
@@ -215,7 +216,8 @@ class DailyDistribution extends React.Component {
                             ...options,
                             height: '250px',
                             legend: { enabled: true },
-                        }}></SimpleBarChart>
+                        }}
+                    />
 
                     <br />
                     <br />

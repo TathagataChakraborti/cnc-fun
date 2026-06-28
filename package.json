@@ -5,7 +5,7 @@
   "bugs": "https://github.com/TathagataChakraborti/cnc-fun/issues",
   "license": "Apache 2.0",
   "scripts": {
-    "format": "prettier --write \"**/*.{js,md,scss}\"",
+    "format": "prettier --write \"**/*.{js,jsx,md,scss}\"",
     "start": "vite",
     "build": "vite build",
     "preview": "vite preview"

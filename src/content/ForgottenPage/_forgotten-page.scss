@@ -1,3 +1,5 @@
+@use '@carbon/colors';
+
 .top-relief {
     padding-top: 32px;
     padding-bottom: 64px;
@@ -19,4 +21,8 @@
 
 .datepicker .cds--date-picker-container {
     margin-bottom: 16px;
+}
+
+.text-alert {
+    color: colors.$red-60;
 }

@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import math
+
 from datetime import datetime as dt
 from datetime import timedelta
 from enum import StrEnum, auto
@@ -47,11 +49,13 @@ class Neighbor(BaseModel):
 
 
 class Base(BaseModel):
+    name: str
     active_bases: int
     jumped_to_front: bool = False
     neighborhood: List[Neighbor] = []
 
-    def expected_level(self) -> float:
+    @property
+    def expected_level_in_range(self) -> float:
         if len(self.neighborhood) == 0:
             return 0
 
@@ -61,8 +65,21 @@ class Base(BaseModel):
                 weights=[item.how_many for item in self.neighborhood],
             )
 
-    def is_neighborhood_rough(self) -> int:
-        raise NotImplementedError
+    @property
+    def max_level_in_range(self) -> int:
+        if len(self.neighborhood) == 0:
+            return 0
+
+        else:
+            return max([neighbor.level for neighbor in self.neighborhood])
+
+    @property
+    def num_bases_in_range(self) -> int:
+        return sum([neighbor.how_many for neighbor in self.neighborhood])
+
+    @property
+    def neighborhood_roughness(self) -> int:
+        return math.floor(self.num_bases_in_range / 10) or 1
 
 
 class Report(BaseModel):
@@ -94,6 +111,7 @@ class Report(BaseModel):
             if active_bases:
                 report.state_of_the_union.append(
                     Base(
+                        name=base_index.name,
                         active_bases=int(active_bases),
                         jumped_to_front=jump_tags is not None
                         and base_index.name in jump_tags,
@@ -126,24 +144,42 @@ class ForgottenAttack(BaseModel):
     reports: List[Report] = []
 
     @property
+    def report(self) -> Report:
+        return next(iter(self.reports))
+
+    @property
     def waves(self) -> int:
-        return len(self.reports)
+        base_info: Base = next(
+            filter(
+                lambda x: self.report.defending_base == x.name, self.state_of_the_union
+            )
+        )
+
+        return base_info.neighborhood_roughness
 
     @property
     def datetime(self) -> dt:
-        return next(iter(self.reports)).datetime
+        return self.report.datetime
 
     @property
     def defending_against(self) -> FORGOTTEN:
-        return next(iter(self.reports)).defending_against
+        return self.report.defending_against
 
     @property
     def state_of_the_union(self) -> List[Base]:
-        return next(iter(self.reports)).state_of_the_union
+        return self.report.state_of_the_union
 
     @property
     def size_of_army(self) -> int:
         return len(self.state_of_the_union)
+
+    @property
+    def max_forgotten_level(self) -> int:
+        return max([base.max_level_in_range for base in self.state_of_the_union])
+
+    @property
+    def is_legacy(self) -> bool:
+        return all([len(base.neighborhood) == 0 for base in self.state_of_the_union])
 
 
 class Timeline(BaseModel):
