@@ -13,7 +13,7 @@ import {
 } from '@carbon/react';
 import kstest from '@stdlib/stats-kstest';
 import { InformationSquareFilled, ResetAlt } from '@carbon/icons-react';
-import { ModalContent } from './Hypothesis';
+import { HypothesisModalContent as ModalContent } from './Hypothesis';
 import {
     SimpleBarChart,
     ScaleTypes,

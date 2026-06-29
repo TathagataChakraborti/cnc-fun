@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Music, Chemistry, Documentation } from '@carbon/icons-react';
 import {
     Grid,
     Column,
@@ -9,16 +10,18 @@ import {
     TabPanel,
     Theme,
     Button,
-    // Modal,
+    Modal,
 } from '@carbon/react';
 
 import { DailyDistribution } from './DailyDistribution';
 import { MonthlyDistribution } from './MonthlyDistribution';
-// import { ModalContent } from './Hypothesis';
-import { Music } from '@carbon/icons-react';
+
+import { ModalContentDisclaimer } from './Disclaimer';
+import { HypothesisModalContent } from './Hypothesis';
 
 const ForgottenPage = _ => {
     const [modal_on, modalToggle] = useState(false);
+    const [modal_hypothesis_on, modalHypothesisToggle] = useState(false);
 
     return (
         <Grid className="top-relief">
@@ -50,6 +53,28 @@ const ForgottenPage = _ => {
                                 className="ghostish"
                                 size="md"
                                 kind="ghost"
+                                renderIcon={Chemistry}
+                                iconDescription="Hypothesis"
+                                onClick={() =>
+                                    modalHypothesisToggle(!modal_hypothesis_on)
+                                }>
+                                Hypothesis
+                            </Button>
+                            <br />
+                            <Button
+                                className="ghostish"
+                                size="md"
+                                kind="ghost"
+                                renderIcon={Documentation}
+                                iconDescription="Disclaimer"
+                                onClick={() => modalToggle(!modal_on)}>
+                                Disclaimer
+                            </Button>
+                            <br />
+                            <Button
+                                className="ghostish"
+                                size="md"
+                                kind="ghost"
                                 href="https://www.youtube.com/watch?v=5Rs2m3lhg-k"
                                 target="_blank"
                                 renderIcon={Music}
@@ -58,16 +83,6 @@ const ForgottenPage = _ => {
                                     A song about The Forgotten
                                 </span>
                             </Button>
-                            {/* <br />
-                            <Button
-                                className="ghostish"
-                                size="md"
-                                kind="ghost"
-                                renderIcon={Music}
-                                iconDescription="Music"
-                                onClick={() => modalToggle(!modal_on)}>
-                                Disclaimer
-                            </Button> */}
                         </TabListVertical>
                         <TabPanels>
                             <TabPanel>
@@ -84,18 +99,26 @@ const ForgottenPage = _ => {
                         </TabPanels>
                     </TabsVertical>
 
-                    {/* <Modal
+                    <Modal
+                        isFullWidth
+                        passiveModal
+                        aria-label="Modal content"
+                        open={modal_on}
+                        onRequestClose={() => modalToggle(false)}>
+                        <ModalContentDisclaimer />
+                    </Modal>
+
+                    <Modal
                         isFullWidth
                         passiveModal
                         size="lg"
                         aria-label="Modal content"
                         modalHeading={<>We think thoughts &#128526;</>}
                         modalLabel="From musings to facts"
-                        open={modal_on}
-                        
-                                                            onRequestClose={() => modalToggle(false)}>
-                        <ModalContent />
-                    </Modal> */}
+                        open={modal_hypothesis_on}
+                        onRequestClose={() => modalHypothesisToggle(false)}>
+                        <HypothesisModalContent />
+                    </Modal>
                 </Theme>
             </Column>
         </Grid>

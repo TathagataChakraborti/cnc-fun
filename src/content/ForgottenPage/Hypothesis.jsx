@@ -7,6 +7,8 @@ import {
     Tag,
 } from '@carbon/react';
 
+import { in_practice_note } from './Disclaimer';
+
 const hypothesis_list = [
     {
         hypothesis:
@@ -34,8 +36,8 @@ const hypothesis_list = [
         status: false,
         note: (
             <>
-                But <span className="text-alert">Mutzu</span> says nothing like
-                that!
+                But <span className="text-alert">Mutzu</span> says{' '}
+                <em>"Nothing like that!"</em>.
             </>
         ),
     },
@@ -74,7 +76,7 @@ const hypothesis_list = [
     },
 ];
 
-const ModalContent = _ => {
+const HypothesisModalContent = _ => {
     return (
         <>
             <StructuredListWrapper>
@@ -139,16 +141,9 @@ const ModalContent = _ => {
                     ))}
                 </StructuredListBody>
             </StructuredListWrapper>
-            <div className="footnote">
-                Note that the results indicate observations on the game in
-                practice and NOT on the actual design of the game. For example,
-                there might be machinations put in place by a developer to model
-                a certain behavior of the Forgotten that actually exists in
-                implementation but does not impact gameplay at statistically
-                significant levels.
-            </div>
+            <div className="footnote">{in_practice_note}</div>
         </>
     );
 };
 
-export { ModalContent };
+export { HypothesisModalContent };
