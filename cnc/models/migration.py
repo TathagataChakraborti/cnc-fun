@@ -8,6 +8,11 @@ from cv2.typing import MatLike
 from pydantic import BaseModel, ConfigDict
 
 
+class MigrationManifest(BaseModel):
+    date: date
+    description: str
+
+
 class Story(BaseModel):
     model_config = ConfigDict(
         arbitrary_types_allowed=True,

@@ -1,3 +1,12 @@
 .right-relief {
     margin-left: 10px;
 }
+
+.grid-container {
+    display: inline-grid;
+    grid-template-columns: max-content;
+}
+
+.grid-container .cds--progress-bar__label {
+    margin-bottom: 0;
+}

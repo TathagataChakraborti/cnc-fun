@@ -5,10 +5,22 @@ import {
     Reset,
     SkipForwardFilled,
 } from '@carbon/icons-react';
-import { Grid, Column, Tag, Button, ToastNotification } from '@carbon/react';
+import {
+    Grid,
+    Column,
+    Tag,
+    Button,
+    ProgressBar,
+    ToastNotification,
+} from '@carbon/react';
+
+import migration_manifest from '../../cache/migration_manifest.json';
 
 const start_date = '2026-05-27';
 const end_date = '2026-07-02';
+
+const advancement = 100;
+const progress_size = 5000 + advancement;
 
 const make_next_date = date => {
     const date_object = new Date(date);
@@ -17,15 +29,20 @@ const make_next_date = date => {
     return date_object.toISOString().split('T')[0];
 };
 
+const find_note = date => {
+    const manifest = migration_manifest.find(item => item.date === date);
+    return manifest ? manifest.description : null;
+};
+
 const make_image_url = date => `/images/migration/${date}.png`;
 const make_next_url = date => make_image_url(make_next_date(date));
 const make_init_state = date => {
     return {
         current_date: date,
-        isTransitioning: false,
         currentBg: make_image_url(date),
         nextBg: make_next_url(date),
         play_on: false,
+        progress: 0,
         note: null,
     };
 };
@@ -35,17 +52,14 @@ class MigrationPage extends React.Component {
         super(props);
         this.timeoutId = null;
         this.timerId = null;
+        this.progressId = null;
         this.state = make_init_state(start_date);
     }
 
     componentWillUnmount() {
-        if (this.timeoutId) {
-            clearTimeout(this.timeoutId);
-        }
+        if (this.timeoutId) clearTimeout(this.timeoutId);
 
-        if (this.timerId) {
-            clearInterval(this.timer);
-        }
+        if (this.timerId) clearInterval(this.timerId);
     }
 
     preloadNextImage(_, date) {
@@ -64,14 +78,55 @@ class MigrationPage extends React.Component {
                     const img = new Image();
                     img.src = this.state.nextBg;
 
-                    img.onload = () => {
-                        this.setState({ isTransitioning: true });
+                    const note = find_note(this.state.current_date);
 
+                    if (this.state.play_on) {
+                        clearInterval(this.timerId);
+
+                        if (note) {
+                            this.timerId = setInterval(
+                                this.preloadNextImage.bind(this),
+                                5000
+                            );
+
+                            if (!this.progressId) {
+                                this.progressId = setInterval(() => {
+                                    const new_progress =
+                                        this.state.progress +
+                                        progress_size / advancement;
+
+                                    if (new_progress < progress_size) {
+                                        this.setState({
+                                            ...this.state,
+                                            progress: new_progress,
+                                        });
+                                    } else {
+                                        this.setState(
+                                            {
+                                                ...this.state,
+                                                progress: 0,
+                                            },
+                                            () => {
+                                                clearInterval(this.progressId);
+                                            }
+                                        );
+                                    }
+                                }, advancement);
+                            }
+                        } else {
+                            this.timerId = setInterval(
+                                this.preloadNextImage.bind(this),
+                                1000
+                            );
+                        }
+                    }
+
+                    img.onload = () => {
                         this.timeoutId = setTimeout(() => {
                             this.setState({
                                 currentBg: this.state.nextBg,
                                 nextBg: null,
-                                isTransitioning: false,
+                                note: note,
                             });
                         }, 100);
                     };
@@ -102,7 +157,8 @@ class MigrationPage extends React.Component {
     }
 
     render() {
-        const { currentBg, nextBg, isTransitioning } = this.state;
+        const { currentBg, nextBg } = this.state;
+        const note = find_note(this.state.current_date);
 
         const containerStyle = {
             position: 'relative',
@@ -136,7 +192,6 @@ class MigrationPage extends React.Component {
                         style={{
                             ...layerStyle,
                             backgroundImage: `url(${currentBg})`,
-                            opacity: isTransitioning ? 0 : 1,
                         }}
                     />
 
@@ -145,7 +200,6 @@ class MigrationPage extends React.Component {
                             style={{
                                 ...layerStyle,
                                 backgroundImage: `url(${nextBg})`,
-                                opacity: isTransitioning ? 1 : 0,
                             }}
                         />
                     )}
@@ -162,7 +216,7 @@ class MigrationPage extends React.Component {
                                             <strong>
                                                 This page is not ready yet!
                                             </strong>{' '}
-                                            Until we reach the center &#128513;"
+                                            Until we reach the center. &#128513;
                                         </>
                                     }
                                     kind="error"
@@ -172,7 +226,7 @@ class MigrationPage extends React.Component {
                                     title="Serenity Migration"
                                 />
                                 {this.state.note && (
-                                    <>
+                                    <div className="grid-container">
                                         <br />
                                         <br />
                                         <ToastNotification
@@ -186,7 +240,15 @@ class MigrationPage extends React.Component {
                                             subtitle={this.state.note}
                                             title="Migration Event"
                                         />
-                                    </>
+                                        {/* {this.state.play_on && */}
+                                        <ProgressBar
+                                            value={this.state.progress}
+                                            max={progress_size}
+                                            status="active"
+                                            label=""
+                                        />
+                                        {/* } */}
+                                    </div>
                                 )}
 
                                 <br />

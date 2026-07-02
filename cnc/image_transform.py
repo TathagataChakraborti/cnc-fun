@@ -1,16 +1,32 @@
-from datetime import datetime
+import json
+
+from datetime import date, datetime
 from pathlib import Path
+from typing import List, Optional
 
 import cv2
 
-from cnc.models.migration import Migration, Story
+from cnc.models.migration import Migration, MigrationManifest, Story
 
 
-def process_images(path_to_images: str | Path) -> Migration:
+def get_description(
+    date_object: date, manifests: List[MigrationManifest]
+) -> Optional[str]:
+    manifest = next(filter(lambda x: x.date == date_object, manifests), None)
+
+    return manifest.description if manifest else None
+
+
+def process_images(path_to_images: str, path_to_manifest: str) -> Migration:
     migration_object = Migration()
-    path = path_to_images if isinstance(path_to_images, Path) else Path(path_to_images)
 
-    for item in list(path.glob("*.png")):
+    with open(path_to_manifest) as manifest_file:
+        raw_manifest = json.load(manifest_file)
+        migration_manifests = [
+            MigrationManifest.model_validate(item) for item in raw_manifest
+        ]
+
+    for item in list(Path(path_to_images).glob("*.png")):
         print(f"Processing {item} ...")
 
         name_split = str(item).split()
@@ -21,6 +37,7 @@ def process_images(path_to_images: str | Path) -> Migration:
         new_story = Story(
             date=date_object,
             snapshot=image,
+            description=get_description(date_object, migration_manifests),
         )
 
         new_story.make_transform(
@@ -37,9 +54,24 @@ def process_images(path_to_images: str | Path) -> Migration:
 
 
 if __name__ == "__main__":
-    migration = process_images("../data/migration")
+    migration = process_images(
+        path_to_images="../data/migration",
+        path_to_manifest="../data/migration_manifest.json",
+    )
 
-    for story in migration.storyboard:
-        cv2.imwrite(
-            filename=f"../public/images/migration/{story.date}.png", img=story.transform
+    # for story in migration.storyboard:
+    #     cv2.imwrite(
+    #         filename=f"../public/images/migration/{story.date}.png", img=story.transform
+    #     )
+
+    with open("../src/cache/migration_manifest.json", "w") as manifest_file:
+        json.dump(
+            [
+                story.model_dump(include={"date", "description"})
+                for story in migration.storyboard
+                if story.description
+            ],
+            manifest_file,
+            indent=4,
+            default=str,
         )
