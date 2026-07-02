@@ -34,7 +34,7 @@ dependencies = [
     "fastapi[standard]",
     "uvicorn[standard]",
     "certifi",
-    "Pillow",
+    "opencv-contrib-python",
     "numpy"
 ]
 

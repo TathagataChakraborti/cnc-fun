@@ -19,7 +19,7 @@ class App extends Component {
             <Content>
                 <PageHeader />
                 <BuyMeACoffeeWidget />
-                <Grid>
+                <Grid className="main">
                     <Column lg={14} md={8} sm={4}>
                         <Switch>
                             <Route exact path="/" component={ForgottenPage} />
