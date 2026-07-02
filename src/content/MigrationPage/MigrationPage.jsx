@@ -48,7 +48,7 @@ const make_init_state = date => {
         note: null,
         controls: {
             play_speed: 1,
-            event_speed: 5,
+            event_speed: 2,
         },
     };
 };
@@ -58,14 +58,12 @@ class MigrationPage extends React.Component {
         super(props);
         this.timeoutId = null;
         this.timerId = null;
-        this.progressId = null;
         this.state = make_init_state(start_date);
     }
 
     componentWillUnmount() {
         if (this.timeoutId) clearTimeout(this.timeoutId);
         if (this.timerId) clearInterval(this.timerId);
-        if (this.progressId) clearInterval(this.progressId);
     }
 
     preloadNextImage(_, date) {
@@ -89,34 +87,30 @@ class MigrationPage extends React.Component {
 
                     if (this.state.play_on) {
                         if (note) {
-                            clearInterval(this.timerId);
+                            this.pausePlay();
 
-                            if (!this.progressId) {
-                                clearInterval(this.progressId);
+                            const progressId = setInterval(() => {
+                                const progress_size =
+                                    1000 * this.state.controls.event_speed;
 
-                                this.progressId = setInterval(() => {
-                                    const progress_size =
-                                        1000 * this.state.controls.event_speed;
+                                const new_progress =
+                                    this.state.progress + advancement;
 
-                                    const new_progress =
-                                        this.state.progress + advancement;
+                                if (new_progress <= progress_size) {
+                                    this.setState({
+                                        ...this.state,
+                                        progress: new_progress,
+                                        play_on: true,
+                                    });
+                                } else {
+                                    clearInterval(progressId);
 
-                                    if (new_progress <= progress_size) {
-                                        this.setState({
-                                            ...this.state,
-                                            progress: new_progress,
-                                        });
-                                    } else {
-                                        clearInterval(this.progressId);
-
-                                        this.timerId = setInterval(
-                                            this.preloadNextImage.bind(this),
-                                            1000 *
-                                                this.state.controls.play_speed
-                                        );
-                                    }
-                                }, advancement);
-                            }
+                                    this.timerId = setInterval(
+                                        this.preloadNextImage.bind(this),
+                                        1000 * this.state.controls.play_speed
+                                    );
+                                }
+                            }, advancement);
                         }
                     }
 
@@ -136,10 +130,7 @@ class MigrationPage extends React.Component {
 
     pausePlay() {
         clearInterval(this.timerId);
-        clearInterval(this.progressId);
-
         this.timerId = null;
-        this.progressId = null;
 
         this.setState({
             ...this.state,
@@ -210,237 +201,222 @@ class MigrationPage extends React.Component {
                     )}
 
                     <Grid>
-                        <Column lg={4} md={4} sm={4}>
-                            <div style={contentStyle}>
-                                <ToastNotification
-                                    lowContrast
-                                    hideCloseButton
-                                    aria-label="closes notification"
-                                    caption={
-                                        <>
-                                            <strong>
-                                                This page is not ready yet!
-                                            </strong>{' '}
-                                            Until we reach the center. &#128513;
-                                        </>
-                                    }
-                                    kind="error"
-                                    role="status"
-                                    statusIconDescription="notification"
-                                    subtitle="This page visualizes Serenity's migration to the center on Tiberian 72."
-                                    title="Serenity Migration"
-                                />
-                                {this.state.note && (
-                                    <div className="grid-container">
-                                        <br />
-                                        <br />
-                                        {this.state.play_on && (
-                                            <ProgressBar
-                                                value={this.state.progress}
-                                                max={
-                                                    1000 *
-                                                    this.state.controls
-                                                        .event_speed
-                                                }
-                                                status={
-                                                    this.state.progress ===
-                                                    1000 *
+                        <Column lg={4} md={4} sm={4} style={contentStyle}>
+                            <ToastNotification
+                                lowContrast
+                                hideCloseButton
+                                aria-label="closes notification"
+                                caption={
+                                    <>
+                                        <strong>
+                                            This page is not ready yet!
+                                        </strong>{' '}
+                                        Until we reach the center. &#128513;
+                                    </>
+                                }
+                                kind="error"
+                                role="status"
+                                statusIconDescription="notification"
+                                subtitle="This page visualizes Serenity's migration to the center on Tiberian 72."
+                                title="Serenity Migration"
+                            />
+                            <br />
+                            <br />
+
+                            <div className="grid-container">
+                                <div style={{ display: 'flex' }}>
+                                    <Tag
+                                        className="square-tag"
+                                        type="high-contrast"
+                                        size="lg">
+                                        DATE
+                                    </Tag>
+                                    <Tag
+                                        className="square-tag"
+                                        type="blue"
+                                        size="lg">
+                                        <strong>
+                                            {this.state.current_date}
+                                        </strong>
+                                    </Tag>
+
+                                    <Button
+                                        className="right-relief"
+                                        kind="primary"
+                                        size="sm"
+                                        iconDescription="Play next"
+                                        hasIconOnly
+                                        renderIcon={SkipForwardFilled}
+                                        disabled={
+                                            new Date(this.state.current_date) >=
+                                                new Date(end_date) ||
+                                            this.state.play_on
+                                        }
+                                        onClick={this.preloadNextImage.bind(
+                                            this
+                                        )}
+                                    />
+                                    <Button
+                                        className="right-relief"
+                                        kind={
+                                            this.state.play_on
+                                                ? 'danger'
+                                                : 'primary'
+                                        }
+                                        size="sm"
+                                        iconDescription="Play"
+                                        hasIconOnly
+                                        renderIcon={PlayFilledAlt}
+                                        onClick={() => {
+                                            this.startPlay();
+                                        }}
+                                    />
+                                    <Button
+                                        className="right-relief"
+                                        kind="primary"
+                                        size="sm"
+                                        iconDescription="Pause"
+                                        hasIconOnly
+                                        renderIcon={PauseFilled}
+                                        disabled={
+                                            !this.state.play_on ||
+                                            this.state.progress > 0
+                                        }
+                                        onClick={() => {
+                                            this.pausePlay();
+                                        }}
+                                    />
+                                    <Button
+                                        className="right-relief"
+                                        kind="primary"
+                                        size="sm"
+                                        iconDescription="Reset"
+                                        hasIconOnly
+                                        renderIcon={Reset}
+                                        disabled={this.state.progress > 0}
+                                        onClick={e => {
+                                            this.pausePlay();
+                                            this.preloadNextImage(
+                                                e,
+                                                start_date
+                                            );
+                                        }}
+                                    />
+                                </div>
+                                <div>
+                                    <br />
+                                    <Accordion align="end" size="sm">
+                                        <Theme
+                                            theme="g90"
+                                            style={{
+                                                backgroundColor: `rgba(0, 0, 0, 0.2)`,
+                                            }}>
+                                            <AccordionItem title="Controls">
+                                                <br />
+                                                <NumberInput
+                                                    disabled={
+                                                        this.state.play_on
+                                                    }
+                                                    id="input-play-interval"
+                                                    label="Play speed (in seconds)"
+                                                    helperText="Min: 1, Max: 5"
+                                                    max={5}
+                                                    min={1}
+                                                    onChange={(
+                                                        _,
+                                                        { value, __ }
+                                                    ) => {
+                                                        if (
+                                                            value >= 1 &&
+                                                            value <= 5
+                                                        )
+                                                            this.setState({
+                                                                ...this.state,
+                                                                controls: {
+                                                                    ...this
+                                                                        .state
+                                                                        .controls,
+                                                                    play_speed: value,
+                                                                },
+                                                            });
+                                                    }}
+                                                    size="sm"
+                                                    step={1}
+                                                    value={
+                                                        this.state.controls
+                                                            .play_speed
+                                                    }
+                                                />
+
+                                                <br />
+                                                <NumberInput
+                                                    disabled={
+                                                        this.state.play_on
+                                                    }
+                                                    id="input-event-interval"
+                                                    label="Event speed (in seconds)"
+                                                    helperText="Min: 1, Max: 10"
+                                                    max={10}
+                                                    min={1}
+                                                    onChange={(
+                                                        _,
+                                                        { value, __ }
+                                                    ) => {
+                                                        if (
+                                                            value >= 1 &&
+                                                            value <= 10
+                                                        )
+                                                            this.setState({
+                                                                ...this.state,
+                                                                controls: {
+                                                                    ...this
+                                                                        .state
+                                                                        .controls,
+                                                                    event_speed: value,
+                                                                },
+                                                            });
+                                                    }}
+                                                    size="sm"
+                                                    step={1}
+                                                    value={
                                                         this.state.controls
                                                             .event_speed
-                                                        ? 'finished'
-                                                        : 'active'
-                                                }
-                                                label=""
-                                            />
-                                        )}
-                                        <ToastNotification
-                                            lowContrast
-                                            hideCloseButton
-                                            aria-label="closes notification"
-                                            caption={this.state.current_date}
-                                            kind={
-                                                this.state.progress ===
-                                                1000 *
-                                                    this.state.controls
-                                                        .event_speed
-                                                    ? 'success'
-                                                    : 'info'
-                                            }
-                                            role="status"
-                                            statusIconDescription="notification"
-                                            subtitle={this.state.note}
-                                            title="Migration Event"
-                                        />
-                                    </div>
-                                )}
-
-                                <br />
-                                <br />
-                                <div className="grid-container">
-                                    <div style={{ display: 'flex' }}>
-                                        <Tag
-                                            className="square-tag"
-                                            type="high-contrast"
-                                            size="lg">
-                                            DATE
-                                        </Tag>
-                                        <Tag
-                                            className="square-tag"
-                                            type="blue"
-                                            size="lg">
-                                            <strong>
-                                                {this.state.current_date}
-                                            </strong>
-                                        </Tag>
-
-                                        <Button
-                                            className="right-relief"
-                                            kind="primary"
-                                            size="sm"
-                                            iconDescription="Play next"
-                                            hasIconOnly
-                                            renderIcon={SkipForwardFilled}
-                                            disabled={
-                                                new Date(
-                                                    this.state.current_date
-                                                ) >= new Date(end_date) ||
-                                                this.state.play_on
-                                            }
-                                            onClick={this.preloadNextImage.bind(
-                                                this
-                                            )}
-                                        />
-                                        <Button
-                                            className="right-relief"
-                                            kind={
-                                                this.state.play_on
-                                                    ? 'danger'
-                                                    : 'primary'
-                                            }
-                                            size="sm"
-                                            iconDescription="Play"
-                                            hasIconOnly
-                                            renderIcon={PlayFilledAlt}
-                                            onClick={() => {
-                                                this.startPlay();
-                                            }}
-                                        />
-                                        <Button
-                                            className="right-relief"
-                                            kind="primary"
-                                            size="sm"
-                                            iconDescription="Pause"
-                                            hasIconOnly
-                                            renderIcon={PauseFilled}
-                                            disabled={!this.state.play_on}
-                                            onClick={() => {
-                                                this.pausePlay();
-                                            }}
-                                        />
-                                        <Button
-                                            className="right-relief"
-                                            kind="primary"
-                                            size="sm"
-                                            iconDescription="Reset"
-                                            hasIconOnly
-                                            renderIcon={Reset}
-                                            onClick={e => {
-                                                this.pausePlay();
-                                                this.preloadNextImage(
-                                                    e,
-                                                    start_date
-                                                );
-                                            }}
-                                        />
-                                    </div>
-                                    <div>
-                                        <br />
-                                        <Accordion align="end" size="sm">
-                                            <Theme
-                                                theme="g90"
-                                                style={{
-                                                    backgroundColor: `rgba(0, 0, 0, 0.2)`,
-                                                }}>
-                                                <AccordionItem title="Controls">
-                                                    <br />
-                                                    <NumberInput
-                                                        disabled={
-                                                            this.state.play_on
-                                                        }
-                                                        id="input-play-interval"
-                                                        label="Play speed (in seconds)"
-                                                        helperText="Min: 1, Max: 5"
-                                                        max={5}
-                                                        min={1}
-                                                        onChange={(
-                                                            _,
-                                                            { value, __ }
-                                                        ) => {
-                                                            if (
-                                                                value >= 1 &&
-                                                                value <= 5
-                                                            )
-                                                                this.setState({
-                                                                    ...this
-                                                                        .state,
-                                                                    controls: {
-                                                                        ...this
-                                                                            .state
-                                                                            .controls,
-                                                                        play_speed: value,
-                                                                    },
-                                                                });
-                                                        }}
-                                                        size="sm"
-                                                        step={1}
-                                                        value={
-                                                            this.state.controls
-                                                                .play_speed
-                                                        }
-                                                    />
-
-                                                    <br />
-                                                    <NumberInput
-                                                        disabled={
-                                                            this.state.play_on
-                                                        }
-                                                        id="input-event-interval"
-                                                        label="Event speed (in seconds)"
-                                                        helperText="Min: 1, Max: 10"
-                                                        max={10}
-                                                        min={1}
-                                                        onChange={(
-                                                            _,
-                                                            { value, __ }
-                                                        ) => {
-                                                            if (
-                                                                value >= 1 &&
-                                                                value <= 10
-                                                            )
-                                                                this.setState({
-                                                                    ...this
-                                                                        .state,
-                                                                    controls: {
-                                                                        ...this
-                                                                            .state
-                                                                            .controls,
-                                                                        event_speed: value,
-                                                                    },
-                                                                });
-                                                        }}
-                                                        size="sm"
-                                                        step={1}
-                                                        value={
-                                                            this.state.controls
-                                                                .event_speed
-                                                        }
-                                                    />
-                                                </AccordionItem>
-                                            </Theme>
-                                        </Accordion>
-                                    </div>
+                                                    }
+                                                />
+                                            </AccordionItem>
+                                        </Theme>
+                                    </Accordion>
                                 </div>
                             </div>
+
+                            {this.state.note && (
+                                <div className="grid-container">
+                                    <br />
+                                    <br />
+                                    {this.state.play_on && (
+                                        <ProgressBar
+                                            value={this.state.progress}
+                                            max={
+                                                1000 *
+                                                this.state.controls.event_speed
+                                            }
+                                            status="active"
+                                            label=""
+                                        />
+                                    )}
+                                    <ToastNotification
+                                        lowContrast
+                                        hideCloseButton
+                                        aria-label="closes notification"
+                                        caption={this.state.current_date}
+                                        kind="info"
+                                        role="status"
+                                        statusIconDescription="notification"
+                                        subtitle={this.state.note}
+                                        title="Migration Event"
+                                    />
+                                </div>
+                            )}
                         </Column>
                     </Grid>
                 </div>
