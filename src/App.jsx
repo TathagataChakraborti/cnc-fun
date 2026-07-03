@@ -58,7 +58,7 @@ class App extends Component {
                             <br />
                             The data collection for this work has been largely
                             manual: needs to become a script. Looking for some
-                            fresh cool ideas for the next server as well.
+                            cool ideas for the next server as well.
                             <br />
                             <br />
                             <GitHubButton

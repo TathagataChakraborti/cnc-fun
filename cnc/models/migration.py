@@ -13,6 +13,12 @@ class MigrationManifest(BaseModel):
     description: str
 
 
+class MigrationMetadata(BaseModel):
+    start_date: Optional[date] = None
+    end_date: Optional[date] = None
+    manifests: List[MigrationManifest] = []
+
+
 class Story(BaseModel):
     model_config = ConfigDict(
         arbitrary_types_allowed=True,
@@ -72,5 +78,6 @@ class Story(BaseModel):
         return self.transform
 
 
-class Migration(BaseModel):
+class MigrationData(BaseModel):
     storyboard: List[Story] = []
+    metadata: MigrationMetadata

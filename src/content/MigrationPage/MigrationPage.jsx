@@ -4,6 +4,7 @@ import {
     PauseFilled,
     Reset,
     SkipForwardFilled,
+    InterfaceUsage,
 } from '@carbon/icons-react';
 import {
     Grid,
@@ -21,8 +22,6 @@ import {
 import migration_manifest from '../../cache/migration_manifest.json';
 
 const advancement = 100;
-const start_date = '2026-05-27';
-const end_date = '2026-07-02';
 
 const make_next_date = date => {
     const date_object = new Date(date);
@@ -32,7 +31,9 @@ const make_next_date = date => {
 };
 
 const find_note = date => {
-    const manifest = migration_manifest.find(item => item.date === date);
+    const manifest = migration_manifest.manifests.find(
+        item => item.date === date
+    );
     return manifest ? manifest.description : null;
 };
 
@@ -58,7 +59,7 @@ class MigrationPage extends React.Component {
         super(props);
         this.timeoutId = null;
         this.timerId = null;
-        this.state = make_init_state(start_date);
+        this.state = make_init_state(migration_manifest.start_date);
     }
 
     componentWillUnmount() {
@@ -69,7 +70,7 @@ class MigrationPage extends React.Component {
     preloadNextImage(_, date) {
         const new_date = date ? date : make_next_date(this.state.current_date);
 
-        if (new Date(new_date) > new Date(end_date)) {
+        if (new Date(new_date) > new Date(migration_manifest.end_date)) {
             if (this.state.play_on) this.pausePlay();
         } else {
             this.setState(
@@ -135,6 +136,7 @@ class MigrationPage extends React.Component {
         this.setState({
             ...this.state,
             play_on: false,
+            progress: 0,
         });
     }
 
@@ -202,26 +204,52 @@ class MigrationPage extends React.Component {
 
                     <Grid>
                         <Column lg={4} md={4} sm={4} style={contentStyle}>
-                            <ToastNotification
-                                lowContrast
-                                hideCloseButton
-                                aria-label="closes notification"
-                                caption={
-                                    <>
-                                        <strong>
-                                            This page is not ready yet!
-                                        </strong>{' '}
-                                        Until we reach the center. &#128513;
-                                    </>
-                                }
-                                kind="error"
-                                role="status"
-                                statusIconDescription="notification"
-                                subtitle="This page visualizes Serenity's migration to the center on Tiberian 72."
-                                title="Serenity Migration"
-                            />
-                            <br />
-                            <br />
+                            <div
+                                style={{ minHeight: '200px' }}
+                                className="grid-container">
+                                <ToastNotification
+                                    lowContrast
+                                    hideCloseButton
+                                    aria-label="closes notification"
+                                    caption={
+                                        this.state.note ? (
+                                            this.state.current_date
+                                        ) : (
+                                            <>
+                                                <strong>
+                                                    This page is not ready yet.
+                                                    Look away!
+                                                </strong>{' '}
+                                                It requires forty kilograms of
+                                                AI. Until we reach the center.
+                                                &#128513;
+                                            </>
+                                        )
+                                    }
+                                    kind={this.state.note ? 'info' : 'error'}
+                                    role="status"
+                                    statusIconDescription="notification"
+                                    subtitle={
+                                        this.state.note
+                                            ? this.state.note
+                                            : "This page visualizes Serenity's migration to the center on Tiberian 72."
+                                    }
+                                    title="Serenity Migration"
+                                />
+                                {this.state.note && this.state.play_on && (
+                                    <ProgressBar
+                                        value={this.state.progress}
+                                        max={
+                                            1000 *
+                                            this.state.controls.event_speed
+                                        }
+                                        status="active"
+                                        label=""
+                                    />
+                                )}
+                                <br />
+                                <br />
+                            </div>
 
                             <div className="grid-container">
                                 <div style={{ display: 'flex' }}>
@@ -248,9 +276,10 @@ class MigrationPage extends React.Component {
                                         hasIconOnly
                                         renderIcon={SkipForwardFilled}
                                         disabled={
-                                            new Date(this.state.current_date) >=
-                                                new Date(end_date) ||
-                                            this.state.play_on
+                                            new Date(this.state.current_date) >
+                                                new Date(
+                                                    migration_manifest.end_date
+                                                ) || this.state.play_on
                                         }
                                         onClick={this.preloadNextImage.bind(
                                             this
@@ -298,7 +327,7 @@ class MigrationPage extends React.Component {
                                             this.pausePlay();
                                             this.preloadNextImage(
                                                 e,
-                                                start_date
+                                                migration_manifest.start_date
                                             );
                                         }}
                                     />
@@ -388,34 +417,15 @@ class MigrationPage extends React.Component {
                                     </Accordion>
                                 </div>
                             </div>
-
-                            {this.state.note && (
-                                <div className="grid-container">
-                                    <br />
-                                    <br />
-                                    {this.state.play_on && (
-                                        <ProgressBar
-                                            value={this.state.progress}
-                                            max={
-                                                1000 *
-                                                this.state.controls.event_speed
-                                            }
-                                            status="active"
-                                            label=""
-                                        />
-                                    )}
-                                    <ToastNotification
-                                        lowContrast
-                                        hideCloseButton
-                                        aria-label="closes notification"
-                                        caption={this.state.current_date}
-                                        kind="info"
-                                        role="status"
-                                        statusIconDescription="notification"
-                                        subtitle={this.state.note}
-                                        title="Migration Event"
-                                    />
-                                </div>
+                        </Column>
+                        <Column
+                            lg={4}
+                            md={4}
+                            sm={4}
+                            className="top-relief"
+                            style={{ zIndex: 42 }}>
+                            {this.state.play_on && (
+                                <InterfaceUsage size={24} color="red" />
                             )}
                         </Column>
                     </Grid>
