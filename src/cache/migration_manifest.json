@@ -1,6 +1,6 @@
 {
     "start_date": "2026-05-27",
-    "end_date": "2026-07-03",
+    "end_date": "2026-07-10",
     "manifests": [
         {
             "date": "2026-05-31",
@@ -41,6 +41,14 @@
         {
             "date": "2026-07-03",
             "description": "BIG FUCKING REACTOR!!! We are unstoppable now!"
+        },
+        {
+            "date": "2026-07-04",
+            "description": "Big reactor lost temporarily but eddi13131 and paladinstr8 team up to secure a Reactor-Tiberium double POI."
+        },
+        {
+            "date": "2026-07-07",
+            "description": "The enemy has gathered on both sides. War looms."
         }
     ]
 }
