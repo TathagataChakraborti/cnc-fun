@@ -1,11 +1,9 @@
-from typing import List
-
 from cnc.models.forgotten import Timeline
 from cnc.models.plots import DailyDistribution
 
 
-def create_data(timeline: Timeline) -> List[DailyDistribution]:
-    data: List[DailyDistribution] = []
+def create_data(timeline: Timeline) -> list[DailyDistribution]:
+    data: list[DailyDistribution] = []
 
     for event in timeline.forgotten_attacks:
         data.append(

@@ -1,13 +1,11 @@
-from typing import List, Sequence, Union
-
 import numpy as np
 
 from cnc.models.forgotten import ForgottenAttack
 
 
 def compute_moving_average(
-    data: Sequence[Union[float, int]], window_size: int = 3
-) -> List[float]:
+    data: list[float | int], window_size: int = 3
+) -> list[float]:
     data = np.array(data)
     weights = np.ones(window_size) / window_size
 

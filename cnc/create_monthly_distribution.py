@@ -1,5 +1,4 @@
 from datetime import date
-from typing import List, Optional
 
 from cnc.models.forgotten import FORGOTTEN, ForgottenAttack, Timeline
 from cnc.models.plots import MonthlyDistribution, MonthlyTrend
@@ -8,8 +7,8 @@ from cnc.utils import compute_moving_average, time_difference_in_minutes
 
 def create_distribution_data(
     timeline: Timeline, event_type: FORGOTTEN
-) -> List[MonthlyDistribution]:
-    data: List[MonthlyDistribution] = []
+) -> list[MonthlyDistribution]:
+    data: list[MonthlyDistribution] = []
 
     for event in timeline.forgotten_attacks:
         if event.defending_against == event_type:
@@ -22,13 +21,13 @@ def create_distribution_data(
     return data
 
 
-def create_trend_data(timeline: Timeline, window_size: int = 3) -> List[MonthlyTrend]:
-    dates: List[date] = []
-    num_attacks: List[float] = []
-    forgotten_level: List[float] = []
-    gap_between_attacks: List[float] = []
+def create_trend_data(timeline: Timeline, window_size: int = 3) -> list[MonthlyTrend]:
+    dates: list[date] = []
+    num_attacks: list[float] = []
+    forgotten_level: list[float] = []
+    gap_between_attacks: list[float] = []
 
-    reference_event: Optional[ForgottenAttack] = None
+    reference_event: ForgottenAttack | None = None
 
     num_attacks_tmp: float = 0.0
     forgotten_level_tmp: float = 0.0
@@ -75,7 +74,7 @@ def create_trend_data(timeline: Timeline, window_size: int = 3) -> List[MonthlyT
         gap_between_attacks = compute_moving_average(gap_between_attacks, window_size)
 
     # NOTE: construct trend
-    trend_data: List[MonthlyTrend] = []
+    trend_data: list[MonthlyTrend] = []
     key_map = {
         "Number of Forgotten Base attacks": num_attacks,
         "Maximum Forgotten Base level in range": forgotten_level,

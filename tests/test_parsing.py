@@ -1,5 +1,4 @@
 from datetime import date, datetime
-from typing import Optional
 
 from cnc.models.forgotten import FORGOTTEN, Report, Timeline
 from cnc.read_raw_data import read_raw_data
@@ -75,7 +74,7 @@ class TestParsing:
         )
 
     def test_legacy(self) -> None:
-        first_legacy_report: Optional[Report] = None
+        first_legacy_report: Report | None = None
 
         for event in self.timeline.forgotten_attacks:
             if event.is_legacy:

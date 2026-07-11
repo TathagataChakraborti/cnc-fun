@@ -2,7 +2,6 @@ import json
 
 from datetime import date, datetime
 from pathlib import Path
-from typing import List, Optional
 
 import cv2
 
@@ -15,15 +14,15 @@ from cnc.models.migration import (
 
 
 def get_description(
-    date_object: date, manifests: List[MigrationManifest]
-) -> Optional[str]:
+    date_object: date, manifests: list[MigrationManifest]
+) -> str | None:
     manifest = next(filter(lambda x: x.date == date_object, manifests), None)
 
     return manifest.description if manifest else None
 
 
 def process_images(
-    path_to_images: str, path_to_manifest: str, path_to_model: Optional[str] = None
+    path_to_images: str, path_to_manifest: str, path_to_model: str | None = None
 ) -> MigrationData:
     metadata = MigrationMetadata()
 

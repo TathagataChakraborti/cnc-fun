@@ -1,5 +1,4 @@
 from datetime import date
-from typing import List, Optional
 
 import cv2
 import numpy as np
@@ -14,9 +13,9 @@ class MigrationManifest(BaseModel):
 
 
 class MigrationMetadata(BaseModel):
-    start_date: Optional[date] = None
-    end_date: Optional[date] = None
-    manifests: List[MigrationManifest] = []
+    start_date: date | None = None
+    end_date: date | None = None
+    manifests: list[MigrationManifest] = []
 
 
 class Story(BaseModel):
@@ -25,9 +24,9 @@ class Story(BaseModel):
     )
 
     date: date
-    description: Optional[str] = None
+    description: str | None = None
     snapshot: MatLike
-    transform: Optional[MatLike] = None
+    transform: MatLike | None = None
 
     def make_transform(
         self,
@@ -35,7 +34,7 @@ class Story(BaseModel):
         end_y: int,
         start_x: int,
         end_x: int,
-        path_to_model: Optional[str] = None,
+        path_to_model: str | None = None,
     ) -> MatLike:
         image = self.snapshot[start_y:end_y, start_x:end_x]
         h, w = image.shape[:2]
@@ -79,5 +78,5 @@ class Story(BaseModel):
 
 
 class MigrationData(BaseModel):
-    storyboard: List[Story] = []
+    storyboard: list[Story] = []
     metadata: MigrationMetadata

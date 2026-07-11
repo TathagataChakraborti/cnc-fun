@@ -7,7 +7,6 @@ from datetime import datetime as dt
 from datetime import timedelta
 from enum import StrEnum, auto
 from statistics import fmean
-from typing import List, Optional, Tuple
 
 from openpyxl.worksheet.worksheet import Worksheet
 from pydantic import BaseModel
@@ -16,7 +15,7 @@ from pydantic import BaseModel
 class FORGOTTEN(StrEnum):
     @staticmethod
     def _generate_next_value_(
-        name: str, start: int, count: int, last_values: List[str]
+        name: str, start: int, count: int, last_values: list[str]
     ) -> str:
         return name.capitalize()
 
@@ -29,12 +28,12 @@ class Neighbor(BaseModel):
     level: int
 
     @staticmethod
-    def parse_from_string(raw_string: Optional[str]) -> List[Neighbor]:
+    def parse_from_string(raw_string: str | None) -> list[Neighbor]:
         if not raw_string:
             return []
 
         split = raw_string.split(", ")
-        neighbors: List[Neighbor] = []
+        neighbors: list[Neighbor] = []
 
         for item in split:
             sec_split = item.split("x")
@@ -53,7 +52,7 @@ class Base(BaseModel):
     name: str
     active_bases: int
     jumped_to_front: bool = False
-    neighborhood: List[Neighbor] = []
+    neighborhood: list[Neighbor] = []
 
     @property
     def expected_level_in_range(self) -> float:
@@ -87,7 +86,7 @@ class Report(BaseModel):
     datetime: dt
     defending_against: FORGOTTEN
     defending_base: str
-    state_of_the_union: List[Base] = []
+    state_of_the_union: list[Base] = []
 
     def after_jump(self) -> bool:
         return any([base.jumped_to_front for base in self.state_of_the_union])
@@ -97,7 +96,7 @@ class Report(BaseModel):
         return raw_string.split(":")[-1].strip()
 
     @classmethod
-    def parse_report(cls, row: List[str], header_info: HeaderInfo) -> Report:
+    def parse_report(cls, row: list[str], header_info: HeaderInfo) -> Report:
         report = Report(
             datetime=dt.strptime(row[header_info.datetime], "%m/%d/%Y, %H:%M:%S"),
             defending_against=FORGOTTEN(row[header_info.defending_against]),
@@ -132,17 +131,17 @@ class BaseIndices(BaseModel):
 
 
 class HeaderInfo(BaseModel):
-    bases: List[str] = []
+    bases: list[str] = []
     defending_base: int = 0
     datetime: int = 1
     defending_against: int = 2
     jump_tags: int = 3
     starting_index: int = 4
-    base_indices: List[BaseIndices] = []
+    base_indices: list[BaseIndices] = []
 
 
 class ForgottenAttack(BaseModel):
-    reports: List[Report] = []
+    reports: list[Report] = []
 
     @property
     def report(self) -> Report:
@@ -170,7 +169,7 @@ class ForgottenAttack(BaseModel):
         return self.report.defending_against
 
     @property
-    def state_of_the_union(self) -> List[Base]:
+    def state_of_the_union(self) -> list[Base]:
         return self.report.state_of_the_union
 
     @property
@@ -187,8 +186,8 @@ class ForgottenAttack(BaseModel):
 
 
 class Timeline(BaseModel):
-    reports: List[Report] = []
-    forgotten_attacks: List[ForgottenAttack] = []
+    reports: list[Report] = []
+    forgotten_attacks: list[ForgottenAttack] = []
 
     def get_timeline_by_date(self, date: d) -> Timeline:
         return Timeline(
@@ -203,7 +202,7 @@ class Timeline(BaseModel):
         )
 
     @classmethod
-    def parse_headers(cls, row: Tuple[str | float | dt | None, ...]) -> HeaderInfo:
+    def parse_headers(cls, row: tuple[str | float | dt | None, ...]) -> HeaderInfo:
         headers = HeaderInfo()
         str_row = [str(item) if item else None for item in row]
 
@@ -248,13 +247,13 @@ class Timeline(BaseModel):
 
 
 def consolidate_timeline(
-    reports: List[Report], max_duration: int = 10
-) -> List[ForgottenAttack]:
-    forgotten_attacks: List[ForgottenAttack] = []
+    reports: list[Report], max_duration: int = 10
+) -> list[ForgottenAttack]:
+    forgotten_attacks: list[ForgottenAttack] = []
 
     consolidate: bool = True
     new_event = ForgottenAttack()
-    reference_time: Optional[dt] = None
+    reference_time: dt | None = None
 
     for report in reports:
         if reference_time is not None and abs(

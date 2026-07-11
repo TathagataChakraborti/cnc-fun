@@ -1,5 +1,3 @@
-from typing import Optional
-
 from pydantic import BaseModel
 
 from cnc.models.forgotten import FORGOTTEN
@@ -17,6 +15,6 @@ class MonthlyDistribution(BaseModel):
 
 class MonthlyTrend(BaseModel):
     date: str
-    value: Optional[float] = None
-    value_secondary: Optional[float] = None
+    value: float | None = None
+    value_secondary: float | None = None
     group: str
