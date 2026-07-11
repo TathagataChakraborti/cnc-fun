@@ -91,8 +91,8 @@ const HypothesisModalContent = _ => {
                     </StructuredListRow>
                 </StructuredListHead>
                 <StructuredListBody>
-                    {hypothesis_list.map(item => (
-                        <StructuredListRow>
+                    {hypothesis_list.map((item, key) => (
+                        <StructuredListRow key={key}>
                             <StructuredListCell>
                                 {item.hypothesis}
                             </StructuredListCell>

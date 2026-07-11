@@ -115,7 +115,7 @@ const MonthlyDistribution = props => (
                     not.
                     <br />
                     <br />
-                    As of {max_date}, you have an average of{' '}
+                    As of {max_date}, I have had an average of{' '}
                     <span className="text-alert">{average_gap}</span> minutes
                     and a minimum of{' '}
                     <span className="text-alert">{min_gap}</span> minutes
