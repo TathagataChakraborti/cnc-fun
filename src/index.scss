@@ -35,3 +35,8 @@
     padding-left: 0;
     padding-right: 0;
 }
+
+.dim-tile {
+    color: colors.$gray-10;
+    background-color: rgba($color: colors.$teal-60, $alpha: 0.25);
+}

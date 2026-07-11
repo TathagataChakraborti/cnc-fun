@@ -3,6 +3,7 @@ import {
     PlayFilledAlt,
     PauseFilled,
     Reset,
+    SkipBackFilled,
     SkipForwardFilled,
     InterfaceUsage,
 } from '@carbon/icons-react';
@@ -16,12 +17,21 @@ import {
     NumberInput,
     Accordion,
     AccordionItem,
+    CheckboxGroup,
+    Checkbox,
     Theme,
 } from '@carbon/react';
 
 import migration_manifest from '../../cache/migration_manifest.json';
 
 const advancement = 100;
+
+const make_previous_date = date => {
+    const date_object = new Date(date);
+    date_object.setDate(date_object.getDate() - 1);
+
+    return date_object.toISOString().split('T')[0];
+};
 
 const make_next_date = date => {
     const date_object = new Date(date);
@@ -48,6 +58,7 @@ const make_init_state = date => {
         progress: 0,
         note: null,
         controls: {
+            autopause: false,
             play_speed: 1,
             event_speed: 2,
         },
@@ -67,29 +78,47 @@ class MigrationPage extends React.Component {
         if (this.timerId) clearInterval(this.timerId);
     }
 
-    preloadNextImage(_, date) {
+    loadPreviousImage(_, date) {
+        const new_date = date
+            ? date
+            : make_previous_date(this.state.current_date);
+
+        if (new Date(new_date) < new Date(migration_manifest.start_date)) {
+            if (this.state.play_on) this.pausePlay();
+        } else {
+            this.preloadNextImage(new_date);
+        }
+    }
+
+    loadNextImage(_, date) {
         const new_date = date ? date : make_next_date(this.state.current_date);
 
         if (new Date(new_date) > new Date(migration_manifest.end_date)) {
             if (this.state.play_on) this.pausePlay();
         } else {
-            this.setState(
-                {
-                    current_date: new_date,
-                    nextBg: make_next_url(new_date),
-                    progress: 0,
-                },
+            this.preloadNextImage(new_date);
+        }
+    }
 
-                () => {
-                    const img = new Image();
-                    img.src = this.state.nextBg;
+    preloadNextImage(new_date) {
+        this.setState(
+            {
+                current_date: new_date,
+                nextBg: make_next_url(new_date),
+                progress: 0,
+            },
 
-                    const note = find_note(this.state.current_date);
+            () => {
+                const img = new Image();
+                img.src = this.state.nextBg;
 
-                    if (this.state.play_on) {
-                        if (note) {
-                            this.pausePlay();
+                const note = find_note(this.state.current_date);
 
+                if (this.state.play_on) {
+                    if (note) {
+                        this.pausePlay();
+
+                        if (!this.state.controls.autopause) {
                             const progressId = setInterval(() => {
                                 const progress_size =
                                     1000 * this.state.controls.event_speed;
@@ -107,26 +136,26 @@ class MigrationPage extends React.Component {
                                     clearInterval(progressId);
 
                                     this.timerId = setInterval(
-                                        this.preloadNextImage.bind(this),
+                                        this.loadNextImage.bind(this),
                                         1000 * this.state.controls.play_speed
                                     );
                                 }
                             }, advancement);
                         }
                     }
-
-                    img.onload = () => {
-                        this.timeoutId = setTimeout(() => {
-                            this.setState({
-                                currentBg: this.state.nextBg,
-                                nextBg: null,
-                                note: note,
-                            });
-                        }, advancement);
-                    };
                 }
-            );
-        }
+
+                img.onload = () => {
+                    this.timeoutId = setTimeout(() => {
+                        this.setState({
+                            currentBg: this.state.nextBg,
+                            nextBg: null,
+                            note: note,
+                        });
+                    }, advancement);
+                };
+            }
+        );
     }
 
     pausePlay() {
@@ -141,9 +170,11 @@ class MigrationPage extends React.Component {
     }
 
     startPlay() {
-        if (!this.state.play_on) {
+        if (this.state.play_on) {
+            this.pausePlay();
+        } else {
             this.timerId = setInterval(
-                this.preloadNextImage.bind(this),
+                this.loadNextImage.bind(this),
                 1000 * this.state.controls.play_speed
             );
 
@@ -272,18 +303,33 @@ class MigrationPage extends React.Component {
                                         className="right-relief"
                                         kind="primary"
                                         size="sm"
+                                        iconDescription="Play previous"
+                                        hasIconOnly
+                                        renderIcon={SkipBackFilled}
+                                        disabled={
+                                            new Date(this.state.current_date) <=
+                                                new Date(
+                                                    migration_manifest.start_date
+                                                ) || this.state.play_on
+                                        }
+                                        onClick={this.loadPreviousImage.bind(
+                                            this
+                                        )}
+                                    />
+                                    <Button
+                                        className="right-relief"
+                                        kind="primary"
+                                        size="sm"
                                         iconDescription="Play next"
                                         hasIconOnly
                                         renderIcon={SkipForwardFilled}
                                         disabled={
-                                            new Date(this.state.current_date) >
+                                            new Date(this.state.current_date) >=
                                                 new Date(
                                                     migration_manifest.end_date
                                                 ) || this.state.play_on
                                         }
-                                        onClick={this.preloadNextImage.bind(
-                                            this
-                                        )}
+                                        onClick={this.loadNextImage.bind(this)}
                                     />
                                     <Button
                                         className="right-relief"
@@ -295,24 +341,14 @@ class MigrationPage extends React.Component {
                                         size="sm"
                                         iconDescription="Play"
                                         hasIconOnly
-                                        renderIcon={PlayFilledAlt}
+                                        renderIcon={
+                                            this.state.play_on
+                                                ? PauseFilled
+                                                : PlayFilledAlt
+                                        }
+                                        disabled={this.state.progress > 0}
                                         onClick={() => {
                                             this.startPlay();
-                                        }}
-                                    />
-                                    <Button
-                                        className="right-relief"
-                                        kind="primary"
-                                        size="sm"
-                                        iconDescription="Pause"
-                                        hasIconOnly
-                                        renderIcon={PauseFilled}
-                                        disabled={
-                                            !this.state.play_on ||
-                                            this.state.progress > 0
-                                        }
-                                        onClick={() => {
-                                            this.pausePlay();
                                         }}
                                     />
                                     <Button
@@ -325,7 +361,7 @@ class MigrationPage extends React.Component {
                                         disabled={this.state.progress > 0}
                                         onClick={e => {
                                             this.pausePlay();
-                                            this.preloadNextImage(
+                                            this.loadNextImage(
                                                 e,
                                                 migration_manifest.start_date
                                             );
@@ -376,7 +412,6 @@ class MigrationPage extends React.Component {
                                                             .play_speed
                                                     }
                                                 />
-
                                                 <br />
                                                 <NumberInput
                                                     disabled={
@@ -412,6 +447,36 @@ class MigrationPage extends React.Component {
                                                             .event_speed
                                                     }
                                                 />
+                                                <br />
+                                                <CheckboxGroup
+                                                    helperText="Use this to stop simulation on an eventful day"
+                                                    legendText="Autoplay controls">
+                                                    <Checkbox
+                                                        id="checkbox-label-1"
+                                                        labelText="Autopause on event"
+                                                        disabled={
+                                                            this.state.play_on
+                                                        }
+                                                        checked={
+                                                            this.state.controls
+                                                                .autopause
+                                                        }
+                                                        onChange={(
+                                                            _,
+                                                            { checked }
+                                                        ) =>
+                                                            this.setState({
+                                                                ...this.state,
+                                                                controls: {
+                                                                    ...this
+                                                                        .state
+                                                                        .controls,
+                                                                    autopause: checked,
+                                                                },
+                                                            })
+                                                        }
+                                                    />
+                                                </CheckboxGroup>{' '}
                                             </AccordionItem>
                                         </Theme>
                                     </Accordion>

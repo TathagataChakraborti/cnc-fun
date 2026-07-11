@@ -1,7 +1,7 @@
-import { Component } from 'react';
 import './app.scss';
 
-import { Route, Switch } from 'react-router-dom';
+import { Component } from 'react';
+import { Route, Switch, useLocation } from 'react-router-dom';
 import { Grid, Column, Content, Tile } from '@carbon/react';
 import { PageHeader } from './components/PageHeader';
 import {
@@ -13,8 +13,17 @@ import ForgottenPage from './content/ForgottenPage';
 import MigrationPage from './content/MigrationPage';
 import GitHubButton from 'react-github-btn';
 
+function withRouter(Component) {
+    return function WrappedComponent(props) {
+        const location = useLocation();
+        return <Component {...props} router={{ location }} />;
+    };
+}
+
 class App extends Component {
     render() {
+        const activeRoute = this.props.router.location.pathname;
+
         return (
             <Content>
                 <PageHeader />
@@ -34,7 +43,10 @@ class App extends Component {
                         <br />
                         <br />
 
-                        <Tile>
+                        <Tile
+                            className={
+                                activeRoute === '/migration' ? 'dim-tile' : ''
+                            }>
                             I build stuff that sparks joy! I am trying to start
                             a new life as a freelance developer.
                             <br />
@@ -50,7 +62,10 @@ class App extends Component {
                         <br />
                         <br />
 
-                        <Tile>
+                        <Tile
+                            className={
+                                activeRoute === '/migration' ? 'dim-tile' : ''
+                            }>
                             This little project is open source! Contribute your
                             feedback, comments, critiques, and even code.
                             &#129303;
@@ -76,4 +91,4 @@ class App extends Component {
     }
 }
 
-export default App;
+export default withRouter(App);
