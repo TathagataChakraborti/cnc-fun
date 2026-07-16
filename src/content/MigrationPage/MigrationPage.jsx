@@ -20,8 +20,11 @@ import {
     CheckboxGroup,
     Checkbox,
     Theme,
+    DatePicker,
+    DatePickerInput,
 } from '@carbon/react';
 
+import { print_date } from '../../components/BasicElements/Info';
 import migration_manifest from '../../cache/migration_manifest.json';
 
 const advancement = 100;
@@ -104,7 +107,7 @@ class MigrationPage extends React.Component {
         this.setState(
             {
                 current_date: new_date,
-                nextBg: make_next_url(new_date),
+                nextBg: make_image_url(new_date),
                 progress: 0,
             },
 
@@ -220,6 +223,7 @@ class MigrationPage extends React.Component {
                     <div
                         style={{
                             ...layerStyle,
+                            zIndex: 0,
                             backgroundImage: `url(${currentBg})`,
                         }}
                     />
@@ -228,6 +232,7 @@ class MigrationPage extends React.Component {
                         <div
                             style={{
                                 ...layerStyle,
+                                zIndex: -1,
                                 backgroundImage: `url(${nextBg})`,
                             }}
                         />
@@ -242,6 +247,7 @@ class MigrationPage extends React.Component {
                                     lowContrast
                                     hideCloseButton
                                     aria-label="closes notification"
+                                    style={{ width: '375px' }}
                                     caption={
                                         this.state.note ? (
                                             this.state.current_date
@@ -290,14 +296,40 @@ class MigrationPage extends React.Component {
                                         size="lg">
                                         DATE
                                     </Tag>
-                                    <Tag
-                                        className="square-tag"
-                                        type="blue"
-                                        size="lg">
-                                        <strong>
-                                            {this.state.current_date}
-                                        </strong>
-                                    </Tag>
+
+                                    <DatePicker
+                                        allowInput={false}
+                                        datePickerType="single"
+                                        locale="en"
+                                        dateFormat="Y-m-d"
+                                        minDate={migration_manifest.start_date}
+                                        maxDate={migration_manifest.end_date}
+                                        value={this.state.current_date}
+                                        onChange={e => {
+                                            this.setState(
+                                                {
+                                                    ...this.state,
+                                                    current_date: print_date(
+                                                        new Date(e[0])
+                                                    ),
+                                                },
+                                                e => {
+                                                    this.loadNextImage(
+                                                        e,
+                                                        this.state.current_date
+                                                    );
+                                                }
+                                            );
+                                        }}>
+                                        <DatePickerInput
+                                            hideLabel
+                                            style={{ width: '150px' }}
+                                            disabled={this.state.play_on}
+                                            id="date-picker-single"
+                                            size="sm"
+                                            placeholder="yyyy/mm/dd"
+                                        />
+                                    </DatePicker>
 
                                     <Button
                                         className="right-relief"
@@ -449,7 +481,7 @@ class MigrationPage extends React.Component {
                                                 />
                                                 <br />
                                                 <CheckboxGroup
-                                                    helperText="Use this to stop simulation on an eventful day"
+                                                    helperText="Use this to stop simulation on eventful days"
                                                     legendText="Autoplay controls">
                                                     <Checkbox
                                                         id="checkbox-label-1"

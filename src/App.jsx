@@ -42,7 +42,6 @@ class App extends Component {
                     <Column lg={2} md={4} sm={4}>
                         <br />
                         <br />
-
                         <Tile
                             className={
                                 activeRoute === '/migration' ? 'dim-tile' : ''

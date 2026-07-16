@@ -21,14 +21,13 @@ import {
     AxisPositions,
 } from '@carbon/charts-react';
 
+import {
+    print_date_str,
+    print_date,
+} from '../../components/BasicElements/Info';
+
 import '@carbon/charts-react/styles.css';
 import data from '../../cache/daily_distribution.json';
-
-const print_date_str = datetime_str => print_date(new Date(datetime_str));
-const print_date = datetime => {
-    const tzOffset = datetime.getTimezoneOffset() * 60000;
-    return new Date(datetime - tzOffset).toISOString().split('T')[0];
-};
 
 let max_date = data[0].datetime;
 let min_date = data[data.length - 1].datetime;
