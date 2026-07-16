@@ -1,9 +1,9 @@
 {
     "start_date": "2026-05-27",
-    "end_date": "2026-07-10",
+    "end_date": "2026-07-16",
     "manifests": [
         {
-            "date": "2026-05-31",
+            "date": "2026-06-01",
             "description": "HELLS WRATH have appeared on the radar. They are catching up."
         },
         {
@@ -11,12 +11,12 @@
             "description": "We have entered the 50+ Forgotten zone! But our lead at the top is slipping away."
         },
         {
-            "date": "2026-06-06",
+            "date": "2026-06-07",
             "description": "\"Our ally has secured some good POI causing them to grow like mushrooms.\" -- CiC"
         },
         {
-            "date": "2026-06-08",
-            "description": "Pesky red dots have appeared, probably from Polski, to spy on us. But we move."
+            "date": "2026-06-09",
+            "description": "Pesky red dots have appeared, probably from Casino, to spy on us. But we move."
         },
         {
             "date": "2026-06-11",
@@ -27,7 +27,7 @@
             "description": "Shiion_NOD and ArabianKnight202 lays waste on Forgotten bases to secure a high value Reactor. We are back!"
         },
         {
-            "date": "2026-06-17",
+            "date": "2026-06-18",
             "description": "Wrath has stolen a march on us but not for long. Our power grows."
         },
         {
@@ -47,8 +47,12 @@
             "description": "Big reactor lost temporarily but eddi13131 and paladinstr8 team up to secure a Reactor-Tiberium double POI."
         },
         {
-            "date": "2026-07-07",
+            "date": "2026-07-06",
             "description": "The enemy has gathered on both sides. War looms."
+        },
+        {
+            "date": "2026-07-10",
+            "description": "There is a lull as the enemy retreats temporarily to secure high-value POIs."
         }
     ]
 }
