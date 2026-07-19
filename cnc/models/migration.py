@@ -1,4 +1,5 @@
 from datetime import date
+from enum import StrEnum, auto
 
 import cv2
 import numpy as np
@@ -7,9 +8,17 @@ from cv2.typing import MatLike
 from pydantic import BaseModel, ConfigDict
 
 
+class EventType(StrEnum):
+    ERROR = auto()
+    INFO = auto()
+    SUCCESS = auto()
+    WARNING = auto()
+
+
 class MigrationManifest(BaseModel):
     date: date
     description: str
+    type: EventType = EventType.INFO
 
 
 class MigrationMetadata(BaseModel):

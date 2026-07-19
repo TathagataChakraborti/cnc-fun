@@ -43,11 +43,11 @@ const make_next_date = date => {
     return date_object.toISOString().split('T')[0];
 };
 
-const find_note = date => {
+const find_manifest = date => {
     const manifest = migration_manifest.manifests.find(
         item => item.date === date
     );
-    return manifest ? manifest.description : null;
+    return manifest ? manifest : null;
 };
 
 const make_image_url = date => `/images/migration/${date}.png`;
@@ -59,7 +59,7 @@ const make_init_state = date => {
         nextBg: make_next_url(date),
         play_on: false,
         progress: 0,
-        note: null,
+        manifest: null,
         controls: {
             autopause: false,
             play_speed: 1,
@@ -115,10 +115,10 @@ class MigrationPage extends React.Component {
                 const img = new Image();
                 img.src = this.state.nextBg;
 
-                const note = find_note(this.state.current_date);
+                const manifest = find_manifest(this.state.current_date);
 
                 if (this.state.play_on) {
-                    if (note) {
+                    if (manifest) {
                         this.pausePlay();
 
                         if (!this.state.controls.autopause) {
@@ -153,7 +153,7 @@ class MigrationPage extends React.Component {
                         this.setState({
                             currentBg: this.state.nextBg,
                             nextBg: null,
-                            note: note,
+                            manifest: manifest,
                         });
                     }, advancement);
                 };
@@ -190,7 +190,6 @@ class MigrationPage extends React.Component {
 
     render() {
         const { currentBg, nextBg } = this.state;
-        const note = find_note(this.state.current_date);
 
         const containerStyle = {
             position: 'relative',
@@ -249,7 +248,7 @@ class MigrationPage extends React.Component {
                                     aria-label="closes notification"
                                     style={{ width: '375px' }}
                                     caption={
-                                        this.state.note ? (
+                                        this.state.manifest ? (
                                             this.state.current_date
                                         ) : (
                                             <>
@@ -263,17 +262,17 @@ class MigrationPage extends React.Component {
                                             </>
                                         )
                                     }
-                                    kind={this.state.note ? 'info' : 'error'}
+                                    kind={this.state.manifest ? this.state.manifest.type : 'info'}
                                     role="status"
                                     statusIconDescription="notification"
                                     subtitle={
-                                        this.state.note
-                                            ? this.state.note
+                                        this.state.manifest
+                                            ? this.state.manifest.description
                                             : "This page visualizes Serenity's migration to the center on Tiberian 72."
                                     }
                                     title="Serenity Migration"
                                 />
-                                {this.state.note && this.state.play_on && (
+                                {this.state.manifest && this.state.play_on && (
                                     <ProgressBar
                                         value={this.state.progress}
                                         max={
