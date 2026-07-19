@@ -93,7 +93,7 @@ const MonthlyDistribution = props => (
                     <br />
                     <br />
                     This is as advertised, with the well-known additional
-                    difficulty level past 50+ level bases; but thought I will
+                    difficulty level past 50+ level bases; just thought I will
                     visualize that phenomemon anyway!
                 </Tile>
             </Theme>
@@ -101,7 +101,7 @@ const MonthlyDistribution = props => (
             <br />
             <Theme theme="white">
                 <Tile>
-                    You can also see this play out in how the gap between
+                    You can also see this play out with how the gap between
                     attacks (right) and number of attacks trend with respect to
                     the level of the Forgotten bases in range as we progress to
                     the center. Note that the graph plots a{' '}

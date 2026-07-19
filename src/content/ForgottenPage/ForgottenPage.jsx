@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Music, Chemistry, Documentation } from '@carbon/icons-react';
+import { LogoYoutube, Chemistry, Documentation } from '@carbon/icons-react';
 import {
     Grid,
     Column,
@@ -77,7 +77,7 @@ const ForgottenPage = _ => {
                                 kind="ghost"
                                 href="https://www.youtube.com/watch?v=5Rs2m3lhg-k"
                                 target="_blank"
-                                renderIcon={Music}
+                                renderIcon={LogoYoutube}
                                 iconDescription="Music">
                                 <span style={{ paddingRight: '20px' }}>
                                     A song about The Forgotten

@@ -472,7 +472,7 @@ class DailyDistribution extends React.Component {
                                     target="_blank">
                                     non-stationary
                                 </Link>
-                                , i.e. it changes with time! If you are paranoid
+                                , i.e. it changes with time. If you are paranoid
                                 about this, you can change the date range on the
                                 left and see if this impacts the p-value for a
                                 sufficiently large (enough samples) time

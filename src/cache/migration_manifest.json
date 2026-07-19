@@ -1,6 +1,6 @@
 {
     "start_date": "2026-05-27",
-    "end_date": "2026-07-16",
+    "end_date": "2026-07-19",
     "manifests": [
         {
             "date": "2026-06-01",
@@ -53,6 +53,10 @@
         {
             "date": "2026-07-10",
             "description": "There is a lull as the enemy retreats temporarily to secure high-value POIs."
+        },
+        {
+            "date": "2026-07-17",
+            "description": "WAR!!!"
         }
     ]
 }
