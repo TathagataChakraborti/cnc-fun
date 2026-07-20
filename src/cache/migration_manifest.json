@@ -1,6 +1,6 @@
 {
     "start_date": "2026-05-27",
-    "end_date": "2026-07-19",
+    "end_date": "2026-07-20",
     "manifests": [
         {
             "date": "2026-06-01",
@@ -10,6 +10,11 @@
         {
             "date": "2026-06-02",
             "description": "We have entered the 50+ Forgotten zone! But our lead at the top is slipping away.",
+            "type": "info"
+        },
+        {
+            "date": "2026-06-05",
+            "description": "We change course and move to the left to accommodate our and our allies' dig lanes.",
             "type": "info"
         },
         {
@@ -69,7 +74,12 @@
         },
         {
             "date": "2026-07-17",
-            "description": "WAR!!!",
+            "description": "!!! WAR !!!",
+            "type": "error"
+        },
+        {
+            "date": "2026-07-20",
+            "description": "\"The enemy wishes to cut us in half. Once both sides are in range they will surely attack.\" -- CiC",
             "type": "error"
         }
     ]

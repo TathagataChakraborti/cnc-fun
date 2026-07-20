@@ -22,6 +22,7 @@ import {
     Theme,
     DatePicker,
     DatePickerInput,
+    Tile,
 } from '@carbon/react';
 
 import { print_date } from '../../components/BasicElements/Info';
@@ -239,54 +240,6 @@ class MigrationPage extends React.Component {
 
                     <Grid>
                         <Column lg={4} md={4} sm={4} style={contentStyle}>
-                            <div
-                                style={{ minHeight: '200px' }}
-                                className="grid-container">
-                                <ToastNotification
-                                    lowContrast
-                                    hideCloseButton
-                                    aria-label="closes notification"
-                                    style={{ width: '375px' }}
-                                    caption={
-                                        this.state.manifest ? (
-                                            this.state.current_date
-                                        ) : (
-                                            <>
-                                                <strong>
-                                                    This page is not ready yet.
-                                                    Look away!
-                                                </strong>{' '}
-                                                It requires forty kilograms of
-                                                AI. Until we reach the center.
-                                                &#128513;
-                                            </>
-                                        )
-                                    }
-                                    kind={this.state.manifest ? this.state.manifest.type : 'info'}
-                                    role="status"
-                                    statusIconDescription="notification"
-                                    subtitle={
-                                        this.state.manifest
-                                            ? this.state.manifest.description
-                                            : "This page visualizes Serenity's migration to the center on Tiberian 72."
-                                    }
-                                    title="Serenity Migration"
-                                />
-                                {this.state.manifest && this.state.play_on && (
-                                    <ProgressBar
-                                        value={this.state.progress}
-                                        max={
-                                            1000 *
-                                            this.state.controls.event_speed
-                                        }
-                                        status="active"
-                                        label=""
-                                    />
-                                )}
-                                <br />
-                                <br />
-                            </div>
-
                             <div className="grid-container">
                                 <div style={{ display: 'flex' }}>
                                     <Tag
@@ -321,6 +274,7 @@ class MigrationPage extends React.Component {
                                             );
                                         }}>
                                         <DatePickerInput
+                                            labelText=""
                                             hideLabel
                                             style={{ width: '150px' }}
                                             disabled={this.state.play_on}
@@ -366,7 +320,7 @@ class MigrationPage extends React.Component {
                                         className="right-relief"
                                         kind={
                                             this.state.play_on
-                                                ? 'danger'
+                                                ? 'secondary'
                                                 : 'primary'
                                         }
                                         size="sm"
@@ -511,8 +465,50 @@ class MigrationPage extends React.Component {
                                             </AccordionItem>
                                         </Theme>
                                     </Accordion>
+                                    <p className="note note-light">
+                                        This page visualizes Serenity's
+                                        migration to the center on Tiberian 72.
+                                        It is not quite ready yet. Please look
+                                        away!
+                                    </p>
                                 </div>
                             </div>
+                            <br />
+                            <br />
+
+                            {this.state.manifest && (
+                                <div className="grid-container">
+                                    <ToastNotification
+                                        lowContrast
+                                        hideCloseButton
+                                        aria-label="closes notification"
+                                        style={{ minWidth: '375px' }}
+                                        caption={this.state.manifest.date}
+                                        kind={this.state.manifest.type}
+                                        role="status"
+                                        statusIconDescription="notification"
+                                        subtitle={
+                                            this.state.manifest.description
+                                        }
+                                        title="Serenity Migration"
+                                    />
+                                    {this.state.play_on && (
+                                        <ProgressBar
+                                            className={
+                                                'progress-' +
+                                                this.state.manifest.type
+                                            }
+                                            value={this.state.progress}
+                                            max={
+                                                1000 *
+                                                this.state.controls.event_speed
+                                            }
+                                            status="active"
+                                            label=""
+                                        />
+                                    )}
+                                </div>
+                            )}
                         </Column>
                         <Column
                             lg={4}
