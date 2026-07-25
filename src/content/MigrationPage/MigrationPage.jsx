@@ -533,7 +533,7 @@ class MigrationPage extends React.Component {
                                             kind="ghost"
                                             aria-describedby="Add event"
                                             titleId="add-event"
-                                            href="https://github.com/TathagataChakraborti/cnc-fun/issues/new"
+                                            href="https://github.com/TathagataChakraborti/cnc-fun/issues/new?template=new-event.md"
                                             target="_blank">
                                             Add
                                         </Button>
