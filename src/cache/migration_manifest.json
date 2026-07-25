@@ -1,6 +1,6 @@
 {
     "start_date": "2026-05-27",
-    "end_date": "2026-07-20",
+    "end_date": "2026-07-25",
     "manifests": [
         {
             "date": "2026-06-01",
@@ -74,12 +74,32 @@
         },
         {
             "date": "2026-07-17",
-            "description": "!!! WAR !!!",
+            "description": "!!! WAR !!! The barbarians are at the gate.",
             "type": "error"
         },
         {
             "date": "2026-07-20",
             "description": "\"The enemy wishes to cut us in half. Once both sides are in range they will surely attack.\" -- CiC",
+            "type": "error"
+        },
+        {
+            "date": "2026-07-21",
+            "description": "The first skirmishes have occurred. Losses on both sides, as barlic1alan, effe3005, eddi13131, redmatch1, and Shiion_NOD lead the defense. Honors even on the first day. They have prepared well.",
+            "type": "error"
+        },
+        {
+            "date": "2026-07-22",
+            "description": "HELLS WRATH, formerly our allies, has turned red as well.",
+            "type": "error"
+        },
+        {
+            "date": "2026-07-23",
+            "description": "The enemy have sent their 2nd alliance to our sector and started attacking our 2nd alliance.",
+            "type": "error"
+        },
+        {
+            "date": "2026-07-24",
+            "description": "HELLS WRATH, formerly our enemies, formerly our allies, have now turned purple after getting ambushed in the middle by redmatch1. After a brief setback, oGunhand caps off a brilliant counter by finishing off GanjaMaster_PL. Absolute cinema.",
             "type": "error"
         }
     ]

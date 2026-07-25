@@ -29,3 +29,13 @@
 .progress-success .cds--progress-bar__bar {
     background-color: colors.$green-50;
 }
+
+.notification-note {
+    font-size: small;
+    color: colors.$blue-60;
+}
+
+.ghost-blue {
+    border: none;
+    background-color: colors.$blue-20;
+}

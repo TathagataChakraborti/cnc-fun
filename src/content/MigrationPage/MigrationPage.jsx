@@ -22,7 +22,7 @@ import {
     Theme,
     DatePicker,
     DatePickerInput,
-    Tile,
+    Callout,
 } from '@carbon/react';
 
 import { print_date } from '../../components/BasicElements/Info';
@@ -507,6 +507,37 @@ class MigrationPage extends React.Component {
                                             label=""
                                         />
                                     )}
+                                    <br />
+                                    <Callout
+                                        title=""
+                                        titleId="add-your"
+                                        kind="info"
+                                        lowContrast
+                                        style={{ width: '375px' }}
+                                        className="notification-note">
+                                        The stories that appear here are only
+                                        from when I am logged in. I have
+                                        doubtless missed many great
+                                        contributions from all our alliance
+                                        members.
+                                        <br />
+                                        <br />
+                                        If you want to add a new event to the
+                                        timeline, please open a request by
+                                        clicking below.
+                                        <br />
+                                        <br />
+                                        <Button
+                                            className="ghost-blue"
+                                            size="sm"
+                                            kind="ghost"
+                                            aria-describedby="Add event"
+                                            titleId="add-event"
+                                            href="https://github.com/TathagataChakraborti/cnc-fun/issues/new"
+                                            target="_blank">
+                                            Add
+                                        </Button>
+                                    </Callout>
                                 </div>
                             )}
                         </Column>
