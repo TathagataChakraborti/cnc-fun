@@ -468,8 +468,9 @@ class MigrationPage extends React.Component {
                                     <p className="note note-light">
                                         This page visualizes Serenity's
                                         migration to the center on Tiberian 72.
-                                        It is not quite ready yet. Please look
-                                        away!
+                                        I had only realized half-way through
+                                        that the map does not necessarily render
+                                        the full world. My bad!
                                     </p>
                                 </div>
                             </div>

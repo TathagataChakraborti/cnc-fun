@@ -1,6 +1,6 @@
 {
     "start_date": "2026-05-27",
-    "end_date": "2026-07-25",
+    "end_date": "2026-07-27",
     "manifests": [
         {
             "date": "2026-06-01",
@@ -94,12 +94,17 @@
         },
         {
             "date": "2026-07-23",
-            "description": "The enemy have sent their 2nd alliance to our sector and started attacking our 2nd alliance.",
+            "description": "The enemy have sent their 2nd alliance to our sector and started attacking our 2nd alliance. HELLS WRATH has been ambushed in the middle by redmatch1. After a brief setback, oGunhand caps off a brilliant counter by finishing off GanjaMaster_PL. Absolute cinema.",
             "type": "error"
         },
         {
             "date": "2026-07-24",
-            "description": "HELLS WRATH, formerly our enemies, formerly our allies, have now turned purple after getting ambushed in the middle by redmatch1. After a brief setback, oGunhand caps off a brilliant counter by finishing off GanjaMaster_PL. Absolute cinema.",
+            "description": "HELLS WRATH, formerly our enemies, formerly our allies, have now turned purple.",
+            "type": "error"
+        },
+        {
+            "date": "2026-07-26",
+            "description": "redmatch1, Shiion_NOD, and effe3005 team up to deliver a bloodbath for the enemy on the right flank. Armies have lined up on the left. Tension builds.",
             "type": "error"
         }
     ]
