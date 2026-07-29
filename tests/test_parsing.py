@@ -27,8 +27,9 @@ class TestParsing:
         assert event.defending_against == FORGOTTEN.BASE
         assert event.waves == 2
 
-        base_info = event.get_base_info_by_name(name="London")
+        base_info = event.base_info(name="London")
 
+        assert base_info is not None
         assert base_info.neighborhood_roughness == 3
         assert base_info.active_bases == 34
 
@@ -73,11 +74,11 @@ class TestParsing:
             year=2026, month=5, day=29, hour=7, minute=19, second=19
         )
 
-    def test_legacy(self) -> None:
+    def test_legacy_with_neighborhood(self) -> None:
         first_legacy_report: Report | None = None
 
         for event in self.timeline.forgotten_attacks:
-            if event.is_legacy:
+            if event.is_legacy():
                 first_legacy_report = event.report
                 break
 
@@ -85,3 +86,20 @@ class TestParsing:
         assert first_legacy_report.datetime == datetime(
             year=2026, month=5, day=29, hour=21, minute=59, second=16
         )
+
+    def test_legacy_without_neighborhood(self) -> None:
+        first_legacy_report: Report | None = None
+
+        for event in self.timeline.forgotten_attacks:
+            if event.is_legacy(with_neighborhood=False):
+                first_legacy_report = event.report
+                break
+
+        assert first_legacy_report is not None
+        assert first_legacy_report.datetime == datetime(
+            year=2026, month=5, day=21, hour=18, minute=41, second=45
+        )
+
+    def test_jumping(self) -> None:
+        for report in self.timeline.reports:
+            print(f"{report.datetime}, {report.after_jump}")

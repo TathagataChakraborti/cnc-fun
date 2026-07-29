@@ -12,6 +12,14 @@ from openpyxl.worksheet.worksheet import Worksheet
 from pydantic import BaseModel
 
 
+class JumpType(StrEnum):
+    JUMP_TO_FRONT = auto()
+    ANY_MOVEMENT = auto()
+    WAVE_CHANGE = auto()
+    INTRA_EVENT = auto()
+    INDETERMINATE = auto()
+
+
 class FORGOTTEN(StrEnum):
     @staticmethod
     def _generate_next_value_(
@@ -51,7 +59,7 @@ class Neighbor(BaseModel):
 class Base(BaseModel):
     name: str
     active_bases: int
-    jumped_to_front: bool = False
+    jumped_to_front: list[JumpType] = []
     neighborhood: list[Neighbor] = []
 
     @property
@@ -88,8 +96,19 @@ class Report(BaseModel):
     defending_base: str
     state_of_the_union: list[Base] = []
 
-    def after_jump(self) -> bool:
-        return any([base.jumped_to_front for base in self.state_of_the_union])
+    @property
+    def after_jump(self) -> list[JumpType]:
+        jump_types: list[JumpType] = []
+
+        for base in self.state_of_the_union:
+            jump_types.extend(base.jumped_to_front)
+
+        return jump_types
+
+    def base_info(self, base_name: str) -> Base | None:
+        return next(
+            filter(lambda x: x.name == base_name, self.state_of_the_union), None
+        )
 
     @classmethod
     def parse_defending_base(cls, raw_string: str) -> str:
@@ -103,18 +122,16 @@ class Report(BaseModel):
             defending_base=cls.parse_defending_base(row[header_info.defending_base]),
         )
 
-        jump_tags = row[header_info.jump_tags]
-
         for base_index in header_info.base_indices:
-            active_bases = row[base_index.active_bases]
+            raw_active_bases = row[base_index.active_bases]
 
-            if active_bases:
+            if raw_active_bases:
+                active_bases = int(raw_active_bases)
+
                 report.state_of_the_union.append(
                     Base(
                         name=base_index.name,
-                        active_bases=int(active_bases),
-                        jumped_to_front=jump_tags is not None
-                        and base_index.name in jump_tags,
+                        active_bases=active_bases,
                         neighborhood=Neighbor.parse_from_string(
                             row[base_index.neighborhood]
                         ),
@@ -122,6 +139,21 @@ class Report(BaseModel):
                 )
 
         return report
+
+    @property
+    def size_of_army(self) -> int:
+        return len(self.state_of_the_union)
+
+    @property
+    def max_forgotten_level(self) -> int:
+        return max([base.max_level_in_range for base in self.state_of_the_union])
+
+    def is_legacy(self, with_neighborhood: bool = True) -> bool:
+        return (
+            self.size_of_army == 0
+            if not with_neighborhood
+            else all([len(base.neighborhood) == 0 for base in self.state_of_the_union])
+        )
 
 
 class BaseIndices(BaseModel):
@@ -148,17 +180,13 @@ class ForgottenAttack(BaseModel):
         *_, first_report = iter(self.reports)
         return first_report
 
-    def get_base_info_by_name(self, name: str) -> Base:
-        base_info: Base = next(
-            filter(lambda x: name == x.name, self.state_of_the_union)
-        )
-
-        return base_info
+    def base_info(self, name: str) -> Base | None:
+        return self.report.base_info(base_name=name)
 
     @property
     def waves(self) -> int:
-        base_info = self.get_base_info_by_name(name=self.report.defending_base)
-        return base_info.neighborhood_roughness
+        base_info = self.base_info(name=self.report.defending_base)
+        return base_info.neighborhood_roughness if base_info else -1
 
     @property
     def datetime(self) -> dt:
@@ -174,15 +202,14 @@ class ForgottenAttack(BaseModel):
 
     @property
     def size_of_army(self) -> int:
-        return len(self.state_of_the_union)
+        return self.report.size_of_army
 
     @property
     def max_forgotten_level(self) -> int:
-        return max([base.max_level_in_range for base in self.state_of_the_union])
+        return self.report.max_forgotten_level
 
-    @property
-    def is_legacy(self) -> bool:
-        return all([len(base.neighborhood) == 0 for base in self.state_of_the_union])
+    def is_legacy(self, with_neighborhood: bool = True) -> bool:
+        return self.report.is_legacy(with_neighborhood)
 
 
 class Timeline(BaseModel):
@@ -247,7 +274,7 @@ class Timeline(BaseModel):
 
 
 def consolidate_timeline(
-    reports: list[Report], max_duration: int = 10
+    reports: list[Report], max_duration: int = 10, jump_threshold: int = 2
 ) -> list[ForgottenAttack]:
     forgotten_attacks: list[ForgottenAttack] = []
 
@@ -255,7 +282,7 @@ def consolidate_timeline(
     new_event = ForgottenAttack()
     reference_time: dt | None = None
 
-    for report in reports:
+    for index, report in enumerate(reports):
         if reference_time is not None and abs(
             reference_time - report.datetime
         ) > timedelta(minutes=max_duration):
@@ -265,6 +292,37 @@ def consolidate_timeline(
             forgotten_attacks.append(new_event)
             new_event = ForgottenAttack()
             consolidate = True
+
+        previous_report: Report | None = (
+            None if index + 1 == len(reports) else reports[index + 1]
+        )
+
+        for base in report.state_of_the_union:
+            if (
+                report.is_legacy(with_neighborhood=False) is True
+                or previous_report is None
+                or previous_report.is_legacy(with_neighborhood=False) is True
+            ):
+                base.jumped_to_front.append(JumpType.INDETERMINATE)
+
+            else:
+                previous_base_info = previous_report.base_info(base.name)
+                previous_active_bases = (
+                    previous_base_info.active_bases if previous_base_info else 0
+                )
+
+                if base.active_bases - previous_active_bases >= jump_threshold:
+                    base.jumped_to_front.append(JumpType.JUMP_TO_FRONT)
+
+                elif base.active_bases != previous_active_bases:
+                    base.jumped_to_front.append(JumpType.ANY_MOVEMENT)
+
+                elif (
+                    previous_base_info is not None
+                    and base.neighborhood_roughness
+                    > previous_base_info.neighborhood_roughness
+                ):
+                    base.jumped_to_front.append(JumpType.WAVE_CHANGE)
 
         new_event.reports.append(report)
         reference_time = report.datetime
