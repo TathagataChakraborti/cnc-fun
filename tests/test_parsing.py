@@ -21,6 +21,8 @@ class TestParsing:
         assert len(self.filtered_timeline.forgotten_attacks) == 17
 
     def test_forgotten_attack(self) -> None:
+        assert len(self.timeline.forgotten_attacks) == 599
+
         event = next(iter(self.timeline.forgotten_attacks), None)
 
         assert event is not None

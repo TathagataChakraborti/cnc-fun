@@ -282,49 +282,54 @@ def consolidate_timeline(
     new_event = ForgottenAttack()
     reference_time: dt | None = None
 
-    for index, report in enumerate(reports):
-        if reference_time is not None and abs(
-            reference_time - report.datetime
-        ) > timedelta(minutes=max_duration):
-            consolidate = False
-
-        if not consolidate:
+    for index in range(len(reports) + 1):
+        if index == len(reports):
             forgotten_attacks.append(new_event)
-            new_event = ForgottenAttack()
-            consolidate = True
+        else:
+            report = reports[index]
 
-        previous_report: Report | None = (
-            None if index + 1 == len(reports) else reports[index + 1]
-        )
+            if reference_time is not None and abs(
+                reference_time - report.datetime
+            ) > timedelta(minutes=max_duration):
+                consolidate = False
 
-        for base in report.state_of_the_union:
-            if (
-                report.is_legacy(with_neighborhood=False) is True
-                or previous_report is None
-                or previous_report.is_legacy(with_neighborhood=False) is True
-            ):
-                base.jumped_to_front.append(JumpType.INDETERMINATE)
+            if not consolidate:
+                forgotten_attacks.append(new_event)
+                new_event = ForgottenAttack()
+                consolidate = True
 
-            else:
-                previous_base_info = previous_report.base_info(base.name)
-                previous_active_bases = (
-                    previous_base_info.active_bases if previous_base_info else 0
-                )
+            previous_report: Report | None = (
+                None if index + 1 >= len(reports) else reports[index + 1]
+            )
 
-                if base.active_bases - previous_active_bases >= jump_threshold:
-                    base.jumped_to_front.append(JumpType.JUMP_TO_FRONT)
-
-                elif base.active_bases != previous_active_bases:
-                    base.jumped_to_front.append(JumpType.ANY_MOVEMENT)
-
-                elif (
-                    previous_base_info is not None
-                    and base.neighborhood_roughness
-                    > previous_base_info.neighborhood_roughness
+            for base in report.state_of_the_union:
+                if (
+                    report.is_legacy(with_neighborhood=False) is True
+                    or previous_report is None
+                    or previous_report.is_legacy(with_neighborhood=False) is True
                 ):
-                    base.jumped_to_front.append(JumpType.WAVE_CHANGE)
+                    base.jumped_to_front.append(JumpType.INDETERMINATE)
 
-        new_event.reports.append(report)
-        reference_time = report.datetime
+                else:
+                    previous_base_info = previous_report.base_info(base.name)
+                    previous_active_bases = (
+                        previous_base_info.active_bases if previous_base_info else 0
+                    )
+
+                    if base.active_bases - previous_active_bases >= jump_threshold:
+                        base.jumped_to_front.append(JumpType.JUMP_TO_FRONT)
+
+                    elif base.active_bases != previous_active_bases:
+                        base.jumped_to_front.append(JumpType.ANY_MOVEMENT)
+
+                    elif (
+                        previous_base_info is not None
+                        and base.neighborhood_roughness
+                        > previous_base_info.neighborhood_roughness
+                    ):
+                        base.jumped_to_front.append(JumpType.WAVE_CHANGE)
+
+            new_event.reports.append(report)
+            reference_time = report.datetime
 
     return forgotten_attacks
