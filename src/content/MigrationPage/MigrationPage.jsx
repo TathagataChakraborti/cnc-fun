@@ -6,6 +6,7 @@ import {
     SkipBackFilled,
     SkipForwardFilled,
     InterfaceUsage,
+    Home,
 } from '@carbon/icons-react';
 import {
     Grid,
@@ -479,36 +480,51 @@ class MigrationPage extends React.Component {
 
                             {this.state.manifest && (
                                 <div className="grid-container">
-                                    <ToastNotification
-                                        lowContrast
-                                        hideCloseButton
-                                        aria-label="closes notification"
-                                        style={{ minWidth: '375px' }}
-                                        caption={this.state.manifest.date}
-                                        kind={this.state.manifest.type}
-                                        role="status"
-                                        statusIconDescription="notification"
-                                        subtitle={
-                                            this.state.manifest.description
-                                        }
-                                        title="Serenity Migration"
-                                    />
-                                    {this.state.play_on && (
-                                        <ProgressBar
-                                            className={
-                                                'progress-' +
-                                                this.state.manifest.type
-                                            }
-                                            value={this.state.progress}
-                                            max={
-                                                1000 *
-                                                this.state.controls.event_speed
-                                            }
-                                            status="active"
-                                            label=""
-                                        />
+                                    {this.state.manifest.description.map(
+                                        (item, index) => (
+                                            <>
+                                                <ToastNotification
+                                                    key={index}
+                                                    lowContrast
+                                                    hideCloseButton
+                                                    aria-label="closes notification"
+                                                    style={{
+                                                        minWidth: '375px',
+                                                    }}
+                                                    caption={
+                                                        this.state.manifest.date
+                                                    }
+                                                    kind={
+                                                        this.state.manifest.type
+                                                    }
+                                                    role="status"
+                                                    statusIconDescription="notification"
+                                                    subtitle={item}
+                                                    title="Serenity Migration"
+                                                />
+                                                <br />
+                                            </>
+                                        )
                                     )}
-                                    <br />
+                                    {this.state.play_on && (
+                                        <>
+                                            <ProgressBar
+                                                className={
+                                                    'progress-' +
+                                                    this.state.manifest.type
+                                                }
+                                                value={this.state.progress}
+                                                max={
+                                                    1000 *
+                                                    this.state.controls
+                                                        .event_speed
+                                                }
+                                                status="active"
+                                                label=""
+                                            />
+                                            <br />
+                                        </>
+                                    )}
                                     <Callout
                                         title=""
                                         titleId="add-your"
@@ -541,6 +557,23 @@ class MigrationPage extends React.Component {
                                     </Callout>
                                 </div>
                             )}
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <Button
+                                size="xs"
+                                kind="secondary"
+                                hasIconOnly
+                                renderIcon={Home}
+                                href="/"
+                                iconDescription="Home"
+                                style={{
+                                    position: 'fixed',
+                                    bottom: 32,
+                                    left: 32,
+                                }}
+                            />
                         </Column>
                         <Column
                             lg={4}

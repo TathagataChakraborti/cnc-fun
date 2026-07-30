@@ -13,12 +13,10 @@ from cnc.models.migration import (
 )
 
 
-def get_description(
-    date_object: date, manifests: list[MigrationManifest]
-) -> str | None:
+def get_description(date_object: date, manifests: list[MigrationManifest]) -> list[str]:
     manifest = next(filter(lambda x: x.date == date_object, manifests), None)
 
-    return manifest.description if manifest else None
+    return manifest.description if manifest else []
 
 
 def process_images(

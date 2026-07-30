@@ -1,110 +1,164 @@
 {
     "start_date": "2026-05-27",
-    "end_date": "2026-07-29",
+    "end_date": "2026-07-30",
     "manifests": [
         {
             "date": "2026-06-01",
-            "description": "HELLS WRATH have appeared on the radar. They are catching up.",
+            "description": [
+                "HELLS WRATH have appeared on the radar. They are catching up."
+            ],
             "type": "warning"
         },
         {
             "date": "2026-06-02",
-            "description": "We have entered the 50+ Forgotten zone! But our lead at the top is slipping away.",
+            "description": [
+                "We have entered the 50+ Forgotten zone! But our lead at the top is slipping away."
+            ],
             "type": "info"
         },
         {
             "date": "2026-06-05",
-            "description": "We change course and move to the left to accommodate our and our allies' dig lanes.",
+            "description": [
+                "We change course and move to the left to accommodate our and our allies' dig lanes."
+            ],
             "type": "info"
         },
         {
             "date": "2026-06-07",
-            "description": "\"Our ally has secured some good POI causing them to grow like mushrooms.\" -- CiC",
+            "description": [
+                "\"Our ally has secured some good POI causing them to grow like mushrooms.\" -- CiC"
+            ],
             "type": "warning"
         },
         {
             "date": "2026-06-09",
-            "description": "Pesky red dots have appeared, probably from Casino, to spy on us. But we move.",
+            "description": [
+                "Pesky red dots have appeared, probably from Casino, to spy on us. But we move."
+            ],
             "type": "warning"
         },
         {
             "date": "2026-06-11",
-            "description": "We have well and truly entered the satellite impact zone.",
+            "description": [
+                "We have well and truly entered the satellite impact zone."
+            ],
             "type": "info"
         },
         {
             "date": "2026-06-16",
-            "description": "Shiion_NOD and ArabianKnight202 lays waste on Forgotten bases to secure a high value Reactor. We are back!",
+            "description": [
+                "Shiion_NOD and ArabianKnight202 lays waste on Forgotten bases to secure a high value Reactor. We are back!"
+            ],
             "type": "success"
         },
         {
             "date": "2026-06-18",
-            "description": "Wrath has stolen a march on us but not for long. Our power grows.",
+            "description": [
+                "Wrath has stolen a march on us but not for long. Our power grows."
+            ],
             "type": "success"
         },
         {
             "date": "2026-06-20",
-            "description": "Our enemies have moved closer. CiC sounds the alarm to build up defense levels.",
+            "description": [
+                "Our enemies have moved closer. CiC sounds the alarm to build up defense levels."
+            ],
             "type": "warning"
         },
         {
             "date": "2026-07-01",
-            "description": "Two gigantic Tiberium POIs secured back to back. Our bases are growing at an unstoppable rate now.",
+            "description": [
+                "Two gigantic Tiberium POIs secured back to back. Our bases are growing at an unstoppable rate now."
+            ],
             "type": "success"
         },
         {
             "date": "2026-07-03",
-            "description": "BIG FUCKING REACTOR!!! We are unstoppable now!",
+            "description": [
+                "BIG FUCKING REACTOR!!! We are unstoppable now!"
+            ],
             "type": "success"
         },
         {
             "date": "2026-07-04",
-            "description": "Big reactor lost temporarily but eddi13131 and paladinstr8 team up to secure a Reactor-Tiberium double POI.",
+            "description": [
+                "Big reactor lost temporarily but eddi13131 and paladinstr8 team up to kill the ugliest of bases and secure a Reactor-Tiberium double POI."
+            ],
             "type": "success"
         },
         {
             "date": "2026-07-06",
-            "description": "The enemy has gathered on both sides. War looms.",
+            "description": [
+                "The enemy has gathered on both sides. War looms."
+            ],
             "type": "warning"
         },
         {
             "date": "2026-07-10",
-            "description": "There is a lull as the enemy retreats temporarily to secure high-value POIs.",
+            "description": [
+                "There is a lull as the enemy retreats temporarily to secure high-value POIs."
+            ],
             "type": "info"
         },
         {
             "date": "2026-07-17",
-            "description": "!!! WAR !!! The barbarians are at the gate.",
+            "description": [
+                "!!! WAR !!! The barbarians are at the gate."
+            ],
             "type": "error"
         },
         {
             "date": "2026-07-20",
-            "description": "\"The enemy wishes to cut us in half. Once both sides are in range they will surely attack.\" -- CiC",
+            "description": [
+                "\"The enemy wishes to cut us in half. Once both sides are in range they will surely attack.\" -- CiC"
+            ],
             "type": "error"
         },
         {
             "date": "2026-07-21",
-            "description": "The first skirmishes have occurred. Losses on both sides, as barlic1alan, effe3005, eddi13131, redmatch1, and Shiion_NOD lead the defense. Honors even on the first day. They have prepared well.",
+            "description": [
+                "The first skirmishes have occurred. Losses on both sides, as barlic1alan, effe3005, eddi13131, redmatch1, and Shiion_NOD lead the defense.",
+                "Honors even on the first day. They have prepared well."
+            ],
             "type": "error"
         },
         {
             "date": "2026-07-22",
-            "description": "HELLS WRATH, formerly our allies, has turned red as well.",
+            "description": [
+                "HELLS WRATH, formerly our allies, has turned red as well."
+            ],
             "type": "error"
         },
         {
             "date": "2026-07-23",
-            "description": "The enemy have sent their 2nd alliance to our sector and started attacking our 2nd alliance. HELLS WRATH has been ambushed in the middle by redmatch1. After a brief setback, oGunhand caps off a brilliant counter by finishing off GanjaMaster_PL. Absolute cinema.",
+            "description": [
+                "The enemy have sent their 2nd alliance to our sector and started attacking our 2nd alliance.",
+                "HELLS WRATH has been ambushed in the middle by redmatch1. A large chunk of enemy territory has been bitten off.",
+                "After a brief setback, oGunhand caps off a brilliant counter by finishing off GanjaMaster_PL. Absolute cinema."
+            ],
             "type": "error"
         },
         {
             "date": "2026-07-24",
-            "description": "HELLS WRATH, formerly our enemies, formerly our allies, have now turned purple.",
+            "description": [
+                "HELLS WRATH, formerly our enemies, formerly our allies, have now turned purple."
+            ],
             "type": "error"
         },
         {
             "date": "2026-07-26",
-            "description": "redmatch1, Shiion_NOD, and effe3005 team up to deliver a bloodbath for the enemy on the right flank. Armies have lined up on the left. Tension builds.",
+            "description": [
+                "redmatch1, Shiion_NOD, and effe3005 team up to deliver a bloodbath for the enemy on the right flank. Armies have lined up on the left. Tension builds."
+            ],
+            "type": "error"
+        },
+        {
+            "date": "2026-07-30",
+            "description": [
+                "effe3005 has been sleeping with his defenses exposed during a war, inviting a daring attack from the enemy.",
+                "ArabianKnight202, Shiion_NOD, Butchers_Sohn79, and 54Whiskey lead a total rout of the enemy on the right hand side.",
+                "redmatch1 and DarkLordDementia has joined the party on the right. The left flank of the enemy has been all but wiped out."
+            ],
             "type": "error"
         }
     ]

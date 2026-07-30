@@ -17,7 +17,7 @@ class EventType(StrEnum):
 
 class MigrationManifest(BaseModel):
     date: date
-    description: str
+    description: list[str] = []
     type: EventType = EventType.INFO
 
 
@@ -33,7 +33,7 @@ class Story(BaseModel):
     )
 
     date: date
-    description: str | None = None
+    description: list[str] = []
     snapshot: MatLike
     transform: MatLike | None = None
 

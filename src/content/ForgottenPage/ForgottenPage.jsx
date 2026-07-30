@@ -1,5 +1,10 @@
 import { useState } from 'react';
-import { LogoYoutube, Chemistry, Documentation } from '@carbon/icons-react';
+import {
+    LogoYoutube,
+    Chemistry,
+    Documentation,
+    EarthAmericasFilled,
+} from '@carbon/icons-react';
 import {
     Grid,
     Column,
@@ -83,6 +88,15 @@ const ForgottenPage = _ => {
                                     A song about The Forgotten
                                 </span>
                             </Button>
+                            <br />
+                            <Button
+                                size="xs"
+                                kind="secondary"
+                                hasIconOnly
+                                renderIcon={EarthAmericasFilled}
+                                href="/migration"
+                                iconDescription="Migration"
+                            />
                         </TabListVertical>
                         <TabPanels>
                             <TabPanel>
