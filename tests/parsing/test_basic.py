@@ -1,17 +1,15 @@
 from datetime import date, datetime
 
-from cnc.models.forgotten import FORGOTTEN, Report, Timeline
-from cnc.read_raw_data import read_raw_data
+from cnc.models.forgotten import FORGOTTEN
+from tests.parsing.main import TestParsing
 
 
-class TestParsing:
+class TestBasic(TestParsing):
     def setup_method(self) -> None:
-        date_object = date(year=2026, month=6, day=26)
+        super().setup_method()
 
-        self.timeline: Timeline = read_raw_data("../data/forgotten.xlsx")
-        self.filtered_timeline: Timeline = self.timeline.get_timeline_by_date(
-            date_object
-        )
+        date_object = date(year=2026, month=6, day=26)
+        self.filtered_timeline = self.timeline.get_timeline_by_date(date_object)
 
     def test_num_reports(self) -> None:
         assert len(self.timeline.reports) == 971
@@ -75,33 +73,3 @@ class TestParsing:
         assert event is not None and event.datetime == datetime(
             year=2026, month=5, day=29, hour=7, minute=19, second=19
         )
-
-    def test_legacy_with_neighborhood(self) -> None:
-        first_legacy_report: Report | None = None
-
-        for event in self.timeline.forgotten_attacks:
-            if event.is_legacy():
-                first_legacy_report = event.report
-                break
-
-        assert first_legacy_report is not None
-        assert first_legacy_report.datetime == datetime(
-            year=2026, month=5, day=29, hour=21, minute=59, second=16
-        )
-
-    def test_legacy_without_neighborhood(self) -> None:
-        first_legacy_report: Report | None = None
-
-        for event in self.timeline.forgotten_attacks:
-            if event.is_legacy(with_neighborhood=False):
-                first_legacy_report = event.report
-                break
-
-        assert first_legacy_report is not None
-        assert first_legacy_report.datetime == datetime(
-            year=2026, month=5, day=21, hour=18, minute=41, second=45
-        )
-
-    def test_jumping(self) -> None:
-        for report in self.timeline.reports:
-            print(f"{report.datetime}, {report.after_jump}")

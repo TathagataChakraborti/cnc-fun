@@ -87,7 +87,7 @@ class Base(BaseModel):
 
     @property
     def neighborhood_roughness(self) -> int:
-        return math.floor(self.num_bases_in_range / 10) or 1
+        return math.floor(self.active_bases / 10) or 1
 
 
 class Report(BaseModel):
@@ -100,10 +100,13 @@ class Report(BaseModel):
     def after_jump(self) -> list[JumpType]:
         jump_types: list[JumpType] = []
 
-        for base in self.state_of_the_union:
-            jump_types.extend(base.jumped_to_front)
+        if self.is_legacy(with_neighborhood=False):
+            jump_types.append(JumpType.INDETERMINATE)
+        else:
+            for base in self.state_of_the_union:
+                jump_types.extend(base.jumped_to_front)
 
-        return jump_types
+        return list(set(jump_types))
 
     def base_info(self, base_name: str) -> Base | None:
         return next(
@@ -174,11 +177,21 @@ class HeaderInfo(BaseModel):
 
 class ForgottenAttack(BaseModel):
     reports: list[Report] = []
+    jumped_to_front: list[JumpType] = []
 
     @property
     def report(self) -> Report:
         *_, first_report = iter(self.reports)
         return first_report
+
+    @property
+    def after_jump(self) -> list[JumpType]:
+        jump_types: list[JumpType] = []
+
+        for base in self.state_of_the_union:
+            jump_types.extend(base.jumped_to_front)
+
+        return list(set(jump_types))
 
     def base_info(self, name: str) -> Base | None:
         return self.report.base_info(base_name=name)
@@ -215,6 +228,14 @@ class ForgottenAttack(BaseModel):
 class Timeline(BaseModel):
     reports: list[Report] = []
     forgotten_attacks: list[ForgottenAttack] = []
+
+    def get_report_by_datetime(self, datetime: dt) -> Report | None:
+        return next(filter(lambda x: x.datetime == datetime, self.reports), None)
+
+    def get_event_by_datetime(self, datetime: dt) -> ForgottenAttack | None:
+        return next(
+            filter(lambda x: x.datetime == datetime, self.forgotten_attacks), None
+        )
 
     def get_timeline_by_date(self, date: d) -> Timeline:
         return Timeline(
@@ -284,6 +305,7 @@ def consolidate_timeline(
 
     for index in range(len(reports) + 1):
         if index == len(reports):
+            new_event.jumped_to_front = new_event.report.after_jump
             forgotten_attacks.append(new_event)
         else:
             report = reports[index]
@@ -294,7 +316,19 @@ def consolidate_timeline(
                 consolidate = False
 
             if not consolidate:
+                new_event.jumped_to_front = new_event.report.after_jump
+
+                for r in new_event.reports:
+                    if (
+                        r != new_event.report
+                        and r.after_jump
+                        and r.after_jump != [JumpType.INDETERMINATE]
+                    ):
+                        new_event.jumped_to_front.append(JumpType.INTRA_EVENT)
+                        break
+
                 forgotten_attacks.append(new_event)
+
                 new_event = ForgottenAttack()
                 consolidate = True
 
@@ -317,19 +351,31 @@ def consolidate_timeline(
                     )
 
                     if base.active_bases - previous_active_bases >= jump_threshold:
-                        base.jumped_to_front.append(JumpType.JUMP_TO_FRONT)
+                        base.jumped_to_front.extend(
+                            [JumpType.JUMP_TO_FRONT, JumpType.ANY_MOVEMENT]
+                        )
 
-                    elif base.active_bases != previous_active_bases:
+                    if previous_active_bases - base.active_bases >= 2 * jump_threshold:
                         base.jumped_to_front.append(JumpType.ANY_MOVEMENT)
 
-                    elif (
-                        previous_base_info is not None
-                        and base.neighborhood_roughness
+                    if previous_base_info is not None and (
+                        base.neighborhood_roughness
                         > previous_base_info.neighborhood_roughness
                     ):
                         base.jumped_to_front.append(JumpType.WAVE_CHANGE)
 
+                base.jumped_to_front = list(set(base.jumped_to_front))
+
             new_event.reports.append(report)
             reference_time = report.datetime
+
+    for index, event in enumerate(forgotten_attacks):
+        if not event.jumped_to_front:
+            if index + 1 < len(forgotten_attacks):
+                previous_event = forgotten_attacks[index + 1]
+
+                if JumpType.INTRA_EVENT in previous_event.jumped_to_front:
+                    event.jumped_to_front = previous_event.jumped_to_front
+                    event.jumped_to_front.remove(JumpType.INTRA_EVENT)
 
     return forgotten_attacks
