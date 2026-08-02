@@ -52,3 +52,20 @@
 .panel-padding {
     padding: 0;
 }
+
+.fg-attack-selected > .cds--contained-list-item__content {
+    color: colors.$blue-60;
+}
+
+.fg-attack-selected .square-tag {
+    background-color: colors.$blue-10;
+    color: colors.$blue-60;
+}
+
+.note-reference {
+    color: colors.$red-60;
+}
+
+.p-value-tag {
+    width: 150px;
+}

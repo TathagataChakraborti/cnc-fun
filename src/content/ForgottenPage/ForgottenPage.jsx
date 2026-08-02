@@ -20,6 +20,7 @@ import {
 
 import { DailyDistribution } from './DailyDistribution';
 import { MonthlyDistribution } from './MonthlyDistribution';
+import { JumpAnalysis } from './JumpAnalysis';
 
 import { ModalContentDisclaimer } from './Disclaimer';
 import { HypothesisModalContent } from './Hypothesis';
@@ -32,7 +33,7 @@ const ForgottenPage = _ => {
         <Grid className="top-relief">
             <Column lg={14} md={4} sm={4}>
                 <Theme theme="g10">
-                    <TabsVertical defaultSelectedIndex={0} height="90vh">
+                    <TabsVertical defaultSelectedIndex={2} height="90vh">
                         <TabListVertical size="lg" className="bottomless">
                             <Tab>Forgotten activity per time of day</Tab>
                             <Tab>Forgotten activity over time</Tab>
@@ -105,7 +106,9 @@ const ForgottenPage = _ => {
                             <TabPanel>
                                 <MonthlyDistribution />
                             </TabPanel>
-                            <TabPanel></TabPanel>
+                            <TabPanel>
+                                <JumpAnalysis />
+                            </TabPanel>
                             <TabPanel></TabPanel>
                             <TabPanel></TabPanel>
                             <TabPanel></TabPanel>

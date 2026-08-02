@@ -121,5 +121,25 @@
             "redmatch1 and DarkLordDementia has joined the party on the right. The left flank of the enemy has been all but wiped out."
         ],
         "type": "error"
+    },
+    {
+        "date": "2026-07-31",
+        "description": [
+            "War breaks out finally on the left flank. paladinstr8 tastes pvp for the first time after waiting here patiently for a week. Many shots back and forth. Could not finish the kill but could not be killed either. Support weapons too strong. Many lessons."
+        ],
+        "type": "error"
+    },
+    {
+        "date": "2026-08-01",
+        "description": [
+            "Shiion_NOD, redmatch1, Butchers_Sohn79, TheDiabolos, DarkLordDementia, and PatrickStar1991 lead an absolute rout of the enemy on the left.",
+            "paladinstr8 went for lunch and missed the jump, after being sat here for so long. Wish could have contributed more. Next time..."
+        ],
+        "type": "error"
+    },
+    {
+        "date": "2026-08-02",
+        "description": ["!!! TOTAL VICTORY !!!"],
+        "type": "success"
     }
 ]

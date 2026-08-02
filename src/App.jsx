@@ -46,13 +46,9 @@ class App extends Component {
                             className={
                                 activeRoute === '/migration' ? 'dim-tile' : ''
                             }>
-                            I build stuff that sparks joy! I am trying to start
-                            a new life as a freelance developer.
-                            <br />
-                            <br />
-                            If this app has sparked joy in you, and you would
-                            like to support my journey, consider buying me a
-                            coffee!
+                            I build stuff that sparks joy! If this app has
+                            sparked joy in you, and you would like to support my
+                            journey, consider buying me a coffee!
                             <br />
                             <br />
                             <BuyMeACoffeeButton />

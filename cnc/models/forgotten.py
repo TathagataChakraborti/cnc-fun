@@ -9,11 +9,11 @@ from enum import StrEnum, auto
 from statistics import fmean
 
 from openpyxl.worksheet.worksheet import Worksheet
-from pydantic import BaseModel
+from pydantic import BaseModel, computed_field
 
 
 class JumpType(StrEnum):
-    JUMP_TO_FRONT = auto()
+    JUMP_FORWARD = auto()
     ANY_MOVEMENT = auto()
     WAVE_CHANGE = auto()
     INTRA_EVENT = auto()
@@ -86,6 +86,7 @@ class Base(BaseModel):
         return sum([neighbor.how_many for neighbor in self.neighborhood])
 
     @property
+    @computed_field
     def neighborhood_roughness(self) -> int:
         return math.floor(self.active_bases / 10) or 1
 
@@ -352,7 +353,7 @@ def consolidate_timeline(
 
                     if base.active_bases - previous_active_bases >= jump_threshold:
                         base.jumped_to_front.extend(
-                            [JumpType.JUMP_TO_FRONT, JumpType.ANY_MOVEMENT]
+                            [JumpType.JUMP_FORWARD, JumpType.ANY_MOVEMENT]
                         )
 
                     if previous_active_bases - base.active_bases >= 2 * jump_threshold:
