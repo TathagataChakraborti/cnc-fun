@@ -79,15 +79,17 @@ const OddsRatio = props => {
                 <Button
                     kind="secondary"
                     size="xs"
-                    iconDescription="K-S Test Result"
+                    iconDescription="Fisher's Exact Test Result"
                     hasIconOnly
                     renderIcon={InformationSquareFilled}
+                    href="https://en.wikipedia.org/wiki/Fisher%27s_exact_test"
+                    target="_blank"
                 />
             </div>
             <br />
 
             <div style={{ display: 'flex' }}>
-                <Tag className="square-tag p-value-tag">Chi-Square Test</Tag>
+                <Tag className="square-tag p-value-tag">Chi-Squared Test</Tag>
                 <Tag
                     className="square-tag"
                     type={res.rightPValue < 0.05 ? 'magenta' : 'green'}>
@@ -96,9 +98,11 @@ const OddsRatio = props => {
                 <Button
                     kind="secondary"
                     size="xs"
-                    iconDescription="K-S Test Result"
+                    iconDescription="Chi-Squared Test Result"
                     hasIconOnly
                     renderIcon={InformationSquareFilled}
+                    href="https://en.wikipedia.org/wiki/Chi-squared_test"
+                    target="_blank"
                 />
             </div>
         </>

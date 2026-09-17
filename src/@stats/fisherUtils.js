@@ -1,4 +1,5 @@
 /**
+ * AI-generated
  * Fisher's Exact Test (One-Tailed: Right/Upper Tail)
  *
  * Matrix Layout:
@@ -60,50 +61,4 @@ export function fisherExactRightTail(a, b, c, d) {
     rightPValue = Math.min(1, Math.max(0, rightPValue));
 
     return { oddsRatio, rightPValue };
-}
-
-// ==========================================
-// EXAMPLE WORKFLOW
-// ==========================================
-
-// Input data
-const eventATimestamps = [10, 45, 60, 115, 130, 185, 200, 250, 262, 310];
-const eventBOccurred = [
-    false,
-    true,
-    false,
-    false,
-    true,
-    false,
-    false,
-    true,
-    false,
-];
-
-// 1. Calculate intervals
-const intervals = [];
-for (let i = 0; i < eventATimestamps.length - 1; i++) {
-    intervals.push(eventATimestamps[i + 1] - eventATimestamps[i]);
-}
-
-// 2. Calculate median threshold
-const sorted = [...intervals].sort((x, y) => x - y);
-const mid = Math.floor(sorted.length / 2);
-const medianDuration =
-    sorted.length % 2 !== 0 ? sorted[mid] : (sorted[mid - 1] + sorted[mid]) / 2;
-
-// 3. Construct (a, b, c, d) matching the table structure
-let a = 0; // Row 1, Col 1: Event B = Yes, Interval = Short
-let b = 0; // Row 1, Col 2: Event B = Yes, Interval = Long
-let c = 0; // Row 2, Col 1: Event B = No,  Interval = Short
-let d = 0; // Row 2, Col 2: Event B = No,  Interval = Long
-
-for (let i = 0; i < intervals.length; i++) {
-    const isShort = intervals[i] < medianDuration;
-    const hasB = eventBOccurred[i];
-
-    if (hasB && isShort) a++;
-    else if (hasB && !isShort) b++;
-    else if (!hasB && isShort) c++;
-    else if (!hasB && !isShort) d++;
 }

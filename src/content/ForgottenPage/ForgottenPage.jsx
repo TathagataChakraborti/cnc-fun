@@ -16,6 +16,7 @@ import {
     Theme,
     Button,
     Modal,
+    Tag,
 } from '@carbon/react';
 
 import { DailyDistribution } from './DailyDistribution';
@@ -33,7 +34,7 @@ const ForgottenPage = _ => {
         <Grid className="top-relief">
             <Column lg={14} md={4} sm={4}>
                 <Theme theme="g10">
-                    <TabsVertical defaultSelectedIndex={2} height="90vh">
+                    <TabsVertical defaultSelectedIndex={3} height="90vh">
                         <TabListVertical size="lg" className="bottomless">
                             <Tab>Forgotten activity per time of day</Tab>
                             <Tab>Forgotten activity over time</Tab>
@@ -46,8 +47,39 @@ const ForgottenPage = _ => {
                             <Tab>
                                 Honeypot II - Forgotten level versus numbers
                             </Tab>
-                            <Tab>Honeypot III - Attractor plots</Tab>
-                            <Tab>A production model for forgotten attacks</Tab>
+                            <Tab disabled className="flex-tab">
+                                <span>Honeypot III - Attractor plots</span>
+                                <Tag
+                                    className="square-tag"
+                                    size="sm"
+                                    role="status"
+                                    type="cool-gray"
+                                    aria-label="">
+                                    Coming Soon
+                                </Tag>
+                            </Tab>
+                            <Tab disabled className="flex-tab">
+                                <span>A production model for FG attacks</span>
+                                <div>
+                                    <Tag
+                                        style={{ marginRight: '10px' }}
+                                        className="square-tag"
+                                        size="sm"
+                                        role="status"
+                                        type="purple"
+                                        aria-label="">
+                                        AI
+                                    </Tag>
+                                    <Tag
+                                        className="square-tag"
+                                        size="sm"
+                                        role="status"
+                                        type="cool-gray"
+                                        aria-label="">
+                                        Coming Soon
+                                    </Tag>
+                                </div>
+                            </Tab>
 
                             <img
                                 alt="serenity"
@@ -111,8 +143,8 @@ const ForgottenPage = _ => {
                             </TabPanel>
                             <TabPanel></TabPanel>
                             <TabPanel></TabPanel>
-                            <TabPanel></TabPanel>
-                            <TabPanel></TabPanel>
+                            <TabPanel />
+                            <TabPanel />
                         </TabPanels>
                     </TabsVertical>
 

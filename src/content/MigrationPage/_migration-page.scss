@@ -40,6 +40,11 @@
     background-color: colors.$blue-20;
 }
 
+.cds--toast-notification__title,
+.cds--actionable-notification__title {
+    padding-bottom: 10px;
+}
+
 .dim-notification .cds--toast-notification__subtitle {
     color: colors.$gray-10;
 }

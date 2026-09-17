@@ -5712,6 +5712,7 @@ __metadata:
     react-github-btn: ^1.4.0
     react-router-dom: ^5.0.0
     sass: ^1.101.0
+    simple-statistics: 7.12.0
     vite: ^8.1.0
   languageName: unknown
   linkType: soft
@@ -9230,6 +9231,13 @@ __metadata:
   version: 3.0.7
   resolution: "signal-exit@npm:3.0.7"
   checksum: a2f098f247adc367dffc27845853e9959b9e88b01cb301658cfe4194352d8d2bb32e18467c786a7fe15f1d44b233ea35633d076d5e737870b7139949d1ab6318
+  languageName: node
+  linkType: hard
+
+"simple-statistics@npm:7.12.0":
+  version: 7.12.0
+  resolution: "simple-statistics@npm:7.12.0"
+  checksum: a57c8669046cf219d26eaa9dfa25e2cff6f05dfa76ec8c83f5251c4599d32bca883df2fbb674922cb8c606213b0c56a0cb27e3be14a432ab2b8056fb815bd1ec
   languageName: node
   linkType: hard
 
