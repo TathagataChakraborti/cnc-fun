@@ -16,6 +16,7 @@
     "@carbon/styles": "^1.33.1",
     "@stdlib/stats-kstest": "0.2.3",
     "@vitejs/plugin-react": "^6.0.3",
+    "fishers-exact-test": "1.0.5",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
     "react-github-btn": "^1.4.0",

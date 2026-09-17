@@ -71,6 +71,70 @@ const filter_data_by_jump_type = (data, state) =>
 const filter_data = (data, fg_types, jump_type) =>
     filter_data_by_jump_type(filter_data_by_fg_type(data, fg_types), jump_type);
 
+const tableConstructor_1 = (data, fg_types, jump_type) => {
+    const all_intervals = data.map(item => item.interval);
+    const mean_interval =
+        all_intervals.reduce((sum, value) => sum + value, 0) /
+        all_intervals.length;
+
+    const tmp_data = filter_data_by_jump_type(data, jump_type);
+
+    return {
+        title: fg_types.join(', ') + ' attacks',
+        total: data.length,
+        headers: [
+            {
+                row: 0,
+                column: 1,
+                value: 'Interval is shorter than average',
+            },
+            {
+                row: 0,
+                column: 2,
+                value: 'Interval is longer than average',
+            },
+            {
+                row: 1,
+                column: 0,
+                value: 'Jump occurred',
+            },
+            {
+                row: 2,
+                column: 0,
+                value: 'Jump did NOT occur',
+            },
+        ],
+        data: [
+            {
+                row: 1,
+                column: 1,
+                value: tmp_data.filter(item => item.interval <= mean_interval)
+                    .length,
+            },
+            {
+                row: 1,
+                column: 2,
+                value: tmp_data.filter(item => item.interval > mean_interval)
+                    .length,
+            },
+            {
+                row: 2,
+                column: 1,
+                value: data
+                    .filter(item => !tmp_data.includes(item))
+                    .filter(item => item.interval <= mean_interval).length,
+            },
+            {
+                row: 2,
+                column: 2,
+                value: data
+                    .filter(item => !tmp_data.includes(item))
+                    .filter(item => item.interval > mean_interval).length,
+            },
+        ],
+    };
+};
+
 class JumpAnalysis extends React.Component {
     constructor(props) {
         super(props);
@@ -150,6 +214,14 @@ class JumpAnalysis extends React.Component {
     }
 
     render() {
+        const table_1 = tableConstructor_1(
+            this.state.data_1,
+            this.state.selected_fg_type,
+            this.state.selected_jump_type
+        );
+
+        console.log(1222, this.state.data_1, table_1);
+
         return (
             <Grid>
                 <Column lg={6} md={8} sm={4}>
@@ -231,34 +303,10 @@ class JumpAnalysis extends React.Component {
                 <Column lg={8} md={8} sm={4}>
                     <Grid>
                         <Column lg={4} md={4} sm={4}>
-                            <OddsRatio
-                                props={{
-                                    data: this.state.data_1,
-                                    type: this.state.selected_fg_type.join(
-                                        ', '
-                                    ),
-                                    headers: {
-                                        0: {
-                                            header:
-                                                'Interval is shorter than average',
-                                        },
-                                        1: {
-                                            header:
-                                                'Interval is longer than average',
-                                        },
-                                        2: {
-                                            header: 'FG attack occurred',
-                                        },
-                                        3: {
-                                            header: 'FG attack did NOT occur',
-                                        },
-                                    },
-                                    notes: [],
-                                }}
-                            />
+                            <OddsRatio data={table_1} />
                         </Column>
                         <Column lg={4} md={4} sm={4}>
-                            <OddsRatio
+                            {/* <OddsRatio
                                 props={{
                                     data: this.state.data_2,
                                     type: this.state.selected_fg_type.join(
@@ -285,7 +333,7 @@ class JumpAnalysis extends React.Component {
                                     },
                                     notes: ['Under a random baseline'],
                                 }}
-                            />
+                            /> */}
                         </Column>
                         <Column lg={8} md={4} sm={4}>
                             <br />

@@ -5462,6 +5462,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"big.js@npm:^6.1.1":
+  version: 6.2.2
+  resolution: "big.js@npm:6.2.2"
+  checksum: 3659092d155d01338f21a01a46a93aa343d25e83bce55700005a46eec27d90fe56abd3b3edde742f16fbc5fee31b4c572b6821a595c1c180392b60b469fcda54
+  languageName: node
+  linkType: hard
+
 "brace-expansion@npm:^1.1.7":
   version: 1.1.15
   resolution: "brace-expansion@npm:1.1.15"
@@ -5694,6 +5701,7 @@ __metadata:
     "@commitlint/config-conventional": ^7.5.0
     "@stdlib/stats-kstest": 0.2.3
     "@vitejs/plugin-react": ^6.0.3
+    fishers-exact-test: 1.0.5
     gh-pages: ^5.0.0
     husky: ^1.3.1
     lint-staged: ^14.0.0
@@ -6696,6 +6704,15 @@ __metadata:
     locate-path: ^6.0.0
     path-exists: ^4.0.0
   checksum: 07955e357348f34660bde7920783204ff5a26ac2cafcaa28bace494027158a97b9f56faaf2d89a6106211a8174db650dd9f503f9c0d526b1202d5554a00b9095
+  languageName: node
+  linkType: hard
+
+"fishers-exact-test@npm:1.0.5":
+  version: 1.0.5
+  resolution: "fishers-exact-test@npm:1.0.5"
+  dependencies:
+    big.js: ^6.1.1
+  checksum: e5c9804b7e66c6cb58c18fb0eca78a7b20bfd4fa591f8253dc71679994855a3599839c580b07d065004d1fa98a3a274829cc17a2bb8f95008a48a62308e9a57c
   languageName: node
   linkType: hard
 

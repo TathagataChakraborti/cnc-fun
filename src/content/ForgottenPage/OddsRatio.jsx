@@ -7,13 +7,22 @@ import {
     Tag,
     Button,
 } from '@carbon/react';
-import { InformationSquareFilled } from '@carbon/icons-react';
 
-const cell_constructor = (headers, index) => (
-    <StructuredListCell head>{headers[index].header}</StructuredListCell>
+import { InformationSquareFilled } from '@carbon/icons-react';
+import { fisherExactRightTail } from '../../@stats/fisherUtils';
+import { chiSquareTest2x2 } from '../../@stats/chiSquareUtils';
+
+const cell_constructor = (data, i, j) => (
+    <StructuredListCell head>
+        {data.find(item => item.row === i && item.column === j).value}
+    </StructuredListCell>
 );
 
 const OddsRatio = props => {
+    const [a, b, c, d] = props.data.data.map(item => item.value);
+    const { _, rightPValue } = fisherExactRightTail(a, b, c, d);
+    const res = chiSquareTest2x2(a, b, c, d);
+
     return (
         <>
             <StructuredListWrapper isFlush isCondensed>
@@ -21,28 +30,36 @@ const OddsRatio = props => {
                     <StructuredListRow head>
                         <StructuredListCell>
                             <span className="note note-reference">
-                                {props.props.data.length}
+                                {props.data.total}
                             </span>{' '}
-                            {props.props.type} Attacks
+                            {props.data.title}
                         </StructuredListCell>
-                        {cell_constructor(props.props.headers, 0)}
-                        {cell_constructor(props.props.headers, 1)}
+                        {cell_constructor(props.data.headers, 0, 1)}
+                        {cell_constructor(props.data.headers, 0, 2)}
                     </StructuredListRow>
                 </StructuredListHead>
                 <StructuredListBody>
                     <StructuredListRow>
-                        {cell_constructor(props.props.headers, 2)}
-                        <StructuredListCell></StructuredListCell>
-                        <StructuredListCell></StructuredListCell>
+                        {cell_constructor(props.data.headers, 1, 0)}
+                        <StructuredListCell>
+                            {cell_constructor(props.data.data, 1, 1)}
+                        </StructuredListCell>
+                        <StructuredListCell>
+                            {cell_constructor(props.data.data, 1, 2)}
+                        </StructuredListCell>
                     </StructuredListRow>
                     <StructuredListRow>
-                        {cell_constructor(props.props.headers, 3)}
-                        <StructuredListCell></StructuredListCell>
-                        <StructuredListCell></StructuredListCell>
+                        {cell_constructor(props.data.headers, 2, 0)}
+                        <StructuredListCell>
+                            {cell_constructor(props.data.data, 2, 1)}
+                        </StructuredListCell>
+                        <StructuredListCell>
+                            {cell_constructor(props.data.data, 2, 2)}
+                        </StructuredListCell>
                     </StructuredListRow>
                 </StructuredListBody>
             </StructuredListWrapper>
-            {props.props.notes.map((item, index) => (
+            {(props.data.notes || []).map((item, index) => (
                 <div key={index} className="note">
                     <span className="note-reference">*</span>
                     {item}
@@ -56,8 +73,8 @@ const OddsRatio = props => {
                 </Tag>
                 <Tag
                     className="square-tag"
-                    type={0.05 < 0.05 ? 'magenta' : 'green'}>
-                    0.05
+                    type={rightPValue < 0.05 ? 'magenta' : 'green'}>
+                    {rightPValue.toFixed(2)}
                 </Tag>
                 <Button
                     kind="secondary"
@@ -73,8 +90,8 @@ const OddsRatio = props => {
                 <Tag className="square-tag p-value-tag">Chi-Square Test</Tag>
                 <Tag
                     className="square-tag"
-                    type={0.05 < 0.05 ? 'magenta' : 'green'}>
-                    0.05
+                    type={res.rightPValue < 0.05 ? 'magenta' : 'green'}>
+                    {res.rightPValue.toFixed(2)}
                 </Tag>
                 <Button
                     kind="secondary"

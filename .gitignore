@@ -187,3 +187,4 @@ cython_debug/
 !.yarn/releases
 
 data/~$forgotten.xlsx
+data/migration*

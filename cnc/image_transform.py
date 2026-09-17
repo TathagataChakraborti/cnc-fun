@@ -68,7 +68,7 @@ def process_images(
 
 if __name__ == "__main__":
     migration_data = process_images(
-        path_to_images="../data/migration",
+        path_to_images="../data/migration-72",
         path_to_manifest="../data/migration_manifest.json",
         # path_to_model="../data/FSRCNN_x4.pb"
     )

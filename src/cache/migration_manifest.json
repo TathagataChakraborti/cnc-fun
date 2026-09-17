@@ -1,6 +1,6 @@
 {
     "start_date": "2026-05-27",
-    "end_date": "2026-08-02",
+    "end_date": "2026-09-17",
     "manifests": [
         {
             "date": "2026-06-01",
@@ -157,14 +157,14 @@
             "description": [
                 "effe3005 has been sleeping with his defenses exposed during a war, inviting a daring attack from the enemy.",
                 "ArabianKnight202, Shiion_NOD, Butchers_Sohn79, and 54Whiskey lead a total rout of the enemy on the right hand side.",
-                "redmatch1 and DarkLordDementia has joined the party on the right. The left flank of the enemy has been all but wiped out."
+                "redmatch1 and DarkLordDementia has joined the party on the right. The right flank of the enemy has been all but wiped out."
             ],
             "type": "error"
         },
         {
             "date": "2026-07-31",
             "description": [
-                "War breaks out finally on the left flank. paladinstr8 tastes pvp for the first time after waiting here patiently for a week. Many shots back and forth. Could not finish the kill but could not be killed either. Support weapons too strong. Many lessons."
+                "War breaks out finally on the left flank. paladinstr8 tastes pvp for the first time after waiting here patiently for a week. Many shots back and forth. Could not finish the kill but could not be killed either, although peregrine16 has perished in the melee. Support weapons too strong on both sides. Many lessons."
             ],
             "type": "error"
         },
@@ -172,7 +172,7 @@
             "date": "2026-08-01",
             "description": [
                 "Shiion_NOD, redmatch1, Butchers_Sohn79, TheDiabolos, DarkLordDementia, and PatrickStar1991 lead an absolute rout of the enemy on the left.",
-                "paladinstr8 went for lunch and missed the jump, after being sat here for so long. Wish could have contributed more. Next time..."
+                "paladinstr8, after being sat here for so long, went for lunch and missed the jump. Omnishambles..."
             ],
             "type": "error"
         },
@@ -180,6 +180,28 @@
             "date": "2026-08-02",
             "description": [
                 "!!! TOTAL VICTORY !!!"
+            ],
+            "type": "success"
+        },
+        {
+            "date": "2026-08-05",
+            "description": [
+                "A member of the enemy, FrynoX2410, has relocated to our sector and is attacking our 2nd alliance."
+            ],
+            "type": "error"
+        },
+        {
+            "date": "2026-08-09",
+            "description": [
+                "FrynoX2410 remains a pesky nuisance.",
+                "Eagle Fang alliance, having done fuck all during the war, now demand 3rd place, leading to a cessation of our prevailing non-aggression pact. More trouble ahead."
+            ],
+            "type": "error"
+        },
+        {
+            "date": "2026-08-14",
+            "description": [
+                "Butchers_Sohn79 has had his final meltdown and gotten himself kicked from the alliance. Inevitable. :D"
             ],
             "type": "success"
         }
