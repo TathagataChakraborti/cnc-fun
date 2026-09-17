@@ -156,5 +156,33 @@
         "date": "2026-08-14",
         "description": ["Butchers_Sohn79 has had his final meltdown and gotten himself kicked from the alliance. Inevitable. :D"],
         "type": "success"
+    },
+    {
+        "date": "2026-08-28",
+        "description": ["We have now occupied the center."],
+        "type": "info"
+    },
+    {
+        "date": "2026-09-04",
+        "description": ["The timer has started! Prep has begun for the attack on the fortress."],
+        "type": "info"
+    },
+    {
+        "date": "2026-09-06",
+        "description": ["Today we received the tragic news that our brother (zib64/igor) has died. He passed away in his sleep on September 2nd. zib64 was part of our core team for over 8 years. He now has followed our brother peadawg to a more peaceful place. May our Russian and American brothers rest in peace."],
+        "type": "none"
+    },
+    {
+        "date": "2026-09-12",
+        "description": [
+            "We have met the enemy again from the other side. Because the earth is round.",
+            "Initial skirmishes have broken out. A couple of our players have had arobthh and jumped in without backup or proper pvp setup. CiC is miffed at clown-show."
+        ],
+        "type": "error"
+    },
+    {
+        "date": "2026-09-13",
+        "description": ["The enemy has relocated a lot of players to our sector and are attacking our 2nd and 3rd alliances. This includes players from Casino and our own cry baby clown from Austria."],
+        "type": "error"
     }
 ]

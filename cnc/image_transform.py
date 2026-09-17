@@ -6,6 +6,7 @@ from pathlib import Path
 import cv2
 
 from cnc.models.migration import (
+    EventType,
     MigrationData,
     MigrationManifest,
     MigrationMetadata,
@@ -13,10 +14,22 @@ from cnc.models.migration import (
 )
 
 
+def get_manifest(
+    date_object: date, manifests: list[MigrationManifest]
+) -> MigrationManifest | None:
+    return next(filter(lambda x: x.date == date_object, manifests), None)
+
+
 def get_description(date_object: date, manifests: list[MigrationManifest]) -> list[str]:
-    manifest = next(filter(lambda x: x.date == date_object, manifests), None)
+    manifest = get_manifest(date_object, manifests)
 
     return manifest.description if manifest else []
+
+
+def is_grayscale(date_object: date, manifests: list[MigrationManifest]) -> bool:
+    manifest = get_manifest(date_object, manifests)
+
+    return manifest.type == EventType.NONE if manifest else False
 
 
 def process_images(
@@ -46,11 +59,17 @@ def process_images(
         if metadata.end_date is None or metadata.end_date < date_object:
             metadata.end_date = date_object
 
-        image = cv2.imread(item)
+        description = get_description(date_object, metadata.manifests)
+        none_check = is_grayscale(date_object, metadata.manifests)
+
+        image = cv2.imread(
+            item, cv2.IMREAD_GRAYSCALE if none_check else cv2.IMREAD_COLOR
+        )
+
         new_story = Story(
             date=date_object,
             snapshot=image,
-            description=get_description(date_object, metadata.manifests),
+            description=description,
         )
 
         new_story.make_transform(

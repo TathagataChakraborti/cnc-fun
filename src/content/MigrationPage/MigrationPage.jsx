@@ -497,6 +497,12 @@ class MigrationPage extends React.Component {
                                                     kind={
                                                         this.state.manifest.type
                                                     }
+                                                    className={
+                                                        this.state.manifest
+                                                            .type === 'none'
+                                                            ? 'dim-notification'
+                                                            : ''
+                                                    }
                                                     role="status"
                                                     statusIconDescription="notification"
                                                     subtitle={item}

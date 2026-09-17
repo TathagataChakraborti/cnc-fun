@@ -39,3 +39,7 @@
     border: none;
     background-color: colors.$blue-20;
 }
+
+.dim-notification .cds--toast-notification__subtitle {
+    color: colors.$gray-10;
+}

@@ -13,6 +13,7 @@ class EventType(StrEnum):
     INFO = auto()
     SUCCESS = auto()
     WARNING = auto()
+    NONE = auto()
 
 
 class MigrationManifest(BaseModel):
