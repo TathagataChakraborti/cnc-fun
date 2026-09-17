@@ -37,7 +37,7 @@ class TestMovement(TestParsing):
         for base in first_jumpy_report.state_of_the_union:
             if base.name in ["New York", "Edinburgh"]:
                 assert set(base.jumped_to_front) == {
-                    JumpType.JUMP_TO_FRONT,
+                    JumpType.JUMP_FORWARD,
                     JumpType.ANY_MOVEMENT,
                 }
             else:
@@ -50,7 +50,7 @@ class TestMovement(TestParsing):
 
         assert report is not None
         assert set(report.after_jump) == {
-            JumpType.JUMP_TO_FRONT,
+            JumpType.JUMP_FORWARD,
             JumpType.ANY_MOVEMENT,
             JumpType.WAVE_CHANGE,
         }
@@ -61,7 +61,7 @@ class TestMovement(TestParsing):
 
         assert report is not None
         assert set(report.after_jump) == {
-            JumpType.JUMP_TO_FRONT,
+            JumpType.JUMP_FORWARD,
             JumpType.ANY_MOVEMENT,
             JumpType.WAVE_CHANGE,
         }
@@ -75,7 +75,7 @@ class TestMovement(TestParsing):
 
         assert base_info is not None
         assert set(base_info.jumped_to_front) == {
-            JumpType.JUMP_TO_FRONT,
+            JumpType.JUMP_FORWARD,
             JumpType.ANY_MOVEMENT,
             JumpType.WAVE_CHANGE,
         }
@@ -90,7 +90,7 @@ class TestMovement(TestParsing):
 
         assert base_info is not None
         assert set(base_info.jumped_to_front) == {
-            JumpType.JUMP_TO_FRONT,
+            JumpType.JUMP_FORWARD,
             JumpType.ANY_MOVEMENT,
             JumpType.WAVE_CHANGE,
         }
@@ -127,7 +127,7 @@ class TestMovement(TestParsing):
 
         assert event is not None
         assert set(event.jumped_to_front) == {
-            JumpType.JUMP_TO_FRONT,
+            JumpType.JUMP_FORWARD,
             JumpType.ANY_MOVEMENT,
             JumpType.WAVE_CHANGE,
         }

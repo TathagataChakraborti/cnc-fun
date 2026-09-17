@@ -85,8 +85,8 @@ class Base(BaseModel):
     def num_bases_in_range(self) -> int:
         return sum([neighbor.how_many for neighbor in self.neighborhood])
 
+    @computed_field  # type: ignore
     @property
-    @computed_field
     def neighborhood_roughness(self) -> int:
         return math.floor(self.active_bases / 10) or 1
 
