@@ -4,8 +4,5 @@
 
 [![cnc-fun run all tests](https://github.com/TathagataChakraborti/cnc-fun/actions/workflows/run-all-tests.yaml/badge.svg)](https://github.com/TathagataChakraborti/cnc-fun/actions/workflows/run-all-tests.yaml)
 
-## Tracking Cadence of Forgotten Attacks
-
-## Migration of our Alliance
-
-`coming soon`
+- Tracking Cadence of Forgotten Attacks: https://cnc-fun.web.app
+- Migration of our Alliance: https://cnc-fun.web.app/migration
