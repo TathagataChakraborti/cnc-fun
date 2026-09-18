@@ -24,13 +24,6 @@ const hypothesis_list = [
         outcome: false,
     },
     {
-        hypothesis:
-            'You can put bases in vulnerable positions to act as decoys.',
-        who: '--',
-        status: true,
-        outcome: true,
-    },
-    {
         hypothesis: 'A base being attacked can get angry and attack back!',
         who: 'paladinstr8',
         status: false,
@@ -43,14 +36,21 @@ const hypothesis_list = [
     },
     {
         hypothesis:
-            'Number of waves and not the absolute number of Forgotten bases in range determine the probability of attack.',
-        who: 'paladinstr8',
+            'Number of waves a base is in and the number of Forgotten bases in its range determine the probability of attack on it from a Forgotten base.',
+        who: '--',
         status: true,
         outcome: true,
     },
     {
         hypothesis:
-            'The absolute number and waves, and not the level, of forgotten bases in range determines the probability of attack.',
+            'You can put bases in vulnerable positions to act as decoys.',
+        who: '--',
+        status: true,
+        outcome: true,
+    },
+    {
+        hypothesis:
+            'The level of Forgotten bases in range impacts the relative probability of attack.',
         who: 'paladinstr8',
         status: true,
         outcome: false,

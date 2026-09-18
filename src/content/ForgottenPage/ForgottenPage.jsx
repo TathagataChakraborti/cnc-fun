@@ -35,7 +35,7 @@ const ForgottenPage = _ => {
         <Grid className="top-relief">
             <Column lg={14} md={4} sm={4}>
                 <Theme theme="g10">
-                    <TabsVertical defaultSelectedIndex={3} height="90vh">
+                    <TabsVertical defaultSelectedIndex={0} height="90vh">
                         <TabListVertical size="lg" className="bottomless">
                             <Tab>Forgotten activity per time of day</Tab>
                             <Tab>Forgotten activity over time</Tab>

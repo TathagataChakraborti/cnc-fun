@@ -2,11 +2,14 @@ import { ContainedList, ContainedListItem } from '@carbon/react';
 
 const in_practice_note = (
     <>
-        The results indicate observations on the game in practice and NOT on the
-        actual design of the game. For example, there might be machinations put
-        in place by a developer to model a certain behavior of the Forgotten
-        that actually exists in implementation but does not impact gameplay at
-        statistically significant levels.
+        <span className="text-alert">
+            The results indicate observations on the game in practice and NOT on
+            the actual design of the game.
+        </span>{' '}
+        For example, there might be machinations put in place by a developer to
+        model a certain behavior of the Forgotten that actually exists in
+        implementation but did not end up impacting gameplay at statistically
+        significant levels.
     </>
 );
 

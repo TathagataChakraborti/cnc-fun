@@ -24,6 +24,7 @@ import {
     DatePicker,
     DatePickerInput,
     Callout,
+    InlineLoading,
 } from '@carbon/react';
 
 import { print_date } from '../../components/BasicElements/Info';
@@ -56,6 +57,8 @@ const make_image_url = date => `/images/migration/${date}.png`;
 const make_next_url = date => make_image_url(make_next_date(date));
 const make_init_state = date => {
     return {
+        load_ready: false,
+        load_ready_progress: 0,
         current_date: date,
         currentBg: make_image_url(date),
         nextBg: make_next_url(date),
@@ -78,10 +81,52 @@ class MigrationPage extends React.Component {
         this.state = make_init_state(migration_manifest.start_date);
     }
 
+    componentDidMount() {
+        let imagesToPreload = [];
+        let current_date = this.state.current_date;
+
+        while (
+            new Date(current_date) <= new Date(migration_manifest.end_date)
+        ) {
+            imagesToPreload.push(make_image_url(current_date));
+            current_date = make_next_date(current_date);
+        }
+
+        this.preloadImages(imagesToPreload);
+    }
+
     componentWillUnmount() {
         if (this.timeoutId) clearTimeout(this.timeoutId);
         if (this.timerId) clearInterval(this.timerId);
     }
+
+    preloadImages = assets => {
+        const promises = assets.map((src, index) => {
+            return new Promise((resolve, reject) => {
+                this.setState({
+                    ...this.state,
+                    load_ready_progress: Math.round(
+                        (100 * index) / assets.length
+                    ),
+                });
+
+                const img = new Image();
+                img.src = src;
+                img.onload = resolve;
+                img.onerror = reject;
+            });
+        });
+
+        Promise.all(promises)
+            .then(() => {
+                // 3. Update state once all images are successfully cached
+                this.setState({ load_ready: true });
+            })
+            .catch(err => {
+                console.error('Failed to preload images', err);
+                this.setState({ error: 'Some assets failed to load' });
+            });
+    };
 
     loadPreviousImage(_, date) {
         const new_date = date
@@ -242,6 +287,22 @@ class MigrationPage extends React.Component {
                     <Grid>
                         <Column lg={4} md={4} sm={4} style={contentStyle}>
                             <div className="grid-container">
+                                <InlineLoading
+                                    aria-live="assertive"
+                                    description={
+                                        this.state.load_ready
+                                            ? 'Ready'
+                                            : 'Loading'
+                                    }
+                                    iconDescription="Loading data..."
+                                    onSuccess={function Hz() {}}
+                                    status={
+                                        this.state.load_ready
+                                            ? 'finished'
+                                            : 'active'
+                                    }
+                                />
+                                <br />
                                 <div style={{ display: 'flex' }}>
                                     <Tag
                                         className="square-tag"

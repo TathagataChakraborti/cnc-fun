@@ -328,14 +328,16 @@ class Honeypot extends React.Component {
     }
 
     componentDidMount() {
-        this.updateSelection({ name: [forgotten_types[0]], index: 0 });
+        this.updateSelection({ name: forgotten_types[0], index: 0 });
     }
 
     updateSelection(e) {
+        const tmp = e.name.split(', ');
+
         this.setState({
             ...this.state,
-            selected_fg_type: e.name,
-            data: data.filter(item => e.name.includes(item.fg_type)),
+            selected_fg_type: tmp,
+            data: data.filter(item => tmp.includes(item.fg_type)),
             selected_index: e.index,
         });
     }
@@ -400,7 +402,7 @@ class Honeypot extends React.Component {
                             inline
                             onClick={() => {
                                 this.updateSelection({
-                                    name: [forgotten_types[1]],
+                                    name: forgotten_types[1],
                                     index: 1,
                                 });
                             }}>
@@ -412,7 +414,7 @@ class Honeypot extends React.Component {
                             inline
                             onClick={() => {
                                 this.updateSelection({
-                                    name: forgotten_types,
+                                    name: forgotten_types.join(', '),
                                     index: 2,
                                 });
                             }}>
@@ -494,7 +496,7 @@ class Honeypot extends React.Component {
                                             type={
                                                 result[item] > h_pass
                                                     ? 'magenta'
-                                                    : ''
+                                                    : 'gray'
                                             }
                                             className="square-tag"
                                             size="sm">
@@ -520,7 +522,7 @@ class Honeypot extends React.Component {
                             (item, index) => (
                                 <Switch
                                     key={index}
-                                    name={item}
+                                    name={item.join(', ')}
                                     text={item.join(', ')}
                                 />
                             )
