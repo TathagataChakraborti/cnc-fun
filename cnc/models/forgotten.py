@@ -62,15 +62,19 @@ class Base(BaseModel):
     jumped_to_front: list[JumpType] = []
     neighborhood: list[Neighbor] = []
 
+    @computed_field  # type: ignore
     @property
     def expected_level_in_range(self) -> float:
         if len(self.neighborhood) == 0:
             return 0
 
         else:
-            return fmean(
-                data=[item.level for item in self.neighborhood],
-                weights=[item.how_many for item in self.neighborhood],
+            return round(
+                fmean(
+                    data=[item.level for item in self.neighborhood],
+                    weights=[item.how_many for item in self.neighborhood],
+                ),
+                2,
             )
 
     @property

@@ -21,6 +21,7 @@ class MonthlyTrend(BaseModel):
 
 
 class JumpTrend(BaseModel):
+    datetime: str
     fg_type: FORGOTTEN
     jump_types: list[JumpType]
     interval: float

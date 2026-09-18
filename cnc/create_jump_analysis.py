@@ -19,6 +19,7 @@ def create_jump_trend(timeline: Timeline) -> list[JumpTrend]:
 
                 data.append(
                     JumpTrend(
+                        datetime=f"{event.datetime:%Y-%m-%dT%H:%M:%S+05:30}",
                         fg_type=event.report.defending_against,
                         defending_base=event.report.defending_base,
                         jump_types=event.jumped_to_front,

@@ -22,6 +22,7 @@ import {
 import { DailyDistribution } from './DailyDistribution';
 import { MonthlyDistribution } from './MonthlyDistribution';
 import { JumpAnalysis } from './JumpAnalysis';
+import { Honeypot } from './Honeypot';
 
 import { ModalContentDisclaimer } from './Disclaimer';
 import { HypothesisModalContent } from './Hypothesis';
@@ -44,11 +45,8 @@ const ForgottenPage = _ => {
                             <Tab>
                                 Honeypot I - Decoy bases for the Forgotten
                             </Tab>
-                            <Tab>
-                                Honeypot II - Forgotten level versus numbers
-                            </Tab>
                             <Tab disabled className="flex-tab">
-                                <span>Honeypot III - Attractor plots</span>
+                                <span>Honeypot II - Attractor plots</span>
                                 <Tag
                                     className="square-tag"
                                     size="sm"
@@ -141,8 +139,9 @@ const ForgottenPage = _ => {
                             <TabPanel>
                                 <JumpAnalysis />
                             </TabPanel>
-                            <TabPanel></TabPanel>
-                            <TabPanel></TabPanel>
+                            <TabPanel>
+                                <Honeypot />
+                            </TabPanel>
                             <TabPanel />
                             <TabPanel />
                         </TabPanels>
