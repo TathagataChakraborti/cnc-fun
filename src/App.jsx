@@ -25,7 +25,10 @@ class App extends Component {
         const activeRoute = this.props.router.location.pathname;
 
         return (
-            <Content>
+            <Content
+                className={
+                    activeRoute === '/migration' ? 'background-dim' : ''
+                }>
                 <PageHeader />
                 <BuyMeACoffeeWidget />
                 <Grid className="main">
@@ -79,6 +82,11 @@ class App extends Component {
                                 Star
                             </GitHubButton>
                         </Tile>
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <br />
                     </Column>
                 </Grid>
             </Content>

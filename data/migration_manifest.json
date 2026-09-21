@@ -184,5 +184,13 @@
         "date": "2026-09-13",
         "description": ["The enemy has relocated a lot of players to our sector and are attacking our 2nd and 3rd alliances. This includes players from Casino and our own cry baby clown from Austria."],
         "type": "error"
+    },
+    {
+        "date": "2026-09-19",
+        "description": [
+            "FORTRESS DAY!!!",
+            "Total defeat. We couldn't even get past a third of the defense. We go again in 2-3 weeks."
+        ],
+        "type": "warning"
     }
 ]

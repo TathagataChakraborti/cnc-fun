@@ -289,6 +289,7 @@ class JumpAnalysis extends React.Component {
         return (
             <Grid>
                 <Column lg={6} md={8} sm={4}>
+                    <br />
                     <ContainedList
                         isInset
                         label="Do jumps to the frontline trigger attacks?"
@@ -445,9 +446,12 @@ class JumpAnalysis extends React.Component {
                 <Column lg={8} md={8} sm={4}>
                     <Grid>
                         <Column lg={4} md={4} sm={4}>
+                            <br />
                             <OddsRatio data={table_data} />
+                            <br />
                         </Column>
                         <Column lg={4} md={4} sm={4}>
+                            <br />
                             <Theme theme="white">
                                 <Tile>
                                     While the tabular form has more illustrative
@@ -484,10 +488,10 @@ class JumpAnalysis extends React.Component {
                                         {upValue <= 0.05 ? 'YES' : 'NO'}
                                     </Tag>
                                 </Tile>
+                                <br />
                             </Theme>
                         </Column>
                         <Column lg={8} md={4} sm={4}>
-                            <br />
                             <br />
                             <ContentSwitcher
                                 lowContrast

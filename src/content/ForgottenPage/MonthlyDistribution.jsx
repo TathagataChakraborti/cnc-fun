@@ -82,6 +82,7 @@ const line_chart_options = {
 const MonthlyDistribution = props => (
     <Grid>
         <Column lg={4} md={4} sm={4}>
+            <br />
             <Theme theme="white">
                 <Tile style={{ height: '315px' }}>
                     As you may have noticed in the previous chapter, the
@@ -127,8 +128,11 @@ const MonthlyDistribution = props => (
             <Tag className="square-tag" type="magenta">
                 {min_gap}
             </Tag>
+            <br />
+            <br />
         </Column>
         <Column lg={10} md={4} sm={4}>
+            <br />
             <SimpleBarChart data={camp_data} options={bar_chart_options} />
 
             <SimpleBarChart

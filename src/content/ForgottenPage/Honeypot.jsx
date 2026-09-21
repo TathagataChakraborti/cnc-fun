@@ -247,7 +247,7 @@ const ltr_options = {
         addSpaceOnEdges: 0,
     },
     curve: 'curveMonotoneX',
-    height: '240px',
+    height: '220px',
 };
 
 const ks_options = {
@@ -387,11 +387,11 @@ class Honeypot extends React.Component {
                         As suspected, the number of active FG bases in range as
                         well as the wave level makes an attack from an FG base
                         more likely.{' '}
-                        <strong>
-                            This is statistical backing for the decoy strategy
-                            of placing cash bases in vulnerable locations to
-                            protect the primary base.
-                        </strong>
+                        <span className="text-alert">
+                            This provides statistical backing for the decoy
+                            strategy of placing cash bases in vulnerable
+                            locations to protect the primary base.
+                        </span>
                         <br />
                         <br />
                         Interestingly, the actual level of the FG bases in range
@@ -470,6 +470,7 @@ class Honeypot extends React.Component {
                             </ContainedListItem>
                         </ContainedList>
                     </ContainedList>
+                    <br />
                 </Column>
                 <Column lg={8} md={8} sm={4}>
                     <StructuredListWrapper

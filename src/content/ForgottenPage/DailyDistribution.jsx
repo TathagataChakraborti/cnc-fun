@@ -299,6 +299,7 @@ class DailyDistribution extends React.Component {
                 <Column lg={14} md={4} sm={4}>
                     <Grid>
                         <Column lg={10} md={4} sm={4}>
+                            <br />
                             <SimpleBarChart
                                 data={formatted_data_top}
                                 options={options}
@@ -445,10 +446,13 @@ class DailyDistribution extends React.Component {
                                         }}
                                     />
                                 </div>
+                                <br />
+                                <br />
                             </Tile>
                         </Column>
 
                         <Column lg={4} md={4} sm={4}>
+                            <br />
                             {this.state.p_value_data && (
                                 <>
                                     <LineChart
@@ -461,12 +465,11 @@ class DailyDistribution extends React.Component {
                             )}
 
                             <Tile className="panel-padding">
-                                This measure does not corrupt with more data
-                                points but of course, it might well be that over
-                                time the timing of attacks itself have changed.
-                                In statistical terms, this means that the
-                                underlying probability distribution that
-                                produces Forgotten attacks is{' '}
+                                It might well be that over time the timing of
+                                attacks itself have changed. In statistical
+                                terms, this means that the underlying
+                                probability distribution that produces Forgotten
+                                attacks is{' '}
                                 <Link
                                     href="https://en.wikipedia.org/wiki/Stationary_process"
                                     target="_blank">
