@@ -531,16 +531,21 @@ class Honeypot extends React.Component {
                     </ContentSwitcher>
                     <br />
                     <br />
-                    <div style={{ paddingBottom: '8px' }}>
-                        <LineChart
-                            data={result.trajectory}
-                            options={ltr_options}
+                    <div className="spacer-container">
+                        <div style={{ paddingBottom: '8px' }}>
+                            <LineChart
+                                data={result.trajectory}
+                                options={ltr_options}
+                            />
+                        </div>
+                        <LineChart data={ks_result} options={ks_options} />
+                        <br />
+                        <br />
+                        <AreaChart
+                            data={result.wald_sprt}
+                            options={sprt_options}
                         />
                     </div>
-                    <LineChart data={ks_result} options={ks_options} />
-                    <br />
-                    <br />
-                    <AreaChart data={result.wald_sprt} options={sprt_options} />
                 </Column>
             </Grid>
         );

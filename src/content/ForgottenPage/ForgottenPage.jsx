@@ -23,6 +23,7 @@ import { DailyDistribution } from './DailyDistribution';
 import { MonthlyDistribution } from './MonthlyDistribution';
 import { JumpAnalysis } from './JumpAnalysis';
 import { Honeypot } from './Honeypot';
+import { AttractorPlots } from './AttractorPlots';
 
 import { ModalContentDisclaimer } from './Disclaimer';
 import { HypothesisModalContent } from './Hypothesis';
@@ -35,7 +36,7 @@ const ForgottenPage = _ => {
         <Grid className="top-relief">
             <Column lg={14} md={4} sm={4}>
                 <Theme theme="g10">
-                    <TabsVertical defaultSelectedIndex={0} height="90vh">
+                    <TabsVertical defaultSelectedIndex={4} height="90vh">
                         <TabListVertical size="lg" className="bottomless">
                             <Tab>Forgotten activity per time of day</Tab>
                             <Tab>Forgotten activity over time</Tab>
@@ -45,17 +46,7 @@ const ForgottenPage = _ => {
                             <Tab>
                                 Honeypot I - Decoy bases for the Forgotten
                             </Tab>
-                            <Tab disabled className="flex-tab">
-                                <span>Honeypot II - Attractor plots</span>
-                                <Tag
-                                    className="square-tag"
-                                    size="sm"
-                                    role="status"
-                                    type="cool-gray"
-                                    aria-label="">
-                                    Coming Soon
-                                </Tag>
-                            </Tab>
+                            <Tab>Honeypot II - Attractor plots</Tab>
                             <Tab disabled className="flex-tab">
                                 <span>A production model for FG attacks</span>
                                 <div>
@@ -142,7 +133,9 @@ const ForgottenPage = _ => {
                             <TabPanel>
                                 <Honeypot />
                             </TabPanel>
-                            <TabPanel />
+                            <TabPanel>
+                                <AttractorPlots />
+                            </TabPanel>
                             <TabPanel />
                         </TabPanels>
                     </TabsVertical>

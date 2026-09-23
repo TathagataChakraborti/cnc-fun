@@ -88,6 +88,67 @@ sup {
     vertical-align: super;
 }
 
-.spacer {
+.spacer-container .spacer {
     height: 8px !important;
+}
+
+// AI-generated
+// Carbon charts overlay
+/* The parent wrapper establishes the boundary box */
+.chart-overlay-container {
+    position: relative;
+    width: 100%;
+    height: 300px; /* Must match the height declared in your chart options */
+}
+
+/* Base rules for both layers */
+.chart-layer {
+    width: 100%;
+    height: 100%;
+}
+
+/* The first chart dictates the standard document flow space */
+.chart-layer.base-layer {
+    position: relative;
+    z-index: 1;
+}
+
+/* The second chart stacks perfectly over the first one */
+.chart-layer.overlay-layer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+
+    /* Critical: Allows mouse hovers/tooltips to bleed through to the chart underneath */
+    pointer-events: none;
+}
+
+/* Re-enable interactions exclusively for the SVG elements (bubbles/tooltips) */
+.chart-layer.overlay-layer svg {
+    pointer-events: auto;
+}
+
+/* ==========================================================================
+   CRITICAL FIX: Strip Carbon's Internal Background Fills on the Overlay Layer
+   ========================================================================== */
+
+/* Forces Carbon's main container component background to be transparent */
+.chart-layer.overlay-layer .cds--chart-holder,
+.chart-layer.overlay-layer .bx--chart-holder {
+    background-color: transparent !important;
+    background: transparent !important;
+}
+
+/* Forces the SVG rendering canvas container to be transparent */
+.chart-layer.overlay-layer svg.chart-svg {
+    background-color: transparent !important;
+    background: transparent !important;
+}
+
+/* Targets the chart's inner grid background element (if Carbon injected a rect layer) */
+.chart-layer.overlay-layer rect.chart-grid-backdrop,
+.chart-layer.overlay-layer .chart-background {
+    fill: transparent !important;
+    opacity: 0 !important;
 }
