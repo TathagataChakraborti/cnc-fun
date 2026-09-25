@@ -5,6 +5,7 @@ import {
     BubbleChart,
     ScaleTypes,
     AxisPositions,
+    LegendPositions,
 } from '@carbon/charts-react';
 
 import data from '../../cache/jump_trend.json';
@@ -44,7 +45,7 @@ const plot_options = {
     },
     legend: {
         enabled: false,
-        position: 'top',
+        position: LegendPositions.TOP,
     },
     grid: {
         x: {

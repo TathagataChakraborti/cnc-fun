@@ -24,6 +24,7 @@ import { MonthlyDistribution } from './MonthlyDistribution';
 import { JumpAnalysis } from './JumpAnalysis';
 import { Honeypot } from './Honeypot';
 import { AttractorPlots } from './AttractorPlots';
+import { ProductionModel } from './ProductionModel';
 
 import { ModalContentDisclaimer } from './Disclaimer';
 import { HypothesisModalContent } from './Hypothesis';
@@ -36,18 +37,69 @@ const ForgottenPage = _ => {
         <Grid className="top-relief">
             <Column lg={14} md={4} sm={4}>
                 <Theme theme="g10">
-                    <TabsVertical defaultSelectedIndex={4} height="90vh">
+                    <TabsVertical defaultSelectedIndex={5} height="90vh">
                         <TabListVertical size="lg" className="bottomless">
-                            <Tab>Forgotten activity per time of day</Tab>
-                            <Tab>Forgotten activity over time</Tab>
-                            <Tab>
-                                Do jumps to the frontline trigger attacks?
+                            <Tab className="flex-tab">
+                                <span>
+                                    Do the Forgotten prefer a particular time of
+                                    day?
+                                </span>
+                                <Tag
+                                    style={{ marginRight: '10px' }}
+                                    className="square-tag"
+                                    size="sm"
+                                    role="status"
+                                    type="green"
+                                    aria-label="">
+                                    NO
+                                </Tag>
                             </Tab>
-                            <Tab>
-                                Honeypot I - Decoy bases for the Forgotten
+                            <Tab className="flex-tab">
+                                <span>
+                                    Does Forgotten activity strengthen over
+                                    time?
+                                </span>
+                                <Tag
+                                    style={{ marginRight: '10px' }}
+                                    className="square-tag"
+                                    size="sm"
+                                    role="status"
+                                    type="green"
+                                    aria-label="">
+                                    NO
+                                </Tag>
                             </Tab>
-                            <Tab>Honeypot II - Attractor plots</Tab>
-                            <Tab disabled className="flex-tab">
+                            <Tab className="flex-tab">
+                                <span>
+                                    Do jumps to the frontline trigger attacks?
+                                </span>
+                                <Tag
+                                    style={{ marginRight: '10px' }}
+                                    className="square-tag"
+                                    size="sm"
+                                    role="status"
+                                    type="green"
+                                    aria-label="">
+                                    NO
+                                </Tag>
+                            </Tab>
+                            <Tab className="flex-tab">
+                                <span>
+                                    Do the Forgotten attack more in higher
+                                    waves?
+                                </span>
+                                <Tag
+                                    style={{ marginRight: '10px' }}
+                                    className="square-tag"
+                                    size="sm"
+                                    role="status"
+                                    type="magenta"
+                                    aria-label="">
+                                    YES
+                                </Tag>
+                            </Tab>
+                            <Tab>A visualization for the honeypot strategy</Tab>
+                            <Tab className="flex-tab">
                                 <span>A production model for FG attacks</span>
                                 <div>
                                     <Tag
@@ -58,14 +110,6 @@ const ForgottenPage = _ => {
                                         type="purple"
                                         aria-label="">
                                         AI
-                                    </Tag>
-                                    <Tag
-                                        className="square-tag"
-                                        size="sm"
-                                        role="status"
-                                        type="cool-gray"
-                                        aria-label="">
-                                        Coming Soon
                                     </Tag>
                                 </div>
                             </Tab>
@@ -136,7 +180,9 @@ const ForgottenPage = _ => {
                             <TabPanel>
                                 <AttractorPlots />
                             </TabPanel>
-                            <TabPanel />
+                            <TabPanel>
+                                <ProductionModel />
+                            </TabPanel>
                         </TabPanels>
                     </TabsVertical>
 
