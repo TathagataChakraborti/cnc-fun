@@ -7,20 +7,16 @@ import {
     Link,
     Tile,
     Tag,
-    StructuredListWrapper,
-    StructuredListHead,
-    StructuredListBody,
-    StructuredListRow,
-    StructuredListCell,
     Button,
     NumberInput,
     TextInput,
     RadioButtonGroup,
     RadioButton,
     Layer,
-    Modal,
     Accordion,
     AccordionItem,
+    InlineLoading,
+    Callout,
 } from '@carbon/react';
 import {
     AreaChart,
@@ -32,29 +28,79 @@ import {
     Add,
     TrashCan,
     AiBusinessImpactAssessment,
-    Documentation,
     ResetAlt,
 } from '@carbon/icons-react';
+
+import { large_random_number } from '../../components/BasicElements/Info';
+import { print_date_str } from '../../components/BasicElements/Info';
 
 import '@carbon/charts-react/styles.css';
 import data from '../../cache/jump_trend.json';
 
 const fg_types = ['Base', 'Camp', 'Outposts'];
+const max_date = data[0].datetime;
+const min_date = data[data.length - 1].datetime;
+
+const base_init = {
+    hash_id: 0,
+    id: 0,
+    name: '',
+    active_bases: 0,
+    bases: '',
+};
+
+const init_state = {
+    show_report: false,
+    computing: false,
+    report: null,
+    feedback_msg: '',
+    data: {
+        previous_attack: {
+            name: '',
+            fg_type: fg_types[0],
+            time_since_last: 0,
+        },
+        base_data: [],
+    },
+};
+
+const create_init_state = _ => {
+    let init = structuredClone(init_state);
+    let init_base = create_new_base(init.data.base_data);
+
+    init.data.base_data = [init_base];
+    return init;
+};
+
+const create_new_base = base_data => {
+    let new_base = structuredClone(base_init);
+
+    new_base.hash_id = large_random_number();
+    new_base.id = base_data.length;
+
+    return new_base;
+};
 
 const Report = props => (
     <Grid>
         <Column lg={6} md={8} sm={4}>
             <div className="summary-tags">
                 <Tag className="square-tag">Next attack on</Tag>
-                <Tag className="square-tag" type="magenta"></Tag>
+                <Tag className="square-tag" type="magenta">
+                    {props.data.next_attack_on}
+                </Tag>
             </div>
             <div className="summary-tags">
                 <Tag className="square-tag">Time to attack</Tag>
-                <Tag className="square-tag" type="magenta"></Tag>
+                <Tag className="square-tag" type="magenta">
+                    {props.data.time_to_attack} minutes
+                </Tag>
             </div>
             <div className="summary-tags">
                 <Tag className="square-tag">Forgotten type</Tag>
-                <Tag className="square-tag" type="magenta"></Tag>
+                <Tag className="square-tag" type="magenta">
+                    {props.data.fg_type}
+                </Tag>
             </div>
             <br />
             <Layer>
@@ -62,22 +108,19 @@ const Report = props => (
                     label="Attack probabilities"
                     kind="disclosed"
                     size="md">
-                    <ContainedListItem>
-                        <div className="flex-tab here">
-                            <span>List title</span>
-                            <Tag className="square-tag" size="sm">
-                                4
-                            </Tag>
-                        </div>
-                    </ContainedListItem>
-                    <ContainedListItem>
-                        <div className="flex-tab here">
-                            <span>List title</span>
-                            <Tag className="square-tag" size="sm">
-                                4
-                            </Tag>
-                        </div>
-                    </ContainedListItem>
+                    {props.data.probabilities.map((item, index) => (
+                        <ContainedListItem key={index}>
+                            <div className="flex-tab here">
+                                <span>{item.name}</span>
+                                <Tag
+                                    className="square-tag"
+                                    size="sm"
+                                    type={index > 0 ? 'gray' : 'magenta'}>
+                                    {(100 * item.probability).toFixed(2)}%
+                                </Tag>
+                            </div>
+                        </ContainedListItem>
+                    ))}
                 </ContainedList>
             </Layer>
         </Column>
@@ -87,16 +130,42 @@ const Report = props => (
 class BaseData extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {
-            id: 0,
-        };
+        this.state = props.data;
     }
+
+    deleteItem = _ => {
+        this.props.deleteItem(this.state.id);
+    };
+
+    nameChange = e => {
+        this.props.updateValue({
+            id: this.state.id,
+            key: 'name',
+            value: e.target.value,
+        });
+    };
+
+    activeBaseChange = (_, { value, __ }) => {
+        this.props.updateValue({
+            id: this.state.id,
+            key: 'active_bases',
+            value: value,
+        });
+    };
+
+    baseInfoChange = e => {
+        this.props.updateValue({
+            id: this.state.id,
+            key: 'bases',
+            value: e.target.value,
+        });
+    };
 
     render() {
         return (
             <Column lg={4} md={8} sm={4}>
                 <Layer>
-                    <Tile>
+                    <Tile className="base-info">
                         <div className="flex-tab here">
                             <div style={{ display: 'flex' }}>
                                 <Tag className="square-tag">Base</Tag>
@@ -110,30 +179,31 @@ class BaseData extends React.Component {
                                 kind="ghost"
                                 renderIcon={TrashCan}
                                 iconDescription="Delete"
+                                onClick={this.deleteItem.bind(this)}
                             />
                         </div>
-                        <br />
                         <TextInput
                             hideLabel
                             id="previous-base-name"
                             maxCount={14}
-                            onChange={() => {}}
-                            labelText=""
+                            onChange={this.nameChange.bind(this)}
+                            value={this.state.name}
                             helperText="Name of the base"
-                            size="xs"
+                            labelText=""
+                            size="sm"
                             type="text"
                         />
                         <br />
                         <NumberInput
                             id="num-active"
                             hideLabel
-                            helperText="Active Forgotten bases in range"
+                            helperText="Active FG bases in range"
                             max={24 * 60}
                             min={0}
-                            onChange={() => {}}
+                            onChange={this.activeBaseChange.bind(this)}
                             size="sm"
                             step={1}
-                            value={50}
+                            value={this.state.active_bases}
                             inputMode="decimal"
                             type="number"
                         />
@@ -144,7 +214,8 @@ class BaseData extends React.Component {
                             labelText="Bases"
                             placeholder="4x46, ..."
                             maxCount={14}
-                            onChange={() => {}}
+                            onChange={this.baseInfoChange.bind(this)}
+                            value={this.state.bases}
                             size="xs"
                         />
                         <br />
@@ -166,6 +237,7 @@ class BaseData extends React.Component {
                         <br />
                     </Tile>
                 </Layer>
+                <br />
             </Column>
         );
     }
@@ -174,106 +246,236 @@ class BaseData extends React.Component {
 class ProductionModel extends React.Component {
     constructor(props) {
         super(props);
-        this.state = {
-            info_modal: false,
-            report_status: false,
-            data: {
-                previous_attack: {
-                    name: '',
-                    fg_type: fg_types[0],
-                    time_since_last: 0,
-                },
-                base_data: [
-                    {
-                        id: 0,
-                        name: '',
-                        active_bases: 0,
-                        bases: '',
-                    },
-                ],
-            },
-        };
+        this.state = create_init_state();
     }
 
-    componentDidMount() {}
+    updateValue = ({ id, key, value }) => {
+        let tmp_base_data = this.state.data.base_data;
+
+        tmp_base_data[id][key] = value;
+
+        this.setState({
+            ...this.state,
+            data: {
+                ...this.state.data,
+                base_data: tmp_base_data,
+            },
+        });
+    };
+
+    addItem = _ => {
+        let base_data = this.state.data.base_data;
+        let new_base = create_new_base(base_data);
+
+        base_data.push(new_base);
+
+        this.setState({
+            ...this.state,
+            data: {
+                ...this.state.data,
+                base_data: base_data,
+            },
+        });
+    };
+
+    deleteItem = id => {
+        this.setState({
+            ...this.state,
+            data: {
+                ...this.state.data,
+                base_data: this.state.data.base_data
+                    .filter(item => item.id != id)
+                    .map((item, index) => {
+                        item.id = index;
+                        return item;
+                    }),
+            },
+        });
+    };
+
+    checkDataIntegrity = _ => {
+        let check_status = true;
+        let feedback = [];
+
+        const base_names = this.state.data.base_data.map(item => item.name);
+
+        check_status = base_names.includes(
+            this.state.data.previous_attack.name
+        );
+
+        if (!check_status) {
+            feedback.push(
+                'Previous attack on base: ' +
+                    this.state.data.previous_attack.name +
+                    ' not among list of bases: ' +
+                    base_names.join(', ')
+            );
+        }
+
+        feedback = feedback.join('. ');
+
+        return { check_status, feedback };
+    };
+
+    compute = _ => {
+        const { check_status, feedback } = this.checkDataIntegrity();
+
+        if (check_status) {
+            this.setState(
+                {
+                    ...this.state,
+                    show_report: true,
+                    computing: true,
+                },
+                () => {
+                    console.log(123, this.state.data);
+
+                    const report = {
+                        new_attack_on: 'cc',
+                        time_to_attack: 0,
+                        fg_type: '',
+                        probabilities: [
+                            {
+                                name: 'aa',
+                                probability: 0.54833,
+                            },
+                            {
+                                name: 'bb',
+                                probability: 0.334141,
+                            },
+                        ],
+                    };
+
+                    this.setState(
+                        {
+                            ...this.state,
+                            report: report,
+                        },
+                        () => this.setState({ ...this.state, computing: false })
+                    );
+                }
+            );
+        } else {
+            this.setState({
+                ...this.state,
+                feedback_msg: feedback,
+            });
+        }
+    };
+
+    resetAll = _ => this.setState(create_init_state());
+
     render() {
         return (
             <Grid>
                 <Column lg={6} md={8} sm={4}>
                     <br />
-                    <Layer>
-                        <Tile>
-                            <ContainedList
-                                label="Learning a production model"
-                                kind="disclosed"
-                                size="lg">
-                                <ContainedListItem>
-                                    Enter details about all your bases below.
-                                    Then click compute to get an estimate from
-                                    the AI model of which base is likely to
-                                    receive an attack next, with what
-                                    probability, and when.
-                                </ContainedListItem>
-                            </ContainedList>
-                        </Tile>
-                    </Layer>
+                    <ContainedList
+                        label="Learning a production model"
+                        kind="disclosed"
+                        size="sm">
+                        <ContainedListItem>
+                            We will use an old machine learning technique called{' '}
+                            <Link
+                                href="https://en.wikipedia.org/wiki/Gradient_boosting"
+                                target="_blank">
+                                gradient boosting
+                            </Link>{' '}
+                            [
+                            <Link
+                                href="https://xgboost.readthedocs.io/en/stable"
+                                target="_blank">
+                                XGBoost
+                            </Link>
+                            ] to compute a prediction model for the production
+                            of Forgotten attacks based on{' '}
+                            <span className="text-alert">{data.length}</span>{' '}
+                            Forgotten attacks on my bases between{' '}
+                            {print_date_str(min_date)} and{' '}
+                            {print_date_str(max_date)}.
+                            <br />
+                            <br />
+                            Below you can see the details of what goes into
+                            training this AI model. On the right, enter details
+                            about all your and click compute to get an estimate
+                            from the model of which base is likely to receive an
+                            attack next, with what probability, and when.
+                            <br />
+                            <br />
+                            <img
+                                alt="xgboost"
+                                src="images/xgboost.png"
+                                width="100%"
+                            />
+                            <br />
+                            <div className="footnote">
+                                Architecture of the AI model. A classifier
+                                answers a multiple-choice question (e.g. which
+                                of my bases is going to get attacked and whether
+                                the attack is going to come from a FG base or
+                                camp), while a regressor produces a value
+                                prediction (e.g. how long till the next attack).
+                                The input data i.e. <em>features</em> are
+                                visualized below in terms of how strongly they
+                                affected the outcomes.
+                            </div>
+                        </ContainedListItem>
+                    </ContainedList>
                 </Column>
-                <Modal
-                    modalHeading={
-                        <ContainedList
-                            label="How to"
-                            kind="disclosed"
-                            size="lg">
-                            <ContainedListItem>
-                                Enter details about all your bases below. Then
-                                click compute to get an estimate from the AI
-                                model of which base is likely to receive an
-                                attack next, with what probability, and when.
-                            </ContainedListItem>
-                        </ContainedList>
-                    }
-                    onRequestClose={() =>
-                        this.setState({ ...this.state, info_modal: false })
-                    }
-                    open={this.state.info_modal}
-                    passiveModal
-                />
                 <Column lg={8} md={8} sm={4}>
-                    <br />
-                    <Accordion isFlush align="end" size="md">
+                    <Accordion isFlush align="end" size="sm">
                         <AccordionItem
                             onHeadingClick={() =>
                                 this.setState({
                                     ...this.state,
-                                    report_status: false,
+                                    show_report: false,
                                 })
                             }
-                            open={!this.state.report_status}
-                            title="Details of last Forgotten Attack">
+                            open={!this.state.show_report}
+                            title={
+                                <strong>
+                                    Details of the last Forgotten Attack
+                                </strong>
+                            }>
                             <Grid>
                                 <Column lg={3} md={8} sm={4}>
                                     <Layer>
                                         <Tile>
                                             <RadioButtonGroup
+                                                onChange={name =>
+                                                    this.setState({
+                                                        ...this.state,
+                                                        data: {
+                                                            ...this.state.data,
+                                                            previous_attack: {
+                                                                ...this.state
+                                                                    .data
+                                                                    .previous_attack,
+                                                                fg_type: name,
+                                                            },
+                                                        },
+                                                    })
+                                                }
                                                 legendText="Attack type"
                                                 name="attack-type"
-                                                defaultSelected="radio-1"
                                                 orientation="vertical">
-                                                <RadioButton
-                                                    labelText="Base"
-                                                    value="radio-1"
-                                                    id="radio-1"
-                                                />
-                                                <RadioButton
-                                                    labelText="Camp"
-                                                    value="radio-2"
-                                                    id="radio-2"
-                                                />
-                                                <RadioButton
-                                                    labelText="Outpost"
-                                                    value="radio-3"
-                                                    id="radio-3"
-                                                />
+                                                {fg_types.map((item, index) => (
+                                                    <RadioButton
+                                                        checked={
+                                                            this.state.data
+                                                                .previous_attack
+                                                                .fg_type ===
+                                                            item
+                                                        }
+                                                        disabled={
+                                                            item === fg_types[2]
+                                                        }
+                                                        labelText={item}
+                                                        value={item}
+                                                        id={item}
+                                                        key={index}
+                                                    />
+                                                ))}
                                             </RadioButtonGroup>
                                         </Tile>
                                     </Layer>
@@ -283,11 +485,26 @@ class ProductionModel extends React.Component {
                                         hideLabel
                                         id="previous-base-name"
                                         maxCount={14}
-                                        onChange={() => {}}
                                         labelText=""
                                         helperText="Name of last defending base"
                                         size="sm"
                                         type="text"
+                                        value={
+                                            this.state.data.previous_attack.name
+                                        }
+                                        onChange={e =>
+                                            this.setState({
+                                                ...this.state,
+                                                data: {
+                                                    ...this.state.data,
+                                                    previous_attack: {
+                                                        ...this.state.data
+                                                            .previous_attack,
+                                                        name: e.target.value.trim(),
+                                                    },
+                                                },
+                                            })
+                                        }
                                     />
                                     <br />
                                     <NumberInput
@@ -296,89 +513,157 @@ class ProductionModel extends React.Component {
                                         helperText="Time since last attack (in minutes)"
                                         max={24 * 60}
                                         min={0}
-                                        onChange={() => {}}
                                         size="sm"
                                         step={1}
-                                        value={50}
                                         inputMode="decimal"
                                         type="number"
-                                    />
-                                </Column>
-                            </Grid>
-                        </AccordionItem>
-                        <AccordionItem
-                            onHeadingClick={() =>
-                                this.setState({
-                                    ...this.state,
-                                    report_status: false,
-                                })
-                            }
-                            open={!this.state.report_status}
-                            title="Current base data">
-                            <Grid>
-                                {this.state.data.base_data.map(item => (
-                                    <BaseData key={item.id} />
-                                ))}
-                                <Column lg={8} md={8} sm={4}>
-                                    <br />
-                                    <Button
-                                        size="sm"
-                                        renderIcon={Add}
-                                        kind="tertiary"
-                                        iconDescription="Add base data">
-                                        Add Base
-                                    </Button>
-
-                                    <Button
-                                        hasIconOnly
-                                        kind="ghost"
-                                        size="sm"
-                                        renderIcon={Documentation}
-                                        tooltipHighContrast={false}
-                                        iconDescription="Information"
-                                        onClick={() =>
+                                        value={
+                                            this.state.data.previous_attack
+                                                .time_since_last
+                                        }
+                                        onChange={(_, { value, __ }) =>
                                             this.setState({
                                                 ...this.state,
-                                                info_modal: true,
+                                                data: {
+                                                    ...this.state.data,
+                                                    previous_attack: {
+                                                        ...this.state.data
+                                                            .previous_attack,
+                                                        time_since_last: value,
+                                                    },
+                                                },
                                             })
                                         }
                                     />
                                 </Column>
                             </Grid>
                         </AccordionItem>
-
                         <AccordionItem
                             onHeadingClick={() =>
                                 this.setState({
                                     ...this.state,
-                                    report_status: true,
+                                    show_report: false,
                                 })
                             }
-                            open={this.state.report_status}
-                            title="Report">
-                            <Report />
+                            open={!this.state.show_report}
+                            title={
+                                <strong>
+                                    State of the Union: Current Base Data
+                                </strong>
+                            }>
+                            <Grid>
+                                {this.state.data.base_data.map(item => (
+                                    <BaseData
+                                        key={item.hash_id}
+                                        data={
+                                            this.state.data.base_data[item.id]
+                                        }
+                                        updateValue={this.updateValue.bind(
+                                            this
+                                        )}
+                                        deleteItem={this.deleteItem.bind(this)}
+                                    />
+                                ))}
+                                <Column lg={8} md={8} sm={4}>
+                                    <Button
+                                        onClick={this.addItem.bind(this)}
+                                        size="sm"
+                                        renderIcon={Add}
+                                        kind="tertiary"
+                                        iconDescription="Add base data">
+                                        Add Base
+                                    </Button>
+                                </Column>
+                            </Grid>
+                        </AccordionItem>
+
+                        <AccordionItem
+                            disabled={!this.state.show_report}
+                            onHeadingClick={() =>
+                                this.setState({
+                                    ...this.state,
+                                    show_report: true,
+                                })
+                            }
+                            open={this.state.show_report}
+                            title={<strong>Report</strong>}>
+                            {this.state.computing && (
+                                <InlineLoading
+                                    aria-live="assertive"
+                                    description="Computing"
+                                    iconDescription="Computing"
+                                    status={
+                                        this.state.computing
+                                            ? 'active'
+                                            : this.state.report
+                                            ? 'finished'
+                                            : 'error'
+                                    }
+                                />
+                            )}
+                            {this.state.report && (
+                                <Report data={this.state.report} />
+                            )}
                         </AccordionItem>
                     </Accordion>
+
                     <Column>
-                        <br />
-                        <Button
-                            style={{ width: '150px' }}
-                            size="sm"
-                            renderIcon={AiBusinessImpactAssessment}
-                            kind="primary"
-                            iconDescription="Compute probabilities">
-                            Compute
-                        </Button>
-                        <br />
-                        <br />
-                        <Button
-                            style={{ width: '150px' }}
-                            size="sm"
-                            renderIcon={ResetAlt}
-                            kind="danger"
-                            iconDescription="Compute probabilities">
-                            Reset
-                        </Button>
+                        <Grid>
+                            <Column lg={3} md={4} sm={4}>
+                                <br />
+                                <Button
+                                    onClick={this.compute.bind(this)}
+                                    style={{ width: '150px' }}
+                                    size="sm"
+                                    renderIcon={AiBusinessImpactAssessment}
+                                    kind="primary"
+                                    iconDescription="Compute probabilities">
+                                    Compute
+                                </Button>
+                                <br />
+                                <br />
+                                <Button
+                                    onClick={this.resetAll.bind(this)}
+                                    style={{ width: '150px' }}
+                                    size="sm"
+                                    renderIcon={ResetAlt}
+                                    kind="danger"
+                                    iconDescription="Compute probabilities">
+                                    Reset
+                                </Button>
+                            </Column>
+
+                            <Column lg={3} md={4} sm={4}>
+                                {this.state.feedback_msg && (
+                                    <>
+                                        <br />
+                                        <Callout
+                                            lowContrast
+                                            kind="error"
+                                            statusIconDescription="notification"
+                                            subtitle={this.state.feedback_msg}
+                                            title="ERROR"
+                                        />
+                                    </>
+                                )}
+                                <br />
+                                <Callout
+                                    lowContrast
+                                    kind="info"
+                                    statusIconDescription="notification"
+                                    subtitle={
+                                        <span>
+                                            This model is trained on a tiny bit
+                                            of data from my own bases. Need help
+                                            to log camp / outpost information as
+                                            well as data from the whole
+                                            alliance.
+                                        </span>
+                                    }
+                                    title="Help wanted"
+                                />
+                            </Column>
+                        </Grid>
                     </Column>
                 </Column>
             </Grid>

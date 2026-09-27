@@ -1,3 +1,5 @@
+const large_random_number = n =>
+    Math.floor(Math.random() * (n ? n : Number.MAX_SAFE_INTEGER));
 const print_date_str = datetime_str => print_date(new Date(datetime_str));
 const print_date = datetime => {
     const tzOffset = datetime.getTimezoneOffset() * 60000;
@@ -16,4 +18,10 @@ const get_all_combinations = arr =>
         )
         .filter(set => set.length > 0);
 
-export { get_all_combinations, capitalize, print_date, print_date_str };
+export {
+    get_all_combinations,
+    capitalize,
+    print_date,
+    print_date_str,
+    large_random_number,
+};

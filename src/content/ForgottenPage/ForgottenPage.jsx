@@ -45,7 +45,6 @@ const ForgottenPage = _ => {
                                     day?
                                 </span>
                                 <Tag
-                                    style={{ marginRight: '10px' }}
                                     className="square-tag"
                                     size="sm"
                                     role="status"
@@ -60,7 +59,6 @@ const ForgottenPage = _ => {
                                     time?
                                 </span>
                                 <Tag
-                                    style={{ marginRight: '10px' }}
                                     className="square-tag"
                                     size="sm"
                                     role="status"
@@ -74,7 +72,6 @@ const ForgottenPage = _ => {
                                     Do jumps to the frontline trigger attacks?
                                 </span>
                                 <Tag
-                                    style={{ marginRight: '10px' }}
                                     className="square-tag"
                                     size="sm"
                                     role="status"
@@ -89,7 +86,6 @@ const ForgottenPage = _ => {
                                     waves?
                                 </span>
                                 <Tag
-                                    style={{ marginRight: '10px' }}
                                     className="square-tag"
                                     size="sm"
                                     role="status"
@@ -101,9 +97,29 @@ const ForgottenPage = _ => {
                             <Tab>A visualization for the honeypot strategy</Tab>
                             <Tab className="flex-tab">
                                 <span>A production model for FG attacks</span>
-                                <div>
+                                <Tag
+                                    className="square-tag"
+                                    size="sm"
+                                    role="status"
+                                    type="purple"
+                                    aria-label="">
+                                    AI
+                                </Tag>
+                            </Tab>
+
+                            <Tab className="flex-tab">
+                                <span>Journey to the Center: The Movie</span>
+                                <div className="flex-tab-vertical">
                                     <Tag
                                         style={{ marginRight: '10px' }}
+                                        className="square-tag outline"
+                                        size="sm"
+                                        role="status"
+                                        type="outline"
+                                        aria-label="">
+                                        <span className="text-alert">NEW</span>
+                                    </Tag>
+                                    <Tag
                                         className="square-tag"
                                         size="sm"
                                         role="status"
@@ -118,6 +134,7 @@ const ForgottenPage = _ => {
                                 alt="serenity"
                                 src="images/serenity.png"
                                 style={{ paddingRight: '4px' }}
+                                width="100%"
                             />
                             <br />
                             <Button
@@ -183,6 +200,7 @@ const ForgottenPage = _ => {
                             <TabPanel>
                                 <ProductionModel />
                             </TabPanel>
+                            <TabPanel />
                         </TabPanels>
                     </TabsVertical>
 
