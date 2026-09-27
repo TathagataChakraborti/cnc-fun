@@ -53,7 +53,7 @@ const init_state = {
     show_report: false,
     computing: false,
     report: null,
-    feedback_msg: '',
+    feedback_msg: [],
     data: {
         previous_attack: {
             name: '',
@@ -63,6 +63,39 @@ const init_state = {
         base_data: [],
     },
 };
+
+function parseBaseInfo(base_info_str) {
+    let parsed_info = [];
+    let error = null;
+
+    try {
+        let str_split = base_info_str
+            .trim()
+            .split(',')
+            .map(item => item.trim());
+
+        str_split.forEach(item => {
+            if (item !== '') {
+                const item_split = item.split('x').map(item => item.trim());
+                const how_many = Number(item_split[0]);
+                const level = Number(item_split[1]);
+
+                if (Number.isNaN(how_many) || Number.isNaN(level)) {
+                    const message = `Could not parse neighborhood information for Base ${index}`;
+
+                    error = { message };
+                    return { parsed_info, error };
+                }
+
+                parsed_info.push({ how_many, level });
+            }
+        });
+
+        return { parsed_info, error };
+    } catch (error) {
+        return { parsed_info, error };
+    }
+}
 
 const create_init_state = _ => {
     let init = structuredClone(init_state);
@@ -293,26 +326,63 @@ class ProductionModel extends React.Component {
         });
     };
 
+    prepareData = _ => {
+        let cleaned_data = structuredClone(this.state.data);
+
+        cleaned_data.previous_attack.name = cleaned_data.previous_attack.name.trim();
+
+        cleaned_data.base_data.map(item => {
+            const { parsed_info, _ } = parseBaseInfo(item.bases);
+
+            item.name = item.name.trim();
+            item.bases = parsed_info;
+
+            return item;
+        });
+
+        return cleaned_data;
+    };
+
     checkDataIntegrity = _ => {
         let check_status = true;
         let feedback = [];
 
-        const base_names = this.state.data.base_data.map(item => item.name);
-
-        check_status = base_names.includes(
-            this.state.data.previous_attack.name
-        );
-
-        if (!check_status) {
-            feedback.push(
-                'Previous attack on base: ' +
-                    this.state.data.previous_attack.name +
-                    ' not among list of bases: ' +
-                    base_names.join(', ')
+        if (this.state.data.previous_attack.name.trim() === '') {
+            check_status = false;
+            feedback.push('Name of the last attacked base missing.');
+        } else {
+            const base_names = this.state.data.base_data.map(item =>
+                item.name.trim()
             );
+
+            check_status = base_names.includes(
+                this.state.data.previous_attack.name.trim()
+            );
+
+            if (!check_status) {
+                feedback.push(
+                    `Previous attack on Base: ${
+                        this.state.data.previous_attack.name
+                    } not among list of bases: ${base_names.join(', ')}`
+                );
+            }
         }
 
-        feedback = feedback.join('. ');
+        this.state.data.base_data.forEach((item, index) => {
+            if (item.name.trim() === '') {
+                check_status = false;
+                feedback.push(`Name of Base ${index} is missing.`);
+            }
+
+            const { _, error } = parseBaseInfo(item.bases);
+
+            if (error) {
+                check_status = false;
+                feedback.push(
+                    `Incorrectly formatted neighborhood information for Base ${index}. ${error.message}.`
+                );
+            }
+        });
 
         return { check_status, feedback };
     };
@@ -324,11 +394,14 @@ class ProductionModel extends React.Component {
             this.setState(
                 {
                     ...this.state,
+                    feedback_msg: [],
                     show_report: true,
                     computing: true,
                 },
                 () => {
-                    console.log(123, this.state.data);
+                    const cleaned_data = this.prepareData(this.state.data);
+
+                    console.log(123, cleaned_data);
 
                     const report = {
                         new_attack_on: 'cc',
@@ -500,7 +573,7 @@ class ProductionModel extends React.Component {
                                                     previous_attack: {
                                                         ...this.state.data
                                                             .previous_attack,
-                                                        name: e.target.value.trim(),
+                                                        name: e.target.value,
                                                     },
                                                 },
                                             })
@@ -634,15 +707,28 @@ class ProductionModel extends React.Component {
                             </Column>
 
                             <Column lg={3} md={4} sm={4}>
-                                {this.state.feedback_msg && (
+                                {this.state.feedback_msg.length > 0 && (
                                     <>
                                         <br />
                                         <Callout
                                             lowContrast
                                             kind="error"
                                             statusIconDescription="notification"
-                                            subtitle={this.state.feedback_msg}
                                             title="ERROR"
+                                            subtitle={
+                                                <ContainedList
+                                                    isInset
+                                                    size="sm">
+                                                    {this.state.feedback_msg.map(
+                                                        (item, index) => (
+                                                            <ContainedListItem
+                                                                key={index}>
+                                                                {item}
+                                                            </ContainedListItem>
+                                                        )
+                                                    )}
+                                                </ContainedList>
+                                            }
                                         />
                                     </>
                                 )}
