@@ -35,7 +35,13 @@ dependencies = [
     "uvicorn[standard]",
     "certifi",
     "opencv-contrib-python",
-    "numpy"
+    "numpy",
+    "xgboost",
+    "scikit-learn",
+    "pandas",
+    "skl2onnx",
+    "onnxmltools",
+    "onnxruntime"
 ]
 
 [project.optional-dependencies]

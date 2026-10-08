@@ -29,6 +29,7 @@ class FORGOTTEN(StrEnum):
 
     CAMP = auto()
     BASE = auto()
+    OUTPOST = auto()
 
 
 class Neighbor(BaseModel):

@@ -33,6 +33,12 @@ import {
 
 import { large_random_number } from '../../components/BasicElements/Info';
 import { print_date_str } from '../../components/BasicElements/Info';
+import {
+    makePrediction,
+    baseInfoFeatures,
+    checkDataIntegrity,
+    prepareData,
+} from './ModelHelper';
 
 import '@carbon/charts-react/styles.css';
 import data from '../../cache/jump_trend.json';
@@ -64,39 +70,6 @@ const init_state = {
     },
 };
 
-function parseBaseInfo(base_info_str) {
-    let parsed_info = [];
-    let error = null;
-
-    try {
-        let str_split = base_info_str
-            .trim()
-            .split(',')
-            .map(item => item.trim());
-
-        str_split.forEach(item => {
-            if (item !== '') {
-                const item_split = item.split('x').map(item => item.trim());
-                const how_many = Number(item_split[0]);
-                const level = Number(item_split[1]);
-
-                if (Number.isNaN(how_many) || Number.isNaN(level)) {
-                    const message = `Could not parse neighborhood information for Base ${index}`;
-
-                    error = { message };
-                    return { parsed_info, error };
-                }
-
-                parsed_info.push({ how_many, level });
-            }
-        });
-
-        return { parsed_info, error };
-    } catch (error) {
-        return { parsed_info, error };
-    }
-}
-
 const create_init_state = _ => {
     let init = structuredClone(init_state);
     let init_base = create_new_base(init.data.base_data);
@@ -114,51 +87,65 @@ const create_new_base = base_data => {
     return new_base;
 };
 
-const Report = props => (
-    <Grid>
-        <Column lg={6} md={8} sm={4}>
-            <div className="summary-tags">
-                <Tag className="square-tag">Next attack on</Tag>
-                <Tag className="square-tag" type="magenta">
-                    {props.data.next_attack_on}
-                </Tag>
-            </div>
-            <div className="summary-tags">
-                <Tag className="square-tag">Time to attack</Tag>
-                <Tag className="square-tag" type="magenta">
-                    {props.data.time_to_attack} minutes
-                </Tag>
-            </div>
-            <div className="summary-tags">
-                <Tag className="square-tag">Forgotten type</Tag>
-                <Tag className="square-tag" type="magenta">
-                    {props.data.fg_type}
-                </Tag>
-            </div>
-            <br />
-            <Layer>
-                <ContainedList
-                    label="Attack probabilities"
-                    kind="disclosed"
-                    size="md">
-                    {props.data.probabilities.map((item, index) => (
-                        <ContainedListItem key={index}>
-                            <div className="flex-tab here">
-                                <span>{item.name}</span>
-                                <Tag
-                                    className="square-tag"
-                                    size="sm"
-                                    type={index > 0 ? 'gray' : 'magenta'}>
-                                    {(100 * item.probability).toFixed(2)}%
-                                </Tag>
-                            </div>
-                        </ContainedListItem>
-                    ))}
-                </ContainedList>
-            </Layer>
-        </Column>
-    </Grid>
-);
+const Report = props => {
+    const base_names = props.info.base_data.map(item => item.name);
+
+    return (
+        <Grid>
+            <Column lg={6} md={8} sm={4}>
+                <div className="summary-tags">
+                    <Tag size="md" className="square-tag">
+                        Next attack on
+                    </Tag>
+                    <Tag size="md" className="square-tag" type="magenta">
+                        {base_names[props.data.topKBases[0].baseId]}
+                    </Tag>
+                </div>
+                <div className="summary-tags">
+                    <Tag size="md" className="square-tag">
+                        Time to attack
+                    </Tag>
+                    <Tag size="md" className="square-tag" type="magenta">
+                        {(
+                            props.data.estimatedTimeSeconds / 60 -
+                            props.info.previous_attack.time_since_last
+                        ).toFixed(2)}{' '}
+                        minutes
+                    </Tag>
+                </div>
+                <div className="summary-tags">
+                    <Tag size="md" className="square-tag">
+                        Forgotten type
+                    </Tag>
+                    <Tag size="md" className="square-tag" type="magenta">
+                        {props.data.likelyEnemyType}
+                    </Tag>
+                </div>
+                <br />
+                <Layer>
+                    <ContainedList
+                        label="Attack probabilities"
+                        kind="disclosed"
+                        size="md">
+                        {props.data.topKBases.map((item, index) => (
+                            <ContainedListItem key={index}>
+                                <div className="flex-tab here">
+                                    <span>{base_names[item.baseId]}</span>
+                                    <Tag
+                                        className="square-tag"
+                                        size="sm"
+                                        type={index > 0 ? 'gray' : 'magenta'}>
+                                        {(100 * item.probability).toFixed(2)}%
+                                    </Tag>
+                                </div>
+                            </ContainedListItem>
+                        ))}
+                    </ContainedList>
+                </Layer>
+            </Column>
+        </Grid>
+    );
+};
 
 class BaseData extends React.Component {
     constructor(props) {
@@ -326,69 +313,8 @@ class ProductionModel extends React.Component {
         });
     };
 
-    prepareData = _ => {
-        let cleaned_data = structuredClone(this.state.data);
-
-        cleaned_data.previous_attack.name = cleaned_data.previous_attack.name.trim();
-
-        cleaned_data.base_data.map(item => {
-            const { parsed_info, _ } = parseBaseInfo(item.bases);
-
-            item.name = item.name.trim();
-            item.bases = parsed_info;
-
-            return item;
-        });
-
-        return cleaned_data;
-    };
-
-    checkDataIntegrity = _ => {
-        let check_status = true;
-        let feedback = [];
-
-        if (this.state.data.previous_attack.name.trim() === '') {
-            check_status = false;
-            feedback.push('Name of the last attacked base missing.');
-        } else {
-            const base_names = this.state.data.base_data.map(item =>
-                item.name.trim()
-            );
-
-            check_status = base_names.includes(
-                this.state.data.previous_attack.name.trim()
-            );
-
-            if (!check_status) {
-                feedback.push(
-                    `Previous attack on Base: ${
-                        this.state.data.previous_attack.name
-                    } not among list of bases: ${base_names.join(', ')}`
-                );
-            }
-        }
-
-        this.state.data.base_data.forEach((item, index) => {
-            if (item.name.trim() === '') {
-                check_status = false;
-                feedback.push(`Name of Base ${index} is missing.`);
-            }
-
-            const { _, error } = parseBaseInfo(item.bases);
-
-            if (error) {
-                check_status = false;
-                feedback.push(
-                    `Incorrectly formatted neighborhood information for Base ${index}. ${error.message}.`
-                );
-            }
-        });
-
-        return { check_status, feedback };
-    };
-
     compute = _ => {
-        const { check_status, feedback } = this.checkDataIntegrity();
+        const { check_status, feedback } = checkDataIntegrity(this.state.data);
 
         if (check_status) {
             this.setState(
@@ -399,39 +325,40 @@ class ProductionModel extends React.Component {
                     computing: true,
                 },
                 () => {
-                    const cleaned_data = this.prepareData(this.state.data);
+                    const cleaned_data = prepareData(this.state.data);
+                    const featureVector = baseInfoFeatures(cleaned_data);
 
-                    console.log(123, cleaned_data);
-
-                    const report = {
-                        new_attack_on: 'cc',
-                        time_to_attack: 0,
-                        fg_type: '',
-                        probabilities: [
-                            {
-                                name: 'aa',
-                                probability: 0.54833,
-                            },
-                            {
-                                name: 'bb',
-                                probability: 0.334141,
-                            },
-                        ],
-                    };
-
-                    this.setState(
-                        {
-                            ...this.state,
-                            report: report,
-                        },
-                        () => this.setState({ ...this.state, computing: false })
-                    );
+                    makePrediction(
+                        featureVector,
+                        this.state.data.base_data.length
+                    )
+                        .then(report => {
+                            this.setState(
+                                {
+                                    ...this.state,
+                                    report: report,
+                                },
+                                () =>
+                                    this.setState({
+                                        ...this.state,
+                                        computing: false,
+                                    })
+                            );
+                        })
+                        .catch(error => {
+                            this.setState({
+                                ...this.state,
+                                feedback_msg: [error.message],
+                                computing: false,
+                            });
+                        });
                 }
             );
         } else {
             this.setState({
                 ...this.state,
                 feedback_msg: feedback,
+                computing: false,
             });
         }
     };
@@ -460,16 +387,16 @@ class ProductionModel extends React.Component {
                                 target="_blank">
                                 XGBoost
                             </Link>
-                            ] to compute a prediction model for the production
-                            of Forgotten attacks based on{' '}
+                            ] to train an AI model to predict the next attack
+                            based on{' '}
                             <span className="text-alert">{data.length}</span>{' '}
-                            Forgotten attacks on my bases between{' '}
+                            attacks recorded on my bases between{' '}
                             {print_date_str(min_date)} and{' '}
                             {print_date_str(max_date)}.
                             <br />
                             <br />
                             Below you can see the details of what goes into
-                            training this AI model. On the right, enter details
+                            training this model. On the right, enter details
                             about all your and click compute to get an estimate
                             from the model of which base is likely to receive an
                             attack next, with what probability, and when.
@@ -675,7 +602,10 @@ class ProductionModel extends React.Component {
                                 />
                             )}
                             {this.state.report && (
-                                <Report data={this.state.report} />
+                                <Report
+                                    data={this.state.report}
+                                    info={this.state.data}
+                                />
                             )}
                         </AccordionItem>
                     </Accordion>
