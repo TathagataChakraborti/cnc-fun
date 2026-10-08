@@ -119,7 +119,6 @@ class MigrationPage extends React.Component {
 
         Promise.all(promises)
             .then(() => {
-                // 3. Update state once all images are successfully cached
                 this.setState({ load_ready: true });
             })
             .catch(err => {
@@ -616,7 +615,6 @@ class MigrationPage extends React.Component {
                                             size="sm"
                                             kind="ghost"
                                             aria-describedby="Add event"
-                                            titleId="add-event"
                                             href="https://github.com/TathagataChakraborti/cnc-fun/issues/new?template=new-event.md"
                                             target="_blank">
                                             Add
