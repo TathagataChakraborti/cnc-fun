@@ -1,6 +1,18 @@
+from enum import StrEnum, auto
+
 from pydantic import BaseModel
 
 from cnc.models.forgotten import FORGOTTEN, Base, JumpType
+
+
+class PlotType(StrEnum):
+    LOSS = auto()
+    ROC = auto()
+    PR = auto()
+    RESIDUAL = auto()
+    CONFUSION = auto()
+    SHAPLEY = auto()
+    SHAP_PDP = auto()
 
 
 class DailyDistribution(BaseModel):
@@ -28,3 +40,21 @@ class JumpTrend(BaseModel):
     num_active: int
     defending_base: str
     base_data: list[Base]
+
+
+class ROC(BaseModel):
+    group: str
+    tpr: float
+    fpr: float
+
+
+class PR(BaseModel):
+    group: str
+    precision: float
+    recall: float
+
+
+class LOSS(BaseModel):
+    group: str
+    iteration: int
+    loss: float

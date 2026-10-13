@@ -1,17 +1,30 @@
+import json
+
+from collections.abc import Sequence
+
 import numpy as np
 import onnx
 import onnx.helper
 import onnxruntime as ort
 
 from skl2onnx import to_onnx
-from sklearn.ensemble import (
-    HistGradientBoostingClassifier,
-    HistGradientBoostingRegressor,
-)
+from sklearn.model_selection import train_test_split
 
+from cnc.helpers.training import (
+    generate_loss_curve,
+    generate_pr_binary_class,
+    generate_pr_multi_binary_class,
+    generate_roc_binary_class,
+    generate_roc_multi_class,
+)
 from cnc.models.forgotten import FORGOTTEN, Timeline
+from cnc.models.plots import LOSS, PR, ROC
+from cnc.models.training import PlotType, TaskInfo, TaskType
 from cnc.read_raw_data import read_raw_data
 
+
+BASE_FEATURES = 2
+FEATURES_PER_BASE = 5
 
 _original_make_attribute = onnx.helper.make_attribute
 
@@ -52,7 +65,7 @@ def save_clean_onnx(
 
 
 def get_num_features(max_bases: int) -> int:
-    return 2 + 5 * max_bases
+    return BASE_FEATURES + FEATURES_PER_BASE * max_bases
 
 
 def get_forgotten_feature(fg_type: FORGOTTEN) -> int:
@@ -108,23 +121,24 @@ def generate_training_data(
         # FG type of last attack
         new_x[1] = get_forgotten_feature(previous_event.defending_against)
 
-        for base_id, base_info in enumerate(event.state_of_the_union):
-            base_index = base_names.index(base_info.name)
+        for base_info in event.state_of_the_union:
+            base_id = base_names.index(base_info.name)
+            base_index = BASE_FEATURES + base_id * FEATURES_PER_BASE
 
             # Base ID
-            new_x[2 + base_index * 5 + base_id] = base_index
+            new_x[base_index] = base_id
 
             # Active bases in range
-            new_x[2 + base_index * 5 + base_id + 1] = base_info.active_bases
+            new_x[base_index + 1] = base_info.active_bases
 
             # Mean neighborhood level
-            new_x[2 + base_index * 5 + base_id + 2] = base_info.expected_level_in_range
+            new_x[base_index + 2] = base_info.expected_level_in_range
 
             # Highest base in range
-            new_x[2 + base_index * 5 + base_id + 3] = base_info.max_level_in_range
+            new_x[base_index + 3] = base_info.max_level_in_range
 
             # Wave level
-            new_x[2 + base_index * 5 + base_id + 4] = base_info.neighborhood_roughness
+            new_x[base_index + 4] = base_info.neighborhood_roughness
 
         x[index] = new_x
 
@@ -132,31 +146,107 @@ def generate_training_data(
 
 
 def train_model(
-    timeline_data: Timeline, max_iter: int = 50, max_bases: int = 16
+    timeline_data: Timeline, max_iter: int = 100, max_bases: int = 16
 ) -> None:
     x, y_base, y_type, y_time, num_features = generate_training_data(
         timeline_data, max_bases
     )
 
-    clf_base = HistGradientBoostingClassifier(max_iter=max_iter).fit(x, y_base)
+    training_map = [
+        TaskInfo(
+            name="y_base",
+            x=x,
+            y=y_base,
+            task_type=TaskType.CLASSIFICATION,
+            plot_types=[
+                PlotType.LOSS,
+                PlotType.ROC,
+                PlotType.PR,
+                # PlotType.SHAPLEY,
+                # PlotType.SHAP_PDP,
+            ],
+        ),
+        TaskInfo(
+            name="y_type",
+            x=x,
+            y=y_type,
+            task_type=TaskType.CLASSIFICATION,
+            plot_types=[
+                PlotType.LOSS,
+                PlotType.ROC,
+                PlotType.PR,
+                # PlotType.CONFUSION,
+                # PlotType.SHAPLEY,
+                # PlotType.SHAP_PDP,
+            ],
+        ),
+        TaskInfo(
+            name="y_time",
+            x=x,
+            y=y_time,
+            task_type=TaskType.REGRESSION,
+            plot_types=[
+                PlotType.LOSS,
+                # PlotType.RESIDUAL,
+                # PlotType.SHAPLEY,
+                # PlotType.SHAP_PDP,
+            ],
+        ),
+    ]
 
-    clf_type = HistGradientBoostingClassifier(max_iter=max_iter).fit(x, y_type)
+    for task in training_map:
+        x_train, x_val, y_train, y_val = train_test_split(
+            task.x, task.y, test_size=0.2, random_state=42
+        )
 
-    reg_time = HistGradientBoostingRegressor(max_iter=max_iter).fit(x, y_time)
+        clf = task.train(
+            max_iter=max_iter,
+            early_stopping=True,
+            scoring="loss",
+            validation_fraction=0.2,
+            n_iter_no_change=10,
+            random_state=42,
+        ).fit(x_train, y_train)
 
-    x_sample = np.zeros((1, num_features), dtype=np.float32)
+        x_sample = np.zeros((1, num_features), dtype=np.float32)
 
-    for index, model in enumerate([clf_base, clf_type, reg_time]):
         onnx_model = to_onnx(
-            model,
+            clf,
             x_sample,
-            options={id(model): {"zipmap": False} if model != reg_time else {}},
+            options={id(clf): {"zipmap": False} if task.zipmap else {}},
             target_opset=17,
         )
 
         save_clean_onnx(
-            onnx_model, x_sample, filename=f"../src/cache/models/model_{index}.onnx"
+            onnx_model, x_sample, filename=f"../src/cache/models/{task.name}.onnx"
         )
+
+        for plot_type in task.plot_types:
+            plot_data: Sequence[ROC | PR | LOSS] = []
+
+            if plot_type == PlotType.ROC:
+                if task.num_classes > 2:
+                    plot_data = generate_roc_multi_class(
+                        clf, x_val, y_val, num_classes=task.num_classes
+                    )
+
+                else:
+                    plot_data = generate_roc_binary_class(clf, x_val, y_val)
+
+            if plot_type == PlotType.PR:
+                if task.num_classes > 2:
+                    plot_data = generate_pr_multi_binary_class(
+                        clf, x_val, y_val, num_classes=task.num_classes
+                    )
+
+                else:
+                    plot_data = generate_pr_binary_class(clf, x_val, y_val)
+
+            if plot_type == PlotType.LOSS:
+                plot_data = generate_loss_curve(clf)
+
+            with open(f"../src/cache/plots/{plot_type}_{task.name}.json", "w") as df:
+                json.dump([item.model_dump() for item in plot_data], df, indent=4)
 
 
 if __name__ == "__main__":

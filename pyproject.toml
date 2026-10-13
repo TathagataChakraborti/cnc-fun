@@ -41,7 +41,7 @@ dependencies = [
     "pandas",
     "skl2onnx",
     "onnxmltools",
-    "onnxruntime"
+    "onnxruntime",
 ]
 
 [project.optional-dependencies]

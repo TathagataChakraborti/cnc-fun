@@ -1,0 +1,172 @@
+[
+    {
+        "group": "Training Loss",
+        "iteration": 1,
+        "loss": -1.8314
+    },
+    {
+        "group": "Validation Loss",
+        "iteration": 1,
+        "loss": -1.849
+    },
+    {
+        "group": "Training Loss",
+        "iteration": 2,
+        "loss": -1.7235
+    },
+    {
+        "group": "Validation Loss",
+        "iteration": 2,
+        "loss": -1.8109
+    },
+    {
+        "group": "Training Loss",
+        "iteration": 3,
+        "loss": -1.643
+    },
+    {
+        "group": "Validation Loss",
+        "iteration": 3,
+        "loss": -1.7883
+    },
+    {
+        "group": "Training Loss",
+        "iteration": 4,
+        "loss": -1.5785
+    },
+    {
+        "group": "Validation Loss",
+        "iteration": 4,
+        "loss": -1.7732
+    },
+    {
+        "group": "Training Loss",
+        "iteration": 5,
+        "loss": -1.524
+    },
+    {
+        "group": "Validation Loss",
+        "iteration": 5,
+        "loss": -1.7625
+    },
+    {
+        "group": "Training Loss",
+        "iteration": 6,
+        "loss": -1.476
+    },
+    {
+        "group": "Validation Loss",
+        "iteration": 6,
+        "loss": -1.7628
+    },
+    {
+        "group": "Training Loss",
+        "iteration": 7,
+        "loss": -1.4306
+    },
+    {
+        "group": "Validation Loss",
+        "iteration": 7,
+        "loss": -1.7601
+    },
+    {
+        "group": "Training Loss",
+        "iteration": 8,
+        "loss": -1.3949
+    },
+    {
+        "group": "Validation Loss",
+        "iteration": 8,
+        "loss": -1.7701
+    },
+    {
+        "group": "Training Loss",
+        "iteration": 9,
+        "loss": -1.3609
+    },
+    {
+        "group": "Validation Loss",
+        "iteration": 9,
+        "loss": -1.777
+    },
+    {
+        "group": "Training Loss",
+        "iteration": 10,
+        "loss": -1.3287
+    },
+    {
+        "group": "Validation Loss",
+        "iteration": 10,
+        "loss": -1.7743
+    },
+    {
+        "group": "Training Loss",
+        "iteration": 11,
+        "loss": -1.2991
+    },
+    {
+        "group": "Validation Loss",
+        "iteration": 11,
+        "loss": -1.7768
+    },
+    {
+        "group": "Training Loss",
+        "iteration": 12,
+        "loss": -1.2719
+    },
+    {
+        "group": "Validation Loss",
+        "iteration": 12,
+        "loss": -1.7829
+    },
+    {
+        "group": "Training Loss",
+        "iteration": 13,
+        "loss": -1.2446
+    },
+    {
+        "group": "Validation Loss",
+        "iteration": 13,
+        "loss": -1.7817
+    },
+    {
+        "group": "Training Loss",
+        "iteration": 14,
+        "loss": -1.2206
+    },
+    {
+        "group": "Validation Loss",
+        "iteration": 14,
+        "loss": -1.782
+    },
+    {
+        "group": "Training Loss",
+        "iteration": 15,
+        "loss": -1.1956
+    },
+    {
+        "group": "Validation Loss",
+        "iteration": 15,
+        "loss": -1.7873
+    },
+    {
+        "group": "Training Loss",
+        "iteration": 16,
+        "loss": -1.1753
+    },
+    {
+        "group": "Validation Loss",
+        "iteration": 16,
+        "loss": -1.799
+    },
+    {
+        "group": "Training Loss",
+        "iteration": 17,
+        "loss": -1.1522
+    },
+    {
+        "group": "Validation Loss",
+        "iteration": 17,
+        "loss": -1.8098
+    }
+]
