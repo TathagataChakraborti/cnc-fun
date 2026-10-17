@@ -20,7 +20,7 @@ import {
     ContentSwitcher,
     Switch,
 } from '@carbon/react';
-import { LineChart, ScaleTypes, AxisPositions } from '@carbon/charts-react';
+import { TrainingPlots, ShapleyPlots } from './TrainingPlots';
 import {
     Add,
     TrashCan,
@@ -37,19 +37,7 @@ import {
     prepareData,
 } from './ModelHelper';
 
-import '@carbon/charts-react/styles.css';
-
 import data from '../../cache/jump_trend.json';
-
-import roc_y_base from '../../cache/plots/roc_y_base.json';
-import roc_y_type from '../../cache/plots/roc_y_type.json';
-
-import pr_y_base from '../../cache/plots/pr_y_base.json';
-import pr_y_type from '../../cache/plots/pr_y_type.json';
-
-import loss_y_base from '../../cache/plots/loss_y_base.json';
-import loss_y_type from '../../cache/plots/loss_y_type.json';
-import loss_y_time from '../../cache/plots/loss_y_time.json';
 
 const fg_types = ['Base', 'Camp', 'Outposts'];
 const max_date = data[0].datetime;
@@ -77,68 +65,6 @@ const init_state = {
         },
         base_data: [],
     },
-};
-
-const loss_options = {
-    axes: {
-        [AxisPositions.TOP]: {
-            title: 'Iteration',
-            mapsTo: 'iteration',
-            scaleType: 'linear',
-        },
-        [AxisPositions.LEFT]: {
-            title: 'Log Loss Score',
-            mapsTo: 'loss',
-            includeZero: false,
-            visible: false,
-        },
-    },
-    curve: ScaleTypes.curveMonotoneX,
-    toolbar: {
-        enabled: false,
-    },
-    points: {
-        enabled: false,
-    },
-    height: '300px',
-};
-
-const roc_options = {
-    axes: {
-        [AxisPositions.TOP]: {
-            title: 'False Positive Rate',
-            mapsTo: 'fpr',
-            domain: [0, 1],
-        },
-        [AxisPositions.LEFT]: {
-            title: 'True Positive Rate',
-            mapsTo: 'tpr',
-            domain: [0, 1],
-        },
-    },
-    toolbar: {
-        enabled: false,
-    },
-    height: '400px',
-};
-
-const pr_options = {
-    axes: {
-        [AxisPositions.TOP]: {
-            title: 'Recall',
-            mapsTo: 'recall',
-            domain: [0, 1],
-        },
-        [AxisPositions.LEFT]: {
-            title: 'Precision',
-            mapsTo: 'precision',
-            domain: [0, 1],
-        },
-    },
-    toolbar: {
-        enabled: false,
-    },
-    height: '400px',
 };
 
 const create_init_state = _ => {
@@ -506,64 +432,8 @@ class ProductionModel extends React.Component {
                         </ContentSwitcher>
                         <br />
                         <br />
-
-                        {this.state.model_name === 'y_base' && (
-                            <>
-                                <LineChart
-                                    data={roc_y_base}
-                                    options={roc_options}
-                                />
-                                <br />
-                                <br />
-                                <LineChart
-                                    data={pr_y_base}
-                                    options={pr_options}
-                                />
-                                <br />
-                                <br />
-                                <LineChart
-                                    data={loss_y_base}
-                                    options={loss_options}
-                                />
-                            </>
-                        )}
-
-                        {this.state.model_name === 'y_type' && (
-                            <>
-                                <LineChart
-                                    data={roc_y_type}
-                                    options={{
-                                        ...roc_options,
-                                        height: '300px',
-                                    }}
-                                />
-                                <br />
-                                <br />
-                                <LineChart
-                                    data={pr_y_type}
-                                    options={{
-                                        ...pr_options,
-                                        height: '300px',
-                                    }}
-                                />
-                                <br />
-                                <br />
-                                <LineChart
-                                    data={loss_y_type}
-                                    options={loss_options}
-                                />
-                            </>
-                        )}
-
-                        {this.state.model_name === 'y_time' && (
-                            <>
-                                <LineChart
-                                    data={loss_y_time}
-                                    options={loss_options}
-                                />
-                            </>
-                        )}
                     </Column>
+                    <TrainingPlots model_name={this.state.model_name} />
                 </Column>
                 <Column lg={8} md={8} sm={4}>
                     <Accordion isFlush align="end" size="sm">
