@@ -1,0 +1,5882 @@
+[
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0187,
+        "sampleIndex": 0,
+        "featureValue": 6.9375,
+        "normalizedVal": 0.7929
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0442,
+        "sampleIndex": 1,
+        "featureValue": 4.875,
+        "normalizedVal": 0.5571
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.0723,
+        "sampleIndex": 2,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0265,
+        "sampleIndex": 3,
+        "featureValue": 7.1875,
+        "normalizedVal": 0.8214
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0121,
+        "sampleIndex": 4,
+        "featureValue": 5.3125,
+        "normalizedVal": 0.6071
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0323,
+        "sampleIndex": 5,
+        "featureValue": 3.9375,
+        "normalizedVal": 0.45
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0148,
+        "sampleIndex": 6,
+        "featureValue": 5.5625,
+        "normalizedVal": 0.6357
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.1411,
+        "sampleIndex": 7,
+        "featureValue": 4.4375,
+        "normalizedVal": 0.5071
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0159,
+        "sampleIndex": 8,
+        "featureValue": 7.3125,
+        "normalizedVal": 0.8357
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.1177,
+        "sampleIndex": 9,
+        "featureValue": 3.8125,
+        "normalizedVal": 0.4357
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0352,
+        "sampleIndex": 10,
+        "featureValue": 7.25,
+        "normalizedVal": 0.8286
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.0023,
+        "sampleIndex": 11,
+        "featureValue": 7.3125,
+        "normalizedVal": 0.8357
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0063,
+        "sampleIndex": 12,
+        "featureValue": 6.875,
+        "normalizedVal": 0.7857
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.0824,
+        "sampleIndex": 13,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.0606,
+        "sampleIndex": 14,
+        "featureValue": 4.1875,
+        "normalizedVal": 0.4786
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0224,
+        "sampleIndex": 15,
+        "featureValue": 4.5,
+        "normalizedVal": 0.5143
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0173,
+        "sampleIndex": 16,
+        "featureValue": 6.4375,
+        "normalizedVal": 0.7357
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0478,
+        "sampleIndex": 17,
+        "featureValue": 4.1875,
+        "normalizedVal": 0.4786
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0344,
+        "sampleIndex": 18,
+        "featureValue": 2.8125,
+        "normalizedVal": 0.3214
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0115,
+        "sampleIndex": 19,
+        "featureValue": 8.0,
+        "normalizedVal": 0.9143
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.002,
+        "sampleIndex": 20,
+        "featureValue": 6.75,
+        "normalizedVal": 0.7714
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0233,
+        "sampleIndex": 21,
+        "featureValue": 4.625,
+        "normalizedVal": 0.5286
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.0742,
+        "sampleIndex": 22,
+        "featureValue": 0.375,
+        "normalizedVal": 0.0429
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.0511,
+        "sampleIndex": 23,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0289,
+        "sampleIndex": 24,
+        "featureValue": 4.5,
+        "normalizedVal": 0.5143
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0373,
+        "sampleIndex": 25,
+        "featureValue": 4.375,
+        "normalizedVal": 0.5
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0279,
+        "sampleIndex": 26,
+        "featureValue": 7.0,
+        "normalizedVal": 0.8
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0296,
+        "sampleIndex": 27,
+        "featureValue": 6.0625,
+        "normalizedVal": 0.6929
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.0852,
+        "sampleIndex": 28,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.1105,
+        "sampleIndex": 29,
+        "featureValue": 4.125,
+        "normalizedVal": 0.4714
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.0504,
+        "sampleIndex": 30,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0452,
+        "sampleIndex": 31,
+        "featureValue": 5.0625,
+        "normalizedVal": 0.5786
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.015,
+        "sampleIndex": 32,
+        "featureValue": 8.0,
+        "normalizedVal": 0.9143
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0402,
+        "sampleIndex": 33,
+        "featureValue": 6.3125,
+        "normalizedVal": 0.7214
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0428,
+        "sampleIndex": 34,
+        "featureValue": 2.8125,
+        "normalizedVal": 0.3214
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.019,
+        "sampleIndex": 35,
+        "featureValue": 2.875,
+        "normalizedVal": 0.3286
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0201,
+        "sampleIndex": 36,
+        "featureValue": 5.8125,
+        "normalizedVal": 0.6643
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0582,
+        "sampleIndex": 37,
+        "featureValue": 2.75,
+        "normalizedVal": 0.3143
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.1068,
+        "sampleIndex": 38,
+        "featureValue": 4.125,
+        "normalizedVal": 0.4714
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0056,
+        "sampleIndex": 39,
+        "featureValue": 4.125,
+        "normalizedVal": 0.4714
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.0019,
+        "sampleIndex": 40,
+        "featureValue": 4.3125,
+        "normalizedVal": 0.4929
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0201,
+        "sampleIndex": 41,
+        "featureValue": 6.4375,
+        "normalizedVal": 0.7357
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.0459,
+        "sampleIndex": 42,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.063,
+        "sampleIndex": 43,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0294,
+        "sampleIndex": 44,
+        "featureValue": 8.75,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0349,
+        "sampleIndex": 45,
+        "featureValue": 4.75,
+        "normalizedVal": 0.5429
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0503,
+        "sampleIndex": 46,
+        "featureValue": 4.75,
+        "normalizedVal": 0.5429
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0278,
+        "sampleIndex": 47,
+        "featureValue": 6.625,
+        "normalizedVal": 0.7571
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0216,
+        "sampleIndex": 48,
+        "featureValue": 6.6875,
+        "normalizedVal": 0.7643
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.0854,
+        "sampleIndex": 49,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0423,
+        "sampleIndex": 50,
+        "featureValue": 6.4375,
+        "normalizedVal": 0.7357
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.05,
+        "sampleIndex": 51,
+        "featureValue": 6.4375,
+        "normalizedVal": 0.7357
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0282,
+        "sampleIndex": 52,
+        "featureValue": 6.625,
+        "normalizedVal": 0.7571
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.0609,
+        "sampleIndex": 53,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.0895,
+        "sampleIndex": 54,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.0133,
+        "sampleIndex": 55,
+        "featureValue": 4.3125,
+        "normalizedVal": 0.4929
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0395,
+        "sampleIndex": 56,
+        "featureValue": 4.0625,
+        "normalizedVal": 0.4643
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0457,
+        "sampleIndex": 57,
+        "featureValue": 4.3125,
+        "normalizedVal": 0.4929
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0319,
+        "sampleIndex": 58,
+        "featureValue": 5.5,
+        "normalizedVal": 0.6286
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0405,
+        "sampleIndex": 59,
+        "featureValue": 3.9375,
+        "normalizedVal": 0.45
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0175,
+        "sampleIndex": 60,
+        "featureValue": 7.1875,
+        "normalizedVal": 0.8214
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0204,
+        "sampleIndex": 61,
+        "featureValue": 4.8125,
+        "normalizedVal": 0.55
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.0072,
+        "sampleIndex": 62,
+        "featureValue": 4.4375,
+        "normalizedVal": 0.5071
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.076,
+        "sampleIndex": 63,
+        "featureValue": 0.375,
+        "normalizedVal": 0.0429
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.0905,
+        "sampleIndex": 64,
+        "featureValue": 2.0625,
+        "normalizedVal": 0.2357
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0277,
+        "sampleIndex": 65,
+        "featureValue": 7.0,
+        "normalizedVal": 0.8
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.0542,
+        "sampleIndex": 66,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0458,
+        "sampleIndex": 67,
+        "featureValue": 2.0625,
+        "normalizedVal": 0.2357
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0069,
+        "sampleIndex": 68,
+        "featureValue": 8.0,
+        "normalizedVal": 0.9143
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.0343,
+        "sampleIndex": 69,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.0924,
+        "sampleIndex": 70,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0157,
+        "sampleIndex": 71,
+        "featureValue": 5.5625,
+        "normalizedVal": 0.6357
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.0694,
+        "sampleIndex": 72,
+        "featureValue": 3.125,
+        "normalizedVal": 0.3571
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0346,
+        "sampleIndex": 73,
+        "featureValue": 4.3125,
+        "normalizedVal": 0.4929
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.0463,
+        "sampleIndex": 74,
+        "featureValue": 3.6875,
+        "normalizedVal": 0.4214
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.0199,
+        "sampleIndex": 75,
+        "featureValue": 0.4375,
+        "normalizedVal": 0.05
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0444,
+        "sampleIndex": 76,
+        "featureValue": 4.3125,
+        "normalizedVal": 0.4929
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.0135,
+        "sampleIndex": 77,
+        "featureValue": 4.5,
+        "normalizedVal": 0.5143
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.0853,
+        "sampleIndex": 78,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.0174,
+        "sampleIndex": 79,
+        "featureValue": 4.4375,
+        "normalizedVal": 0.5071
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.0469,
+        "sampleIndex": 80,
+        "featureValue": 3.9375,
+        "normalizedVal": 0.45
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0394,
+        "sampleIndex": 81,
+        "featureValue": 5.0625,
+        "normalizedVal": 0.5786
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.1021,
+        "sampleIndex": 82,
+        "featureValue": 4.125,
+        "normalizedVal": 0.4714
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.003,
+        "sampleIndex": 83,
+        "featureValue": 4.3125,
+        "normalizedVal": 0.4929
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0149,
+        "sampleIndex": 84,
+        "featureValue": 7.0625,
+        "normalizedVal": 0.8071
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.028,
+        "sampleIndex": 85,
+        "featureValue": 6.8125,
+        "normalizedVal": 0.7786
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0382,
+        "sampleIndex": 86,
+        "featureValue": 4.9375,
+        "normalizedVal": 0.5643
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0406,
+        "sampleIndex": 87,
+        "featureValue": 4.1875,
+        "normalizedVal": 0.4786
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0263,
+        "sampleIndex": 88,
+        "featureValue": 4.625,
+        "normalizedVal": 0.5286
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0398,
+        "sampleIndex": 89,
+        "featureValue": 4.0625,
+        "normalizedVal": 0.4643
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0223,
+        "sampleIndex": 90,
+        "featureValue": 4.5,
+        "normalizedVal": 0.5143
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.0505,
+        "sampleIndex": 91,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.1358,
+        "sampleIndex": 92,
+        "featureValue": 7.5,
+        "normalizedVal": 0.8571
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.062,
+        "sampleIndex": 93,
+        "featureValue": 4.1875,
+        "normalizedVal": 0.4786
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.0608,
+        "sampleIndex": 94,
+        "featureValue": 7.125,
+        "normalizedVal": 0.8143
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0191,
+        "sampleIndex": 95,
+        "featureValue": 4.125,
+        "normalizedVal": 0.4714
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0395,
+        "sampleIndex": 96,
+        "featureValue": 6.5,
+        "normalizedVal": 0.7429
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0084,
+        "sampleIndex": 97,
+        "featureValue": 5.5625,
+        "normalizedVal": 0.6357
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0589,
+        "sampleIndex": 98,
+        "featureValue": 4.1875,
+        "normalizedVal": 0.4786
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0155,
+        "sampleIndex": 99,
+        "featureValue": 8.0,
+        "normalizedVal": 0.9143
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0154,
+        "sampleIndex": 100,
+        "featureValue": 6.6875,
+        "normalizedVal": 0.7643
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0433,
+        "sampleIndex": 101,
+        "featureValue": 4.0625,
+        "normalizedVal": 0.4643
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.0239,
+        "sampleIndex": 102,
+        "featureValue": 0.4375,
+        "normalizedVal": 0.05
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.2127,
+        "sampleIndex": 103,
+        "featureValue": 5.375,
+        "normalizedVal": 0.6143
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0087,
+        "sampleIndex": 104,
+        "featureValue": 7.3125,
+        "normalizedVal": 0.8357
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.0584,
+        "sampleIndex": 105,
+        "featureValue": 5.8125,
+        "normalizedVal": 0.6643
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0225,
+        "sampleIndex": 106,
+        "featureValue": 5.5,
+        "normalizedVal": 0.6286
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0144,
+        "sampleIndex": 107,
+        "featureValue": 4.125,
+        "normalizedVal": 0.4714
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0345,
+        "sampleIndex": 108,
+        "featureValue": 4.0625,
+        "normalizedVal": 0.4643
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.0872,
+        "sampleIndex": 109,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0437,
+        "sampleIndex": 110,
+        "featureValue": 3.9375,
+        "normalizedVal": 0.45
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.0572,
+        "sampleIndex": 111,
+        "featureValue": 5.875,
+        "normalizedVal": 0.6714
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0376,
+        "sampleIndex": 112,
+        "featureValue": 4.3125,
+        "normalizedVal": 0.4929
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.0178,
+        "sampleIndex": 113,
+        "featureValue": 4.3125,
+        "normalizedVal": 0.4929
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0299,
+        "sampleIndex": 114,
+        "featureValue": 4.625,
+        "normalizedVal": 0.5286
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0645,
+        "sampleIndex": 115,
+        "featureValue": 6.0625,
+        "normalizedVal": 0.6929
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.0585,
+        "sampleIndex": 116,
+        "featureValue": 3.9375,
+        "normalizedVal": 0.45
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": -0.0242,
+        "sampleIndex": 117,
+        "featureValue": 5.5,
+        "normalizedVal": 0.6286
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.0642,
+        "sampleIndex": 118,
+        "featureValue": 2.0,
+        "normalizedVal": 0.2286
+    },
+    {
+        "group": "Active bases in range",
+        "shapValue": 0.1073,
+        "sampleIndex": 119,
+        "featureValue": 4.125,
+        "normalizedVal": 0.4714
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0035,
+        "sampleIndex": 0,
+        "featureValue": 18.3263,
+        "normalizedVal": 0.704
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0046,
+        "sampleIndex": 1,
+        "featureValue": 10.5806,
+        "normalizedVal": 0.4065
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0112,
+        "sampleIndex": 2,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0331,
+        "sampleIndex": 3,
+        "featureValue": 25.72,
+        "normalizedVal": 0.9881
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0323,
+        "sampleIndex": 4,
+        "featureValue": 18.5106,
+        "normalizedVal": 0.7111
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0172,
+        "sampleIndex": 5,
+        "featureValue": 7.1213,
+        "normalizedVal": 0.2736
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0144,
+        "sampleIndex": 6,
+        "featureValue": 15.5281,
+        "normalizedVal": 0.5965
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0041,
+        "sampleIndex": 7,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0261,
+        "sampleIndex": 8,
+        "featureValue": 25.7881,
+        "normalizedVal": 0.9907
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0502,
+        "sampleIndex": 9,
+        "featureValue": 14.945,
+        "normalizedVal": 0.5741
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0214,
+        "sampleIndex": 10,
+        "featureValue": 22.0375,
+        "normalizedVal": 0.8466
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0021,
+        "sampleIndex": 11,
+        "featureValue": 18.3212,
+        "normalizedVal": 0.7038
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0103,
+        "sampleIndex": 12,
+        "featureValue": 18.3225,
+        "normalizedVal": 0.7039
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0091,
+        "sampleIndex": 13,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0001,
+        "sampleIndex": 14,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0999,
+        "sampleIndex": 15,
+        "featureValue": 17.59,
+        "normalizedVal": 0.6757
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0363,
+        "sampleIndex": 16,
+        "featureValue": 22.0375,
+        "normalizedVal": 0.8466
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0226,
+        "sampleIndex": 17,
+        "featureValue": 17.7981,
+        "normalizedVal": 0.6837
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0284,
+        "sampleIndex": 18,
+        "featureValue": 14.5938,
+        "normalizedVal": 0.5606
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0266,
+        "sampleIndex": 19,
+        "featureValue": 25.7881,
+        "normalizedVal": 0.9907
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0212,
+        "sampleIndex": 20,
+        "featureValue": 19.7006,
+        "normalizedVal": 0.7568
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0047,
+        "sampleIndex": 21,
+        "featureValue": 16.5719,
+        "normalizedVal": 0.6366
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0117,
+        "sampleIndex": 22,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0195,
+        "sampleIndex": 23,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0052,
+        "sampleIndex": 24,
+        "featureValue": 16.5769,
+        "normalizedVal": 0.6368
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0374,
+        "sampleIndex": 25,
+        "featureValue": 16.58,
+        "normalizedVal": 0.6369
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0247,
+        "sampleIndex": 26,
+        "featureValue": 25.6975,
+        "normalizedVal": 0.9872
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0417,
+        "sampleIndex": 27,
+        "featureValue": 10.34,
+        "normalizedVal": 0.3972
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0118,
+        "sampleIndex": 28,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0046,
+        "sampleIndex": 29,
+        "featureValue": 11.9112,
+        "normalizedVal": 0.4576
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0287,
+        "sampleIndex": 30,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0263,
+        "sampleIndex": 31,
+        "featureValue": 11.5081,
+        "normalizedVal": 0.4421
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0329,
+        "sampleIndex": 32,
+        "featureValue": 25.8006,
+        "normalizedVal": 0.9912
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0266,
+        "sampleIndex": 33,
+        "featureValue": 20.9762,
+        "normalizedVal": 0.8058
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.032,
+        "sampleIndex": 34,
+        "featureValue": 14.5938,
+        "normalizedVal": 0.5606
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.1078,
+        "sampleIndex": 35,
+        "featureValue": 12.4019,
+        "normalizedVal": 0.4764
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0391,
+        "sampleIndex": 36,
+        "featureValue": 10.6481,
+        "normalizedVal": 0.4091
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0089,
+        "sampleIndex": 37,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0088,
+        "sampleIndex": 38,
+        "featureValue": 11.9112,
+        "normalizedVal": 0.4576
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0368,
+        "sampleIndex": 39,
+        "featureValue": 10.3869,
+        "normalizedVal": 0.399
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0548,
+        "sampleIndex": 40,
+        "featureValue": 16.6031,
+        "normalizedVal": 0.6378
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0305,
+        "sampleIndex": 41,
+        "featureValue": 22.0375,
+        "normalizedVal": 0.8466
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.031,
+        "sampleIndex": 42,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0018,
+        "sampleIndex": 43,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0198,
+        "sampleIndex": 44,
+        "featureValue": 22.6044,
+        "normalizedVal": 0.8684
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0385,
+        "sampleIndex": 45,
+        "featureValue": 17.5131,
+        "normalizedVal": 0.6728
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0113,
+        "sampleIndex": 46,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0219,
+        "sampleIndex": 47,
+        "featureValue": 18.3019,
+        "normalizedVal": 0.7031
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0183,
+        "sampleIndex": 48,
+        "featureValue": 22.0481,
+        "normalizedVal": 0.847
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0101,
+        "sampleIndex": 49,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0273,
+        "sampleIndex": 50,
+        "featureValue": 20.7337,
+        "normalizedVal": 0.7965
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.027,
+        "sampleIndex": 51,
+        "featureValue": 20.7337,
+        "normalizedVal": 0.7965
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0309,
+        "sampleIndex": 52,
+        "featureValue": 18.3019,
+        "normalizedVal": 0.7031
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0016,
+        "sampleIndex": 53,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0132,
+        "sampleIndex": 54,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0723,
+        "sampleIndex": 55,
+        "featureValue": 16.6031,
+        "normalizedVal": 0.6378
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0209,
+        "sampleIndex": 56,
+        "featureValue": 10.6731,
+        "normalizedVal": 0.41
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0269,
+        "sampleIndex": 57,
+        "featureValue": 11.4688,
+        "normalizedVal": 0.4406
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0434,
+        "sampleIndex": 58,
+        "featureValue": 10.425,
+        "normalizedVal": 0.4005
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0359,
+        "sampleIndex": 59,
+        "featureValue": 13.9438,
+        "normalizedVal": 0.5357
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0282,
+        "sampleIndex": 60,
+        "featureValue": 25.72,
+        "normalizedVal": 0.9881
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0358,
+        "sampleIndex": 61,
+        "featureValue": 15.2219,
+        "normalizedVal": 0.5848
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0231,
+        "sampleIndex": 62,
+        "featureValue": 16.4094,
+        "normalizedVal": 0.6304
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0077,
+        "sampleIndex": 63,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0114,
+        "sampleIndex": 64,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0313,
+        "sampleIndex": 65,
+        "featureValue": 25.6975,
+        "normalizedVal": 0.9872
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0242,
+        "sampleIndex": 66,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0808,
+        "sampleIndex": 67,
+        "featureValue": 12.7413,
+        "normalizedVal": 0.4895
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0333,
+        "sampleIndex": 68,
+        "featureValue": 25.8006,
+        "normalizedVal": 0.9912
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0012,
+        "sampleIndex": 69,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0028,
+        "sampleIndex": 70,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0113,
+        "sampleIndex": 71,
+        "featureValue": 15.5281,
+        "normalizedVal": 0.5965
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0078,
+        "sampleIndex": 72,
+        "featureValue": 12.1325,
+        "normalizedVal": 0.4661
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0083,
+        "sampleIndex": 73,
+        "featureValue": 16.3925,
+        "normalizedVal": 0.6297
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0572,
+        "sampleIndex": 74,
+        "featureValue": 14.2937,
+        "normalizedVal": 0.5491
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0081,
+        "sampleIndex": 75,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0288,
+        "sampleIndex": 76,
+        "featureValue": 16.5588,
+        "normalizedVal": 0.6361
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.1288,
+        "sampleIndex": 77,
+        "featureValue": 17.59,
+        "normalizedVal": 0.6757
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0134,
+        "sampleIndex": 78,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0329,
+        "sampleIndex": 79,
+        "featureValue": 16.4094,
+        "normalizedVal": 0.6304
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0268,
+        "sampleIndex": 80,
+        "featureValue": 14.0187,
+        "normalizedVal": 0.5385
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0112,
+        "sampleIndex": 81,
+        "featureValue": 16.5175,
+        "normalizedVal": 0.6345
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0121,
+        "sampleIndex": 82,
+        "featureValue": 11.9112,
+        "normalizedVal": 0.4576
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0574,
+        "sampleIndex": 83,
+        "featureValue": 16.6031,
+        "normalizedVal": 0.6378
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0321,
+        "sampleIndex": 84,
+        "featureValue": 25.6919,
+        "normalizedVal": 0.987
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0245,
+        "sampleIndex": 85,
+        "featureValue": 26.0306,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0399,
+        "sampleIndex": 86,
+        "featureValue": 7.83,
+        "normalizedVal": 0.3008
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0257,
+        "sampleIndex": 87,
+        "featureValue": 17.985,
+        "normalizedVal": 0.6909
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0028,
+        "sampleIndex": 88,
+        "featureValue": 16.5719,
+        "normalizedVal": 0.6366
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0215,
+        "sampleIndex": 89,
+        "featureValue": 10.6731,
+        "normalizedVal": 0.41
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.1028,
+        "sampleIndex": 90,
+        "featureValue": 17.59,
+        "normalizedVal": 0.6757
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0221,
+        "sampleIndex": 91,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0554,
+        "sampleIndex": 92,
+        "featureValue": 22.1244,
+        "normalizedVal": 0.8499
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0028,
+        "sampleIndex": 93,
+        "featureValue": 13.3713,
+        "normalizedVal": 0.5137
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0763,
+        "sampleIndex": 94,
+        "featureValue": 21.3306,
+        "normalizedVal": 0.8194
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0149,
+        "sampleIndex": 95,
+        "featureValue": 10.3869,
+        "normalizedVal": 0.399
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0365,
+        "sampleIndex": 96,
+        "featureValue": 18.1444,
+        "normalizedVal": 0.697
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0098,
+        "sampleIndex": 97,
+        "featureValue": 15.5281,
+        "normalizedVal": 0.5965
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0008,
+        "sampleIndex": 98,
+        "featureValue": 13.3713,
+        "normalizedVal": 0.5137
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0325,
+        "sampleIndex": 99,
+        "featureValue": 25.8006,
+        "normalizedVal": 0.9912
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0321,
+        "sampleIndex": 100,
+        "featureValue": 22.1038,
+        "normalizedVal": 0.8491
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0266,
+        "sampleIndex": 101,
+        "featureValue": 10.6731,
+        "normalizedVal": 0.41
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.009,
+        "sampleIndex": 102,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.1274,
+        "sampleIndex": 103,
+        "featureValue": 16.5544,
+        "normalizedVal": 0.636
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0343,
+        "sampleIndex": 104,
+        "featureValue": 25.7881,
+        "normalizedVal": 0.9907
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0268,
+        "sampleIndex": 105,
+        "featureValue": 16.6219,
+        "normalizedVal": 0.6386
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0395,
+        "sampleIndex": 106,
+        "featureValue": 10.425,
+        "normalizedVal": 0.4005
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0012,
+        "sampleIndex": 107,
+        "featureValue": 10.3869,
+        "normalizedVal": 0.399
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0154,
+        "sampleIndex": 108,
+        "featureValue": 13.7463,
+        "normalizedVal": 0.5281
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0066,
+        "sampleIndex": 109,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0357,
+        "sampleIndex": 110,
+        "featureValue": 10.6313,
+        "normalizedVal": 0.4084
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0202,
+        "sampleIndex": 111,
+        "featureValue": 16.6162,
+        "normalizedVal": 0.6383
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0364,
+        "sampleIndex": 112,
+        "featureValue": 16.5588,
+        "normalizedVal": 0.6361
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0721,
+        "sampleIndex": 113,
+        "featureValue": 16.6031,
+        "normalizedVal": 0.6378
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.007,
+        "sampleIndex": 114,
+        "featureValue": 16.5719,
+        "normalizedVal": 0.6366
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0055,
+        "sampleIndex": 115,
+        "featureValue": 16.3944,
+        "normalizedVal": 0.6298
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0364,
+        "sampleIndex": 116,
+        "featureValue": 14.0187,
+        "normalizedVal": 0.5385
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": -0.0368,
+        "sampleIndex": 117,
+        "featureValue": 10.425,
+        "normalizedVal": 0.4005
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0361,
+        "sampleIndex": 118,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Mean FG level",
+        "shapValue": 0.0074,
+        "sampleIndex": 119,
+        "featureValue": 11.9112,
+        "normalizedVal": 0.4576
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.004,
+        "sampleIndex": 0,
+        "featureValue": 2.0,
+        "normalizedVal": 0.2857
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0076,
+        "sampleIndex": 1,
+        "featureValue": 2.0,
+        "normalizedVal": 0.2857
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0033,
+        "sampleIndex": 2,
+        "featureValue": 1.0,
+        "normalizedVal": 0.1429
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0045,
+        "sampleIndex": 3,
+        "featureValue": 2.0,
+        "normalizedVal": 0.2857
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.0091,
+        "sampleIndex": 4,
+        "featureValue": 6.0,
+        "normalizedVal": 0.8571
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.0152,
+        "sampleIndex": 5,
+        "featureValue": 4.0,
+        "normalizedVal": 0.5714
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0003,
+        "sampleIndex": 6,
+        "featureValue": 2.0,
+        "normalizedVal": 0.2857
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0352,
+        "sampleIndex": 7,
+        "featureValue": 3.0,
+        "normalizedVal": 0.4286
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.0073,
+        "sampleIndex": 8,
+        "featureValue": 6.0,
+        "normalizedVal": 0.8571
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0181,
+        "sampleIndex": 9,
+        "featureValue": 1.0,
+        "normalizedVal": 0.1429
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0006,
+        "sampleIndex": 10,
+        "featureValue": 1.0,
+        "normalizedVal": 0.1429
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.0151,
+        "sampleIndex": 11,
+        "featureValue": 5.0,
+        "normalizedVal": 0.7143
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.0175,
+        "sampleIndex": 12,
+        "featureValue": 5.0,
+        "normalizedVal": 0.7143
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0161,
+        "sampleIndex": 13,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.0017,
+        "sampleIndex": 14,
+        "featureValue": 1.0,
+        "normalizedVal": 0.1429
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0028,
+        "sampleIndex": 15,
+        "featureValue": 1.0,
+        "normalizedVal": 0.1429
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.0063,
+        "sampleIndex": 16,
+        "featureValue": 5.0,
+        "normalizedVal": 0.7143
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0016,
+        "sampleIndex": 17,
+        "featureValue": 2.0,
+        "normalizedVal": 0.2857
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.011,
+        "sampleIndex": 18,
+        "featureValue": 6.0,
+        "normalizedVal": 0.8571
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.0061,
+        "sampleIndex": 19,
+        "featureValue": 4.0,
+        "normalizedVal": 0.5714
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.0024,
+        "sampleIndex": 20,
+        "featureValue": 4.0,
+        "normalizedVal": 0.5714
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0001,
+        "sampleIndex": 21,
+        "featureValue": 2.0,
+        "normalizedVal": 0.2857
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.0012,
+        "sampleIndex": 22,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0119,
+        "sampleIndex": 23,
+        "featureValue": 3.0,
+        "normalizedVal": 0.4286
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0113,
+        "sampleIndex": 24,
+        "featureValue": 3.0,
+        "normalizedVal": 0.4286
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.0081,
+        "sampleIndex": 25,
+        "featureValue": 5.0,
+        "normalizedVal": 0.7143
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.0054,
+        "sampleIndex": 26,
+        "featureValue": 7.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0018,
+        "sampleIndex": 27,
+        "featureValue": 2.0,
+        "normalizedVal": 0.2857
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0161,
+        "sampleIndex": 28,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0231,
+        "sampleIndex": 29,
+        "featureValue": 2.0,
+        "normalizedVal": 0.2857
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0161,
+        "sampleIndex": 30,
+        "featureValue": 3.0,
+        "normalizedVal": 0.4286
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0043,
+        "sampleIndex": 31,
+        "featureValue": 3.0,
+        "normalizedVal": 0.4286
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0033,
+        "sampleIndex": 32,
+        "featureValue": 2.0,
+        "normalizedVal": 0.2857
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.0092,
+        "sampleIndex": 33,
+        "featureValue": 5.0,
+        "normalizedVal": 0.7143
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0025,
+        "sampleIndex": 34,
+        "featureValue": 2.0,
+        "normalizedVal": 0.2857
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0119,
+        "sampleIndex": 35,
+        "featureValue": 2.0,
+        "normalizedVal": 0.2857
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.0104,
+        "sampleIndex": 36,
+        "featureValue": 5.0,
+        "normalizedVal": 0.7143
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0124,
+        "sampleIndex": 37,
+        "featureValue": 3.0,
+        "normalizedVal": 0.4286
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0186,
+        "sampleIndex": 38,
+        "featureValue": 2.0,
+        "normalizedVal": 0.2857
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0063,
+        "sampleIndex": 39,
+        "featureValue": 2.0,
+        "normalizedVal": 0.2857
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.012,
+        "sampleIndex": 40,
+        "featureValue": 4.0,
+        "normalizedVal": 0.5714
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.0058,
+        "sampleIndex": 41,
+        "featureValue": 6.0,
+        "normalizedVal": 0.8571
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.013,
+        "sampleIndex": 42,
+        "featureValue": 3.0,
+        "normalizedVal": 0.4286
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0125,
+        "sampleIndex": 43,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.0019,
+        "sampleIndex": 44,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0056,
+        "sampleIndex": 45,
+        "featureValue": 3.0,
+        "normalizedVal": 0.4286
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.0015,
+        "sampleIndex": 46,
+        "featureValue": 2.0,
+        "normalizedVal": 0.2857
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.0102,
+        "sampleIndex": 47,
+        "featureValue": 4.0,
+        "normalizedVal": 0.5714
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0021,
+        "sampleIndex": 48,
+        "featureValue": 2.0,
+        "normalizedVal": 0.2857
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0127,
+        "sampleIndex": 49,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.009,
+        "sampleIndex": 50,
+        "featureValue": 5.0,
+        "normalizedVal": 0.7143
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0005,
+        "sampleIndex": 51,
+        "featureValue": 2.0,
+        "normalizedVal": 0.2857
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0024,
+        "sampleIndex": 52,
+        "featureValue": 2.0,
+        "normalizedVal": 0.2857
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0128,
+        "sampleIndex": 53,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0115,
+        "sampleIndex": 54,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0005,
+        "sampleIndex": 55,
+        "featureValue": 2.0,
+        "normalizedVal": 0.2857
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.0123,
+        "sampleIndex": 56,
+        "featureValue": 5.0,
+        "normalizedVal": 0.7143
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0019,
+        "sampleIndex": 57,
+        "featureValue": 2.0,
+        "normalizedVal": 0.2857
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0014,
+        "sampleIndex": 58,
+        "featureValue": 2.0,
+        "normalizedVal": 0.2857
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0049,
+        "sampleIndex": 59,
+        "featureValue": 3.0,
+        "normalizedVal": 0.4286
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.0077,
+        "sampleIndex": 60,
+        "featureValue": 6.0,
+        "normalizedVal": 0.8571
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.0105,
+        "sampleIndex": 61,
+        "featureValue": 5.0,
+        "normalizedVal": 0.7143
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0155,
+        "sampleIndex": 62,
+        "featureValue": 3.0,
+        "normalizedVal": 0.4286
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0039,
+        "sampleIndex": 63,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.0041,
+        "sampleIndex": 64,
+        "featureValue": 1.0,
+        "normalizedVal": 0.1429
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0052,
+        "sampleIndex": 65,
+        "featureValue": 2.0,
+        "normalizedVal": 0.2857
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0126,
+        "sampleIndex": 66,
+        "featureValue": 3.0,
+        "normalizedVal": 0.4286
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0008,
+        "sampleIndex": 67,
+        "featureValue": 2.0,
+        "normalizedVal": 0.2857
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.0097,
+        "sampleIndex": 68,
+        "featureValue": 5.0,
+        "normalizedVal": 0.7143
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0031,
+        "sampleIndex": 69,
+        "featureValue": 3.0,
+        "normalizedVal": 0.4286
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0162,
+        "sampleIndex": 70,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0011,
+        "sampleIndex": 71,
+        "featureValue": 2.0,
+        "normalizedVal": 0.2857
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0146,
+        "sampleIndex": 72,
+        "featureValue": 1.0,
+        "normalizedVal": 0.1429
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.0012,
+        "sampleIndex": 73,
+        "featureValue": 1.0,
+        "normalizedVal": 0.1429
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0241,
+        "sampleIndex": 74,
+        "featureValue": 2.0,
+        "normalizedVal": 0.2857
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.0019,
+        "sampleIndex": 75,
+        "featureValue": 1.0,
+        "normalizedVal": 0.1429
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.001,
+        "sampleIndex": 76,
+        "featureValue": 2.0,
+        "normalizedVal": 0.2857
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0083,
+        "sampleIndex": 77,
+        "featureValue": 2.0,
+        "normalizedVal": 0.2857
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0126,
+        "sampleIndex": 78,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.0063,
+        "sampleIndex": 79,
+        "featureValue": 5.0,
+        "normalizedVal": 0.7143
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.0011,
+        "sampleIndex": 80,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.0099,
+        "sampleIndex": 81,
+        "featureValue": 4.0,
+        "normalizedVal": 0.5714
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0305,
+        "sampleIndex": 82,
+        "featureValue": 3.0,
+        "normalizedVal": 0.4286
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.0111,
+        "sampleIndex": 83,
+        "featureValue": 4.0,
+        "normalizedVal": 0.5714
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.0076,
+        "sampleIndex": 84,
+        "featureValue": 6.0,
+        "normalizedVal": 0.8571
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.0157,
+        "sampleIndex": 85,
+        "featureValue": 5.0,
+        "normalizedVal": 0.7143
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.002,
+        "sampleIndex": 86,
+        "featureValue": 2.0,
+        "normalizedVal": 0.2857
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.014,
+        "sampleIndex": 87,
+        "featureValue": 6.0,
+        "normalizedVal": 0.8571
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.0141,
+        "sampleIndex": 88,
+        "featureValue": 5.0,
+        "normalizedVal": 0.7143
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.0133,
+        "sampleIndex": 89,
+        "featureValue": 5.0,
+        "normalizedVal": 0.7143
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.003,
+        "sampleIndex": 90,
+        "featureValue": 1.0,
+        "normalizedVal": 0.1429
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0116,
+        "sampleIndex": 91,
+        "featureValue": 3.0,
+        "normalizedVal": 0.4286
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0169,
+        "sampleIndex": 92,
+        "featureValue": 3.0,
+        "normalizedVal": 0.4286
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.0001,
+        "sampleIndex": 93,
+        "featureValue": 1.0,
+        "normalizedVal": 0.1429
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0077,
+        "sampleIndex": 94,
+        "featureValue": 2.0,
+        "normalizedVal": 0.2857
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0171,
+        "sampleIndex": 95,
+        "featureValue": 3.0,
+        "normalizedVal": 0.4286
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0007,
+        "sampleIndex": 96,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0066,
+        "sampleIndex": 97,
+        "featureValue": 3.0,
+        "normalizedVal": 0.4286
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0007,
+        "sampleIndex": 98,
+        "featureValue": 2.0,
+        "normalizedVal": 0.2857
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.005,
+        "sampleIndex": 99,
+        "featureValue": 3.0,
+        "normalizedVal": 0.4286
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.0059,
+        "sampleIndex": 100,
+        "featureValue": 6.0,
+        "normalizedVal": 0.8571
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0003,
+        "sampleIndex": 101,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.001,
+        "sampleIndex": 102,
+        "featureValue": 1.0,
+        "normalizedVal": 0.1429
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0228,
+        "sampleIndex": 103,
+        "featureValue": 1.0,
+        "normalizedVal": 0.1429
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.0064,
+        "sampleIndex": 104,
+        "featureValue": 6.0,
+        "normalizedVal": 0.8571
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0088,
+        "sampleIndex": 105,
+        "featureValue": 1.0,
+        "normalizedVal": 0.1429
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.0091,
+        "sampleIndex": 106,
+        "featureValue": 5.0,
+        "normalizedVal": 0.7143
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.0219,
+        "sampleIndex": 107,
+        "featureValue": 5.0,
+        "normalizedVal": 0.7143
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.0201,
+        "sampleIndex": 108,
+        "featureValue": 5.0,
+        "normalizedVal": 0.7143
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0118,
+        "sampleIndex": 109,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0071,
+        "sampleIndex": 110,
+        "featureValue": 3.0,
+        "normalizedVal": 0.4286
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0071,
+        "sampleIndex": 111,
+        "featureValue": 2.0,
+        "normalizedVal": 0.2857
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.0104,
+        "sampleIndex": 112,
+        "featureValue": 5.0,
+        "normalizedVal": 0.7143
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0005,
+        "sampleIndex": 113,
+        "featureValue": 2.0,
+        "normalizedVal": 0.2857
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0024,
+        "sampleIndex": 114,
+        "featureValue": 1.0,
+        "normalizedVal": 0.1429
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0111,
+        "sampleIndex": 115,
+        "featureValue": 3.0,
+        "normalizedVal": 0.4286
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0262,
+        "sampleIndex": 116,
+        "featureValue": 3.0,
+        "normalizedVal": 0.4286
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": -0.0087,
+        "sampleIndex": 117,
+        "featureValue": 6.0,
+        "normalizedVal": 0.8571
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0228,
+        "sampleIndex": 118,
+        "featureValue": 3.0,
+        "normalizedVal": 0.4286
+    },
+    {
+        "group": "Last attack target",
+        "shapValue": 0.0316,
+        "sampleIndex": 119,
+        "featureValue": 3.0,
+        "normalizedVal": 0.4286
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0024,
+        "sampleIndex": 0,
+        "featureValue": 1.3125,
+        "normalizedVal": 0.75
+    },
+    {
+        "group": "Target base",
+        "shapValue": 0.0005,
+        "sampleIndex": 1,
+        "featureValue": 0.9375,
+        "normalizedVal": 0.5357
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0017,
+        "sampleIndex": 2,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0089,
+        "sampleIndex": 3,
+        "featureValue": 1.75,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0024,
+        "sampleIndex": 4,
+        "featureValue": 1.3125,
+        "normalizedVal": 0.75
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0012,
+        "sampleIndex": 5,
+        "featureValue": 0.9375,
+        "normalizedVal": 0.5357
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0084,
+        "sampleIndex": 6,
+        "featureValue": 1.75,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Target base",
+        "shapValue": 0.0152,
+        "sampleIndex": 7,
+        "featureValue": 0.625,
+        "normalizedVal": 0.3571
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0057,
+        "sampleIndex": 8,
+        "featureValue": 1.75,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0016,
+        "sampleIndex": 9,
+        "featureValue": 0.9375,
+        "normalizedVal": 0.5357
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0051,
+        "sampleIndex": 10,
+        "featureValue": 1.75,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0058,
+        "sampleIndex": 11,
+        "featureValue": 1.3125,
+        "normalizedVal": 0.75
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0038,
+        "sampleIndex": 12,
+        "featureValue": 1.3125,
+        "normalizedVal": 0.75
+    },
+    {
+        "group": "Target base",
+        "shapValue": 0.0111,
+        "sampleIndex": 13,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Target base",
+        "shapValue": 0.0075,
+        "sampleIndex": 14,
+        "featureValue": 0.375,
+        "normalizedVal": 0.2143
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0045,
+        "sampleIndex": 15,
+        "featureValue": 1.3125,
+        "normalizedVal": 0.75
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.004,
+        "sampleIndex": 16,
+        "featureValue": 1.75,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0031,
+        "sampleIndex": 17,
+        "featureValue": 1.3125,
+        "normalizedVal": 0.75
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0029,
+        "sampleIndex": 18,
+        "featureValue": 1.3125,
+        "normalizedVal": 0.75
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.003,
+        "sampleIndex": 19,
+        "featureValue": 1.75,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0046,
+        "sampleIndex": 20,
+        "featureValue": 1.75,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0011,
+        "sampleIndex": 21,
+        "featureValue": 0.9375,
+        "normalizedVal": 0.5357
+    },
+    {
+        "group": "Target base",
+        "shapValue": 0.0107,
+        "sampleIndex": 22,
+        "featureValue": 0.375,
+        "normalizedVal": 0.2143
+    },
+    {
+        "group": "Target base",
+        "shapValue": 0.0125,
+        "sampleIndex": 23,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Target base",
+        "shapValue": 0.0021,
+        "sampleIndex": 24,
+        "featureValue": 0.9375,
+        "normalizedVal": 0.5357
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0048,
+        "sampleIndex": 25,
+        "featureValue": 0.9375,
+        "normalizedVal": 0.5357
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0016,
+        "sampleIndex": 26,
+        "featureValue": 1.75,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0051,
+        "sampleIndex": 27,
+        "featureValue": 1.3125,
+        "normalizedVal": 0.75
+    },
+    {
+        "group": "Target base",
+        "shapValue": 0.008,
+        "sampleIndex": 28,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Target base",
+        "shapValue": 0.0162,
+        "sampleIndex": 29,
+        "featureValue": 0.625,
+        "normalizedVal": 0.3571
+    },
+    {
+        "group": "Target base",
+        "shapValue": 0.0025,
+        "sampleIndex": 30,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0041,
+        "sampleIndex": 31,
+        "featureValue": 1.3125,
+        "normalizedVal": 0.75
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0047,
+        "sampleIndex": 32,
+        "featureValue": 1.75,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.003,
+        "sampleIndex": 33,
+        "featureValue": 1.3125,
+        "normalizedVal": 0.75
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0043,
+        "sampleIndex": 34,
+        "featureValue": 1.3125,
+        "normalizedVal": 0.75
+    },
+    {
+        "group": "Target base",
+        "shapValue": 0.0197,
+        "sampleIndex": 35,
+        "featureValue": 0.625,
+        "normalizedVal": 0.3571
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0049,
+        "sampleIndex": 36,
+        "featureValue": 1.3125,
+        "normalizedVal": 0.75
+    },
+    {
+        "group": "Target base",
+        "shapValue": 0.0078,
+        "sampleIndex": 37,
+        "featureValue": 0.375,
+        "normalizedVal": 0.2143
+    },
+    {
+        "group": "Target base",
+        "shapValue": 0.017,
+        "sampleIndex": 38,
+        "featureValue": 0.625,
+        "normalizedVal": 0.3571
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0032,
+        "sampleIndex": 39,
+        "featureValue": 0.9375,
+        "normalizedVal": 0.5357
+    },
+    {
+        "group": "Target base",
+        "shapValue": 0.0037,
+        "sampleIndex": 40,
+        "featureValue": 0.9375,
+        "normalizedVal": 0.5357
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0043,
+        "sampleIndex": 41,
+        "featureValue": 1.75,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Target base",
+        "shapValue": 0.0074,
+        "sampleIndex": 42,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Target base",
+        "shapValue": 0.0148,
+        "sampleIndex": 43,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0047,
+        "sampleIndex": 44,
+        "featureValue": 1.75,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0044,
+        "sampleIndex": 45,
+        "featureValue": 1.3125,
+        "normalizedVal": 0.75
+    },
+    {
+        "group": "Target base",
+        "shapValue": 0.004,
+        "sampleIndex": 46,
+        "featureValue": 0.375,
+        "normalizedVal": 0.2143
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0031,
+        "sampleIndex": 47,
+        "featureValue": 1.3125,
+        "normalizedVal": 0.75
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0042,
+        "sampleIndex": 48,
+        "featureValue": 1.75,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Target base",
+        "shapValue": 0.0107,
+        "sampleIndex": 49,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0029,
+        "sampleIndex": 50,
+        "featureValue": 1.3125,
+        "normalizedVal": 0.75
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0057,
+        "sampleIndex": 51,
+        "featureValue": 1.3125,
+        "normalizedVal": 0.75
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0065,
+        "sampleIndex": 52,
+        "featureValue": 1.3125,
+        "normalizedVal": 0.75
+    },
+    {
+        "group": "Target base",
+        "shapValue": 0.0136,
+        "sampleIndex": 53,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Target base",
+        "shapValue": 0.0085,
+        "sampleIndex": 54,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0013,
+        "sampleIndex": 55,
+        "featureValue": 0.9375,
+        "normalizedVal": 0.5357
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0045,
+        "sampleIndex": 56,
+        "featureValue": 1.3125,
+        "normalizedVal": 0.75
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0035,
+        "sampleIndex": 57,
+        "featureValue": 1.3125,
+        "normalizedVal": 0.75
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0039,
+        "sampleIndex": 58,
+        "featureValue": 1.3125,
+        "normalizedVal": 0.75
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0044,
+        "sampleIndex": 59,
+        "featureValue": 1.3125,
+        "normalizedVal": 0.75
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0084,
+        "sampleIndex": 60,
+        "featureValue": 1.75,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0056,
+        "sampleIndex": 61,
+        "featureValue": 1.3125,
+        "normalizedVal": 0.75
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0035,
+        "sampleIndex": 62,
+        "featureValue": 0.9375,
+        "normalizedVal": 0.5357
+    },
+    {
+        "group": "Target base",
+        "shapValue": 0.0089,
+        "sampleIndex": 63,
+        "featureValue": 0.375,
+        "normalizedVal": 0.2143
+    },
+    {
+        "group": "Target base",
+        "shapValue": 0.0054,
+        "sampleIndex": 64,
+        "featureValue": 0.375,
+        "normalizedVal": 0.2143
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0063,
+        "sampleIndex": 65,
+        "featureValue": 1.75,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Target base",
+        "shapValue": 0.0065,
+        "sampleIndex": 66,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Target base",
+        "shapValue": 0.0212,
+        "sampleIndex": 67,
+        "featureValue": 0.625,
+        "normalizedVal": 0.3571
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0047,
+        "sampleIndex": 68,
+        "featureValue": 1.75,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Target base",
+        "shapValue": 0.0089,
+        "sampleIndex": 69,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Target base",
+        "shapValue": 0.0107,
+        "sampleIndex": 70,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0104,
+        "sampleIndex": 71,
+        "featureValue": 1.75,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0051,
+        "sampleIndex": 72,
+        "featureValue": 0.9375,
+        "normalizedVal": 0.5357
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0027,
+        "sampleIndex": 73,
+        "featureValue": 0.9375,
+        "normalizedVal": 0.5357
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0005,
+        "sampleIndex": 74,
+        "featureValue": 0.9375,
+        "normalizedVal": 0.5357
+    },
+    {
+        "group": "Target base",
+        "shapValue": 0.0084,
+        "sampleIndex": 75,
+        "featureValue": 0.375,
+        "normalizedVal": 0.2143
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.002,
+        "sampleIndex": 76,
+        "featureValue": 0.9375,
+        "normalizedVal": 0.5357
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0081,
+        "sampleIndex": 77,
+        "featureValue": 1.3125,
+        "normalizedVal": 0.75
+    },
+    {
+        "group": "Target base",
+        "shapValue": 0.0078,
+        "sampleIndex": 78,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0017,
+        "sampleIndex": 79,
+        "featureValue": 0.9375,
+        "normalizedVal": 0.5357
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0082,
+        "sampleIndex": 80,
+        "featureValue": 0.9375,
+        "normalizedVal": 0.5357
+    },
+    {
+        "group": "Target base",
+        "shapValue": 0.0006,
+        "sampleIndex": 81,
+        "featureValue": 0.9375,
+        "normalizedVal": 0.5357
+    },
+    {
+        "group": "Target base",
+        "shapValue": 0.0108,
+        "sampleIndex": 82,
+        "featureValue": 0.625,
+        "normalizedVal": 0.3571
+    },
+    {
+        "group": "Target base",
+        "shapValue": 0.0035,
+        "sampleIndex": 83,
+        "featureValue": 0.9375,
+        "normalizedVal": 0.5357
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0046,
+        "sampleIndex": 84,
+        "featureValue": 1.75,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.005,
+        "sampleIndex": 85,
+        "featureValue": 1.75,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0041,
+        "sampleIndex": 86,
+        "featureValue": 1.3125,
+        "normalizedVal": 0.75
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0023,
+        "sampleIndex": 87,
+        "featureValue": 1.3125,
+        "normalizedVal": 0.75
+    },
+    {
+        "group": "Target base",
+        "shapValue": 0.0012,
+        "sampleIndex": 88,
+        "featureValue": 0.9375,
+        "normalizedVal": 0.5357
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.004,
+        "sampleIndex": 89,
+        "featureValue": 1.3125,
+        "normalizedVal": 0.75
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.006,
+        "sampleIndex": 90,
+        "featureValue": 1.3125,
+        "normalizedVal": 0.75
+    },
+    {
+        "group": "Target base",
+        "shapValue": 0.0079,
+        "sampleIndex": 91,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0088,
+        "sampleIndex": 92,
+        "featureValue": 1.75,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Target base",
+        "shapValue": 0.0004,
+        "sampleIndex": 93,
+        "featureValue": 0.9375,
+        "normalizedVal": 0.5357
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0041,
+        "sampleIndex": 94,
+        "featureValue": 1.3125,
+        "normalizedVal": 0.75
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0018,
+        "sampleIndex": 95,
+        "featureValue": 0.9375,
+        "normalizedVal": 0.5357
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0059,
+        "sampleIndex": 96,
+        "featureValue": 1.3125,
+        "normalizedVal": 0.75
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0116,
+        "sampleIndex": 97,
+        "featureValue": 1.75,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0011,
+        "sampleIndex": 98,
+        "featureValue": 0.9375,
+        "normalizedVal": 0.5357
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0026,
+        "sampleIndex": 99,
+        "featureValue": 1.75,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0039,
+        "sampleIndex": 100,
+        "featureValue": 1.3125,
+        "normalizedVal": 0.75
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0054,
+        "sampleIndex": 101,
+        "featureValue": 1.3125,
+        "normalizedVal": 0.75
+    },
+    {
+        "group": "Target base",
+        "shapValue": 0.002,
+        "sampleIndex": 102,
+        "featureValue": 0.375,
+        "normalizedVal": 0.2143
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0042,
+        "sampleIndex": 103,
+        "featureValue": 0.9375,
+        "normalizedVal": 0.5357
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0073,
+        "sampleIndex": 104,
+        "featureValue": 1.75,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Target base",
+        "shapValue": 0.0001,
+        "sampleIndex": 105,
+        "featureValue": 0.9375,
+        "normalizedVal": 0.5357
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.004,
+        "sampleIndex": 106,
+        "featureValue": 1.3125,
+        "normalizedVal": 0.75
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0015,
+        "sampleIndex": 107,
+        "featureValue": 0.9375,
+        "normalizedVal": 0.5357
+    },
+    {
+        "group": "Target base",
+        "shapValue": 0.0001,
+        "sampleIndex": 108,
+        "featureValue": 0.9375,
+        "normalizedVal": 0.5357
+    },
+    {
+        "group": "Target base",
+        "shapValue": 0.0164,
+        "sampleIndex": 109,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0047,
+        "sampleIndex": 110,
+        "featureValue": 1.3125,
+        "normalizedVal": 0.75
+    },
+    {
+        "group": "Target base",
+        "shapValue": 0.0001,
+        "sampleIndex": 111,
+        "featureValue": 0.9375,
+        "normalizedVal": 0.5357
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0012,
+        "sampleIndex": 112,
+        "featureValue": 0.9375,
+        "normalizedVal": 0.5357
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0001,
+        "sampleIndex": 113,
+        "featureValue": 0.9375,
+        "normalizedVal": 0.5357
+    },
+    {
+        "group": "Target base",
+        "shapValue": 0.0026,
+        "sampleIndex": 114,
+        "featureValue": 0.9375,
+        "normalizedVal": 0.5357
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0015,
+        "sampleIndex": 115,
+        "featureValue": 0.9375,
+        "normalizedVal": 0.5357
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0051,
+        "sampleIndex": 116,
+        "featureValue": 0.9375,
+        "normalizedVal": 0.5357
+    },
+    {
+        "group": "Target base",
+        "shapValue": -0.0035,
+        "sampleIndex": 117,
+        "featureValue": 1.3125,
+        "normalizedVal": 0.75
+    },
+    {
+        "group": "Target base",
+        "shapValue": 0.015,
+        "sampleIndex": 118,
+        "featureValue": 0.375,
+        "normalizedVal": 0.2143
+    },
+    {
+        "group": "Target base",
+        "shapValue": 0.0097,
+        "sampleIndex": 119,
+        "featureValue": 0.625,
+        "normalizedVal": 0.3571
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0007,
+        "sampleIndex": 0,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0012,
+        "sampleIndex": 1,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0067,
+        "sampleIndex": 2,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0009,
+        "sampleIndex": 3,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0014,
+        "sampleIndex": 4,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0009,
+        "sampleIndex": 5,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0044,
+        "sampleIndex": 6,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0024,
+        "sampleIndex": 7,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0037,
+        "sampleIndex": 8,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0011,
+        "sampleIndex": 9,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0024,
+        "sampleIndex": 10,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0029,
+        "sampleIndex": 11,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0027,
+        "sampleIndex": 12,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0102,
+        "sampleIndex": 13,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0024,
+        "sampleIndex": 14,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0139,
+        "sampleIndex": 15,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0008,
+        "sampleIndex": 16,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0025,
+        "sampleIndex": 17,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.002,
+        "sampleIndex": 18,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0031,
+        "sampleIndex": 19,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0086,
+        "sampleIndex": 20,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0091,
+        "sampleIndex": 21,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0094,
+        "sampleIndex": 22,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.015,
+        "sampleIndex": 23,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0096,
+        "sampleIndex": 24,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0055,
+        "sampleIndex": 25,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0013,
+        "sampleIndex": 26,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0003,
+        "sampleIndex": 27,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0077,
+        "sampleIndex": 28,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0001,
+        "sampleIndex": 29,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.012,
+        "sampleIndex": 30,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0024,
+        "sampleIndex": 31,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0026,
+        "sampleIndex": 32,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0012,
+        "sampleIndex": 33,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0028,
+        "sampleIndex": 34,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0017,
+        "sampleIndex": 35,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0011,
+        "sampleIndex": 36,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0038,
+        "sampleIndex": 37,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0014,
+        "sampleIndex": 38,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0139,
+        "sampleIndex": 39,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0071,
+        "sampleIndex": 40,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0018,
+        "sampleIndex": 41,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0108,
+        "sampleIndex": 42,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0103,
+        "sampleIndex": 43,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0003,
+        "sampleIndex": 44,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0025,
+        "sampleIndex": 45,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0011,
+        "sampleIndex": 46,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0023,
+        "sampleIndex": 47,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0017,
+        "sampleIndex": 48,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0109,
+        "sampleIndex": 49,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0007,
+        "sampleIndex": 50,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0029,
+        "sampleIndex": 51,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0012,
+        "sampleIndex": 52,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0099,
+        "sampleIndex": 53,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0057,
+        "sampleIndex": 54,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0153,
+        "sampleIndex": 55,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0012,
+        "sampleIndex": 56,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0018,
+        "sampleIndex": 57,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0006,
+        "sampleIndex": 58,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0022,
+        "sampleIndex": 59,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0016,
+        "sampleIndex": 60,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0014,
+        "sampleIndex": 61,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.008,
+        "sampleIndex": 62,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0099,
+        "sampleIndex": 63,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0007,
+        "sampleIndex": 64,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0,
+        "sampleIndex": 65,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0113,
+        "sampleIndex": 66,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0018,
+        "sampleIndex": 67,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0027,
+        "sampleIndex": 68,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0152,
+        "sampleIndex": 69,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0082,
+        "sampleIndex": 70,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0055,
+        "sampleIndex": 71,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0082,
+        "sampleIndex": 72,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0051,
+        "sampleIndex": 73,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0019,
+        "sampleIndex": 74,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0065,
+        "sampleIndex": 75,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0064,
+        "sampleIndex": 76,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.013,
+        "sampleIndex": 77,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0095,
+        "sampleIndex": 78,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0099,
+        "sampleIndex": 79,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0028,
+        "sampleIndex": 80,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0069,
+        "sampleIndex": 81,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0016,
+        "sampleIndex": 82,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0106,
+        "sampleIndex": 83,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0,
+        "sampleIndex": 84,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0017,
+        "sampleIndex": 85,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0006,
+        "sampleIndex": 86,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.001,
+        "sampleIndex": 87,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0082,
+        "sampleIndex": 88,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.001,
+        "sampleIndex": 89,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0162,
+        "sampleIndex": 90,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0151,
+        "sampleIndex": 91,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0011,
+        "sampleIndex": 92,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.002,
+        "sampleIndex": 93,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0024,
+        "sampleIndex": 94,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0111,
+        "sampleIndex": 95,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0013,
+        "sampleIndex": 96,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0074,
+        "sampleIndex": 97,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0011,
+        "sampleIndex": 98,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0028,
+        "sampleIndex": 99,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0023,
+        "sampleIndex": 100,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0011,
+        "sampleIndex": 101,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0072,
+        "sampleIndex": 102,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0079,
+        "sampleIndex": 103,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0027,
+        "sampleIndex": 104,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0091,
+        "sampleIndex": 105,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0008,
+        "sampleIndex": 106,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0087,
+        "sampleIndex": 107,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0081,
+        "sampleIndex": 108,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0071,
+        "sampleIndex": 109,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0025,
+        "sampleIndex": 110,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0087,
+        "sampleIndex": 111,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0043,
+        "sampleIndex": 112,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.011,
+        "sampleIndex": 113,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.009,
+        "sampleIndex": 114,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0004,
+        "sampleIndex": 115,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": -0.0022,
+        "sampleIndex": 116,
+        "featureValue": 1.0,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0008,
+        "sampleIndex": 117,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0035,
+        "sampleIndex": 118,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Type of last attack",
+        "shapValue": 0.0013,
+        "sampleIndex": 119,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0021,
+        "sampleIndex": 0,
+        "featureValue": 19.125,
+        "normalizedVal": 0.7067
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.002,
+        "sampleIndex": 1,
+        "featureValue": 11.375,
+        "normalizedVal": 0.4203
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0051,
+        "sampleIndex": 2,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.0067,
+        "sampleIndex": 3,
+        "featureValue": 26.625,
+        "normalizedVal": 0.9838
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.001,
+        "sampleIndex": 4,
+        "featureValue": 19.3125,
+        "normalizedVal": 0.7136
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0021,
+        "sampleIndex": 5,
+        "featureValue": 7.75,
+        "normalizedVal": 0.2864
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.0035,
+        "sampleIndex": 6,
+        "featureValue": 16.1875,
+        "normalizedVal": 0.5982
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0033,
+        "sampleIndex": 7,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.0052,
+        "sampleIndex": 8,
+        "featureValue": 26.75,
+        "normalizedVal": 0.9885
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0033,
+        "sampleIndex": 9,
+        "featureValue": 15.9375,
+        "normalizedVal": 0.5889
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.0007,
+        "sampleIndex": 10,
+        "featureValue": 23.0,
+        "normalizedVal": 0.8499
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0005,
+        "sampleIndex": 11,
+        "featureValue": 19.1875,
+        "normalizedVal": 0.709
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.0001,
+        "sampleIndex": 12,
+        "featureValue": 19.125,
+        "normalizedVal": 0.7067
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0044,
+        "sampleIndex": 13,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0012,
+        "sampleIndex": 14,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.0111,
+        "sampleIndex": 15,
+        "featureValue": 18.5,
+        "normalizedVal": 0.6836
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.0065,
+        "sampleIndex": 16,
+        "featureValue": 22.9375,
+        "normalizedVal": 0.8476
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0041,
+        "sampleIndex": 17,
+        "featureValue": 18.5,
+        "normalizedVal": 0.6836
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.001,
+        "sampleIndex": 18,
+        "featureValue": 15.0625,
+        "normalizedVal": 0.5566
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.0063,
+        "sampleIndex": 19,
+        "featureValue": 26.75,
+        "normalizedVal": 0.9885
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.0034,
+        "sampleIndex": 20,
+        "featureValue": 20.4375,
+        "normalizedVal": 0.7552
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.005,
+        "sampleIndex": 21,
+        "featureValue": 17.5625,
+        "normalizedVal": 0.649
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0058,
+        "sampleIndex": 22,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0047,
+        "sampleIndex": 23,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0015,
+        "sampleIndex": 24,
+        "featureValue": 17.5625,
+        "normalizedVal": 0.649
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.008,
+        "sampleIndex": 25,
+        "featureValue": 17.4375,
+        "normalizedVal": 0.6443
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.0089,
+        "sampleIndex": 26,
+        "featureValue": 26.5625,
+        "normalizedVal": 0.9815
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.001,
+        "sampleIndex": 27,
+        "featureValue": 11.0625,
+        "normalizedVal": 0.4088
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0042,
+        "sampleIndex": 28,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0026,
+        "sampleIndex": 29,
+        "featureValue": 12.625,
+        "normalizedVal": 0.4665
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0043,
+        "sampleIndex": 30,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0012,
+        "sampleIndex": 31,
+        "featureValue": 12.0625,
+        "normalizedVal": 0.4457
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.0066,
+        "sampleIndex": 32,
+        "featureValue": 26.75,
+        "normalizedVal": 0.9885
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.002,
+        "sampleIndex": 33,
+        "featureValue": 22.125,
+        "normalizedVal": 0.8176
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.0007,
+        "sampleIndex": 34,
+        "featureValue": 15.0625,
+        "normalizedVal": 0.5566
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0041,
+        "sampleIndex": 35,
+        "featureValue": 13.1875,
+        "normalizedVal": 0.4873
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0002,
+        "sampleIndex": 36,
+        "featureValue": 11.375,
+        "normalizedVal": 0.4203
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0032,
+        "sampleIndex": 37,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0023,
+        "sampleIndex": 38,
+        "featureValue": 12.625,
+        "normalizedVal": 0.4665
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0016,
+        "sampleIndex": 39,
+        "featureValue": 11.0625,
+        "normalizedVal": 0.4088
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0013,
+        "sampleIndex": 40,
+        "featureValue": 17.5625,
+        "normalizedVal": 0.649
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.0049,
+        "sampleIndex": 41,
+        "featureValue": 22.9375,
+        "normalizedVal": 0.8476
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0028,
+        "sampleIndex": 42,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0044,
+        "sampleIndex": 43,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.0064,
+        "sampleIndex": 44,
+        "featureValue": 23.75,
+        "normalizedVal": 0.8776
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.0016,
+        "sampleIndex": 45,
+        "featureValue": 18.25,
+        "normalizedVal": 0.6744
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0017,
+        "sampleIndex": 46,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.0004,
+        "sampleIndex": 47,
+        "featureValue": 19.125,
+        "normalizedVal": 0.7067
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.006,
+        "sampleIndex": 48,
+        "featureValue": 22.9375,
+        "normalizedVal": 0.8476
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0051,
+        "sampleIndex": 49,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.0029,
+        "sampleIndex": 50,
+        "featureValue": 21.9375,
+        "normalizedVal": 0.8106
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.0021,
+        "sampleIndex": 51,
+        "featureValue": 21.9375,
+        "normalizedVal": 0.8106
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0013,
+        "sampleIndex": 52,
+        "featureValue": 19.125,
+        "normalizedVal": 0.7067
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0052,
+        "sampleIndex": 53,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.004,
+        "sampleIndex": 54,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.0009,
+        "sampleIndex": 55,
+        "featureValue": 17.5625,
+        "normalizedVal": 0.649
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0022,
+        "sampleIndex": 56,
+        "featureValue": 11.375,
+        "normalizedVal": 0.4203
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0011,
+        "sampleIndex": 57,
+        "featureValue": 12.0625,
+        "normalizedVal": 0.4457
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.001,
+        "sampleIndex": 58,
+        "featureValue": 11.125,
+        "normalizedVal": 0.4111
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.0007,
+        "sampleIndex": 59,
+        "featureValue": 14.5625,
+        "normalizedVal": 0.5381
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.006,
+        "sampleIndex": 60,
+        "featureValue": 26.625,
+        "normalizedVal": 0.9838
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0003,
+        "sampleIndex": 61,
+        "featureValue": 16.0,
+        "normalizedVal": 0.5912
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0049,
+        "sampleIndex": 62,
+        "featureValue": 17.25,
+        "normalizedVal": 0.6374
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0075,
+        "sampleIndex": 63,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0038,
+        "sampleIndex": 64,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.0062,
+        "sampleIndex": 65,
+        "featureValue": 26.5625,
+        "normalizedVal": 0.9815
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0035,
+        "sampleIndex": 66,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0,
+        "sampleIndex": 67,
+        "featureValue": 13.375,
+        "normalizedVal": 0.4942
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.0046,
+        "sampleIndex": 68,
+        "featureValue": 26.75,
+        "normalizedVal": 0.9885
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.004,
+        "sampleIndex": 69,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0057,
+        "sampleIndex": 70,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.0036,
+        "sampleIndex": 71,
+        "featureValue": 16.1875,
+        "normalizedVal": 0.5982
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0052,
+        "sampleIndex": 72,
+        "featureValue": 13.0,
+        "normalizedVal": 0.4804
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.0003,
+        "sampleIndex": 73,
+        "featureValue": 17.1875,
+        "normalizedVal": 0.6351
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0003,
+        "sampleIndex": 74,
+        "featureValue": 15.25,
+        "normalizedVal": 0.5635
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0048,
+        "sampleIndex": 75,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0091,
+        "sampleIndex": 76,
+        "featureValue": 17.1875,
+        "normalizedVal": 0.6351
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.0123,
+        "sampleIndex": 77,
+        "featureValue": 18.5,
+        "normalizedVal": 0.6836
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0041,
+        "sampleIndex": 78,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0046,
+        "sampleIndex": 79,
+        "featureValue": 17.25,
+        "normalizedVal": 0.6374
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0035,
+        "sampleIndex": 80,
+        "featureValue": 15.1875,
+        "normalizedVal": 0.5612
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0047,
+        "sampleIndex": 81,
+        "featureValue": 17.5,
+        "normalizedVal": 0.6467
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0038,
+        "sampleIndex": 82,
+        "featureValue": 12.625,
+        "normalizedVal": 0.4665
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0023,
+        "sampleIndex": 83,
+        "featureValue": 17.5625,
+        "normalizedVal": 0.649
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.0061,
+        "sampleIndex": 84,
+        "featureValue": 26.5625,
+        "normalizedVal": 0.9815
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.0073,
+        "sampleIndex": 85,
+        "featureValue": 27.0625,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.0008,
+        "sampleIndex": 86,
+        "featureValue": 8.375,
+        "normalizedVal": 0.3095
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.0112,
+        "sampleIndex": 87,
+        "featureValue": 18.625,
+        "normalizedVal": 0.6882
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0033,
+        "sampleIndex": 88,
+        "featureValue": 17.5625,
+        "normalizedVal": 0.649
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0033,
+        "sampleIndex": 89,
+        "featureValue": 11.375,
+        "normalizedVal": 0.4203
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.0118,
+        "sampleIndex": 90,
+        "featureValue": 18.5,
+        "normalizedVal": 0.6836
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0017,
+        "sampleIndex": 91,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.0042,
+        "sampleIndex": 92,
+        "featureValue": 23.125,
+        "normalizedVal": 0.8545
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0059,
+        "sampleIndex": 93,
+        "featureValue": 14.0,
+        "normalizedVal": 0.5173
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.0014,
+        "sampleIndex": 94,
+        "featureValue": 22.4375,
+        "normalizedVal": 0.8291
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0014,
+        "sampleIndex": 95,
+        "featureValue": 11.0625,
+        "normalizedVal": 0.4088
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.0137,
+        "sampleIndex": 96,
+        "featureValue": 19.0625,
+        "normalizedVal": 0.7044
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.0015,
+        "sampleIndex": 97,
+        "featureValue": 16.1875,
+        "normalizedVal": 0.5982
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0058,
+        "sampleIndex": 98,
+        "featureValue": 14.0,
+        "normalizedVal": 0.5173
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.0049,
+        "sampleIndex": 99,
+        "featureValue": 26.75,
+        "normalizedVal": 0.9885
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.0055,
+        "sampleIndex": 100,
+        "featureValue": 23.0,
+        "normalizedVal": 0.8499
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0027,
+        "sampleIndex": 101,
+        "featureValue": 11.375,
+        "normalizedVal": 0.4203
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0048,
+        "sampleIndex": 102,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.0168,
+        "sampleIndex": 103,
+        "featureValue": 17.625,
+        "normalizedVal": 0.6513
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.0059,
+        "sampleIndex": 104,
+        "featureValue": 26.75,
+        "normalizedVal": 0.9885
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.0055,
+        "sampleIndex": 105,
+        "featureValue": 17.8125,
+        "normalizedVal": 0.6582
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.0,
+        "sampleIndex": 106,
+        "featureValue": 11.125,
+        "normalizedVal": 0.4111
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0026,
+        "sampleIndex": 107,
+        "featureValue": 11.0625,
+        "normalizedVal": 0.4088
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0013,
+        "sampleIndex": 108,
+        "featureValue": 14.375,
+        "normalizedVal": 0.5312
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0045,
+        "sampleIndex": 109,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.002,
+        "sampleIndex": 110,
+        "featureValue": 11.25,
+        "normalizedVal": 0.4157
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.0062,
+        "sampleIndex": 111,
+        "featureValue": 17.8125,
+        "normalizedVal": 0.6582
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0094,
+        "sampleIndex": 112,
+        "featureValue": 17.1875,
+        "normalizedVal": 0.6351
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0001,
+        "sampleIndex": 113,
+        "featureValue": 17.5625,
+        "normalizedVal": 0.649
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0029,
+        "sampleIndex": 114,
+        "featureValue": 17.5625,
+        "normalizedVal": 0.649
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0059,
+        "sampleIndex": 115,
+        "featureValue": 17.3125,
+        "normalizedVal": 0.6397
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0038,
+        "sampleIndex": 116,
+        "featureValue": 15.1875,
+        "normalizedVal": 0.5612
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": 0.0007,
+        "sampleIndex": 117,
+        "featureValue": 11.125,
+        "normalizedVal": 0.4111
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0038,
+        "sampleIndex": 118,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Highest base in range",
+        "shapValue": -0.0039,
+        "sampleIndex": 119,
+        "featureValue": 12.625,
+        "normalizedVal": 0.4665
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 0,
+        "featureValue": 0.6875,
+        "normalizedVal": 0.7857
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 1,
+        "featureValue": 0.5625,
+        "normalizedVal": 0.6429
+    },
+    {
+        "group": "Wave level",
+        "shapValue": -0.0,
+        "sampleIndex": 2,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 3,
+        "featureValue": 0.75,
+        "normalizedVal": 0.8571
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 4,
+        "featureValue": 0.5,
+        "normalizedVal": 0.5714
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 5,
+        "featureValue": 0.5625,
+        "normalizedVal": 0.6429
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 6,
+        "featureValue": 0.75,
+        "normalizedVal": 0.8571
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 7,
+        "featureValue": 0.5,
+        "normalizedVal": 0.5714
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 8,
+        "featureValue": 0.75,
+        "normalizedVal": 0.8571
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 9,
+        "featureValue": 0.375,
+        "normalizedVal": 0.4286
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 10,
+        "featureValue": 0.75,
+        "normalizedVal": 0.8571
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 11,
+        "featureValue": 0.6875,
+        "normalizedVal": 0.7857
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 12,
+        "featureValue": 0.6875,
+        "normalizedVal": 0.7857
+    },
+    {
+        "group": "Wave level",
+        "shapValue": -0.0,
+        "sampleIndex": 13,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 14,
+        "featureValue": 0.375,
+        "normalizedVal": 0.4286
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 15,
+        "featureValue": 0.6875,
+        "normalizedVal": 0.7857
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 16,
+        "featureValue": 0.75,
+        "normalizedVal": 0.8571
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 17,
+        "featureValue": 0.625,
+        "normalizedVal": 0.7143
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 18,
+        "featureValue": 0.5,
+        "normalizedVal": 0.5714
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 19,
+        "featureValue": 0.75,
+        "normalizedVal": 0.8571
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 20,
+        "featureValue": 0.75,
+        "normalizedVal": 0.8571
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 21,
+        "featureValue": 0.5625,
+        "normalizedVal": 0.6429
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 22,
+        "featureValue": 0.25,
+        "normalizedVal": 0.2857
+    },
+    {
+        "group": "Wave level",
+        "shapValue": -0.0,
+        "sampleIndex": 23,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 24,
+        "featureValue": 0.5625,
+        "normalizedVal": 0.6429
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 25,
+        "featureValue": 0.5,
+        "normalizedVal": 0.5714
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 26,
+        "featureValue": 0.75,
+        "normalizedVal": 0.8571
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 27,
+        "featureValue": 0.625,
+        "normalizedVal": 0.7143
+    },
+    {
+        "group": "Wave level",
+        "shapValue": -0.0,
+        "sampleIndex": 28,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 29,
+        "featureValue": 0.4375,
+        "normalizedVal": 0.5
+    },
+    {
+        "group": "Wave level",
+        "shapValue": -0.0,
+        "sampleIndex": 30,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 31,
+        "featureValue": 0.625,
+        "normalizedVal": 0.7143
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 32,
+        "featureValue": 0.75,
+        "normalizedVal": 0.8571
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 33,
+        "featureValue": 0.6875,
+        "normalizedVal": 0.7857
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 34,
+        "featureValue": 0.5,
+        "normalizedVal": 0.5714
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 35,
+        "featureValue": 0.3125,
+        "normalizedVal": 0.3571
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 36,
+        "featureValue": 0.625,
+        "normalizedVal": 0.7143
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 37,
+        "featureValue": 0.3125,
+        "normalizedVal": 0.3571
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 38,
+        "featureValue": 0.4375,
+        "normalizedVal": 0.5
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 39,
+        "featureValue": 0.5625,
+        "normalizedVal": 0.6429
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 40,
+        "featureValue": 0.5625,
+        "normalizedVal": 0.6429
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 41,
+        "featureValue": 0.75,
+        "normalizedVal": 0.8571
+    },
+    {
+        "group": "Wave level",
+        "shapValue": -0.0,
+        "sampleIndex": 42,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Wave level",
+        "shapValue": -0.0,
+        "sampleIndex": 43,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 44,
+        "featureValue": 0.875,
+        "normalizedVal": 1.0
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 45,
+        "featureValue": 0.5,
+        "normalizedVal": 0.5714
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 46,
+        "featureValue": 0.4375,
+        "normalizedVal": 0.5
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 47,
+        "featureValue": 0.6875,
+        "normalizedVal": 0.7857
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 48,
+        "featureValue": 0.75,
+        "normalizedVal": 0.8571
+    },
+    {
+        "group": "Wave level",
+        "shapValue": -0.0,
+        "sampleIndex": 49,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 50,
+        "featureValue": 0.6875,
+        "normalizedVal": 0.7857
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 51,
+        "featureValue": 0.6875,
+        "normalizedVal": 0.7857
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 52,
+        "featureValue": 0.6875,
+        "normalizedVal": 0.7857
+    },
+    {
+        "group": "Wave level",
+        "shapValue": -0.0,
+        "sampleIndex": 53,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Wave level",
+        "shapValue": -0.0,
+        "sampleIndex": 54,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 55,
+        "featureValue": 0.5625,
+        "normalizedVal": 0.6429
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 56,
+        "featureValue": 0.625,
+        "normalizedVal": 0.7143
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 57,
+        "featureValue": 0.5625,
+        "normalizedVal": 0.6429
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 58,
+        "featureValue": 0.625,
+        "normalizedVal": 0.7143
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 59,
+        "featureValue": 0.625,
+        "normalizedVal": 0.7143
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 60,
+        "featureValue": 0.75,
+        "normalizedVal": 0.8571
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 61,
+        "featureValue": 0.5,
+        "normalizedVal": 0.5714
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 62,
+        "featureValue": 0.5625,
+        "normalizedVal": 0.6429
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 63,
+        "featureValue": 0.25,
+        "normalizedVal": 0.2857
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 64,
+        "featureValue": 0.25,
+        "normalizedVal": 0.2857
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 65,
+        "featureValue": 0.75,
+        "normalizedVal": 0.8571
+    },
+    {
+        "group": "Wave level",
+        "shapValue": -0.0,
+        "sampleIndex": 66,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 67,
+        "featureValue": 0.3125,
+        "normalizedVal": 0.3571
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 68,
+        "featureValue": 0.75,
+        "normalizedVal": 0.8571
+    },
+    {
+        "group": "Wave level",
+        "shapValue": -0.0,
+        "sampleIndex": 69,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Wave level",
+        "shapValue": -0.0,
+        "sampleIndex": 70,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 71,
+        "featureValue": 0.75,
+        "normalizedVal": 0.8571
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 72,
+        "featureValue": 0.375,
+        "normalizedVal": 0.4286
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 73,
+        "featureValue": 0.5,
+        "normalizedVal": 0.5714
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 74,
+        "featureValue": 0.375,
+        "normalizedVal": 0.4286
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 75,
+        "featureValue": 0.25,
+        "normalizedVal": 0.2857
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 76,
+        "featureValue": 0.5,
+        "normalizedVal": 0.5714
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 77,
+        "featureValue": 0.6875,
+        "normalizedVal": 0.7857
+    },
+    {
+        "group": "Wave level",
+        "shapValue": -0.0,
+        "sampleIndex": 78,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 79,
+        "featureValue": 0.5625,
+        "normalizedVal": 0.6429
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 80,
+        "featureValue": 0.375,
+        "normalizedVal": 0.4286
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 81,
+        "featureValue": 0.5625,
+        "normalizedVal": 0.6429
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 82,
+        "featureValue": 0.4375,
+        "normalizedVal": 0.5
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 83,
+        "featureValue": 0.5625,
+        "normalizedVal": 0.6429
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 84,
+        "featureValue": 0.75,
+        "normalizedVal": 0.8571
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 85,
+        "featureValue": 0.75,
+        "normalizedVal": 0.8571
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 86,
+        "featureValue": 0.625,
+        "normalizedVal": 0.7143
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 87,
+        "featureValue": 0.6875,
+        "normalizedVal": 0.7857
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 88,
+        "featureValue": 0.5625,
+        "normalizedVal": 0.6429
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 89,
+        "featureValue": 0.625,
+        "normalizedVal": 0.7143
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 90,
+        "featureValue": 0.6875,
+        "normalizedVal": 0.7857
+    },
+    {
+        "group": "Wave level",
+        "shapValue": -0.0,
+        "sampleIndex": 91,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 92,
+        "featureValue": 0.75,
+        "normalizedVal": 0.8571
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 93,
+        "featureValue": 0.5,
+        "normalizedVal": 0.5714
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 94,
+        "featureValue": 0.6875,
+        "normalizedVal": 0.7857
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 95,
+        "featureValue": 0.5625,
+        "normalizedVal": 0.6429
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 96,
+        "featureValue": 0.75,
+        "normalizedVal": 0.8571
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 97,
+        "featureValue": 0.75,
+        "normalizedVal": 0.8571
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 98,
+        "featureValue": 0.5,
+        "normalizedVal": 0.5714
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 99,
+        "featureValue": 0.75,
+        "normalizedVal": 0.8571
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 100,
+        "featureValue": 0.6875,
+        "normalizedVal": 0.7857
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 101,
+        "featureValue": 0.625,
+        "normalizedVal": 0.7143
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 102,
+        "featureValue": 0.25,
+        "normalizedVal": 0.2857
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 103,
+        "featureValue": 0.5625,
+        "normalizedVal": 0.6429
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 104,
+        "featureValue": 0.75,
+        "normalizedVal": 0.8571
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 105,
+        "featureValue": 0.5625,
+        "normalizedVal": 0.6429
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 106,
+        "featureValue": 0.625,
+        "normalizedVal": 0.7143
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 107,
+        "featureValue": 0.5625,
+        "normalizedVal": 0.6429
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 108,
+        "featureValue": 0.5625,
+        "normalizedVal": 0.6429
+    },
+    {
+        "group": "Wave level",
+        "shapValue": -0.0,
+        "sampleIndex": 109,
+        "featureValue": 0.0,
+        "normalizedVal": 0.0
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 110,
+        "featureValue": 0.625,
+        "normalizedVal": 0.7143
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 111,
+        "featureValue": 0.5625,
+        "normalizedVal": 0.6429
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 112,
+        "featureValue": 0.5,
+        "normalizedVal": 0.5714
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 113,
+        "featureValue": 0.5625,
+        "normalizedVal": 0.6429
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 114,
+        "featureValue": 0.5625,
+        "normalizedVal": 0.6429
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 115,
+        "featureValue": 0.625,
+        "normalizedVal": 0.7143
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 116,
+        "featureValue": 0.375,
+        "normalizedVal": 0.4286
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 117,
+        "featureValue": 0.625,
+        "normalizedVal": 0.7143
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 118,
+        "featureValue": 0.25,
+        "normalizedVal": 0.2857
+    },
+    {
+        "group": "Wave level",
+        "shapValue": 0.0,
+        "sampleIndex": 119,
+        "featureValue": 0.4375,
+        "normalizedVal": 0.5
+    }
+]

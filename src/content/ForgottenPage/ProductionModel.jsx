@@ -694,6 +694,12 @@ class ProductionModel extends React.Component {
                             </Column>
                         </Grid>
                     </Column>
+
+                    <Column>
+                        <br />
+                        <br />
+                        <ShapleyPlots model_name={this.state.model_name} />
+                    </Column>
                 </Column>
             </Grid>
         );

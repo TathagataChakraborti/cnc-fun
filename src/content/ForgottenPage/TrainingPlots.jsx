@@ -22,6 +22,14 @@ import loss_y_time from '../../cache/plots/loss_y_time.json';
 import residual_y_time from '../../cache/plots/residual_y_time.json';
 import confusion_y_type from '../../cache/plots/confusion_y_type.json';
 
+import shapley_y_base from '../../cache/plots/shapley_y_base.json';
+import shapley_y_type from '../../cache/plots/shapley_y_type.json';
+import shapley_y_time from '../../cache/plots/shapley_y_time.json';
+
+import shap_pdp_y_base from '../../cache/plots/shap_pdp_y_base.json';
+import shap_pdp_y_type from '../../cache/plots/shap_pdp_y_type.json';
+import shap_pdp_y_time from '../../cache/plots/shap_pdp_y_time.json';
+
 const loss_options = {
     axes: {
         [AxisPositions.TOP]: {
@@ -134,7 +142,62 @@ const confusion_options = {
     height: '400px',
 };
 
+const shap_beeswarm_options = {
+    axes: {
+        [AxisPositions.LEFT]: {
+            mapsTo: 'group',
+            scaleType: 'labels',
+        },
+        [AxisPositions.TOP]: {
+            title: 'SHAP Value (Impact on Model Output)',
+            mapsTo: 'shapValue',
+        },
+    },
+    points: {
+        radius: 4,
+        fillColor: d => {
+            const val = d.normalizedVal;
+            return `rgb(${Math.round(val * 255)}, 50, ${Math.round(
+                (1 - val) * 255
+            )})`;
+        },
+    },
+    toolbar: {
+        enabled: false,
+    },
+    height: '400px',
+};
+
+const shap_pdp_options = {
+    axes: {
+        [AxisPositions.TOP]: {
+            title: 'Aggregated Value',
+            mapsTo: 'conceptValue',
+        },
+        [AxisPositions.LEFT]: {
+            title: 'SHAP Value (Impact on Attack Probability)',
+            mapsTo: 'shapImpact',
+        },
+    },
+    toolbar: {
+        enabled: false,
+    },
+    height: '400px',
+};
+
 const training_plot_keys = {
+    SHAP_BEESWARM: {
+        name: 'SHAP Beeswarm Plot',
+        chart_type: ScatterChart,
+        description:
+            'In a SHAP Beeswarm plot, features are ranked vertically by overall importance. Points on the right (positive SHAP value) pushed the model toward predicting an attack; points on the left pushed the model away.',
+    },
+    SHAP_PDP: {
+        name: 'SHAP Partial Dependence Plot',
+        chart_type: ScatterChart,
+        description:
+            'A SHAP PDP plot shows how a single feature (e.g., time since last attack) linearly or non-linearly affects the outcome e.g. you can see if attack likelihood spikes at specific intervals or plateaus after a certain enemy strength threshold.',
+    },
     CONFUSION: {
         name: 'Confusion Matrix',
         chart_type: HeatmapChart,
@@ -176,18 +239,35 @@ const training_metadata = [
                 description: '',
                 data: loss_y_base,
                 options: loss_options,
+                is_secondary: false,
             },
             {
                 name: training_plot_keys.ROC,
                 description: '',
                 data: roc_y_base,
                 options: roc_options,
+                is_secondary: false,
             },
             {
                 name: training_plot_keys.PR,
                 description: '',
                 data: pr_y_base,
                 options: pr_options,
+                is_secondary: false,
+            },
+            {
+                name: training_plot_keys.SHAP_BEESWARM,
+                description: '',
+                data: shapley_y_base,
+                options: shap_beeswarm_options,
+                is_secondary: true,
+            },
+            {
+                name: training_plot_keys.SHAP_PDP,
+                description: '',
+                data: shap_pdp_y_base,
+                options: shap_pdp_options,
+                is_secondary: true,
             },
         ],
     },
@@ -199,24 +279,42 @@ const training_metadata = [
                 description: '',
                 data: loss_y_type,
                 options: loss_options,
+                is_secondary: false,
             },
             {
                 name: training_plot_keys.ROC,
                 description: '',
                 data: roc_y_type,
                 options: roc_options,
+                is_secondary: false,
             },
             {
                 name: training_plot_keys.PR,
                 description: '',
                 data: pr_y_type,
                 options: pr_options,
+                is_secondary: false,
             },
             {
                 name: training_plot_keys.CONFUSION,
                 description: '',
                 data: confusion_y_type,
                 options: confusion_options,
+                is_secondary: false,
+            },
+            {
+                name: training_plot_keys.SHAP_BEESWARM,
+                description: '',
+                data: shapley_y_type,
+                options: shap_beeswarm_options,
+                is_secondary: true,
+            },
+            {
+                name: training_plot_keys.SHAP_PDP,
+                description: '',
+                data: shap_pdp_y_type,
+                options: shap_pdp_options,
+                is_secondary: true,
             },
         ],
     },
@@ -228,12 +326,28 @@ const training_metadata = [
                 description: '',
                 data: loss_y_time,
                 options: loss_options,
+                is_secondary: false,
             },
             {
                 name: training_plot_keys.RESIDUAL,
                 description: '',
                 data: residual_y_time,
                 options: residual_options,
+                is_secondary: false,
+            },
+            {
+                name: training_plot_keys.SHAP_BEESWARM,
+                description: '',
+                data: shapley_y_time,
+                options: shap_beeswarm_options,
+                is_secondary: true,
+            },
+            {
+                name: training_plot_keys.SHAP_PDP,
+                description: '',
+                data: shap_pdp_y_time,
+                options: shap_pdp_options,
+                is_secondary: true,
             },
         ],
     },
@@ -245,41 +359,80 @@ const TrainingPlots = props => {
 
     return (
         <>
-            {model_props.plots.map((item, index) => {
-                const Component = item.name.chart_type;
+            {model_props.plots
+                .filter(item => !item.is_secondary)
+                .map((item, index) => {
+                    const Component = item.name.chart_type;
 
-                return (
-                    <ContainedList
-                        key={index}
-                        label={item.name.name}
-                        kind="disclosed"
-                        size="sm">
-                        <ContainedListItem>
-                            <div className="text-relief">
-                                {item.name.description}
-                            </div>
-                            <div className="text-relief">
-                                {item.description}
-                            </div>
-                        </ContainedListItem>
-                        <ContainedListItem>
-                            <br />
-                            <Component
-                                data={item.data}
-                                options={item.options}
-                            />
-                            <br />
-                        </ContainedListItem>
-                        <ContainedListItem />
-                    </ContainedList>
-                );
-            })}
+                    return (
+                        <ContainedList
+                            key={index}
+                            label={item.name.name}
+                            kind="disclosed"
+                            size="sm">
+                            <ContainedListItem>
+                                <div className="text-relief">
+                                    {item.name.description}
+                                </div>
+                                <div className="text-relief">
+                                    {item.description}
+                                </div>
+                            </ContainedListItem>
+                            <ContainedListItem>
+                                <br />
+                                <Component
+                                    data={item.data}
+                                    options={item.options}
+                                />
+                                <br />
+                            </ContainedListItem>
+                            <ContainedListItem />
+                        </ContainedList>
+                    );
+                })}
         </>
     );
 };
 
 const ShapleyPlots = props => {
-    return <></>;
+    const model_name = props.model_name;
+    const model_props = training_metadata.find(item => item.name == model_name);
+
+    return (
+        <>
+            {model_props.plots
+                .filter(item => item.is_secondary)
+                .map((item, index) => {
+                    const Component = item.name.chart_type;
+
+                    return (
+                        <ContainedList
+                            key={index}
+                            label={item.name.name}
+                            kind="disclosed"
+                            size="sm">
+                            <ContainedListItem>
+                                <div className="text-relief">
+                                    {item.name.description}
+                                </div>
+                                <div className="text-relief">
+                                    {item.description}
+                                </div>
+                            </ContainedListItem>
+                            <ContainedListItem>
+                                <br />
+                                <Component
+                                    data={item.data}
+                                    options={item.options}
+                                />
+                                <br />
+                            </ContainedListItem>
+                            <ContainedListItem />
+                        </ContainedList>
+                    );
+                })}
+        </>
+    );
 };
 
 export { TrainingPlots, ShapleyPlots };

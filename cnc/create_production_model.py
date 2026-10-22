@@ -10,6 +10,7 @@ import onnxruntime as ort
 from skl2onnx import to_onnx
 from sklearn.model_selection import train_test_split
 
+from cnc.helpers.shap import generate_shap_beeswarm, generate_shap_dependency
 from cnc.helpers.training import (
     generate_confusion,
     generate_loss_curve,
@@ -20,7 +21,15 @@ from cnc.helpers.training import (
     generate_roc_multi_class,
 )
 from cnc.models.forgotten import FORGOTTEN, Timeline
-from cnc.models.plots import CONFUSION, LOSS, PR, RESIDUAL, ROC
+from cnc.models.plots import (
+    CONFUSION,
+    LOSS,
+    PR,
+    RESIDUAL,
+    ROC,
+    SHAPBeeswarm,
+    SHAPDependency,
+)
 from cnc.models.training import PlotType, TaskInfo, TaskType
 from cnc.read_raw_data import read_raw_data
 
@@ -70,6 +79,20 @@ def get_num_features(max_bases: int) -> int:
     return BASE_FEATURES + FEATURES_PER_BASE * max_bases
 
 
+def get_concept_map(max_bases: int) -> dict[str, list[int]]:
+    num_features = get_num_features(max_bases)
+
+    return {
+        "Last attack target": [0],
+        "Type of last attack": [1],
+        "Target base": list(range(2, num_features, FEATURES_PER_BASE)),
+        "Active bases in range": list(range(3, num_features, FEATURES_PER_BASE)),
+        "Mean FG level": list(range(4, num_features, FEATURES_PER_BASE)),
+        "Highest base in range": list(range(5, num_features, FEATURES_PER_BASE)),
+        "Wave level": list(range(6, num_features, FEATURES_PER_BASE)),
+    }
+
+
 def get_forgotten_feature(fg_type: FORGOTTEN) -> int:
     if fg_type == FORGOTTEN.CAMP:
         return 0
@@ -117,29 +140,29 @@ def generate_training_data(
 
         new_x = np.zeros(num_features, dtype=float)
 
-        # Base ID of last attack
+        # NOTE: Base ID of last attack
         new_x[0] = base_names.index(previous_event.report.defending_base)
 
-        # FG type of last attack
+        # NOTE: FG type of last attack
         new_x[1] = get_forgotten_feature(previous_event.defending_against)
 
         for base_info in event.state_of_the_union:
             base_id = base_names.index(base_info.name)
             base_index = BASE_FEATURES + base_id * FEATURES_PER_BASE
 
-            # Base ID
+            # NOTE: Base ID
             new_x[base_index] = base_id
 
-            # Active bases in range
+            # NOTE: Active bases in range
             new_x[base_index + 1] = base_info.active_bases
 
-            # Mean neighborhood level
+            # NOTE: Mean neighborhood level
             new_x[base_index + 2] = base_info.expected_level_in_range
 
-            # Highest base in range
+            # NOTE: Highest base in range
             new_x[base_index + 3] = base_info.max_level_in_range
 
-            # Wave level
+            # NOTE: Wave level
             new_x[base_index + 4] = base_info.neighborhood_roughness
 
         x[index] = new_x
@@ -150,6 +173,7 @@ def generate_training_data(
 def train_model(
     timeline_data: Timeline, max_iter: int = 100, max_bases: int = 16
 ) -> None:
+    concept_map = get_concept_map(max_bases)
     x, y_base, y_type, y_time, num_features = generate_training_data(
         timeline_data, max_bases
     )
@@ -164,8 +188,8 @@ def train_model(
                 PlotType.LOSS,
                 PlotType.ROC,
                 PlotType.PR,
-                # PlotType.SHAPLEY,
-                # PlotType.SHAP_PDP,
+                PlotType.SHAPLEY,
+                PlotType.SHAP_PDP,
             ],
         ),
         TaskInfo(
@@ -178,8 +202,8 @@ def train_model(
                 PlotType.ROC,
                 PlotType.PR,
                 PlotType.CONFUSION,
-                # PlotType.SHAPLEY,
-                # PlotType.SHAP_PDP,
+                PlotType.SHAPLEY,
+                PlotType.SHAP_PDP,
             ],
         ),
         TaskInfo(
@@ -190,8 +214,8 @@ def train_model(
             plot_types=[
                 PlotType.LOSS,
                 PlotType.RESIDUAL,
-                # PlotType.SHAPLEY,
-                # PlotType.SHAP_PDP,
+                PlotType.SHAPLEY,
+                PlotType.SHAP_PDP,
             ],
         ),
     ]
@@ -224,7 +248,9 @@ def train_model(
         )
 
         for plot_type in task.plot_types:
-            plot_data: Sequence[ROC | PR | LOSS | RESIDUAL | CONFUSION] = []
+            plot_data: Sequence[
+                ROC | PR | LOSS | RESIDUAL | CONFUSION | SHAPBeeswarm | SHAPDependency
+            ] = []
 
             if plot_type == PlotType.ROC:
                 if task.num_classes > 2:
@@ -252,6 +278,12 @@ def train_model(
 
             if plot_type == PlotType.CONFUSION:
                 plot_data = generate_confusion(clf, x_val, y_val)
+
+            if plot_type == PlotType.SHAPLEY:
+                plot_data = generate_shap_beeswarm(clf, x_train, x_val, concept_map)
+
+            if plot_type == PlotType.SHAP_PDP:
+                plot_data = generate_shap_dependency(clf, x_train, x_val, concept_map)
 
             with open(f"../src/cache/plots/{plot_type}_{task.name}.json", "w") as df:
                 json.dump([item.model_dump() for item in plot_data], df, indent=4)

@@ -107,29 +107,6 @@ const ForgottenPage = _ => {
                                 </Tag>
                             </Tab>
 
-                            <Tab className="flex-tab">
-                                <span>Journey to the Center: The Movie</span>
-                                <div className="flex-tab-vertical">
-                                    <Tag
-                                        style={{ marginRight: '10px' }}
-                                        className="square-tag outline"
-                                        size="sm"
-                                        role="status"
-                                        type="outline"
-                                        aria-label="">
-                                        <span className="text-alert">NEW</span>
-                                    </Tag>
-                                    <Tag
-                                        className="square-tag"
-                                        size="sm"
-                                        role="status"
-                                        type="purple"
-                                        aria-label="">
-                                        AI
-                                    </Tag>
-                                </div>
-                            </Tab>
-
                             <img
                                 alt="serenity"
                                 src="images/serenity.png"
@@ -200,7 +177,6 @@ const ForgottenPage = _ => {
                             <TabPanel>
                                 <ProductionModel />
                             </TabPanel>
-                            <TabPanel />
                         </TabPanels>
                     </TabsVertical>
 

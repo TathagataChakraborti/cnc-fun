@@ -42,6 +42,7 @@ dependencies = [
     "skl2onnx",
     "onnxmltools",
     "onnxruntime",
+    "shap",
 ]
 
 [project.optional-dependencies]

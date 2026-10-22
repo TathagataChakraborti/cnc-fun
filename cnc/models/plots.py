@@ -70,3 +70,17 @@ class CONFUSION(BaseModel):
     row: str
     column: str
     value: int
+
+
+class SHAPBeeswarm(BaseModel):
+    group: str
+    shapValue: float
+    sampleIndex: int
+    featureValue: float
+    normalizedVal: float
+
+
+class SHAPDependency(BaseModel):
+    group: str
+    conceptValue: float
+    shapImpact: float
