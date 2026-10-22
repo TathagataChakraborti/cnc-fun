@@ -64,3 +64,9 @@ class RESIDUAL(BaseModel):
     group: str
     predictedTime: float
     residualError: float
+
+
+class CONFUSION(BaseModel):
+    row: str
+    column: str
+    value: int

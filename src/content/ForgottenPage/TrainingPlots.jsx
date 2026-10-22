@@ -2,6 +2,7 @@ import { ContainedList, ContainedListItem } from '@carbon/react';
 import {
     LineChart,
     ScatterChart,
+    HeatmapChart,
     ScaleTypes,
     AxisPositions,
 } from '@carbon/charts-react';
@@ -19,6 +20,7 @@ import loss_y_type from '../../cache/plots/loss_y_type.json';
 import loss_y_time from '../../cache/plots/loss_y_time.json';
 
 import residual_y_time from '../../cache/plots/residual_y_time.json';
+import confusion_y_type from '../../cache/plots/confusion_y_type.json';
 
 const loss_options = {
     axes: {
@@ -103,7 +105,42 @@ const residual_options = {
     height: '400px',
 };
 
+const confusion_options = {
+    axes: {
+        [AxisPositions.TOP]: {
+            title: 'Predicted',
+            mapsTo: 'column',
+            scaleType: 'labels',
+        },
+        [AxisPositions.LEFT]: {
+            title: 'Actual',
+            mapsTo: 'row',
+            scaleType: 'labels',
+        },
+    },
+    heatmap: {
+        colorLegend: {
+            title: 'Sample Count',
+            type: 'quantize',
+        },
+        colorPairing: {
+            numberOfColors: 4,
+            pairingOptions: ['blues'],
+        },
+    },
+    toolbar: {
+        enabled: false,
+    },
+    height: '400px',
+};
+
 const training_plot_keys = {
+    CONFUSION: {
+        name: 'Confusion Matrix',
+        chart_type: HeatmapChart,
+        description:
+            'A confusion matrix shows how much a binary classifier gets confused between two prediction classes.',
+    },
     RESIDUAL: {
         name: 'Residual Plot',
         chart_type: ScatterChart,
@@ -174,6 +211,12 @@ const training_metadata = [
                 description: '',
                 data: pr_y_type,
                 options: pr_options,
+            },
+            {
+                name: training_plot_keys.CONFUSION,
+                description: '',
+                data: confusion_y_type,
+                options: confusion_options,
             },
         ],
     },

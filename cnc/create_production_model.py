@@ -11,6 +11,7 @@ from skl2onnx import to_onnx
 from sklearn.model_selection import train_test_split
 
 from cnc.helpers.training import (
+    generate_confusion,
     generate_loss_curve,
     generate_pr_binary_class,
     generate_pr_multi_binary_class,
@@ -19,7 +20,7 @@ from cnc.helpers.training import (
     generate_roc_multi_class,
 )
 from cnc.models.forgotten import FORGOTTEN, Timeline
-from cnc.models.plots import LOSS, PR, RESIDUAL, ROC
+from cnc.models.plots import CONFUSION, LOSS, PR, RESIDUAL, ROC
 from cnc.models.training import PlotType, TaskInfo, TaskType
 from cnc.read_raw_data import read_raw_data
 
@@ -176,7 +177,7 @@ def train_model(
                 PlotType.LOSS,
                 PlotType.ROC,
                 PlotType.PR,
-                # PlotType.CONFUSION,
+                PlotType.CONFUSION,
                 # PlotType.SHAPLEY,
                 # PlotType.SHAP_PDP,
             ],
@@ -223,7 +224,7 @@ def train_model(
         )
 
         for plot_type in task.plot_types:
-            plot_data: Sequence[ROC | PR | LOSS | RESIDUAL] = []
+            plot_data: Sequence[ROC | PR | LOSS | RESIDUAL | CONFUSION] = []
 
             if plot_type == PlotType.ROC:
                 if task.num_classes > 2:
@@ -248,6 +249,9 @@ def train_model(
 
             if plot_type == PlotType.RESIDUAL:
                 plot_data = generate_residual_plot(clf, x_val, y_val)
+
+            if plot_type == PlotType.CONFUSION:
+                plot_data = generate_confusion(clf, x_val, y_val)
 
             with open(f"../src/cache/plots/{plot_type}_{task.name}.json", "w") as df:
                 json.dump([item.model_dump() for item in plot_data], df, indent=4)

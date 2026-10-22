@@ -1,0 +1,22 @@
+[
+    {
+        "row": "No Attack",
+        "column": "No Attack",
+        "value": 49
+    },
+    {
+        "row": "No Attack",
+        "column": "Attack",
+        "value": 17
+    },
+    {
+        "row": "Attack",
+        "column": "No Attack",
+        "value": 16
+    },
+    {
+        "row": "Attack",
+        "column": "Attack",
+        "value": 38
+    }
+]

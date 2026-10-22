@@ -7,13 +7,14 @@ from sklearn.ensemble import (
 from sklearn.metrics import (
     auc,
     average_precision_score,
+    confusion_matrix,
     precision_recall_curve,
     roc_auc_score,
     roc_curve,
 )
 from sklearn.preprocessing import label_binarize
 
-from cnc.models.plots import LOSS, PR, RESIDUAL, ROC
+from cnc.models.plots import CONFUSION, LOSS, PR, RESIDUAL, ROC
 
 
 def generate_roc_binary_class(
@@ -138,9 +139,36 @@ def generate_loss_curve(
     return loss_data
 
 
-def generate_confusion() -> list[ROC]:
+def generate_confusion(
+    clf: HistGradientBoostingRegressor,
+    x: np.ndarray[tuple[object, ...], np.dtype[np.float32]],
+    y: np.ndarray[object, np.dtype[np.float32]],
+) -> list[CONFUSION]:
+    y_prediction = clf.predict(x)
+    cm = confusion_matrix(y, y_prediction)
 
-    return []
+    return [
+        CONFUSION(
+            row="No Attack",
+            column="No Attack",
+            value=int(cm[0, 0]),
+        ),
+        CONFUSION(
+            row="No Attack",
+            column="Attack",
+            value=int(cm[0, 1]),
+        ),
+        CONFUSION(
+            row="Attack",
+            column="No Attack",
+            value=int(cm[1, 0]),
+        ),
+        CONFUSION(
+            row="Attack",
+            column="Attack",
+            value=int(cm[1, 1]),
+        ),
+    ]
 
 
 def generate_residual_plot(
