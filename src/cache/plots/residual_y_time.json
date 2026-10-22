@@ -1,0 +1,602 @@
+[
+    {
+        "group": "Residuals",
+        "predictedTime": 87.71,
+        "residualError": 31.18
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 86.86,
+        "residualError": -55.88
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 200.73,
+        "residualError": -152.11
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 85.23,
+        "residualError": -13.56
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 92.32,
+        "residualError": 10.01
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 78.73,
+        "residualError": -33.7
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 94.99,
+        "residualError": -25.99
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 81.02,
+        "residualError": 174.28
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 84.69,
+        "residualError": -48.57
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 122.43,
+        "residualError": 65.64
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 97.23,
+        "residualError": -33.03
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 80.2,
+        "residualError": 18.0
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 76.42,
+        "residualError": 22.85
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 200.73,
+        "residualError": -54.21
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 128.84,
+        "residualError": -42.29
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 93.75,
+        "residualError": 21.19
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 79.87,
+        "residualError": -30.69
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 99.12,
+        "residualError": -21.02
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 123.6,
+        "residualError": -91.77
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 86.14,
+        "residualError": 19.72
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 80.07,
+        "residualError": 0.17
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 99.14,
+        "residualError": -26.81
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 211.39,
+        "residualError": -164.17
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 150.75,
+        "residualError": -118.99
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 88.0,
+        "residualError": -25.49
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 74.25,
+        "residualError": 22.0
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 84.76,
+        "residualError": -0.74
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 67.36,
+        "residualError": 14.94
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 200.73,
+        "residualError": -157.79
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 93.02,
+        "residualError": -45.32
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 150.75,
+        "residualError": 177.23
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 83.92,
+        "residualError": 14.12
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 87.21,
+        "residualError": -1.48
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 76.4,
+        "residualError": 53.48
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 102.75,
+        "residualError": -72.03
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 114.23,
+        "residualError": 110.07
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 68.44,
+        "residualError": 43.31
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 126.4,
+        "residualError": 62.02
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 86.15,
+        "residualError": 60.91
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 82.46,
+        "residualError": -34.41
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 68.59,
+        "residualError": 19.31
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 79.89,
+        "residualError": -16.24
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 150.75,
+        "residualError": 13.71
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 159.75,
+        "residualError": -50.06
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 81.66,
+        "residualError": 24.54
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 119.5,
+        "residualError": -42.8
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 137.33,
+        "residualError": -33.18
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 68.77,
+        "residualError": -22.55
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 86.47,
+        "residualError": 15.61
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 200.73,
+        "residualError": -132.33
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 78.12,
+        "residualError": 9.6
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 77.1,
+        "residualError": 34.86
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 60.77,
+        "residualError": 49.28
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 159.75,
+        "residualError": -12.55
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 200.73,
+        "residualError": -115.43
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 76.31,
+        "residualError": -24.94
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 84.35,
+        "residualError": 40.65
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 75.41,
+        "residualError": 93.64
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 69.17,
+        "residualError": 20.58
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 93.62,
+        "residualError": -0.39
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 83.48,
+        "residualError": -21.54
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 95.2,
+        "residualError": 54.7
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 87.41,
+        "residualError": 52.69
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 211.39,
+        "residualError": 19.41
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 153.69,
+        "residualError": -92.19
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 86.31,
+        "residualError": -21.91
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 150.75,
+        "residualError": 95.51
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 135.24,
+        "residualError": -14.94
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 83.42,
+        "residualError": -31.1
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 107.59,
+        "residualError": 112.93
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 200.73,
+        "residualError": -105.08
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 94.99,
+        "residualError": -62.92
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 123.54,
+        "residualError": 53.96
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 72.65,
+        "residualError": 2.32
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 130.74,
+        "residualError": -52.73
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 211.39,
+        "residualError": 38.01
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 75.4,
+        "residualError": 51.1
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 104.95,
+        "residualError": 26.18
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 200.73,
+        "residualError": -72.29
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 88.27,
+        "residualError": -9.2
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 127.92,
+        "residualError": 86.88
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 92.17,
+        "residualError": -28.09
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 91.39,
+        "residualError": -0.87
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 68.59,
+        "residualError": -13.13
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 84.56,
+        "residualError": 19.39
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 92.19,
+        "residualError": -9.7
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 77.99,
+        "residualError": 0.76
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 100.71,
+        "residualError": -1.13
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 94.89,
+        "residualError": -44.64
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 86.75,
+        "residualError": -51.74
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 93.75,
+        "residualError": -11.26
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 150.75,
+        "residualError": 133.1
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 83.92,
+        "residualError": -4.47
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 69.52,
+        "residualError": 54.3
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 76.29,
+        "residualError": 22.45
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 79.27,
+        "residualError": -16.64
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 62.13,
+        "residualError": 12.81
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 89.41,
+        "residualError": 26.69
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 79.45,
+        "residualError": 31.85
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 88.24,
+        "residualError": 26.39
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 66.74,
+        "residualError": 43.74
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 79.2,
+        "residualError": -37.29
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 211.39,
+        "residualError": -72.01
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 72.85,
+        "residualError": 7.92
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 84.69,
+        "residualError": 27.16
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 69.42,
+        "residualError": -33.99
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 68.44,
+        "residualError": 13.29
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 80.44,
+        "residualError": 56.11
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 106.53,
+        "residualError": 11.9
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 200.73,
+        "residualError": -159.31
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 90.84,
+        "residualError": -25.39
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 70.23,
+        "residualError": -36.31
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 72.15,
+        "residualError": 16.13
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 76.31,
+        "residualError": -10.99
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 78.99,
+        "residualError": 39.02
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 81.45,
+        "residualError": 12.0
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 116.85,
+        "residualError": -40.04
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 71.85,
+        "residualError": 37.56
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 154.91,
+        "residualError": -115.71
+    },
+    {
+        "group": "Residuals",
+        "predictedTime": 91.39,
+        "residualError": -8.49
+    }
+]

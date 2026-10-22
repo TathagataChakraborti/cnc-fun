@@ -13,7 +13,7 @@ from sklearn.metrics import (
 )
 from sklearn.preprocessing import label_binarize
 
-from cnc.models.plots import LOSS, PR, ROC
+from cnc.models.plots import LOSS, PR, RESIDUAL, ROC
 
 
 def generate_roc_binary_class(
@@ -139,8 +139,27 @@ def generate_loss_curve(
 
 
 def generate_confusion() -> list[ROC]:
+
     return []
 
 
-def generate_residual_plot() -> list[ROC]:
-    return []
+def generate_residual_plot(
+    clf: HistGradientBoostingRegressor,
+    x: np.ndarray[tuple[object, ...], np.dtype[np.float32]],
+    y: np.ndarray[object, np.dtype[np.float32]],
+) -> list[RESIDUAL]:
+    y_prediction = clf.predict(x)
+    residuals = y - y_prediction
+
+    residual_points: list[RESIDUAL] = []
+
+    for prediction, res in zip(y_prediction, residuals):
+        residual_points.append(
+            RESIDUAL(
+                group="Residuals",
+                predictedTime=round(float(prediction), 2),
+                residualError=round(float(res), 2),
+            )
+        )
+
+    return residual_points

@@ -58,3 +58,9 @@ class LOSS(BaseModel):
     group: str
     iteration: int
     loss: float
+
+
+class RESIDUAL(BaseModel):
+    group: str
+    predictedTime: float
+    residualError: float

@@ -1,25 +1,10 @@
+import { ContainedList, ContainedListItem } from '@carbon/react';
 import {
-    Grid,
-    Column,
-    ContainedList,
-    ContainedListItem,
-    Link,
-    Tile,
-    Tag,
-    Button,
-    NumberInput,
-    TextInput,
-    RadioButtonGroup,
-    RadioButton,
-    Layer,
-    Accordion,
-    AccordionItem,
-    InlineLoading,
-    Callout,
-    ContentSwitcher,
-    Switch,
-} from '@carbon/react';
-import { LineChart, ScaleTypes, AxisPositions } from '@carbon/charts-react';
+    LineChart,
+    ScatterChart,
+    ScaleTypes,
+    AxisPositions,
+} from '@carbon/charts-react';
 
 import '@carbon/charts-react/styles.css';
 
@@ -32,7 +17,8 @@ import pr_y_type from '../../cache/plots/pr_y_type.json';
 import loss_y_base from '../../cache/plots/loss_y_base.json';
 import loss_y_type from '../../cache/plots/loss_y_type.json';
 import loss_y_time from '../../cache/plots/loss_y_time.json';
-import { descending } from 'firebase/firestore/pipelines';
+
+import residual_y_time from '../../cache/plots/residual_y_time.json';
 
 const loss_options = {
     axes: {
@@ -96,19 +82,49 @@ const pr_options = {
     height: '400px',
 };
 
+const residual_options = {
+    axes: {
+        [AxisPositions.TOP]: {
+            title: 'Predicted Time-to-Attack (Minutes)',
+            mapsTo: 'predictedTime',
+            includeZero: false,
+        },
+        [AxisPositions.LEFT]: {
+            title: 'Residual Error (Minutes)',
+            mapsTo: 'residualError',
+        },
+    },
+    legend: {
+        enabled: false,
+    },
+    toolbar: {
+        enabled: false,
+    },
+    height: '400px',
+};
+
 const training_plot_keys = {
+    RESIDUAL: {
+        name: 'Residual Plot',
+        chart_type: ScatterChart,
+        description:
+            'A residual plot shows if a prediction model is a good fit: the horizontal axis is the independent variable i.e. the predicted value, while the vertical axis is the residual i.e. the difference between the actual data and the prediction by the model. The center line represents a perfect prediction where the residual is zero.',
+    },
     LOSS: {
         name: 'Model Convergence Curve',
+        chart_type: LineChart,
         description:
             "A loss curve is a graph that plots a machine learning model's prediction error (the loss) against training iterations, epochs, or processed steps.",
     },
     ROC: {
         name: 'Receiver Operating Characteristic (ROC) Curve',
+        chart_type: LineChart,
         description:
             'An ROC Curve shows how well a classification model performs across all possible classification thresholds: the vertical axis (True Positive Rate / Sensitivity / Recall) is the share of actual positives correctly identified, while the horizontal axis (False Positive Rate) is the share of actual negatives wrongly labeled as positive.',
     },
     PR: {
         name: 'Precision-Recall (PR) Curve',
+        chart_type: LineChart,
         description:
             'A PR Curve evaluates the performance of a classification model across different decision thresholds: the horizontal axis (sensitivity or True Positive Rate) measures the fraction of actual positive cases that the model correctly identified while the vertical axis (positive predictive value) measures how many of the predicted positive cases were actually correct.',
     },
@@ -170,6 +186,12 @@ const training_metadata = [
                 data: loss_y_time,
                 options: loss_options,
             },
+            {
+                name: training_plot_keys.RESIDUAL,
+                description: '',
+                data: residual_y_time,
+                options: residual_options,
+            },
         ],
     },
 ];
@@ -180,26 +202,35 @@ const TrainingPlots = props => {
 
     return (
         <>
-            {model_props.plots.map((item, index) => (
-                <ContainedList
-                    key={index}
-                    label={item.name.name}
-                    kind="disclosed"
-                    size="sm">
-                    <ContainedListItem>
-                        <div className="text-relief">
-                            {item.name.description}
-                        </div>
-                        <div className="text-relief">{item.description}</div>
-                    </ContainedListItem>
-                    <ContainedListItem>
-                        <br />
-                        <LineChart data={item.data} options={item.options} />
-                        <br />
-                    </ContainedListItem>
-                    <ContainedListItem />
-                </ContainedList>
-            ))}
+            {model_props.plots.map((item, index) => {
+                const Component = item.name.chart_type;
+
+                return (
+                    <ContainedList
+                        key={index}
+                        label={item.name.name}
+                        kind="disclosed"
+                        size="sm">
+                        <ContainedListItem>
+                            <div className="text-relief">
+                                {item.name.description}
+                            </div>
+                            <div className="text-relief">
+                                {item.description}
+                            </div>
+                        </ContainedListItem>
+                        <ContainedListItem>
+                            <br />
+                            <Component
+                                data={item.data}
+                                options={item.options}
+                            />
+                            <br />
+                        </ContainedListItem>
+                        <ContainedListItem />
+                    </ContainedList>
+                );
+            })}
         </>
     );
 };
