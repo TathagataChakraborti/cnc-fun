@@ -1,6 +1,6 @@
 import modelBaseUrl from '../../cache/models/y_base.onnx';
-import modelTypeUrl from '../../cache/models/y_time.onnx';
-import modelTimeUrl from '../../cache/models/y_type.onnx';
+import modelTypeUrl from '../../cache/models/y_type.onnx';
+import modelTimeUrl from '../../cache/models/y_time.onnx';
 
 import * as ort from 'onnxruntime-web';
 

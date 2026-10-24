@@ -1,6 +1,6 @@
 {
     "start_date": "2026-05-27",
-    "end_date": "2026-10-08",
+    "end_date": "2026-10-24",
     "manifests": [
         {
             "date": "2026-06-01",
@@ -250,10 +250,10 @@
             "type": "warning"
         },
         {
-            "date": "2026-09-19",
+            "date": "2026-10-18",
             "description": [
                 "FORTRESS DAY!!!",
-                "Total defeat. We couldn't even get past a third of the defense. We go again in 2-3 weeks."
+                "We failed again! However this time could touch the defense facility. Soon, very soon."
             ],
             "type": "warning"
         }
