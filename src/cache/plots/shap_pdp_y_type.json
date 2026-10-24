@@ -2,42 +2,42 @@
     {
         "group": "Mean FG level",
         "conceptValue": 18.3263,
-        "shapImpact": 0.1367
+        "shapImpact": 0.1377
     },
     {
         "group": "Mean FG level",
         "conceptValue": 10.5806,
-        "shapImpact": -0.0017
+        "shapImpact": -0.0044
     },
     {
         "group": "Mean FG level",
         "conceptValue": 0.0,
-        "shapImpact": -0.1462
+        "shapImpact": -0.1497
     },
     {
         "group": "Mean FG level",
         "conceptValue": 25.72,
-        "shapImpact": 0.2221
+        "shapImpact": 0.2182
     },
     {
         "group": "Mean FG level",
         "conceptValue": 18.5106,
-        "shapImpact": 0.0641
+        "shapImpact": 0.0596
     },
     {
         "group": "Mean FG level",
         "conceptValue": 7.1213,
-        "shapImpact": -0.0332
+        "shapImpact": -0.0343
     },
     {
         "group": "Mean FG level",
         "conceptValue": 15.5281,
-        "shapImpact": 0.2349
+        "shapImpact": 0.2326
     },
     {
         "group": "Mean FG level",
         "conceptValue": 0.0,
-        "shapImpact": -0.1381
+        "shapImpact": -0.1445
     },
     {
         "group": "Mean FG level",
@@ -47,27 +47,22 @@
     {
         "group": "Mean FG level",
         "conceptValue": 14.945,
-        "shapImpact": -0.1799
+        "shapImpact": -0.1888
     },
     {
         "group": "Mean FG level",
         "conceptValue": 22.0375,
-        "shapImpact": 0.1995
+        "shapImpact": 0.1972
     },
     {
         "group": "Mean FG level",
         "conceptValue": 18.3212,
-        "shapImpact": 0.012
+        "shapImpact": 0.0155
     },
     {
         "group": "Mean FG level",
         "conceptValue": 18.3225,
-        "shapImpact": 0.0737
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 0.0,
-        "shapImpact": -0.1103
+        "shapImpact": 0.0643
     },
     {
         "group": "Mean FG level",
@@ -76,193 +71,48 @@
     },
     {
         "group": "Mean FG level",
+        "conceptValue": 0.0,
+        "shapImpact": -0.1111
+    },
+    {
+        "group": "Mean FG level",
         "conceptValue": 17.59,
-        "shapImpact": -0.0052
+        "shapImpact": -0.0066
     },
     {
         "group": "Mean FG level",
         "conceptValue": 22.0375,
-        "shapImpact": 0.2525
+        "shapImpact": 0.2679
     },
     {
         "group": "Mean FG level",
         "conceptValue": 17.7981,
-        "shapImpact": -0.0104
+        "shapImpact": -0.007
     },
     {
         "group": "Mean FG level",
         "conceptValue": 14.5938,
-        "shapImpact": 0.17
+        "shapImpact": 0.159
     },
     {
         "group": "Mean FG level",
         "conceptValue": 25.7881,
-        "shapImpact": 0.0983
+        "shapImpact": 0.1134
     },
     {
         "group": "Mean FG level",
         "conceptValue": 19.7006,
-        "shapImpact": 0.0899
+        "shapImpact": 0.0781
     },
     {
         "group": "Mean FG level",
         "conceptValue": 16.5719,
-        "shapImpact": -0.0908
+        "shapImpact": -0.0922
     },
     {
         "group": "Mean FG level",
         "conceptValue": 0.0,
-        "shapImpact": -0.1168
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 0.0,
-        "shapImpact": -0.0985
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 16.5769,
-        "shapImpact": -0.0481
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 16.58,
-        "shapImpact": 0.1154
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 25.6975,
-        "shapImpact": 0.17
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 10.34,
-        "shapImpact": 0.172
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 0.0,
-        "shapImpact": -0.1121
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 11.9112,
-        "shapImpact": -0.2396
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 0.0,
-        "shapImpact": -0.0961
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 11.5081,
-        "shapImpact": 0.1205
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 25.8006,
-        "shapImpact": 0.2163
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 20.9762,
-        "shapImpact": 0.063
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 14.5938,
-        "shapImpact": 0.2717
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 12.4019,
-        "shapImpact": -0.1767
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 10.6481,
-        "shapImpact": 0.1328
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 0.0,
-        "shapImpact": -0.0829
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 11.9112,
-        "shapImpact": -0.2536
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 10.3869,
-        "shapImpact": -0.0753
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 16.6031,
-        "shapImpact": -0.0536
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 22.0375,
-        "shapImpact": 0.2457
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 0.0,
-        "shapImpact": -0.1001
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 0.0,
-        "shapImpact": -0.1083
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 22.6044,
-        "shapImpact": 0.2438
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 17.5131,
-        "shapImpact": 0.147
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 0.0,
-        "shapImpact": -0.0673
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 18.3019,
-        "shapImpact": 0.1185
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 22.0481,
-        "shapImpact": 0.2616
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 0.0,
-        "shapImpact": -0.1139
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 20.7337,
-        "shapImpact": 0.0637
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 20.7337,
-        "shapImpact": 0.0481
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 18.3019,
-        "shapImpact": 0.2212
+        "shapImpact": -0.1219
     },
     {
         "group": "Mean FG level",
@@ -271,483 +121,633 @@
     },
     {
         "group": "Mean FG level",
-        "conceptValue": 0.0,
-        "shapImpact": -0.1159
+        "conceptValue": 16.5769,
+        "shapImpact": -0.0501
     },
     {
         "group": "Mean FG level",
-        "conceptValue": 16.6031,
-        "shapImpact": 0.0082
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 10.6731,
-        "shapImpact": 0.0486
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 11.4688,
-        "shapImpact": 0.1599
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 10.425,
-        "shapImpact": 0.2084
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 13.9438,
-        "shapImpact": -0.0508
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 25.72,
-        "shapImpact": 0.1631
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 15.2219,
-        "shapImpact": 0.0711
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 16.4094,
-        "shapImpact": -0.0834
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 0.0,
-        "shapImpact": -0.115
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 0.0,
-        "shapImpact": -0.1508
+        "conceptValue": 16.58,
+        "shapImpact": 0.1144
     },
     {
         "group": "Mean FG level",
         "conceptValue": 25.6975,
-        "shapImpact": 0.2293
+        "shapImpact": 0.1532
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 10.34,
+        "shapImpact": 0.1728
     },
     {
         "group": "Mean FG level",
         "conceptValue": 0.0,
-        "shapImpact": -0.0985
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 12.7413,
-        "shapImpact": -0.2261
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 25.8006,
-        "shapImpact": 0.1782
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 0.0,
-        "shapImpact": -0.0896
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 0.0,
-        "shapImpact": -0.1085
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 15.5281,
-        "shapImpact": 0.2328
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 12.1325,
-        "shapImpact": -0.1965
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 16.3925,
-        "shapImpact": -0.0509
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 14.2937,
-        "shapImpact": -0.2148
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 0.0,
-        "shapImpact": -0.1331
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 16.5588,
-        "shapImpact": 0.0737
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 17.59,
-        "shapImpact": -0.0287
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 0.0,
-        "shapImpact": -0.1222
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 16.4094,
-        "shapImpact": -0.0689
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 14.0187,
-        "shapImpact": -0.1836
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 16.5175,
-        "shapImpact": -0.1045
+        "shapImpact": -0.1136
     },
     {
         "group": "Mean FG level",
         "conceptValue": 11.9112,
-        "shapImpact": -0.1927
+        "shapImpact": -0.2461
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 0.0,
+        "shapImpact": -0.101
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 11.5081,
+        "shapImpact": 0.1216
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 25.8006,
+        "shapImpact": 0.2203
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 20.9762,
+        "shapImpact": 0.0686
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 14.5938,
+        "shapImpact": 0.2819
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 12.4019,
+        "shapImpact": -0.1845
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 10.6481,
+        "shapImpact": 0.1318
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 0.0,
+        "shapImpact": -0.087
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 11.9112,
+        "shapImpact": -0.2586
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 10.3869,
+        "shapImpact": -0.0748
     },
     {
         "group": "Mean FG level",
         "conceptValue": 16.6031,
-        "shapImpact": -0.0497
+        "shapImpact": -0.0604
     },
     {
         "group": "Mean FG level",
-        "conceptValue": 25.6919,
-        "shapImpact": 0.1463
+        "conceptValue": 22.0375,
+        "shapImpact": 0.2571
     },
     {
         "group": "Mean FG level",
-        "conceptValue": 26.0306,
-        "shapImpact": 0.2004
+        "conceptValue": 0.0,
+        "shapImpact": -0.0987
     },
     {
         "group": "Mean FG level",
-        "conceptValue": 7.83,
-        "shapImpact": 0.2037
+        "conceptValue": 0.0,
+        "shapImpact": -0.105
     },
     {
         "group": "Mean FG level",
-        "conceptValue": 17.985,
-        "shapImpact": -0.0266
+        "conceptValue": 22.6044,
+        "shapImpact": 0.244
     },
     {
         "group": "Mean FG level",
-        "conceptValue": 16.5719,
-        "shapImpact": -0.0145
+        "conceptValue": 17.5131,
+        "shapImpact": 0.1403
     },
     {
         "group": "Mean FG level",
-        "conceptValue": 10.6731,
+        "conceptValue": 0.0,
+        "shapImpact": -0.057
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 18.3019,
+        "shapImpact": 0.1131
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 22.0481,
+        "shapImpact": 0.2649
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 0.0,
+        "shapImpact": -0.1189
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 20.7337,
+        "shapImpact": 0.0536
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 20.7337,
         "shapImpact": 0.0477
     },
     {
         "group": "Mean FG level",
-        "conceptValue": 17.59,
-        "shapImpact": -0.0043
+        "conceptValue": 18.3019,
+        "shapImpact": 0.2086
     },
     {
         "group": "Mean FG level",
         "conceptValue": 0.0,
-        "shapImpact": -0.0979
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 22.1244,
-        "shapImpact": 0.2489
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 13.3713,
-        "shapImpact": 0.0677
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 21.3306,
-        "shapImpact": 0.0229
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 10.3869,
-        "shapImpact": -0.0841
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 18.1444,
-        "shapImpact": -0.0478
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 15.5281,
-        "shapImpact": 0.1692
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 13.3713,
-        "shapImpact": 0.0532
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 25.8006,
-        "shapImpact": 0.1752
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 22.1038,
-        "shapImpact": 0.1777
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 10.6731,
-        "shapImpact": -0.0705
+        "shapImpact": -0.1018
     },
     {
         "group": "Mean FG level",
         "conceptValue": 0.0,
-        "shapImpact": -0.1404
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 16.5544,
-        "shapImpact": 0.052
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 25.7881,
-        "shapImpact": 0.1588
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 16.6219,
-        "shapImpact": 0.0567
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 10.425,
-        "shapImpact": 0.133
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 10.3869,
-        "shapImpact": -0.0577
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 13.7463,
-        "shapImpact": -0.077
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 0.0,
-        "shapImpact": -0.11
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 10.6313,
-        "shapImpact": -0.0762
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 16.6162,
-        "shapImpact": 0.0485
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 16.5588,
-        "shapImpact": 0.092
+        "shapImpact": -0.1209
     },
     {
         "group": "Mean FG level",
         "conceptValue": 16.6031,
-        "shapImpact": 0.0155
+        "shapImpact": 0.007
     },
     {
         "group": "Mean FG level",
-        "conceptValue": 16.5719,
-        "shapImpact": -0.0854
+        "conceptValue": 10.6731,
+        "shapImpact": 0.05
     },
     {
         "group": "Mean FG level",
-        "conceptValue": 16.3944,
-        "shapImpact": -0.153
-    },
-    {
-        "group": "Mean FG level",
-        "conceptValue": 14.0187,
-        "shapImpact": -0.1742
+        "conceptValue": 11.4688,
+        "shapImpact": 0.1574
     },
     {
         "group": "Mean FG level",
         "conceptValue": 10.425,
-        "shapImpact": 0.123
+        "shapImpact": 0.2087
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 13.9438,
+        "shapImpact": -0.0518
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 25.72,
+        "shapImpact": 0.1627
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 15.2219,
+        "shapImpact": 0.0641
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 16.4094,
+        "shapImpact": -0.0769
     },
     {
         "group": "Mean FG level",
         "conceptValue": 0.0,
-        "shapImpact": -0.1274
+        "shapImpact": -0.1162
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 0.0,
+        "shapImpact": -0.1504
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 25.6975,
+        "shapImpact": 0.2161
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 0.0,
+        "shapImpact": -0.0963
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 12.7413,
+        "shapImpact": -0.2208
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 25.8006,
+        "shapImpact": 0.1776
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 0.0,
+        "shapImpact": -0.0881
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 0.0,
+        "shapImpact": -0.114
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 15.5281,
+        "shapImpact": 0.238
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 12.1325,
+        "shapImpact": -0.1979
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 16.3925,
+        "shapImpact": -0.0479
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 14.2937,
+        "shapImpact": -0.216
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 0.0,
+        "shapImpact": -0.1405
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 16.5588,
+        "shapImpact": 0.0635
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 17.59,
+        "shapImpact": -0.0256
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 0.0,
+        "shapImpact": -0.108
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 16.4094,
+        "shapImpact": -0.0646
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 14.0187,
+        "shapImpact": -0.196
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 16.5175,
+        "shapImpact": -0.098
     },
     {
         "group": "Mean FG level",
         "conceptValue": 11.9112,
-        "shapImpact": -0.1961
+        "shapImpact": -0.1992
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 16.6031,
+        "shapImpact": -0.047
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 25.6919,
+        "shapImpact": 0.1658
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 26.0306,
+        "shapImpact": 0.2043
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 7.83,
+        "shapImpact": 0.2087
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 17.985,
+        "shapImpact": -0.0226
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 16.5719,
+        "shapImpact": -0.011
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 10.6731,
+        "shapImpact": 0.0532
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 17.59,
+        "shapImpact": -0.0041
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 0.0,
+        "shapImpact": -0.101
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 22.1244,
+        "shapImpact": 0.246
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 13.3713,
+        "shapImpact": 0.0643
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 21.3306,
+        "shapImpact": 0.031
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 10.3869,
+        "shapImpact": -0.0856
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 18.1444,
+        "shapImpact": -0.0567
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 15.5281,
+        "shapImpact": 0.1672
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 13.3713,
+        "shapImpact": 0.0625
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 25.8006,
+        "shapImpact": 0.1725
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 22.1038,
+        "shapImpact": 0.1881
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 10.6731,
+        "shapImpact": -0.0686
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 0.0,
+        "shapImpact": -0.143
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 16.5544,
+        "shapImpact": 0.0454
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 25.7881,
+        "shapImpact": 0.1585
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 16.6219,
+        "shapImpact": 0.0484
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 10.425,
+        "shapImpact": 0.13
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 10.3869,
+        "shapImpact": -0.0548
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 13.7463,
+        "shapImpact": -0.0848
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 0.0,
+        "shapImpact": -0.1094
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 10.6313,
+        "shapImpact": -0.0829
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 16.6162,
+        "shapImpact": 0.0479
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 16.5588,
+        "shapImpact": 0.0896
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 16.6031,
+        "shapImpact": 0.0149
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 16.5719,
+        "shapImpact": -0.0847
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 16.3944,
+        "shapImpact": -0.1465
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 14.0187,
+        "shapImpact": -0.1689
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 10.425,
+        "shapImpact": 0.1196
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 0.0,
+        "shapImpact": -0.1218
+    },
+    {
+        "group": "Mean FG level",
+        "conceptValue": 11.9112,
+        "shapImpact": -0.2005
     },
     {
         "group": "Active bases in range",
         "conceptValue": 6.9375,
-        "shapImpact": -0.0543
+        "shapImpact": -0.0531
     },
     {
         "group": "Active bases in range",
         "conceptValue": 4.875,
-        "shapImpact": 0.1605
+        "shapImpact": 0.1599
     },
     {
         "group": "Active bases in range",
         "conceptValue": 0.0,
-        "shapImpact": -0.0374
+        "shapImpact": -0.0324
     },
     {
         "group": "Active bases in range",
         "conceptValue": 7.1875,
-        "shapImpact": 0.057
+        "shapImpact": 0.0542
     },
     {
         "group": "Active bases in range",
         "conceptValue": 5.3125,
-        "shapImpact": -0.1403
+        "shapImpact": -0.1411
     },
     {
         "group": "Active bases in range",
         "conceptValue": 3.9375,
-        "shapImpact": 0.0124
+        "shapImpact": 0.0152
     },
     {
         "group": "Active bases in range",
         "conceptValue": 5.5625,
-        "shapImpact": 0.0039
+        "shapImpact": 0.0114
     },
     {
         "group": "Active bases in range",
         "conceptValue": 4.4375,
-        "shapImpact": -0.0295
+        "shapImpact": -0.0297
     },
     {
         "group": "Active bases in range",
         "conceptValue": 7.3125,
-        "shapImpact": 0.0159
+        "shapImpact": 0.0131
     },
     {
         "group": "Active bases in range",
         "conceptValue": 3.8125,
-        "shapImpact": 0.1227
+        "shapImpact": 0.1266
     },
     {
         "group": "Active bases in range",
         "conceptValue": 7.25,
-        "shapImpact": 0.0142
+        "shapImpact": 0.0163
     },
     {
         "group": "Active bases in range",
         "conceptValue": 7.3125,
-        "shapImpact": -0.1006
+        "shapImpact": -0.0981
     },
     {
         "group": "Active bases in range",
         "conceptValue": 6.875,
-        "shapImpact": -0.0566
+        "shapImpact": -0.0431
     },
     {
         "group": "Active bases in range",
         "conceptValue": 0.0,
-        "shapImpact": -0.0087
+        "shapImpact": -0.0034
     },
     {
         "group": "Active bases in range",
         "conceptValue": 4.1875,
-        "shapImpact": 0.0046
+        "shapImpact": -0.0019
     },
     {
         "group": "Active bases in range",
         "conceptValue": 4.5,
-        "shapImpact": 0.0187
+        "shapImpact": 0.0204
     },
     {
         "group": "Active bases in range",
         "conceptValue": 6.4375,
-        "shapImpact": 0.0937
+        "shapImpact": 0.0853
     },
     {
         "group": "Active bases in range",
         "conceptValue": 4.1875,
-        "shapImpact": 0.0302
+        "shapImpact": 0.0289
     },
     {
         "group": "Active bases in range",
         "conceptValue": 2.8125,
-        "shapImpact": -0.0028
+        "shapImpact": -0.0017
     },
     {
         "group": "Active bases in range",
         "conceptValue": 8.0,
-        "shapImpact": 0.0155
+        "shapImpact": 0.0032
     },
     {
         "group": "Active bases in range",
         "conceptValue": 6.75,
-        "shapImpact": -0.0855
+        "shapImpact": -0.083
     },
     {
         "group": "Active bases in range",
         "conceptValue": 4.625,
-        "shapImpact": -0.0349
+        "shapImpact": -0.0334
     },
     {
         "group": "Active bases in range",
         "conceptValue": 0.375,
-        "shapImpact": -0.0349
+        "shapImpact": -0.0305
     },
     {
         "group": "Active bases in range",
         "conceptValue": 0.0,
-        "shapImpact": -0.0317
+        "shapImpact": -0.0295
     },
     {
         "group": "Active bases in range",
         "conceptValue": 4.5,
-        "shapImpact": 0.0059
+        "shapImpact": 0.0105
     },
     {
         "group": "Active bases in range",
         "conceptValue": 4.375,
-        "shapImpact": 0.0147
+        "shapImpact": 0.0148
     },
     {
         "group": "Active bases in range",
         "conceptValue": 7.0,
-        "shapImpact": -0.164
+        "shapImpact": -0.1326
     },
     {
         "group": "Active bases in range",
         "conceptValue": 6.0625,
-        "shapImpact": 0.0768
+        "shapImpact": 0.0739
     },
     {
         "group": "Active bases in range",
         "conceptValue": 0.0,
-        "shapImpact": -0.0061
+        "shapImpact": -0.0025
     },
     {
         "group": "Active bases in range",
         "conceptValue": 4.125,
-        "shapImpact": -0.0733
+        "shapImpact": -0.0703
     },
     {
         "group": "Active bases in range",
@@ -757,722 +757,722 @@
     {
         "group": "Active bases in range",
         "conceptValue": 5.0625,
-        "shapImpact": 0.0566
+        "shapImpact": 0.0552
     },
     {
         "group": "Active bases in range",
         "conceptValue": 8.0,
-        "shapImpact": 0.0262
+        "shapImpact": 0.0221
     },
     {
         "group": "Active bases in range",
         "conceptValue": 6.3125,
-        "shapImpact": 0.1225
+        "shapImpact": 0.1251
     },
     {
         "group": "Active bases in range",
         "conceptValue": 2.8125,
-        "shapImpact": 0.0232
+        "shapImpact": 0.0181
     },
     {
         "group": "Active bases in range",
         "conceptValue": 2.875,
-        "shapImpact": -0.0764
+        "shapImpact": -0.0741
     },
     {
         "group": "Active bases in range",
         "conceptValue": 5.8125,
-        "shapImpact": 0.0851
+        "shapImpact": 0.0848
     },
     {
         "group": "Active bases in range",
         "conceptValue": 2.75,
-        "shapImpact": 0.0386
+        "shapImpact": 0.0419
     },
     {
         "group": "Active bases in range",
         "conceptValue": 4.125,
-        "shapImpact": -0.0636
+        "shapImpact": -0.0677
     },
     {
         "group": "Active bases in range",
         "conceptValue": 4.125,
-        "shapImpact": -0.0383
+        "shapImpact": -0.0384
     },
     {
         "group": "Active bases in range",
         "conceptValue": 4.3125,
-        "shapImpact": 0.0107
+        "shapImpact": 0.0147
     },
     {
         "group": "Active bases in range",
         "conceptValue": 6.4375,
-        "shapImpact": 0.0917
+        "shapImpact": 0.0886
     },
     {
         "group": "Active bases in range",
         "conceptValue": 0.0,
-        "shapImpact": -0.0269
+        "shapImpact": -0.0279
     },
     {
         "group": "Active bases in range",
         "conceptValue": 0.0,
-        "shapImpact": -0.0076
+        "shapImpact": -0.0107
     },
     {
         "group": "Active bases in range",
         "conceptValue": 8.75,
-        "shapImpact": 0.0657
+        "shapImpact": 0.0677
     },
     {
         "group": "Active bases in range",
         "conceptValue": 4.75,
-        "shapImpact": 0.0133
+        "shapImpact": 0.0154
     },
     {
         "group": "Active bases in range",
         "conceptValue": 4.75,
-        "shapImpact": 0.1322
+        "shapImpact": 0.1412
     },
     {
         "group": "Active bases in range",
         "conceptValue": 6.625,
-        "shapImpact": 0.0479
+        "shapImpact": 0.062
     },
     {
         "group": "Active bases in range",
         "conceptValue": 6.6875,
-        "shapImpact": 0.0404
+        "shapImpact": 0.0379
     },
     {
         "group": "Active bases in range",
         "conceptValue": 0.0,
-        "shapImpact": -0.0059
+        "shapImpact": -0.0048
     },
     {
         "group": "Active bases in range",
         "conceptValue": 6.4375,
-        "shapImpact": 0.1229
+        "shapImpact": 0.1232
     },
     {
         "group": "Active bases in range",
         "conceptValue": 6.4375,
-        "shapImpact": 0.1354
+        "shapImpact": 0.1365
     },
     {
         "group": "Active bases in range",
         "conceptValue": 6.625,
-        "shapImpact": 0.0699
+        "shapImpact": 0.0846
     },
     {
         "group": "Active bases in range",
         "conceptValue": 0.0,
-        "shapImpact": -0.0155
+        "shapImpact": -0.0088
     },
     {
         "group": "Active bases in range",
         "conceptValue": 0.0,
-        "shapImpact": -0.0042
+        "shapImpact": -0.006
     },
     {
         "group": "Active bases in range",
         "conceptValue": 4.3125,
-        "shapImpact": 0.0115
+        "shapImpact": 0.0124
     },
     {
         "group": "Active bases in range",
         "conceptValue": 4.0625,
-        "shapImpact": 0.0749
+        "shapImpact": 0.0706
     },
     {
         "group": "Active bases in range",
         "conceptValue": 4.3125,
-        "shapImpact": -0.0055
+        "shapImpact": 0.0048
     },
     {
         "group": "Active bases in range",
         "conceptValue": 5.5,
-        "shapImpact": 0.0754
+        "shapImpact": 0.0776
     },
     {
         "group": "Active bases in range",
         "conceptValue": 3.9375,
-        "shapImpact": 0.0156
+        "shapImpact": 0.0144
     },
     {
         "group": "Active bases in range",
         "conceptValue": 7.1875,
-        "shapImpact": 0.0155
+        "shapImpact": 0.0257
     },
     {
         "group": "Active bases in range",
         "conceptValue": 4.8125,
-        "shapImpact": -0.0413
+        "shapImpact": -0.0288
     },
     {
         "group": "Active bases in range",
         "conceptValue": 4.4375,
-        "shapImpact": -0.0389
+        "shapImpact": -0.0447
     },
     {
         "group": "Active bases in range",
         "conceptValue": 0.375,
-        "shapImpact": -0.0318
+        "shapImpact": -0.0335
     },
     {
         "group": "Active bases in range",
         "conceptValue": 2.0625,
-        "shapImpact": -0.1829
+        "shapImpact": -0.1862
     },
     {
         "group": "Active bases in range",
         "conceptValue": 7.0,
-        "shapImpact": -0.0961
+        "shapImpact": -0.0892
     },
     {
         "group": "Active bases in range",
         "conceptValue": 0.0,
-        "shapImpact": -0.0328
+        "shapImpact": -0.0294
     },
     {
         "group": "Active bases in range",
         "conceptValue": 2.0625,
-        "shapImpact": -0.1265
+        "shapImpact": -0.1335
     },
     {
         "group": "Active bases in range",
         "conceptValue": 8.0,
-        "shapImpact": 0.0355
+        "shapImpact": 0.027
     },
     {
         "group": "Active bases in range",
         "conceptValue": 0.0,
-        "shapImpact": -0.0345
+        "shapImpact": -0.0362
     },
     {
         "group": "Active bases in range",
         "conceptValue": 0.0,
-        "shapImpact": -0.0097
+        "shapImpact": -0.007
     },
     {
         "group": "Active bases in range",
         "conceptValue": 5.5625,
-        "shapImpact": 0.0075
+        "shapImpact": 0.0052
     },
     {
         "group": "Active bases in range",
         "conceptValue": 3.125,
-        "shapImpact": 0.0091
+        "shapImpact": 0.0104
     },
     {
         "group": "Active bases in range",
         "conceptValue": 4.3125,
-        "shapImpact": 0.0225
+        "shapImpact": 0.0269
     },
     {
         "group": "Active bases in range",
         "conceptValue": 3.6875,
-        "shapImpact": -0.0664
+        "shapImpact": -0.0705
     },
     {
         "group": "Active bases in range",
         "conceptValue": 0.4375,
-        "shapImpact": -0.0118
+        "shapImpact": -0.0025
     },
     {
         "group": "Active bases in range",
         "conceptValue": 4.3125,
-        "shapImpact": 0.0323
+        "shapImpact": 0.0346
     },
     {
         "group": "Active bases in range",
         "conceptValue": 4.5,
-        "shapImpact": 0.0015
+        "shapImpact": 0.0054
     },
     {
         "group": "Active bases in range",
         "conceptValue": 0.0,
-        "shapImpact": -0.0011
+        "shapImpact": -0.0101
     },
     {
         "group": "Active bases in range",
         "conceptValue": 4.4375,
-        "shapImpact": -0.0414
+        "shapImpact": -0.0424
     },
     {
         "group": "Active bases in range",
         "conceptValue": 3.9375,
-        "shapImpact": -0.1226
+        "shapImpact": -0.1151
     },
     {
         "group": "Active bases in range",
         "conceptValue": 5.0625,
-        "shapImpact": 0.1399
+        "shapImpact": 0.1353
     },
     {
         "group": "Active bases in range",
         "conceptValue": 4.125,
-        "shapImpact": -0.0459
+        "shapImpact": -0.0422
     },
     {
         "group": "Active bases in range",
         "conceptValue": 4.3125,
-        "shapImpact": 0.0063
+        "shapImpact": 0.0061
     },
     {
         "group": "Active bases in range",
         "conceptValue": 7.0625,
-        "shapImpact": 0.0315
+        "shapImpact": 0.0237
     },
     {
         "group": "Active bases in range",
         "conceptValue": 6.8125,
-        "shapImpact": 0.0613
+        "shapImpact": 0.071
     },
     {
         "group": "Active bases in range",
         "conceptValue": 4.9375,
-        "shapImpact": 0.1141
+        "shapImpact": 0.1064
     },
     {
         "group": "Active bases in range",
         "conceptValue": 4.1875,
-        "shapImpact": -0.0106
+        "shapImpact": -0.0176
     },
     {
         "group": "Active bases in range",
         "conceptValue": 4.625,
-        "shapImpact": 0.0271
+        "shapImpact": 0.0254
     },
     {
         "group": "Active bases in range",
         "conceptValue": 4.0625,
-        "shapImpact": 0.0676
+        "shapImpact": 0.0641
     },
     {
         "group": "Active bases in range",
         "conceptValue": 4.5,
-        "shapImpact": 0.0206
+        "shapImpact": 0.0236
     },
     {
         "group": "Active bases in range",
         "conceptValue": 0.0,
-        "shapImpact": -0.0276
+        "shapImpact": -0.0267
     },
     {
         "group": "Active bases in range",
         "conceptValue": 7.5,
-        "shapImpact": 0.0448
+        "shapImpact": 0.0454
     },
     {
         "group": "Active bases in range",
         "conceptValue": 4.1875,
-        "shapImpact": 0.0683
+        "shapImpact": 0.0696
     },
     {
         "group": "Active bases in range",
         "conceptValue": 7.125,
-        "shapImpact": -0.1067
+        "shapImpact": -0.1043
     },
     {
         "group": "Active bases in range",
         "conceptValue": 4.125,
-        "shapImpact": -0.0561
+        "shapImpact": -0.0566
     },
     {
         "group": "Active bases in range",
         "conceptValue": 6.5,
-        "shapImpact": -0.0969
+        "shapImpact": -0.0993
     },
     {
         "group": "Active bases in range",
         "conceptValue": 5.5625,
-        "shapImpact": -0.0305
+        "shapImpact": -0.0265
     },
     {
         "group": "Active bases in range",
         "conceptValue": 4.1875,
-        "shapImpact": 0.068
+        "shapImpact": 0.0607
     },
     {
         "group": "Active bases in range",
         "conceptValue": 8.0,
-        "shapImpact": 0.0175
+        "shapImpact": 0.0216
     },
     {
         "group": "Active bases in range",
         "conceptValue": 6.6875,
-        "shapImpact": 0.1613
+        "shapImpact": 0.1538
     },
     {
         "group": "Active bases in range",
         "conceptValue": 4.0625,
-        "shapImpact": 0.035
+        "shapImpact": 0.0348
     },
     {
         "group": "Active bases in range",
         "conceptValue": 0.4375,
-        "shapImpact": -0.0049
+        "shapImpact": -0.0095
     },
     {
         "group": "Active bases in range",
         "conceptValue": 5.375,
-        "shapImpact": -0.0023
+        "shapImpact": -0.0021
     },
     {
         "group": "Active bases in range",
         "conceptValue": 7.3125,
-        "shapImpact": 0.0078
+        "shapImpact": 0.0119
     },
     {
         "group": "Active bases in range",
         "conceptValue": 5.8125,
-        "shapImpact": -0.0002
+        "shapImpact": 0.0028
     },
     {
         "group": "Active bases in range",
         "conceptValue": 5.5,
-        "shapImpact": 0.0779
+        "shapImpact": 0.0842
     },
     {
         "group": "Active bases in range",
         "conceptValue": 4.125,
-        "shapImpact": -0.0295
+        "shapImpact": -0.0296
     },
     {
         "group": "Active bases in range",
         "conceptValue": 4.0625,
-        "shapImpact": -0.0313
+        "shapImpact": -0.0284
     },
     {
         "group": "Active bases in range",
         "conceptValue": 0.0,
-        "shapImpact": -0.0089
+        "shapImpact": -0.0125
     },
     {
         "group": "Active bases in range",
         "conceptValue": 3.9375,
-        "shapImpact": 0.0013
+        "shapImpact": 0.0076
     },
     {
         "group": "Active bases in range",
         "conceptValue": 5.875,
-        "shapImpact": 0.0004
+        "shapImpact": -0.002
     },
     {
         "group": "Active bases in range",
         "conceptValue": 4.3125,
-        "shapImpact": 0.0165
+        "shapImpact": 0.0118
     },
     {
         "group": "Active bases in range",
         "conceptValue": 4.3125,
-        "shapImpact": 0.0085
+        "shapImpact": 0.0099
     },
     {
         "group": "Active bases in range",
         "conceptValue": 4.625,
-        "shapImpact": -0.0258
+        "shapImpact": -0.0319
     },
     {
         "group": "Active bases in range",
         "conceptValue": 6.0625,
-        "shapImpact": -0.0013
+        "shapImpact": -0.0054
     },
     {
         "group": "Active bases in range",
         "conceptValue": 3.9375,
-        "shapImpact": -0.1063
+        "shapImpact": -0.1131
     },
     {
         "group": "Active bases in range",
         "conceptValue": 5.5,
-        "shapImpact": 0.073
+        "shapImpact": 0.0728
     },
     {
         "group": "Active bases in range",
         "conceptValue": 2.0,
-        "shapImpact": -0.2291
+        "shapImpact": -0.2353
     },
     {
         "group": "Active bases in range",
         "conceptValue": 4.125,
-        "shapImpact": -0.0403
+        "shapImpact": -0.0408
     },
     {
         "group": "Last attack target",
         "conceptValue": 2.0,
+        "shapImpact": 0.0294
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 2.0,
+        "shapImpact": -0.0274
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 1.0,
+        "shapImpact": -0.0537
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 2.0,
+        "shapImpact": 0.0148
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 6.0,
+        "shapImpact": -0.0171
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 4.0,
+        "shapImpact": 0.0314
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 2.0,
+        "shapImpact": 0.0289
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 3.0,
+        "shapImpact": 0.0527
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 6.0,
+        "shapImpact": 0.0007
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 1.0,
+        "shapImpact": -0.0649
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 1.0,
+        "shapImpact": -0.0017
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 5.0,
+        "shapImpact": -0.0704
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 5.0,
+        "shapImpact": -0.0374
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0398
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 1.0,
+        "shapImpact": -0.0145
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 1.0,
+        "shapImpact": -0.0541
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 5.0,
         "shapImpact": 0.0277
     },
     {
         "group": "Last attack target",
         "conceptValue": 2.0,
-        "shapImpact": -0.0302
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 1.0,
-        "shapImpact": -0.051
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 2.0,
-        "shapImpact": 0.0116
+        "shapImpact": -0.0374
     },
     {
         "group": "Last attack target",
         "conceptValue": 6.0,
-        "shapImpact": -0.0213
+        "shapImpact": 0.0044
     },
     {
         "group": "Last attack target",
         "conceptValue": 4.0,
-        "shapImpact": 0.0298
+        "shapImpact": 0.0044
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 4.0,
+        "shapImpact": -0.0177
     },
     {
         "group": "Last attack target",
         "conceptValue": 2.0,
-        "shapImpact": 0.0321
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 3.0,
-        "shapImpact": 0.0482
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 6.0,
-        "shapImpact": -0.0089
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 1.0,
-        "shapImpact": -0.0687
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 1.0,
-        "shapImpact": -0.0052
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 5.0,
-        "shapImpact": -0.0716
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 5.0,
-        "shapImpact": -0.0354
+        "shapImpact": -0.0648
     },
     {
         "group": "Last attack target",
         "conceptValue": 0.0,
-        "shapImpact": 0.0415
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 1.0,
-        "shapImpact": -0.0218
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 1.0,
-        "shapImpact": -0.0521
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 5.0,
-        "shapImpact": 0.0292
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 2.0,
-        "shapImpact": -0.0313
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 6.0,
-        "shapImpact": -0.0027
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 4.0,
-        "shapImpact": 0.0059
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 4.0,
-        "shapImpact": -0.0313
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 2.0,
-        "shapImpact": -0.0688
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 0.0,
-        "shapImpact": 0.0134
+        "shapImpact": 0.0068
     },
     {
         "group": "Last attack target",
         "conceptValue": 3.0,
-        "shapImpact": 0.0208
+        "shapImpact": 0.0194
     },
     {
         "group": "Last attack target",
         "conceptValue": 3.0,
-        "shapImpact": 0.0352
+        "shapImpact": 0.0333
     },
     {
         "group": "Last attack target",
         "conceptValue": 5.0,
-        "shapImpact": 0.0302
+        "shapImpact": 0.0315
     },
     {
         "group": "Last attack target",
         "conceptValue": 7.0,
-        "shapImpact": 0.0014
+        "shapImpact": -0.0164
     },
     {
         "group": "Last attack target",
         "conceptValue": 2.0,
-        "shapImpact": -0.0037
+        "shapImpact": -0.0032
     },
     {
         "group": "Last attack target",
         "conceptValue": 0.0,
-        "shapImpact": 0.0437
+        "shapImpact": 0.0381
     },
     {
         "group": "Last attack target",
         "conceptValue": 2.0,
-        "shapImpact": -0.07
+        "shapImpact": -0.0668
     },
     {
         "group": "Last attack target",
         "conceptValue": 3.0,
-        "shapImpact": 0.0229
+        "shapImpact": 0.0269
     },
     {
         "group": "Last attack target",
         "conceptValue": 3.0,
-        "shapImpact": -0.0211
+        "shapImpact": -0.0205
     },
     {
         "group": "Last attack target",
         "conceptValue": 2.0,
-        "shapImpact": 0.0048
+        "shapImpact": 0.008
     },
     {
         "group": "Last attack target",
         "conceptValue": 5.0,
-        "shapImpact": 0.0254
+        "shapImpact": 0.0155
     },
     {
         "group": "Last attack target",
         "conceptValue": 2.0,
-        "shapImpact": 0.0002
+        "shapImpact": -0.0042
     },
     {
         "group": "Last attack target",
         "conceptValue": 2.0,
-        "shapImpact": -0.0452
+        "shapImpact": -0.0412
     },
     {
         "group": "Last attack target",
         "conceptValue": 5.0,
-        "shapImpact": -0.0121
+        "shapImpact": -0.0118
     },
     {
         "group": "Last attack target",
         "conceptValue": 3.0,
-        "shapImpact": 0.0149
+        "shapImpact": 0.0167
     },
     {
         "group": "Last attack target",
         "conceptValue": 2.0,
-        "shapImpact": -0.0727
+        "shapImpact": -0.067
     },
     {
         "group": "Last attack target",
         "conceptValue": 2.0,
-        "shapImpact": -0.0403
+        "shapImpact": -0.0407
     },
     {
         "group": "Last attack target",
         "conceptValue": 4.0,
-        "shapImpact": -0.0048
+        "shapImpact": 0.0013
     },
     {
         "group": "Last attack target",
         "conceptValue": 6.0,
-        "shapImpact": 0.0464
+        "shapImpact": 0.0424
     },
     {
         "group": "Last attack target",
         "conceptValue": 3.0,
-        "shapImpact": 0.0218
+        "shapImpact": 0.0164
     },
     {
         "group": "Last attack target",
         "conceptValue": 0.0,
-        "shapImpact": 0.0433
+        "shapImpact": 0.0446
     },
     {
         "group": "Last attack target",
         "conceptValue": 0.0,
-        "shapImpact": 0.011
+        "shapImpact": 0.0113
     },
     {
         "group": "Last attack target",
         "conceptValue": 3.0,
-        "shapImpact": 0.0031
+        "shapImpact": 0.0057
     },
     {
         "group": "Last attack target",
         "conceptValue": 2.0,
-        "shapImpact": -0.011
+        "shapImpact": -0.0331
     },
     {
         "group": "Last attack target",
         "conceptValue": 4.0,
-        "shapImpact": -0.0198
+        "shapImpact": -0.0283
     },
     {
         "group": "Last attack target",
         "conceptValue": 2.0,
-        "shapImpact": -0.0268
+        "shapImpact": -0.0249
     },
     {
         "group": "Last attack target",
         "conceptValue": 0.0,
-        "shapImpact": 0.047
+        "shapImpact": 0.0449
     },
     {
         "group": "Last attack target",
         "conceptValue": 5.0,
-        "shapImpact": 0.0168
+        "shapImpact": 0.0237
     },
     {
         "group": "Last attack target",
         "conceptValue": 2.0,
-        "shapImpact": -0.0342
+        "shapImpact": -0.0328
     },
     {
         "group": "Last attack target",
         "conceptValue": 2.0,
-        "shapImpact": 0.0152
+        "shapImpact": 0.015
     },
     {
         "group": "Last attack target",
         "conceptValue": 0.0,
-        "shapImpact": 0.0417
+        "shapImpact": 0.0358
     },
     {
         "group": "Last attack target",
         "conceptValue": 0.0,
-        "shapImpact": 0.0415
+        "shapImpact": 0.0478
     },
     {
         "group": "Last attack target",
@@ -1482,477 +1482,477 @@
     {
         "group": "Last attack target",
         "conceptValue": 5.0,
-        "shapImpact": 0.1034
+        "shapImpact": 0.1022
     },
     {
         "group": "Last attack target",
         "conceptValue": 2.0,
-        "shapImpact": 0.0213
+        "shapImpact": 0.0128
     },
     {
         "group": "Last attack target",
         "conceptValue": 2.0,
-        "shapImpact": 0.0007
+        "shapImpact": -0.0001
     },
     {
         "group": "Last attack target",
         "conceptValue": 3.0,
-        "shapImpact": 0.0423
+        "shapImpact": 0.0448
     },
     {
         "group": "Last attack target",
         "conceptValue": 6.0,
-        "shapImpact": 0.012
+        "shapImpact": -0.0087
     },
     {
         "group": "Last attack target",
         "conceptValue": 5.0,
-        "shapImpact": -0.0422
+        "shapImpact": -0.0491
     },
     {
         "group": "Last attack target",
         "conceptValue": 3.0,
-        "shapImpact": -0.0252
+        "shapImpact": -0.023
     },
     {
         "group": "Last attack target",
         "conceptValue": 0.0,
+        "shapImpact": 0.01
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 1.0,
+        "shapImpact": -0.0193
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 2.0,
+        "shapImpact": 0.0156
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 3.0,
+        "shapImpact": 0.018
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 2.0,
+        "shapImpact": -0.0595
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 5.0,
+        "shapImpact": 0.0126
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 3.0,
+        "shapImpact": 0.0166
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0419
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 2.0,
+        "shapImpact": 0.0302
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 1.0,
+        "shapImpact": -0.0652
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 1.0,
+        "shapImpact": -0.016
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 2.0,
+        "shapImpact": -0.0495
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 1.0,
+        "shapImpact": -0.0582
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 2.0,
+        "shapImpact": -0.0086
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 2.0,
+        "shapImpact": -0.0578
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0443
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 5.0,
+        "shapImpact": 0.0071
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0212
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 4.0,
+        "shapImpact": 0.0444
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 3.0,
+        "shapImpact": 0.052
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 4.0,
+        "shapImpact": -0.0047
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 6.0,
+        "shapImpact": 0.006
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 5.0,
+        "shapImpact": 0.0025
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 2.0,
+        "shapImpact": -0.0034
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 6.0,
+        "shapImpact": 0.0524
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 5.0,
+        "shapImpact": 0.0853
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 5.0,
+        "shapImpact": 0.108
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 1.0,
+        "shapImpact": -0.0539
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 3.0,
+        "shapImpact": 0.0182
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 3.0,
         "shapImpact": 0.0046
     },
     {
         "group": "Last attack target",
         "conceptValue": 1.0,
-        "shapImpact": -0.0209
+        "shapImpact": -0.0185
     },
     {
         "group": "Last attack target",
         "conceptValue": 2.0,
-        "shapImpact": 0.0125
+        "shapImpact": -0.0423
     },
     {
         "group": "Last attack target",
         "conceptValue": 3.0,
-        "shapImpact": 0.0205
+        "shapImpact": -0.008
     },
     {
         "group": "Last attack target",
-        "conceptValue": 2.0,
-        "shapImpact": -0.0601
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 5.0,
-        "shapImpact": 0.0009
+        "conceptValue": 0.0,
+        "shapImpact": 0.0284
     },
     {
         "group": "Last attack target",
         "conceptValue": 3.0,
-        "shapImpact": 0.0162
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 0.0,
-        "shapImpact": 0.0446
+        "shapImpact": 0.005
     },
     {
         "group": "Last attack target",
         "conceptValue": 2.0,
-        "shapImpact": 0.0247
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 1.0,
-        "shapImpact": -0.0637
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 1.0,
-        "shapImpact": -0.0106
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 2.0,
-        "shapImpact": -0.0533
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 1.0,
-        "shapImpact": -0.0595
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 2.0,
-        "shapImpact": -0.0146
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 2.0,
-        "shapImpact": -0.0554
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 0.0,
-        "shapImpact": 0.0463
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 5.0,
-        "shapImpact": 0.0102
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 0.0,
-        "shapImpact": 0.0156
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 4.0,
-        "shapImpact": 0.0458
+        "shapImpact": -0.0193
     },
     {
         "group": "Last attack target",
         "conceptValue": 3.0,
-        "shapImpact": 0.0521
+        "shapImpact": -0.0135
     },
     {
         "group": "Last attack target",
-        "conceptValue": 4.0,
+        "conceptValue": 6.0,
+        "shapImpact": 0.0357
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 0.0,
+        "shapImpact": -0.0325
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 1.0,
+        "shapImpact": -0.0485
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 1.0,
+        "shapImpact": 0.0058
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 6.0,
+        "shapImpact": -0.0073
+    },
+    {
+        "group": "Last attack target",
+        "conceptValue": 1.0,
         "shapImpact": -0.0019
     },
     {
         "group": "Last attack target",
-        "conceptValue": 6.0,
-        "shapImpact": 0.0041
+        "conceptValue": 5.0,
+        "shapImpact": -0.008
     },
     {
         "group": "Last attack target",
         "conceptValue": 5.0,
-        "shapImpact": 0.0195
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 2.0,
-        "shapImpact": -0.0072
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 6.0,
-        "shapImpact": 0.0456
+        "shapImpact": 0.0366
     },
     {
         "group": "Last attack target",
         "conceptValue": 5.0,
-        "shapImpact": 0.0833
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 5.0,
-        "shapImpact": 0.103
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 1.0,
-        "shapImpact": -0.0554
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 3.0,
-        "shapImpact": 0.0182
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 3.0,
-        "shapImpact": 0.0023
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 1.0,
-        "shapImpact": -0.0214
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 2.0,
-        "shapImpact": -0.0392
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 3.0,
-        "shapImpact": -0.0097
+        "shapImpact": 0.0644
     },
     {
         "group": "Last attack target",
         "conceptValue": 0.0,
-        "shapImpact": 0.0186
+        "shapImpact": 0.0429
     },
     {
         "group": "Last attack target",
         "conceptValue": 3.0,
-        "shapImpact": 0.0051
+        "shapImpact": 0.0254
     },
     {
         "group": "Last attack target",
         "conceptValue": 2.0,
-        "shapImpact": -0.0172
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 3.0,
-        "shapImpact": -0.0149
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 6.0,
-        "shapImpact": 0.0299
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 0.0,
-        "shapImpact": -0.0322
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 1.0,
-        "shapImpact": -0.0516
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 1.0,
-        "shapImpact": 0.0012
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 6.0,
-        "shapImpact": 0.0023
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 1.0,
-        "shapImpact": -0.0032
+        "shapImpact": 0.0045
     },
     {
         "group": "Last attack target",
         "conceptValue": 5.0,
-        "shapImpact": -0.0081
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 5.0,
-        "shapImpact": 0.0402
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 5.0,
-        "shapImpact": 0.0625
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 0.0,
-        "shapImpact": 0.0422
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 3.0,
-        "shapImpact": 0.0226
+        "shapImpact": 0.0292
     },
     {
         "group": "Last attack target",
         "conceptValue": 2.0,
-        "shapImpact": 0.0031
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 5.0,
-        "shapImpact": 0.0249
-    },
-    {
-        "group": "Last attack target",
-        "conceptValue": 2.0,
-        "shapImpact": -0.0128
+        "shapImpact": -0.0141
     },
     {
         "group": "Last attack target",
         "conceptValue": 1.0,
-        "shapImpact": -0.0688
+        "shapImpact": -0.0652
     },
     {
         "group": "Last attack target",
         "conceptValue": 3.0,
-        "shapImpact": 0.0034
+        "shapImpact": 0.0029
     },
     {
         "group": "Last attack target",
         "conceptValue": 3.0,
-        "shapImpact": 0.0263
+        "shapImpact": 0.029
     },
     {
         "group": "Last attack target",
         "conceptValue": 6.0,
-        "shapImpact": 0.0175
+        "shapImpact": 0.0236
     },
     {
         "group": "Last attack target",
         "conceptValue": 3.0,
-        "shapImpact": -0.0032
+        "shapImpact": -0.0001
     },
     {
         "group": "Last attack target",
         "conceptValue": 3.0,
-        "shapImpact": 0.0484
+        "shapImpact": 0.0551
     },
     {
         "group": "Highest base in range",
         "conceptValue": 19.125,
-        "shapImpact": 0.0102
+        "shapImpact": 0.0073
     },
     {
         "group": "Highest base in range",
         "conceptValue": 11.375,
-        "shapImpact": -0.0205
+        "shapImpact": -0.0182
     },
     {
         "group": "Highest base in range",
         "conceptValue": 0.0,
-        "shapImpact": -0.0065
+        "shapImpact": -0.0089
     },
     {
         "group": "Highest base in range",
         "conceptValue": 26.625,
-        "shapImpact": -0.0
+        "shapImpact": 0.002
     },
     {
         "group": "Highest base in range",
         "conceptValue": 19.3125,
-        "shapImpact": 0.0031
+        "shapImpact": 0.0023
     },
     {
         "group": "Highest base in range",
         "conceptValue": 7.75,
-        "shapImpact": -0.0249
+        "shapImpact": -0.0276
     },
     {
         "group": "Highest base in range",
         "conceptValue": 16.1875,
-        "shapImpact": 0.0182
+        "shapImpact": 0.0154
     },
     {
         "group": "Highest base in range",
         "conceptValue": 0.0,
-        "shapImpact": -0.0149
+        "shapImpact": -0.0132
     },
     {
         "group": "Highest base in range",
         "conceptValue": 26.75,
-        "shapImpact": 0.0131
+        "shapImpact": 0.0044
     },
     {
         "group": "Highest base in range",
         "conceptValue": 15.9375,
-        "shapImpact": -0.0183
+        "shapImpact": -0.0172
     },
     {
         "group": "Highest base in range",
         "conceptValue": 23.0,
-        "shapImpact": 0.0182
+        "shapImpact": 0.0179
     },
     {
         "group": "Highest base in range",
         "conceptValue": 19.1875,
-        "shapImpact": 0.0088
+        "shapImpact": 0.0016
     },
     {
         "group": "Highest base in range",
         "conceptValue": 19.125,
-        "shapImpact": 0.005
+        "shapImpact": 0.0012
     },
     {
         "group": "Highest base in range",
         "conceptValue": 0.0,
-        "shapImpact": -0.0088
+        "shapImpact": -0.0101
     },
     {
         "group": "Highest base in range",
         "conceptValue": 0.0,
-        "shapImpact": 0.0005
+        "shapImpact": 0.0017
     },
     {
         "group": "Highest base in range",
         "conceptValue": 18.5,
-        "shapImpact": 0.0155
+        "shapImpact": 0.0193
     },
     {
         "group": "Highest base in range",
         "conceptValue": 22.9375,
-        "shapImpact": 0.0281
+        "shapImpact": 0.0218
     },
     {
         "group": "Highest base in range",
         "conceptValue": 18.5,
-        "shapImpact": -0.0024
+        "shapImpact": 0.0001
     },
     {
         "group": "Highest base in range",
         "conceptValue": 15.0625,
-        "shapImpact": 0.0172
+        "shapImpact": 0.0193
     },
     {
         "group": "Highest base in range",
         "conceptValue": 26.75,
-        "shapImpact": 0.0085
+        "shapImpact": 0.0061
     },
     {
         "group": "Highest base in range",
         "conceptValue": 20.4375,
-        "shapImpact": -0.0005
+        "shapImpact": -0.0048
     },
     {
         "group": "Highest base in range",
         "conceptValue": 17.5625,
-        "shapImpact": -0.0164
+        "shapImpact": -0.0197
     },
     {
         "group": "Highest base in range",
         "conceptValue": 0.0,
-        "shapImpact": -0.0123
+        "shapImpact": -0.007
     },
     {
         "group": "Highest base in range",
         "conceptValue": 0.0,
-        "shapImpact": -0.0063
+        "shapImpact": -0.0067
     },
     {
         "group": "Highest base in range",
         "conceptValue": 17.5625,
-        "shapImpact": -0.0096
+        "shapImpact": -0.0115
     },
     {
         "group": "Highest base in range",
         "conceptValue": 17.4375,
-        "shapImpact": -0.0077
+        "shapImpact": -0.0064
     },
     {
         "group": "Highest base in range",
         "conceptValue": 26.5625,
-        "shapImpact": 0.0115
+        "shapImpact": 0.0141
     },
     {
         "group": "Highest base in range",
         "conceptValue": 11.0625,
-        "shapImpact": 0.0097
+        "shapImpact": 0.0122
     },
     {
         "group": "Highest base in range",
         "conceptValue": 0.0,
-        "shapImpact": -0.0109
+        "shapImpact": -0.0092
     },
     {
         "group": "Highest base in range",
         "conceptValue": 12.625,
-        "shapImpact": -0.0174
+        "shapImpact": -0.0166
     },
     {
         "group": "Highest base in range",
         "conceptValue": 0.0,
-        "shapImpact": -0.0052
+        "shapImpact": -0.005
     },
     {
         "group": "Highest base in range",
@@ -1962,27 +1962,57 @@
     {
         "group": "Highest base in range",
         "conceptValue": 26.75,
-        "shapImpact": 0.0032
+        "shapImpact": -0.0014
     },
     {
         "group": "Highest base in range",
         "conceptValue": 22.125,
-        "shapImpact": 0.0138
+        "shapImpact": 0.0147
     },
     {
         "group": "Highest base in range",
         "conceptValue": 15.0625,
-        "shapImpact": 0.0086
+        "shapImpact": 0.0073
     },
     {
         "group": "Highest base in range",
         "conceptValue": 13.1875,
-        "shapImpact": -0.0198
+        "shapImpact": -0.0188
     },
     {
         "group": "Highest base in range",
         "conceptValue": 11.375,
-        "shapImpact": 0.0254
+        "shapImpact": 0.0267
+    },
+    {
+        "group": "Highest base in range",
+        "conceptValue": 0.0,
+        "shapImpact": -0.0071
+    },
+    {
+        "group": "Highest base in range",
+        "conceptValue": 12.625,
+        "shapImpact": -0.0148
+    },
+    {
+        "group": "Highest base in range",
+        "conceptValue": 11.0625,
+        "shapImpact": -0.0231
+    },
+    {
+        "group": "Highest base in range",
+        "conceptValue": 17.5625,
+        "shapImpact": -0.0082
+    },
+    {
+        "group": "Highest base in range",
+        "conceptValue": 22.9375,
+        "shapImpact": 0.0243
+    },
+    {
+        "group": "Highest base in range",
+        "conceptValue": 0.0,
+        "shapImpact": -0.0054
     },
     {
         "group": "Highest base in range",
@@ -1991,58 +2021,28 @@
     },
     {
         "group": "Highest base in range",
-        "conceptValue": 12.625,
-        "shapImpact": -0.016
-    },
-    {
-        "group": "Highest base in range",
-        "conceptValue": 11.0625,
-        "shapImpact": -0.0239
-    },
-    {
-        "group": "Highest base in range",
-        "conceptValue": 17.5625,
-        "shapImpact": -0.0057
-    },
-    {
-        "group": "Highest base in range",
-        "conceptValue": 22.9375,
-        "shapImpact": 0.0279
-    },
-    {
-        "group": "Highest base in range",
-        "conceptValue": 0.0,
-        "shapImpact": -0.0117
-    },
-    {
-        "group": "Highest base in range",
-        "conceptValue": 0.0,
-        "shapImpact": -0.0053
-    },
-    {
-        "group": "Highest base in range",
         "conceptValue": 23.75,
-        "shapImpact": 0.0104
+        "shapImpact": 0.0085
     },
     {
         "group": "Highest base in range",
         "conceptValue": 18.25,
-        "shapImpact": 0.0122
+        "shapImpact": 0.0135
     },
     {
         "group": "Highest base in range",
         "conceptValue": 0.0,
-        "shapImpact": -0.0022
+        "shapImpact": 0.0014
     },
     {
         "group": "Highest base in range",
         "conceptValue": 19.125,
-        "shapImpact": -0.0024
+        "shapImpact": -0.0045
     },
     {
         "group": "Highest base in range",
         "conceptValue": 22.9375,
-        "shapImpact": 0.017
+        "shapImpact": 0.014
     },
     {
         "group": "Highest base in range",
@@ -2052,127 +2052,127 @@
     {
         "group": "Highest base in range",
         "conceptValue": 21.9375,
-        "shapImpact": 0.0115
+        "shapImpact": 0.0132
     },
     {
         "group": "Highest base in range",
         "conceptValue": 21.9375,
-        "shapImpact": 0.021
+        "shapImpact": 0.0176
     },
     {
         "group": "Highest base in range",
         "conceptValue": 19.125,
-        "shapImpact": 0.0128
+        "shapImpact": 0.0097
     },
     {
         "group": "Highest base in range",
         "conceptValue": 0.0,
-        "shapImpact": -0.0061
+        "shapImpact": -0.0071
     },
     {
         "group": "Highest base in range",
         "conceptValue": 0.0,
-        "shapImpact": -0.0114
+        "shapImpact": -0.0084
     },
     {
         "group": "Highest base in range",
         "conceptValue": 17.5625,
-        "shapImpact": -0.0166
+        "shapImpact": -0.0175
     },
     {
         "group": "Highest base in range",
         "conceptValue": 11.375,
-        "shapImpact": 0.0179
+        "shapImpact": 0.0185
     },
     {
         "group": "Highest base in range",
         "conceptValue": 12.0625,
-        "shapImpact": 0.0014
+        "shapImpact": 0.0011
     },
     {
         "group": "Highest base in range",
         "conceptValue": 11.125,
-        "shapImpact": 0.0172
+        "shapImpact": 0.012
     },
     {
         "group": "Highest base in range",
         "conceptValue": 14.5625,
-        "shapImpact": -0.0016
+        "shapImpact": -0.002
     },
     {
         "group": "Highest base in range",
         "conceptValue": 26.625,
-        "shapImpact": 0.0052
+        "shapImpact": 0.0161
     },
     {
         "group": "Highest base in range",
         "conceptValue": 16.0,
-        "shapImpact": 0.0107
+        "shapImpact": 0.0103
     },
     {
         "group": "Highest base in range",
         "conceptValue": 17.25,
-        "shapImpact": -0.0126
+        "shapImpact": -0.014
     },
     {
         "group": "Highest base in range",
         "conceptValue": 0.0,
-        "shapImpact": -0.0082
+        "shapImpact": -0.01
     },
     {
         "group": "Highest base in range",
         "conceptValue": 0.0,
-        "shapImpact": -0.0107
+        "shapImpact": -0.0099
     },
     {
         "group": "Highest base in range",
         "conceptValue": 26.5625,
-        "shapImpact": -0.0045
+        "shapImpact": 0.0005
     },
     {
         "group": "Highest base in range",
         "conceptValue": 0.0,
-        "shapImpact": -0.0073
+        "shapImpact": -0.0062
     },
     {
         "group": "Highest base in range",
         "conceptValue": 13.375,
-        "shapImpact": -0.0153
+        "shapImpact": -0.0144
     },
     {
         "group": "Highest base in range",
         "conceptValue": 26.75,
-        "shapImpact": 0.0139
+        "shapImpact": 0.0088
     },
     {
         "group": "Highest base in range",
         "conceptValue": 0.0,
-        "shapImpact": -0.0074
+        "shapImpact": -0.0095
     },
     {
         "group": "Highest base in range",
         "conceptValue": 0.0,
-        "shapImpact": -0.0101
+        "shapImpact": -0.0076
     },
     {
         "group": "Highest base in range",
         "conceptValue": 16.1875,
-        "shapImpact": 0.0215
+        "shapImpact": 0.017
     },
     {
         "group": "Highest base in range",
         "conceptValue": 13.0,
-        "shapImpact": -0.0136
+        "shapImpact": -0.0126
     },
     {
         "group": "Highest base in range",
         "conceptValue": 17.1875,
-        "shapImpact": -0.0052
+        "shapImpact": -0.0054
     },
     {
         "group": "Highest base in range",
         "conceptValue": 15.25,
-        "shapImpact": -0.0152
+        "shapImpact": -0.0144
     },
     {
         "group": "Highest base in range",
@@ -2182,227 +2182,227 @@
     {
         "group": "Highest base in range",
         "conceptValue": 17.1875,
-        "shapImpact": -0.0126
+        "shapImpact": -0.0146
     },
     {
         "group": "Highest base in range",
         "conceptValue": 18.5,
-        "shapImpact": 0.0209
+        "shapImpact": 0.0163
     },
     {
         "group": "Highest base in range",
         "conceptValue": 0.0,
-        "shapImpact": -0.0088
+        "shapImpact": -0.0106
     },
     {
         "group": "Highest base in range",
         "conceptValue": 17.25,
-        "shapImpact": -0.0057
+        "shapImpact": -0.0062
     },
     {
         "group": "Highest base in range",
         "conceptValue": 15.1875,
-        "shapImpact": -0.0129
+        "shapImpact": -0.0139
     },
     {
         "group": "Highest base in range",
         "conceptValue": 17.5,
-        "shapImpact": -0.0075
+        "shapImpact": -0.0083
     },
     {
         "group": "Highest base in range",
         "conceptValue": 12.625,
-        "shapImpact": -0.0164
+        "shapImpact": -0.0139
     },
     {
         "group": "Highest base in range",
         "conceptValue": 17.5625,
-        "shapImpact": -0.0068
+        "shapImpact": -0.0065
     },
     {
         "group": "Highest base in range",
         "conceptValue": 26.5625,
-        "shapImpact": 0.0156
+        "shapImpact": 0.0019
     },
     {
         "group": "Highest base in range",
         "conceptValue": 27.0625,
-        "shapImpact": 0.0176
+        "shapImpact": 0.0194
     },
     {
         "group": "Highest base in range",
         "conceptValue": 8.375,
-        "shapImpact": 0.0116
+        "shapImpact": 0.0113
     },
     {
         "group": "Highest base in range",
         "conceptValue": 18.625,
-        "shapImpact": 0.0114
+        "shapImpact": 0.0095
     },
     {
         "group": "Highest base in range",
         "conceptValue": 17.5625,
-        "shapImpact": -0.004
+        "shapImpact": -0.0075
     },
     {
         "group": "Highest base in range",
         "conceptValue": 11.375,
-        "shapImpact": 0.0212
+        "shapImpact": 0.0149
     },
     {
         "group": "Highest base in range",
         "conceptValue": 18.5,
-        "shapImpact": 0.0168
+        "shapImpact": 0.0144
     },
     {
         "group": "Highest base in range",
         "conceptValue": 0.0,
-        "shapImpact": -0.0078
+        "shapImpact": -0.0067
     },
     {
         "group": "Highest base in range",
         "conceptValue": 23.125,
-        "shapImpact": 0.0178
+        "shapImpact": 0.0168
     },
     {
         "group": "Highest base in range",
         "conceptValue": 14.0,
-        "shapImpact": -0.01
-    },
-    {
-        "group": "Highest base in range",
-        "conceptValue": 22.4375,
-        "shapImpact": 0.0111
-    },
-    {
-        "group": "Highest base in range",
-        "conceptValue": 11.0625,
-        "shapImpact": -0.0199
-    },
-    {
-        "group": "Highest base in range",
-        "conceptValue": 19.0625,
-        "shapImpact": 0.0082
-    },
-    {
-        "group": "Highest base in range",
-        "conceptValue": 16.1875,
-        "shapImpact": 0.0098
-    },
-    {
-        "group": "Highest base in range",
-        "conceptValue": 14.0,
-        "shapImpact": -0.0105
-    },
-    {
-        "group": "Highest base in range",
-        "conceptValue": 26.75,
-        "shapImpact": -0.0021
-    },
-    {
-        "group": "Highest base in range",
-        "conceptValue": 23.0,
-        "shapImpact": 0.0165
-    },
-    {
-        "group": "Highest base in range",
-        "conceptValue": 11.375,
-        "shapImpact": -0.0025
-    },
-    {
-        "group": "Highest base in range",
-        "conceptValue": 0.0,
-        "shapImpact": -0.0138
-    },
-    {
-        "group": "Highest base in range",
-        "conceptValue": 17.625,
-        "shapImpact": 0.0261
-    },
-    {
-        "group": "Highest base in range",
-        "conceptValue": 26.75,
-        "shapImpact": 0.01
-    },
-    {
-        "group": "Highest base in range",
-        "conceptValue": 17.8125,
-        "shapImpact": 0.0193
-    },
-    {
-        "group": "Highest base in range",
-        "conceptValue": 11.125,
-        "shapImpact": 0.0286
-    },
-    {
-        "group": "Highest base in range",
-        "conceptValue": 11.0625,
-        "shapImpact": -0.0259
-    },
-    {
-        "group": "Highest base in range",
-        "conceptValue": 14.375,
-        "shapImpact": -0.0248
-    },
-    {
-        "group": "Highest base in range",
-        "conceptValue": 0.0,
         "shapImpact": -0.0093
     },
     {
         "group": "Highest base in range",
-        "conceptValue": 11.25,
-        "shapImpact": -0.0009
+        "conceptValue": 22.4375,
+        "shapImpact": 0.0055
     },
     {
         "group": "Highest base in range",
-        "conceptValue": 17.8125,
-        "shapImpact": 0.021
+        "conceptValue": 11.0625,
+        "shapImpact": -0.0218
     },
     {
         "group": "Highest base in range",
-        "conceptValue": 17.1875,
-        "shapImpact": -0.0071
+        "conceptValue": 19.0625,
+        "shapImpact": 0.0091
     },
     {
         "group": "Highest base in range",
-        "conceptValue": 17.5625,
-        "shapImpact": -0.0166
+        "conceptValue": 16.1875,
+        "shapImpact": 0.0088
     },
     {
         "group": "Highest base in range",
-        "conceptValue": 17.5625,
-        "shapImpact": -0.0128
+        "conceptValue": 14.0,
+        "shapImpact": -0.011
     },
     {
         "group": "Highest base in range",
-        "conceptValue": 17.3125,
-        "shapImpact": -0.014
+        "conceptValue": 26.75,
+        "shapImpact": -0.0059
     },
     {
         "group": "Highest base in range",
-        "conceptValue": 15.1875,
-        "shapImpact": -0.0182
+        "conceptValue": 23.0,
+        "shapImpact": 0.0102
     },
     {
         "group": "Highest base in range",
-        "conceptValue": 11.125,
-        "shapImpact": 0.0298
+        "conceptValue": 11.375,
+        "shapImpact": -0.0034
     },
     {
         "group": "Highest base in range",
         "conceptValue": 0.0,
-        "shapImpact": -0.0084
+        "shapImpact": -0.0139
+    },
+    {
+        "group": "Highest base in range",
+        "conceptValue": 17.625,
+        "shapImpact": 0.0266
+    },
+    {
+        "group": "Highest base in range",
+        "conceptValue": 26.75,
+        "shapImpact": 0.0132
+    },
+    {
+        "group": "Highest base in range",
+        "conceptValue": 17.8125,
+        "shapImpact": 0.0245
+    },
+    {
+        "group": "Highest base in range",
+        "conceptValue": 11.125,
+        "shapImpact": 0.0256
+    },
+    {
+        "group": "Highest base in range",
+        "conceptValue": 11.0625,
+        "shapImpact": -0.0257
+    },
+    {
+        "group": "Highest base in range",
+        "conceptValue": 14.375,
+        "shapImpact": -0.0234
+    },
+    {
+        "group": "Highest base in range",
+        "conceptValue": 0.0,
+        "shapImpact": -0.0083
+    },
+    {
+        "group": "Highest base in range",
+        "conceptValue": 11.25,
+        "shapImpact": -0.0025
+    },
+    {
+        "group": "Highest base in range",
+        "conceptValue": 17.8125,
+        "shapImpact": 0.0228
+    },
+    {
+        "group": "Highest base in range",
+        "conceptValue": 17.1875,
+        "shapImpact": -0.0045
+    },
+    {
+        "group": "Highest base in range",
+        "conceptValue": 17.5625,
+        "shapImpact": -0.0156
+    },
+    {
+        "group": "Highest base in range",
+        "conceptValue": 17.5625,
+        "shapImpact": -0.0112
+    },
+    {
+        "group": "Highest base in range",
+        "conceptValue": 17.3125,
+        "shapImpact": -0.018
+    },
+    {
+        "group": "Highest base in range",
+        "conceptValue": 15.1875,
+        "shapImpact": -0.0191
+    },
+    {
+        "group": "Highest base in range",
+        "conceptValue": 11.125,
+        "shapImpact": 0.0287
+    },
+    {
+        "group": "Highest base in range",
+        "conceptValue": 0.0,
+        "shapImpact": -0.0107
     },
     {
         "group": "Highest base in range",
         "conceptValue": 12.625,
-        "shapImpact": -0.0143
+        "shapImpact": -0.016
     },
     {
         "group": "Target base",
         "conceptValue": 1.3125,
-        "shapImpact": -0.0028
+        "shapImpact": -0.0038
     },
     {
         "group": "Target base",
@@ -2412,32 +2412,32 @@
     {
         "group": "Target base",
         "conceptValue": 0.0,
-        "shapImpact": 0.0211
+        "shapImpact": 0.0248
     },
     {
         "group": "Target base",
         "conceptValue": 1.75,
-        "shapImpact": -0.0034
+        "shapImpact": -0.0026
     },
     {
         "group": "Target base",
         "conceptValue": 1.3125,
-        "shapImpact": -0.0028
+        "shapImpact": -0.0023
     },
     {
         "group": "Target base",
         "conceptValue": 0.9375,
-        "shapImpact": -0.0048
+        "shapImpact": -0.0054
     },
     {
         "group": "Target base",
         "conceptValue": 1.75,
-        "shapImpact": -0.0065
+        "shapImpact": -0.0054
     },
     {
         "group": "Target base",
         "conceptValue": 0.625,
-        "shapImpact": -0.0075
+        "shapImpact": -0.0077
     },
     {
         "group": "Target base",
@@ -2447,17 +2447,12 @@
     {
         "group": "Target base",
         "conceptValue": 0.9375,
-        "shapImpact": -0.0036
+        "shapImpact": -0.004
     },
     {
         "group": "Target base",
         "conceptValue": 1.75,
-        "shapImpact": -0.0066
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 1.3125,
-        "shapImpact": -0.0038
+        "shapImpact": -0.0069
     },
     {
         "group": "Target base",
@@ -2466,113 +2461,118 @@
     },
     {
         "group": "Target base",
+        "conceptValue": 1.3125,
+        "shapImpact": -0.0016
+    },
+    {
+        "group": "Target base",
         "conceptValue": 0.0,
-        "shapImpact": 0.0164
+        "shapImpact": 0.0159
     },
     {
         "group": "Target base",
         "conceptValue": 0.375,
-        "shapImpact": 0.0132
+        "shapImpact": 0.0105
     },
     {
         "group": "Target base",
         "conceptValue": 1.3125,
-        "shapImpact": -0.0057
+        "shapImpact": -0.0051
     },
     {
         "group": "Target base",
         "conceptValue": 1.75,
-        "shapImpact": -0.0043
+        "shapImpact": -0.0032
     },
     {
         "group": "Target base",
         "conceptValue": 1.3125,
-        "shapImpact": -0.009
+        "shapImpact": -0.0081
     },
     {
         "group": "Target base",
         "conceptValue": 1.3125,
-        "shapImpact": -0.003
+        "shapImpact": -0.0029
     },
     {
         "group": "Target base",
         "conceptValue": 1.75,
-        "shapImpact": -0.0031
+        "shapImpact": -0.0011
     },
     {
         "group": "Target base",
         "conceptValue": 1.75,
-        "shapImpact": -0.0021
+        "shapImpact": -0.0036
     },
     {
         "group": "Target base",
         "conceptValue": 0.9375,
-        "shapImpact": -0.008
+        "shapImpact": -0.0081
     },
     {
         "group": "Target base",
         "conceptValue": 0.375,
-        "shapImpact": 0.0189
+        "shapImpact": 0.0207
     },
     {
         "group": "Target base",
         "conceptValue": 0.0,
-        "shapImpact": 0.0172
+        "shapImpact": 0.019
     },
     {
         "group": "Target base",
         "conceptValue": 0.9375,
-        "shapImpact": -0.0057
+        "shapImpact": -0.0052
     },
     {
         "group": "Target base",
         "conceptValue": 0.9375,
-        "shapImpact": -0.0048
+        "shapImpact": -0.0053
     },
     {
         "group": "Target base",
         "conceptValue": 1.75,
-        "shapImpact": -0.0028
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 1.3125,
-        "shapImpact": -0.0071
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 0.0,
-        "shapImpact": 0.015
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 0.625,
-        "shapImpact": -0.007
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 0.0,
-        "shapImpact": 0.017
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 1.3125,
-        "shapImpact": -0.0028
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 1.75,
-        "shapImpact": -0.0018
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 1.3125,
-        "shapImpact": -0.0034
+        "shapImpact": -0.0013
     },
     {
         "group": "Target base",
         "conceptValue": 1.3125,
         "shapImpact": -0.0069
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0163
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 0.625,
+        "shapImpact": -0.0073
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0164
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 1.3125,
+        "shapImpact": -0.0033
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 1.75,
+        "shapImpact": -0.0025
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 1.3125,
+        "shapImpact": -0.0032
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 1.3125,
+        "shapImpact": -0.0068
     },
     {
         "group": "Target base",
@@ -2582,12 +2582,12 @@
     {
         "group": "Target base",
         "conceptValue": 1.3125,
-        "shapImpact": -0.0032
+        "shapImpact": -0.0031
     },
     {
         "group": "Target base",
         "conceptValue": 0.375,
-        "shapImpact": 0.0218
+        "shapImpact": 0.0214
     },
     {
         "group": "Target base",
@@ -2602,32 +2602,32 @@
     {
         "group": "Target base",
         "conceptValue": 0.9375,
-        "shapImpact": -0.0051
+        "shapImpact": -0.0054
     },
     {
         "group": "Target base",
         "conceptValue": 1.75,
-        "shapImpact": -0.0033
+        "shapImpact": -0.0025
     },
     {
         "group": "Target base",
         "conceptValue": 0.0,
-        "shapImpact": 0.0184
+        "shapImpact": 0.0177
     },
     {
         "group": "Target base",
         "conceptValue": 0.0,
-        "shapImpact": 0.0163
+        "shapImpact": 0.0174
     },
     {
         "group": "Target base",
         "conceptValue": 1.75,
-        "shapImpact": -0.0031
+        "shapImpact": -0.0034
     },
     {
         "group": "Target base",
         "conceptValue": 1.3125,
-        "shapImpact": -0.004
+        "shapImpact": -0.0041
     },
     {
         "group": "Target base",
@@ -2637,312 +2637,37 @@
     {
         "group": "Target base",
         "conceptValue": 1.3125,
-        "shapImpact": -0.0042
+        "shapImpact": -0.0021
     },
     {
         "group": "Target base",
         "conceptValue": 1.75,
-        "shapImpact": -0.0056
+        "shapImpact": -0.0055
     },
     {
         "group": "Target base",
         "conceptValue": 0.0,
-        "shapImpact": 0.0133
+        "shapImpact": 0.0165
     },
     {
         "group": "Target base",
         "conceptValue": 1.3125,
-        "shapImpact": -0.0038
+        "shapImpact": -0.0041
     },
     {
         "group": "Target base",
         "conceptValue": 1.3125,
-        "shapImpact": -0.0044
+        "shapImpact": -0.0041
     },
     {
         "group": "Target base",
         "conceptValue": 1.3125,
-        "shapImpact": -0.0056
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 0.0,
-        "shapImpact": 0.0194
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 0.0,
-        "shapImpact": 0.019
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 0.9375,
-        "shapImpact": -0.0068
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 1.3125,
-        "shapImpact": -0.0067
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 1.3125,
-        "shapImpact": -0.005
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 1.3125,
-        "shapImpact": -0.0079
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 1.3125,
-        "shapImpact": -0.0076
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 1.75,
-        "shapImpact": -0.0024
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 1.3125,
-        "shapImpact": -0.0028
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 0.9375,
-        "shapImpact": -0.0036
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 0.375,
-        "shapImpact": 0.0175
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 0.375,
-        "shapImpact": 0.0143
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 1.75,
-        "shapImpact": -0.0012
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 0.0,
-        "shapImpact": 0.02
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 0.625,
-        "shapImpact": -0.0085
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 1.75,
-        "shapImpact": -0.0033
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 0.0,
-        "shapImpact": 0.0189
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 0.0,
-        "shapImpact": 0.0138
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 1.75,
-        "shapImpact": -0.0044
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 0.9375,
-        "shapImpact": -0.0078
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 0.9375,
         "shapImpact": -0.0053
     },
     {
         "group": "Target base",
-        "conceptValue": 0.9375,
-        "shapImpact": -0.0076
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 0.375,
-        "shapImpact": 0.0317
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 0.9375,
-        "shapImpact": -0.0067
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 1.3125,
-        "shapImpact": -0.0071
-    },
-    {
-        "group": "Target base",
         "conceptValue": 0.0,
-        "shapImpact": 0.0151
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 0.9375,
-        "shapImpact": -0.0028
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 0.9375,
-        "shapImpact": -0.0042
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 0.9375,
-        "shapImpact": -0.004
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 0.625,
-        "shapImpact": -0.007
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 0.9375,
-        "shapImpact": -0.0051
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 1.75,
-        "shapImpact": -0.0014
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 1.75,
-        "shapImpact": -0.0044
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 1.3125,
-        "shapImpact": -0.0044
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 1.3125,
-        "shapImpact": -0.0018
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 0.9375,
-        "shapImpact": -0.0045
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 1.3125,
-        "shapImpact": -0.0056
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 1.3125,
-        "shapImpact": -0.0059
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 0.0,
-        "shapImpact": 0.0163
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 1.75,
-        "shapImpact": -0.0045
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 0.9375,
-        "shapImpact": -0.0049
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 1.3125,
-        "shapImpact": -0.0033
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 0.9375,
-        "shapImpact": -0.0089
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 1.3125,
-        "shapImpact": -0.0022
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 1.75,
-        "shapImpact": -0.0052
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 0.9375,
-        "shapImpact": -0.0058
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 1.75,
-        "shapImpact": -0.004
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 1.3125,
-        "shapImpact": -0.0022
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 1.3125,
-        "shapImpact": -0.0095
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 0.375,
-        "shapImpact": 0.0249
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 0.9375,
-        "shapImpact": -0.0051
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 1.75,
-        "shapImpact": -0.0024
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 0.9375,
-        "shapImpact": -0.0045
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 1.3125,
-        "shapImpact": -0.0036
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 0.9375,
-        "shapImpact": -0.0053
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 0.9375,
-        "shapImpact": -0.0064
+        "shapImpact": 0.0192
     },
     {
         "group": "Target base",
@@ -2951,28 +2676,123 @@
     },
     {
         "group": "Target base",
+        "conceptValue": 0.9375,
+        "shapImpact": -0.0067
+    },
+    {
+        "group": "Target base",
         "conceptValue": 1.3125,
-        "shapImpact": -0.0109
+        "shapImpact": -0.0057
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 1.3125,
+        "shapImpact": -0.0052
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 1.3125,
+        "shapImpact": -0.0055
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 1.3125,
+        "shapImpact": -0.0071
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 1.75,
+        "shapImpact": -0.0016
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 1.3125,
+        "shapImpact": -0.0022
     },
     {
         "group": "Target base",
         "conceptValue": 0.9375,
-        "shapImpact": -0.0058
+        "shapImpact": -0.0039
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 0.375,
+        "shapImpact": 0.0182
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 0.375,
+        "shapImpact": 0.0147
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 1.75,
+        "shapImpact": -0.002
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0167
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 0.625,
+        "shapImpact": -0.0082
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 1.75,
+        "shapImpact": -0.0023
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0202
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0155
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 1.75,
+        "shapImpact": -0.0049
     },
     {
         "group": "Target base",
         "conceptValue": 0.9375,
-        "shapImpact": -0.006
+        "shapImpact": -0.0072
     },
     {
         "group": "Target base",
         "conceptValue": 0.9375,
-        "shapImpact": -0.007
+        "shapImpact": -0.0063
     },
     {
         "group": "Target base",
         "conceptValue": 0.9375,
-        "shapImpact": -0.0081
+        "shapImpact": -0.0075
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 0.375,
+        "shapImpact": 0.0281
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 0.9375,
+        "shapImpact": -0.0057
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 1.3125,
+        "shapImpact": -0.0077
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0143
     },
     {
         "group": "Target base",
@@ -2982,212 +2802,202 @@
     {
         "group": "Target base",
         "conceptValue": 0.9375,
-        "shapImpact": -0.0063
+        "shapImpact": -0.0042
     },
     {
         "group": "Target base",
-        "conceptValue": 1.3125,
-        "shapImpact": -0.003
-    },
-    {
-        "group": "Target base",
-        "conceptValue": 0.375,
-        "shapImpact": 0.0108
+        "conceptValue": 0.9375,
+        "shapImpact": -0.0045
     },
     {
         "group": "Target base",
         "conceptValue": 0.625,
-        "shapImpact": -0.0072
+        "shapImpact": -0.0074
     },
     {
-        "group": "Type of last attack",
-        "conceptValue": 0.0,
-        "shapImpact": 0.0019
+        "group": "Target base",
+        "conceptValue": 0.9375,
+        "shapImpact": -0.0049
     },
     {
-        "group": "Type of last attack",
-        "conceptValue": 1.0,
-        "shapImpact": -0.0055
+        "group": "Target base",
+        "conceptValue": 1.75,
+        "shapImpact": -0.0023
     },
     {
-        "group": "Type of last attack",
-        "conceptValue": 0.0,
-        "shapImpact": 0.0014
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 1.0,
-        "shapImpact": -0.0028
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 1.0,
-        "shapImpact": -0.0031
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 1.0,
-        "shapImpact": -0.0032
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 1.0,
-        "shapImpact": -0.0012
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 0.0,
-        "shapImpact": 0.0035
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 1.0,
+        "group": "Target base",
+        "conceptValue": 1.75,
         "shapImpact": -0.0036
     },
     {
-        "group": "Type of last attack",
+        "group": "Target base",
+        "conceptValue": 1.3125,
+        "shapImpact": -0.0053
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 1.3125,
+        "shapImpact": -0.0023
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 0.9375,
+        "shapImpact": -0.005
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 1.3125,
+        "shapImpact": -0.006
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 1.3125,
+        "shapImpact": -0.0065
+    },
+    {
+        "group": "Target base",
         "conceptValue": 0.0,
-        "shapImpact": 0.0018
+        "shapImpact": 0.0182
     },
     {
-        "group": "Type of last attack",
-        "conceptValue": 1.0,
-        "shapImpact": -0.0028
+        "group": "Target base",
+        "conceptValue": 1.75,
+        "shapImpact": -0.0043
     },
     {
-        "group": "Type of last attack",
-        "conceptValue": 1.0,
-        "shapImpact": -0.0021
+        "group": "Target base",
+        "conceptValue": 0.9375,
+        "shapImpact": -0.006
     },
     {
-        "group": "Type of last attack",
-        "conceptValue": 1.0,
+        "group": "Target base",
+        "conceptValue": 1.3125,
+        "shapImpact": -0.0039
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 0.9375,
+        "shapImpact": -0.0089
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 1.3125,
+        "shapImpact": -0.0026
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 1.75,
+        "shapImpact": -0.0049
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 0.9375,
+        "shapImpact": -0.005
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 1.75,
+        "shapImpact": -0.0031
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 1.3125,
+        "shapImpact": -0.0024
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 1.3125,
+        "shapImpact": -0.0089
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 0.375,
+        "shapImpact": 0.0284
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 0.9375,
+        "shapImpact": -0.0039
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 1.75,
         "shapImpact": -0.0008
     },
     {
-        "group": "Type of last attack",
-        "conceptValue": 0.0,
-        "shapImpact": -0.0001
+        "group": "Target base",
+        "conceptValue": 0.9375,
+        "shapImpact": -0.006
     },
     {
-        "group": "Type of last attack",
-        "conceptValue": 0.0,
-        "shapImpact": 0.0041
+        "group": "Target base",
+        "conceptValue": 1.3125,
+        "shapImpact": -0.0036
     },
     {
-        "group": "Type of last attack",
-        "conceptValue": 0.0,
-        "shapImpact": 0.0187
+        "group": "Target base",
+        "conceptValue": 0.9375,
+        "shapImpact": -0.0051
     },
     {
-        "group": "Type of last attack",
-        "conceptValue": 1.0,
-        "shapImpact": -0.0042
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 1.0,
-        "shapImpact": -0.0064
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 0.0,
-        "shapImpact": 0.0019
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 0.0,
-        "shapImpact": 0.0058
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 0.0,
-        "shapImpact": 0.0051
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 1.0,
-        "shapImpact": -0.0082
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 0.0,
-        "shapImpact": 0.0003
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 0.0,
-        "shapImpact": 0.0023
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 0.0,
-        "shapImpact": 0.0102
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 1.0,
-        "shapImpact": -0.0098
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 0.0,
-        "shapImpact": 0.0034
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 1.0,
-        "shapImpact": -0.0013
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 0.0,
-        "shapImpact": 0.0005
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 1.0,
-        "shapImpact": -0.002
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 0.0,
-        "shapImpact": 0.0004
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 0.0,
-        "shapImpact": 0.0021
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 1.0,
+        "group": "Target base",
+        "conceptValue": 0.9375,
         "shapImpact": -0.0067
     },
     {
-        "group": "Type of last attack",
+        "group": "Target base",
         "conceptValue": 0.0,
-        "shapImpact": 0.0122
+        "shapImpact": 0.0167
     },
     {
-        "group": "Type of last attack",
-        "conceptValue": 1.0,
-        "shapImpact": -0.0022
+        "group": "Target base",
+        "conceptValue": 1.3125,
+        "shapImpact": -0.0108
     },
     {
-        "group": "Type of last attack",
-        "conceptValue": 1.0,
-        "shapImpact": -0.0073
+        "group": "Target base",
+        "conceptValue": 0.9375,
+        "shapImpact": -0.005
     },
     {
-        "group": "Type of last attack",
-        "conceptValue": 1.0,
-        "shapImpact": -0.001
+        "group": "Target base",
+        "conceptValue": 0.9375,
+        "shapImpact": -0.0061
     },
     {
-        "group": "Type of last attack",
-        "conceptValue": 1.0,
-        "shapImpact": 0.0022
+        "group": "Target base",
+        "conceptValue": 0.9375,
+        "shapImpact": -0.0075
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 0.9375,
+        "shapImpact": -0.0074
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 0.9375,
+        "shapImpact": -0.0036
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 0.9375,
+        "shapImpact": -0.0065
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 1.3125,
+        "shapImpact": -0.0037
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 0.375,
+        "shapImpact": 0.0106
+    },
+    {
+        "group": "Target base",
+        "conceptValue": 0.625,
+        "shapImpact": -0.007
     },
     {
         "group": "Type of last attack",
@@ -3197,67 +3007,22 @@
     {
         "group": "Type of last attack",
         "conceptValue": 1.0,
-        "shapImpact": -0.0026
+        "shapImpact": -0.0073
     },
     {
         "group": "Type of last attack",
         "conceptValue": 0.0,
-        "shapImpact": 0.015
+        "shapImpact": 0.0013
     },
     {
         "group": "Type of last attack",
         "conceptValue": 1.0,
-        "shapImpact": -0.0028
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 0.0,
-        "shapImpact": 0.0023
+        "shapImpact": -0.0021
     },
     {
         "group": "Type of last attack",
         "conceptValue": 1.0,
-        "shapImpact": 0.001
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 0.0,
-        "shapImpact": 0.0073
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 0.0,
-        "shapImpact": 0.0025
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 0.0,
-        "shapImpact": 0.0057
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 0.0,
-        "shapImpact": 0.0028
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 1.0,
-        "shapImpact": -0.0061
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 0.0,
-        "shapImpact": -0.001
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 1.0,
-        "shapImpact": -0.0113
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 1.0,
-        "shapImpact": -0.0136
+        "shapImpact": -0.0017
     },
     {
         "group": "Type of last attack",
@@ -3267,92 +3032,32 @@
     {
         "group": "Type of last attack",
         "conceptValue": 1.0,
-        "shapImpact": 0.0007
+        "shapImpact": -0.0014
     },
     {
         "group": "Type of last attack",
         "conceptValue": 0.0,
-        "shapImpact": 0.0012
+        "shapImpact": 0.0042
     },
     {
         "group": "Type of last attack",
         "conceptValue": 1.0,
-        "shapImpact": -0.0137
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 1.0,
-        "shapImpact": -0.003
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 1.0,
-        "shapImpact": -0.002
+        "shapImpact": -0.0018
     },
     {
         "group": "Type of last attack",
         "conceptValue": 0.0,
-        "shapImpact": 0.0011
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 0.0,
-        "shapImpact": 0.0046
+        "shapImpact": 0.0022
     },
     {
         "group": "Type of last attack",
         "conceptValue": 1.0,
-        "shapImpact": -0.0011
+        "shapImpact": -0.0056
     },
     {
         "group": "Type of last attack",
         "conceptValue": 1.0,
-        "shapImpact": -0.0028
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 1.0,
-        "shapImpact": -0.0092
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 0.0,
-        "shapImpact": 0.0015
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 0.0,
-        "shapImpact": -0.0015
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 1.0,
-        "shapImpact": -0.0028
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 0.0,
-        "shapImpact": 0.0019
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 0.0,
-        "shapImpact": 0.0009
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 1.0,
-        "shapImpact": -0.0035
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 1.0,
-        "shapImpact": -0.0009
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 0.0,
-        "shapImpact": -0.0001
+        "shapImpact": -0.0027
     },
     {
         "group": "Type of last attack",
@@ -3361,88 +3066,8 @@
     },
     {
         "group": "Type of last attack",
-        "conceptValue": 1.0,
-        "shapImpact": -0.0071
-    },
-    {
-        "group": "Type of last attack",
         "conceptValue": 0.0,
-        "shapImpact": 0.0084
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 0.0,
-        "shapImpact": 0.0056
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 0.0,
-        "shapImpact": -0.002
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 1.0,
-        "shapImpact": -0.0134
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 1.0,
-        "shapImpact": -0.0167
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 0.0,
-        "shapImpact": 0.0008
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 1.0,
-        "shapImpact": -0.0074
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 0.0,
-        "shapImpact": 0.0064
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 1.0,
-        "shapImpact": -0.0082
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 0.0,
-        "shapImpact": 0.0057
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 0.0,
-        "shapImpact": 0.0137
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 1.0,
-        "shapImpact": -0.0036
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 1.0,
-        "shapImpact": -0.0083
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 1.0,
-        "shapImpact": -0.0011
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 0.0,
-        "shapImpact": 0.0081
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 0.0,
-        "shapImpact": 0.0072
+        "shapImpact": 0.0001
     },
     {
         "group": "Type of last attack",
@@ -3452,7 +3077,17 @@
     {
         "group": "Type of last attack",
         "conceptValue": 0.0,
-        "shapImpact": 0.0182
+        "shapImpact": 0.0163
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 1.0,
+        "shapImpact": -0.0044
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 1.0,
+        "shapImpact": -0.0059
     },
     {
         "group": "Type of last attack",
@@ -3461,13 +3096,43 @@
     },
     {
         "group": "Type of last attack",
-        "conceptValue": 1.0,
-        "shapImpact": -0.008
+        "conceptValue": 0.0,
+        "shapImpact": 0.005
     },
     {
         "group": "Type of last attack",
         "conceptValue": 0.0,
-        "shapImpact": 0.0099
+        "shapImpact": 0.0065
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 1.0,
+        "shapImpact": -0.0088
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0005
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0026
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 0.0,
+        "shapImpact": 0.011
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 1.0,
+        "shapImpact": -0.011
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0024
     },
     {
         "group": "Type of last attack",
@@ -3477,12 +3142,107 @@
     {
         "group": "Type of last attack",
         "conceptValue": 0.0,
-        "shapImpact": 0.003
+        "shapImpact": 0.0009
     },
     {
         "group": "Type of last attack",
         "conceptValue": 1.0,
-        "shapImpact": -0.0042
+        "shapImpact": -0.0022
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0017
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0023
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 1.0,
+        "shapImpact": -0.0044
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0128
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 1.0,
+        "shapImpact": -0.0018
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 1.0,
+        "shapImpact": -0.0067
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 1.0,
+        "shapImpact": -0.0013
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 1.0,
+        "shapImpact": 0.0017
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0042
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 1.0,
+        "shapImpact": -0.0034
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0144
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 1.0,
+        "shapImpact": -0.0044
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0018
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 1.0,
+        "shapImpact": 0.0002
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0071
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0033
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 0.0,
+        "shapImpact": 0.005
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0026
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 1.0,
+        "shapImpact": -0.0059
     },
     {
         "group": "Type of last attack",
@@ -3492,17 +3252,47 @@
     {
         "group": "Type of last attack",
         "conceptValue": 1.0,
-        "shapImpact": -0.0099
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 0.0,
-        "shapImpact": 0.004
+        "shapImpact": -0.0098
     },
     {
         "group": "Type of last attack",
         "conceptValue": 1.0,
-        "shapImpact": -0.0021
+        "shapImpact": -0.0126
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 1.0,
+        "shapImpact": -0.0023
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 1.0,
+        "shapImpact": 0.0021
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0015
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 1.0,
+        "shapImpact": -0.0126
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 1.0,
+        "shapImpact": -0.0006
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 1.0,
+        "shapImpact": -0.0008
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0022
     },
     {
         "group": "Type of last attack",
@@ -3511,33 +3301,208 @@
     },
     {
         "group": "Type of last attack",
-        "conceptValue": 0.0,
-        "shapImpact": -0.0002
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 0.0,
-        "shapImpact": 0.0046
+        "conceptValue": 1.0,
+        "shapImpact": -0.0018
     },
     {
         "group": "Type of last attack",
         "conceptValue": 1.0,
-        "shapImpact": -0.003
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 0.0,
-        "shapImpact": 0.0084
+        "shapImpact": -0.0016
     },
     {
         "group": "Type of last attack",
         "conceptValue": 1.0,
-        "shapImpact": -0.0007
+        "shapImpact": -0.0104
     },
     {
         "group": "Type of last attack",
         "conceptValue": 0.0,
-        "shapImpact": -0.0002
+        "shapImpact": 0.0001
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 0.0,
+        "shapImpact": -0.0013
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 1.0,
+        "shapImpact": -0.0039
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 0.0,
+        "shapImpact": 0.001
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0007
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 1.0,
+        "shapImpact": -0.002
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 1.0,
+        "shapImpact": -0.0003
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0012
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 1.0,
+        "shapImpact": -0.0041
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 1.0,
+        "shapImpact": -0.007
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0076
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0062
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 0.0,
+        "shapImpact": -0.0016
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 1.0,
+        "shapImpact": -0.0103
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 1.0,
+        "shapImpact": -0.016
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0002
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 1.0,
+        "shapImpact": -0.006
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0067
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 1.0,
+        "shapImpact": -0.0073
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0065
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0135
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 1.0,
+        "shapImpact": -0.0027
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 1.0,
+        "shapImpact": -0.0075
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 1.0,
+        "shapImpact": -0.001
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0065
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0072
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0033
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0165
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0018
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 1.0,
+        "shapImpact": -0.0072
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0095
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 1.0,
+        "shapImpact": -0.0034
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0053
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 1.0,
+        "shapImpact": -0.0032
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0005
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 1.0,
+        "shapImpact": -0.0101
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0043
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 1.0,
+        "shapImpact": -0.0041
     },
     {
         "group": "Type of last attack",
@@ -3547,22 +3512,57 @@
     {
         "group": "Type of last attack",
         "conceptValue": 0.0,
-        "shapImpact": 0.0
+        "shapImpact": 0.0005
     },
     {
         "group": "Type of last attack",
         "conceptValue": 0.0,
-        "shapImpact": 0.0045
-    },
-    {
-        "group": "Type of last attack",
-        "conceptValue": 0.0,
-        "shapImpact": 0.0094
+        "shapImpact": 0.0049
     },
     {
         "group": "Type of last attack",
         "conceptValue": 1.0,
-        "shapImpact": -0.0107
+        "shapImpact": -0.002
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0087
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 1.0,
+        "shapImpact": -0.001
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0002
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 0.0,
+        "shapImpact": 0.005
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0007
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0037
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 0.0,
+        "shapImpact": 0.0083
+    },
+    {
+        "group": "Type of last attack",
+        "conceptValue": 1.0,
+        "shapImpact": -0.0105
     },
     {
         "group": "Type of last attack",
@@ -3572,32 +3572,32 @@
     {
         "group": "Type of last attack",
         "conceptValue": 0.0,
-        "shapImpact": 0.0101
+        "shapImpact": 0.0095
     },
     {
         "group": "Type of last attack",
         "conceptValue": 1.0,
-        "shapImpact": -0.0124
+        "shapImpact": -0.0106
     },
     {
         "group": "Type of last attack",
         "conceptValue": 1.0,
-        "shapImpact": -0.0082
+        "shapImpact": -0.0083
     },
     {
         "group": "Type of last attack",
         "conceptValue": 0.0,
-        "shapImpact": 0.0016
+        "shapImpact": 0.0009
     },
     {
         "group": "Type of last attack",
         "conceptValue": 0.0,
-        "shapImpact": 0.0
+        "shapImpact": -0.0
     },
     {
         "group": "Type of last attack",
         "conceptValue": 0.0,
-        "shapImpact": 0.0054
+        "shapImpact": 0.0051
     },
     {
         "group": "Wave level",

@@ -1,4 +1,5 @@
 import numpy as np
+import pandas as pd
 import shap
 
 from sklearn.ensemble import (
@@ -6,7 +7,7 @@ from sklearn.ensemble import (
     HistGradientBoostingRegressor,
 )
 
-from cnc.models.plots import SHAPBeeswarm, SHAPDependency
+from cnc.models.plots import HEATMAP, SHAPBeeswarm, SHAPDependency
 
 
 def prepare_shap(
@@ -132,5 +133,27 @@ def generate_shap_beeswarm(
     return beeswarm_data
 
 
-def generate_correlation_heatmap() -> list[object]:
-    return []
+def generate_correlation_heatmap(
+    x: np.ndarray[object, np.dtype[np.float32]],
+    concept_groups: dict[str, list[int]],
+) -> list[HEATMAP]:
+    df_concepts = pd.DataFrame()
+
+    for concept_name, indices in concept_groups.items():
+        df_concepts[concept_name] = x[:, indices].mean(axis=1)
+
+    corr_matrix = df_concepts.corr(method="pearson")
+    heatmap_data: list[HEATMAP] = []
+
+    labels = corr_matrix.columns.tolist()
+    for i, row_label in enumerate(labels):
+        for j, col_label in enumerate(labels):
+            heatmap_data.append(
+                HEATMAP(
+                    row=row_label,
+                    column=col_label,
+                    value=round(float(corr_matrix.iloc[i, j]), 3),
+                )
+            )
+
+    return heatmap_data

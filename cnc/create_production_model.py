@@ -10,7 +10,11 @@ import onnxruntime as ort
 from skl2onnx import to_onnx
 from sklearn.model_selection import train_test_split
 
-from cnc.helpers.shap import generate_shap_beeswarm, generate_shap_dependency
+from cnc.helpers.shap import (
+    generate_correlation_heatmap,
+    generate_shap_beeswarm,
+    generate_shap_dependency,
+)
 from cnc.helpers.training import (
     generate_confusion,
     generate_loss_curve,
@@ -23,6 +27,7 @@ from cnc.helpers.training import (
 from cnc.models.forgotten import FORGOTTEN, Timeline
 from cnc.models.plots import (
     CONFUSION,
+    HEATMAP,
     LOSS,
     PR,
     RESIDUAL,
@@ -190,6 +195,7 @@ def train_model(
                 PlotType.PR,
                 PlotType.SHAPLEY,
                 PlotType.SHAP_PDP,
+                PlotType.CORRELATION,
             ],
         ),
         TaskInfo(
@@ -204,6 +210,7 @@ def train_model(
                 PlotType.CONFUSION,
                 PlotType.SHAPLEY,
                 PlotType.SHAP_PDP,
+                PlotType.CORRELATION,
             ],
         ),
         TaskInfo(
@@ -216,6 +223,7 @@ def train_model(
                 PlotType.RESIDUAL,
                 PlotType.SHAPLEY,
                 PlotType.SHAP_PDP,
+                PlotType.CORRELATION,
             ],
         ),
     ]
@@ -249,7 +257,14 @@ def train_model(
 
         for plot_type in task.plot_types:
             plot_data: Sequence[
-                ROC | PR | LOSS | RESIDUAL | CONFUSION | SHAPBeeswarm | SHAPDependency
+                ROC
+                | PR
+                | LOSS
+                | RESIDUAL
+                | CONFUSION
+                | SHAPBeeswarm
+                | SHAPDependency
+                | HEATMAP
             ] = []
 
             if plot_type == PlotType.ROC:
@@ -284,6 +299,9 @@ def train_model(
 
             if plot_type == PlotType.SHAP_PDP:
                 plot_data = generate_shap_dependency(clf, x_train, x_val, concept_map)
+
+            if plot_type == PlotType.CORRELATION:
+                plot_data = generate_correlation_heatmap(x_train, concept_map)
 
             with open(f"../src/cache/plots/{plot_type}_{task.name}.json", "w") as df:
                 json.dump([item.model_dump() for item in plot_data], df, indent=4)

@@ -30,6 +30,10 @@ import shap_pdp_y_base from '../../cache/plots/shap_pdp_y_base.json';
 import shap_pdp_y_type from '../../cache/plots/shap_pdp_y_type.json';
 import shap_pdp_y_time from '../../cache/plots/shap_pdp_y_time.json';
 
+import correlation_y_base from '../../cache/plots/correlation_y_base.json';
+import correlation_y_type from '../../cache/plots/correlation_y_type.json';
+import correlation_y_time from '../../cache/plots/correlation_y_time.json';
+
 const loss_options = {
     axes: {
         [AxisPositions.TOP]: {
@@ -185,7 +189,42 @@ const shap_pdp_options = {
     height: '400px',
 };
 
+const correlation_options = {
+    axes: {
+        bottom: {
+            title: 'Concepts',
+            mapsTo: 'column',
+            scaleType: 'labels',
+        },
+        left: {
+            title: 'Concepts',
+            mapsTo: 'row',
+            scaleType: 'labels',
+        },
+    },
+    heatmap: {
+        colorLegend: {
+            title: 'Pearson Correlation (-1 to 1)',
+            type: 'quantize',
+        },
+        colorPairing: {
+            numberOfColors: 5,
+            pairingOptions: ['purple-blue'],
+        },
+    },
+    toolbar: {
+        enabled: false,
+    },
+    height: '450px',
+};
+
 const training_plot_keys = {
+    CORRELATION: {
+        name: 'Correlation Heatmap',
+        chart_type: HeatmapChart,
+        description:
+            'A correlation heatmap shows a correlation matrix to check for multicollinearity (e.g., if two features scale identically). Clearly, the features on number of active FG bases in range, wave level, and FG base levels are heavily correlated. Notably, as we say in previous chapters, the number of active bases is the most statistically signifcant one.',
+    },
     SHAP_BEESWARM: {
         name: 'SHAP Beeswarm Plot',
         chart_type: ScatterChart,
@@ -269,6 +308,12 @@ const training_metadata = [
                 options: shap_pdp_options,
                 is_secondary: true,
             },
+            {
+                name: training_plot_keys.CORRELATION,
+                data: correlation_y_base,
+                options: correlation_options,
+                is_secondary: true,
+            },
         ],
     },
     {
@@ -316,6 +361,12 @@ const training_metadata = [
                 options: shap_pdp_options,
                 is_secondary: true,
             },
+            {
+                name: training_plot_keys.CORRELATION,
+                data: correlation_y_type,
+                options: correlation_options,
+                is_secondary: true,
+            },
         ],
     },
     {
@@ -347,6 +398,12 @@ const training_metadata = [
                 description: '',
                 data: shap_pdp_y_time,
                 options: shap_pdp_options,
+                is_secondary: true,
+            },
+            {
+                name: training_plot_keys.CORRELATION,
+                data: correlation_y_time,
+                options: correlation_options,
                 is_secondary: true,
             },
         ],

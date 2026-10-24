@@ -13,6 +13,7 @@ class PlotType(StrEnum):
     CONFUSION = auto()
     SHAPLEY = auto()
     SHAP_PDP = auto()
+    CORRELATION = auto()
 
 
 class DailyDistribution(BaseModel):
@@ -84,3 +85,9 @@ class SHAPDependency(BaseModel):
     group: str
     conceptValue: float
     shapImpact: float
+
+
+class HEATMAP(BaseModel):
+    row: str
+    column: str
+    value: float

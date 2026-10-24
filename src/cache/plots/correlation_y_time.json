@@ -1,0 +1,247 @@
+[
+    {
+        "row": "Last attack target",
+        "column": "Last attack target",
+        "value": 1.0
+    },
+    {
+        "row": "Last attack target",
+        "column": "Type of last attack",
+        "value": 0.307
+    },
+    {
+        "row": "Last attack target",
+        "column": "Target base",
+        "value": 0.384
+    },
+    {
+        "row": "Last attack target",
+        "column": "Active bases in range",
+        "value": 0.332
+    },
+    {
+        "row": "Last attack target",
+        "column": "Mean FG level",
+        "value": 0.338
+    },
+    {
+        "row": "Last attack target",
+        "column": "Highest base in range",
+        "value": 0.336
+    },
+    {
+        "row": "Last attack target",
+        "column": "Wave level",
+        "value": 0.336
+    },
+    {
+        "row": "Type of last attack",
+        "column": "Last attack target",
+        "value": 0.307
+    },
+    {
+        "row": "Type of last attack",
+        "column": "Type of last attack",
+        "value": 1.0
+    },
+    {
+        "row": "Type of last attack",
+        "column": "Target base",
+        "value": 0.335
+    },
+    {
+        "row": "Type of last attack",
+        "column": "Active bases in range",
+        "value": 0.293
+    },
+    {
+        "row": "Type of last attack",
+        "column": "Mean FG level",
+        "value": 0.264
+    },
+    {
+        "row": "Type of last attack",
+        "column": "Highest base in range",
+        "value": 0.261
+    },
+    {
+        "row": "Type of last attack",
+        "column": "Wave level",
+        "value": 0.305
+    },
+    {
+        "row": "Target base",
+        "column": "Last attack target",
+        "value": 0.384
+    },
+    {
+        "row": "Target base",
+        "column": "Type of last attack",
+        "value": 0.335
+    },
+    {
+        "row": "Target base",
+        "column": "Target base",
+        "value": 1.0
+    },
+    {
+        "row": "Target base",
+        "column": "Active bases in range",
+        "value": 0.834
+    },
+    {
+        "row": "Target base",
+        "column": "Mean FG level",
+        "value": 0.854
+    },
+    {
+        "row": "Target base",
+        "column": "Highest base in range",
+        "value": 0.851
+    },
+    {
+        "row": "Target base",
+        "column": "Wave level",
+        "value": 0.924
+    },
+    {
+        "row": "Active bases in range",
+        "column": "Last attack target",
+        "value": 0.332
+    },
+    {
+        "row": "Active bases in range",
+        "column": "Type of last attack",
+        "value": 0.293
+    },
+    {
+        "row": "Active bases in range",
+        "column": "Target base",
+        "value": 0.834
+    },
+    {
+        "row": "Active bases in range",
+        "column": "Active bases in range",
+        "value": 1.0
+    },
+    {
+        "row": "Active bases in range",
+        "column": "Mean FG level",
+        "value": 0.83
+    },
+    {
+        "row": "Active bases in range",
+        "column": "Highest base in range",
+        "value": 0.831
+    },
+    {
+        "row": "Active bases in range",
+        "column": "Wave level",
+        "value": 0.932
+    },
+    {
+        "row": "Mean FG level",
+        "column": "Last attack target",
+        "value": 0.338
+    },
+    {
+        "row": "Mean FG level",
+        "column": "Type of last attack",
+        "value": 0.264
+    },
+    {
+        "row": "Mean FG level",
+        "column": "Target base",
+        "value": 0.854
+    },
+    {
+        "row": "Mean FG level",
+        "column": "Active bases in range",
+        "value": 0.83
+    },
+    {
+        "row": "Mean FG level",
+        "column": "Mean FG level",
+        "value": 1.0
+    },
+    {
+        "row": "Mean FG level",
+        "column": "Highest base in range",
+        "value": 1.0
+    },
+    {
+        "row": "Mean FG level",
+        "column": "Wave level",
+        "value": 0.834
+    },
+    {
+        "row": "Highest base in range",
+        "column": "Last attack target",
+        "value": 0.336
+    },
+    {
+        "row": "Highest base in range",
+        "column": "Type of last attack",
+        "value": 0.261
+    },
+    {
+        "row": "Highest base in range",
+        "column": "Target base",
+        "value": 0.851
+    },
+    {
+        "row": "Highest base in range",
+        "column": "Active bases in range",
+        "value": 0.831
+    },
+    {
+        "row": "Highest base in range",
+        "column": "Mean FG level",
+        "value": 1.0
+    },
+    {
+        "row": "Highest base in range",
+        "column": "Highest base in range",
+        "value": 1.0
+    },
+    {
+        "row": "Highest base in range",
+        "column": "Wave level",
+        "value": 0.833
+    },
+    {
+        "row": "Wave level",
+        "column": "Last attack target",
+        "value": 0.336
+    },
+    {
+        "row": "Wave level",
+        "column": "Type of last attack",
+        "value": 0.305
+    },
+    {
+        "row": "Wave level",
+        "column": "Target base",
+        "value": 0.924
+    },
+    {
+        "row": "Wave level",
+        "column": "Active bases in range",
+        "value": 0.932
+    },
+    {
+        "row": "Wave level",
+        "column": "Mean FG level",
+        "value": 0.834
+    },
+    {
+        "row": "Wave level",
+        "column": "Highest base in range",
+        "value": 0.833
+    },
+    {
+        "row": "Wave level",
+        "column": "Wave level",
+        "value": 1.0
+    }
+]

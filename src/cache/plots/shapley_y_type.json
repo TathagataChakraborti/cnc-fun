@@ -1,1778 +1,1778 @@
 [
     {
         "group": "Mean FG level",
-        "shapValue": 0.1414,
+        "shapValue": 0.1395,
         "sampleIndex": 0,
         "featureValue": 18.3263,
         "normalizedVal": 0.704
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.0036,
+        "shapValue": 0.0007,
         "sampleIndex": 1,
         "featureValue": 10.5806,
         "normalizedVal": 0.4065
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.1498,
+        "shapValue": -0.1413,
         "sampleIndex": 2,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.2253,
+        "shapValue": 0.2244,
         "sampleIndex": 3,
         "featureValue": 25.72,
         "normalizedVal": 0.9881
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.0779,
+        "shapValue": 0.0711,
         "sampleIndex": 4,
         "featureValue": 18.5106,
         "normalizedVal": 0.7111
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.0369,
+        "shapValue": -0.0399,
         "sampleIndex": 5,
         "featureValue": 7.1213,
         "normalizedVal": 0.2736
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.2364,
+        "shapValue": 0.2259,
         "sampleIndex": 6,
         "featureValue": 15.5281,
         "normalizedVal": 0.5965
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.1365,
+        "shapValue": -0.1457,
         "sampleIndex": 7,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.1596,
+        "shapValue": 0.1524,
         "sampleIndex": 8,
         "featureValue": 25.7881,
         "normalizedVal": 0.9907
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.1816,
+        "shapValue": -0.1769,
         "sampleIndex": 9,
         "featureValue": 14.945,
         "normalizedVal": 0.5741
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.1943,
+        "shapValue": 0.2013,
         "sampleIndex": 10,
         "featureValue": 22.0375,
         "normalizedVal": 0.8466
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.016,
+        "shapValue": 0.0205,
         "sampleIndex": 11,
         "featureValue": 18.3212,
         "normalizedVal": 0.7038
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.0708,
+        "shapValue": 0.0783,
         "sampleIndex": 12,
         "featureValue": 18.3225,
         "normalizedVal": 0.7039
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.1106,
+        "shapValue": -0.1136,
         "sampleIndex": 13,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.1041,
+        "shapValue": -0.111,
         "sampleIndex": 14,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.0009,
+        "shapValue": 0.0013,
         "sampleIndex": 15,
         "featureValue": 17.59,
         "normalizedVal": 0.6757
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.2628,
+        "shapValue": 0.2667,
         "sampleIndex": 16,
         "featureValue": 22.0375,
         "normalizedVal": 0.8466
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.0026,
+        "shapValue": -0.0041,
         "sampleIndex": 17,
         "featureValue": 17.7981,
         "normalizedVal": 0.6837
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.171,
+        "shapValue": 0.165,
         "sampleIndex": 18,
         "featureValue": 14.5938,
         "normalizedVal": 0.5606
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.1161,
+        "shapValue": 0.1058,
         "sampleIndex": 19,
         "featureValue": 25.7881,
         "normalizedVal": 0.9907
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.0775,
+        "shapValue": 0.0772,
         "sampleIndex": 20,
         "featureValue": 19.7006,
         "normalizedVal": 0.7568
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.095,
+        "shapValue": -0.0915,
         "sampleIndex": 21,
         "featureValue": 16.5719,
         "normalizedVal": 0.6366
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.1217,
+        "shapValue": -0.1173,
         "sampleIndex": 22,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.1021,
+        "shapValue": -0.0968,
         "sampleIndex": 23,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.0481,
+        "shapValue": -0.0554,
         "sampleIndex": 24,
         "featureValue": 16.5769,
         "normalizedVal": 0.6368
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.1156,
+        "shapValue": 0.1183,
         "sampleIndex": 25,
         "featureValue": 16.58,
         "normalizedVal": 0.6369
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.1748,
+        "shapValue": 0.1732,
         "sampleIndex": 26,
         "featureValue": 25.6975,
         "normalizedVal": 0.9872
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.1709,
+        "shapValue": 0.173,
         "sampleIndex": 27,
         "featureValue": 10.34,
         "normalizedVal": 0.3972
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.1178,
+        "shapValue": -0.1064,
         "sampleIndex": 28,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.2456,
+        "shapValue": -0.2452,
         "sampleIndex": 29,
         "featureValue": 11.9112,
         "normalizedVal": 0.4576
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.0968,
+        "shapValue": -0.0998,
         "sampleIndex": 30,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.1209,
+        "shapValue": 0.1233,
         "sampleIndex": 31,
         "featureValue": 11.5081,
         "normalizedVal": 0.4421
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.2126,
+        "shapValue": 0.2039,
         "sampleIndex": 32,
         "featureValue": 25.8006,
         "normalizedVal": 0.9912
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.0619,
+        "shapValue": 0.0646,
         "sampleIndex": 33,
         "featureValue": 20.9762,
         "normalizedVal": 0.8058
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.2825,
+        "shapValue": 0.2748,
         "sampleIndex": 34,
         "featureValue": 14.5938,
         "normalizedVal": 0.5606
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.1835,
+        "shapValue": -0.1827,
         "sampleIndex": 35,
         "featureValue": 12.4019,
         "normalizedVal": 0.4764
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.1294,
+        "shapValue": 0.1249,
         "sampleIndex": 36,
         "featureValue": 10.6481,
         "normalizedVal": 0.4091
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.0858,
+        "shapValue": -0.0834,
         "sampleIndex": 37,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.2553,
+        "shapValue": -0.251,
         "sampleIndex": 38,
         "featureValue": 11.9112,
         "normalizedVal": 0.4576
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.0708,
+        "shapValue": -0.0717,
         "sampleIndex": 39,
         "featureValue": 10.3869,
         "normalizedVal": 0.399
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.0475,
+        "shapValue": -0.0511,
         "sampleIndex": 40,
         "featureValue": 16.6031,
         "normalizedVal": 0.6378
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.2645,
+        "shapValue": 0.2553,
         "sampleIndex": 41,
         "featureValue": 22.0375,
         "normalizedVal": 0.8466
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.0908,
+        "shapValue": -0.0971,
         "sampleIndex": 42,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.104,
+        "shapValue": -0.1037,
         "sampleIndex": 43,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.2384,
+        "shapValue": 0.2539,
         "sampleIndex": 44,
         "featureValue": 22.6044,
         "normalizedVal": 0.8684
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.1473,
+        "shapValue": 0.1425,
         "sampleIndex": 45,
         "featureValue": 17.5131,
         "normalizedVal": 0.6728
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.0651,
+        "shapValue": -0.0594,
         "sampleIndex": 46,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.1165,
+        "shapValue": 0.1094,
         "sampleIndex": 47,
         "featureValue": 18.3019,
         "normalizedVal": 0.7031
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.2701,
+        "shapValue": 0.2693,
         "sampleIndex": 48,
         "featureValue": 22.0481,
         "normalizedVal": 0.847
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.117,
+        "shapValue": -0.1091,
         "sampleIndex": 49,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.0485,
+        "shapValue": 0.0571,
         "sampleIndex": 50,
         "featureValue": 20.7337,
         "normalizedVal": 0.7965
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.0436,
+        "shapValue": 0.0574,
         "sampleIndex": 51,
         "featureValue": 20.7337,
         "normalizedVal": 0.7965
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.2027,
+        "shapValue": 0.2074,
         "sampleIndex": 52,
         "featureValue": 18.3019,
         "normalizedVal": 0.7031
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.1067,
+        "shapValue": -0.0981,
         "sampleIndex": 53,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.1134,
+        "shapValue": -0.1117,
         "sampleIndex": 54,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.0093,
+        "shapValue": 0.0184,
         "sampleIndex": 55,
         "featureValue": 16.6031,
         "normalizedVal": 0.6378
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.0531,
+        "shapValue": 0.0543,
         "sampleIndex": 56,
         "featureValue": 10.6731,
         "normalizedVal": 0.41
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.1631,
+        "shapValue": 0.1615,
         "sampleIndex": 57,
         "featureValue": 11.4688,
         "normalizedVal": 0.4406
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.2111,
+        "shapValue": 0.2125,
         "sampleIndex": 58,
         "featureValue": 10.425,
         "normalizedVal": 0.4005
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.0577,
+        "shapValue": -0.0604,
         "sampleIndex": 59,
         "featureValue": 13.9438,
         "normalizedVal": 0.5357
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.1667,
+        "shapValue": 0.1488,
         "sampleIndex": 60,
         "featureValue": 25.72,
         "normalizedVal": 0.9881
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.0769,
+        "shapValue": 0.0718,
         "sampleIndex": 61,
         "featureValue": 15.2219,
         "normalizedVal": 0.5848
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.0823,
+        "shapValue": -0.0837,
         "sampleIndex": 62,
         "featureValue": 16.4094,
         "normalizedVal": 0.6304
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.1104,
+        "shapValue": -0.1145,
         "sampleIndex": 63,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.1593,
+        "shapValue": -0.1512,
         "sampleIndex": 64,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.2239,
+        "shapValue": 0.2214,
         "sampleIndex": 65,
         "featureValue": 25.6975,
         "normalizedVal": 0.9872
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.1035,
+        "shapValue": -0.0992,
         "sampleIndex": 66,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.221,
+        "shapValue": -0.2282,
         "sampleIndex": 67,
         "featureValue": 12.7413,
         "normalizedVal": 0.4895
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.1882,
+        "shapValue": 0.183,
         "sampleIndex": 68,
         "featureValue": 25.8006,
         "normalizedVal": 0.9912
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.097,
+        "shapValue": -0.0945,
         "sampleIndex": 69,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.1061,
+        "shapValue": -0.1116,
         "sampleIndex": 70,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.2328,
+        "shapValue": 0.235,
         "sampleIndex": 71,
         "featureValue": 15.5281,
         "normalizedVal": 0.5965
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.2,
+        "shapValue": -0.1986,
         "sampleIndex": 72,
         "featureValue": 12.1325,
         "normalizedVal": 0.4661
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.0393,
+        "shapValue": -0.0407,
         "sampleIndex": 73,
         "featureValue": 16.3925,
         "normalizedVal": 0.6297
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.2162,
+        "shapValue": -0.2095,
         "sampleIndex": 74,
         "featureValue": 14.2937,
         "normalizedVal": 0.5491
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.1341,
+        "shapValue": -0.1409,
         "sampleIndex": 75,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.071,
+        "shapValue": 0.0685,
         "sampleIndex": 76,
         "featureValue": 16.5588,
         "normalizedVal": 0.6361
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.0314,
+        "shapValue": -0.0324,
         "sampleIndex": 77,
         "featureValue": 17.59,
         "normalizedVal": 0.6757
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.1192,
+        "shapValue": -0.1262,
         "sampleIndex": 78,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.0683,
+        "shapValue": -0.0737,
         "sampleIndex": 79,
         "featureValue": 16.4094,
         "normalizedVal": 0.6304
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.1873,
+        "shapValue": -0.184,
         "sampleIndex": 80,
         "featureValue": 14.0187,
         "normalizedVal": 0.5385
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.1021,
+        "shapValue": -0.0922,
         "sampleIndex": 81,
         "featureValue": 16.5175,
         "normalizedVal": 0.6345
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.1892,
+        "shapValue": -0.1986,
         "sampleIndex": 82,
         "featureValue": 11.9112,
         "normalizedVal": 0.4576
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.0494,
+        "shapValue": -0.0491,
         "sampleIndex": 83,
         "featureValue": 16.6031,
         "normalizedVal": 0.6378
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.166,
+        "shapValue": 0.1664,
         "sampleIndex": 84,
         "featureValue": 25.6919,
         "normalizedVal": 0.987
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.198,
+        "shapValue": 0.2114,
         "sampleIndex": 85,
         "featureValue": 26.0306,
         "normalizedVal": 1.0
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.2052,
+        "shapValue": 0.2134,
         "sampleIndex": 86,
         "featureValue": 7.83,
         "normalizedVal": 0.3008
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.0198,
+        "shapValue": -0.0231,
         "sampleIndex": 87,
         "featureValue": 17.985,
         "normalizedVal": 0.6909
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.0108,
+        "shapValue": -0.015,
         "sampleIndex": 88,
         "featureValue": 16.5719,
         "normalizedVal": 0.6366
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.0467,
+        "shapValue": 0.0503,
         "sampleIndex": 89,
         "featureValue": 10.6731,
         "normalizedVal": 0.41
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.0024,
+        "shapValue": -0.0038,
         "sampleIndex": 90,
         "featureValue": 17.59,
         "normalizedVal": 0.6757
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.0957,
+        "shapValue": -0.099,
         "sampleIndex": 91,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.2456,
+        "shapValue": 0.2353,
         "sampleIndex": 92,
         "featureValue": 22.1244,
         "normalizedVal": 0.8499
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.0671,
+        "shapValue": 0.0603,
         "sampleIndex": 93,
         "featureValue": 13.3713,
         "normalizedVal": 0.5137
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.0147,
+        "shapValue": 0.024,
         "sampleIndex": 94,
         "featureValue": 21.3306,
         "normalizedVal": 0.8194
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.0816,
+        "shapValue": -0.0829,
         "sampleIndex": 95,
         "featureValue": 10.3869,
         "normalizedVal": 0.399
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.0528,
+        "shapValue": -0.0457,
         "sampleIndex": 96,
         "featureValue": 18.1444,
         "normalizedVal": 0.697
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.1637,
+        "shapValue": 0.1661,
         "sampleIndex": 97,
         "featureValue": 15.5281,
         "normalizedVal": 0.5965
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.0565,
+        "shapValue": 0.0556,
         "sampleIndex": 98,
         "featureValue": 13.3713,
         "normalizedVal": 0.5137
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.1806,
+        "shapValue": 0.1603,
         "sampleIndex": 99,
         "featureValue": 25.8006,
         "normalizedVal": 0.9912
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.1828,
+        "shapValue": 0.1812,
         "sampleIndex": 100,
         "featureValue": 22.1038,
         "normalizedVal": 0.8491
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.0616,
+        "shapValue": -0.0726,
         "sampleIndex": 101,
         "featureValue": 10.6731,
         "normalizedVal": 0.41
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.1425,
+        "shapValue": -0.1407,
         "sampleIndex": 102,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.0524,
+        "shapValue": 0.0541,
         "sampleIndex": 103,
         "featureValue": 16.5544,
         "normalizedVal": 0.636
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.1525,
+        "shapValue": 0.1748,
         "sampleIndex": 104,
         "featureValue": 25.7881,
         "normalizedVal": 0.9907
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.0458,
+        "shapValue": 0.0537,
         "sampleIndex": 105,
         "featureValue": 16.6219,
         "normalizedVal": 0.6386
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.1217,
+        "shapValue": 0.1382,
         "sampleIndex": 106,
         "featureValue": 10.425,
         "normalizedVal": 0.4005
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.0587,
+        "shapValue": -0.0532,
         "sampleIndex": 107,
         "featureValue": 10.3869,
         "normalizedVal": 0.399
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.0797,
+        "shapValue": -0.0863,
         "sampleIndex": 108,
         "featureValue": 13.7463,
         "normalizedVal": 0.5281
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.1078,
+        "shapValue": -0.1199,
         "sampleIndex": 109,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.0871,
+        "shapValue": -0.0835,
         "sampleIndex": 110,
         "featureValue": 10.6313,
         "normalizedVal": 0.4084
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.0557,
+        "shapValue": 0.0549,
         "sampleIndex": 111,
         "featureValue": 16.6162,
         "normalizedVal": 0.6383
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.0864,
+        "shapValue": 0.0898,
         "sampleIndex": 112,
         "featureValue": 16.5588,
         "normalizedVal": 0.6361
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.0108,
+        "shapValue": 0.0103,
         "sampleIndex": 113,
         "featureValue": 16.6031,
         "normalizedVal": 0.6378
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.0836,
+        "shapValue": -0.0893,
         "sampleIndex": 114,
         "featureValue": 16.5719,
         "normalizedVal": 0.6366
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.1546,
+        "shapValue": -0.1613,
         "sampleIndex": 115,
         "featureValue": 16.3944,
         "normalizedVal": 0.6298
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.1727,
+        "shapValue": -0.1657,
         "sampleIndex": 116,
         "featureValue": 14.0187,
         "normalizedVal": 0.5385
     },
     {
         "group": "Mean FG level",
-        "shapValue": 0.1225,
+        "shapValue": 0.1246,
         "sampleIndex": 117,
         "featureValue": 10.425,
         "normalizedVal": 0.4005
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.1302,
+        "shapValue": -0.1238,
         "sampleIndex": 118,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Mean FG level",
-        "shapValue": -0.1975,
+        "shapValue": -0.1915,
         "sampleIndex": 119,
         "featureValue": 11.9112,
         "normalizedVal": 0.4576
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.0518,
+        "shapValue": -0.0593,
         "sampleIndex": 0,
         "featureValue": 6.9375,
         "normalizedVal": 0.7929
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.1584,
+        "shapValue": 0.1542,
         "sampleIndex": 1,
         "featureValue": 4.875,
         "normalizedVal": 0.5571
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.0315,
+        "shapValue": -0.0373,
         "sampleIndex": 2,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.056,
+        "shapValue": 0.0558,
         "sampleIndex": 3,
         "featureValue": 7.1875,
         "normalizedVal": 0.8214
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.1459,
+        "shapValue": -0.1498,
         "sampleIndex": 4,
         "featureValue": 5.3125,
         "normalizedVal": 0.6071
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0126,
+        "shapValue": 0.0209,
         "sampleIndex": 5,
         "featureValue": 3.9375,
         "normalizedVal": 0.45
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0145,
+        "shapValue": 0.0089,
         "sampleIndex": 6,
         "featureValue": 5.5625,
         "normalizedVal": 0.6357
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.0254,
+        "shapValue": -0.0244,
         "sampleIndex": 7,
         "featureValue": 4.4375,
         "normalizedVal": 0.5071
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0104,
+        "shapValue": 0.0176,
         "sampleIndex": 8,
         "featureValue": 7.3125,
         "normalizedVal": 0.8357
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.1194,
+        "shapValue": 0.117,
         "sampleIndex": 9,
         "featureValue": 3.8125,
         "normalizedVal": 0.4357
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0178,
+        "shapValue": 0.0175,
         "sampleIndex": 10,
         "featureValue": 7.25,
         "normalizedVal": 0.8286
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.1085,
+        "shapValue": -0.1058,
         "sampleIndex": 11,
         "featureValue": 7.3125,
         "normalizedVal": 0.8357
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.042,
+        "shapValue": -0.0521,
         "sampleIndex": 12,
         "featureValue": 6.875,
         "normalizedVal": 0.7857
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.0128,
+        "shapValue": -0.009,
         "sampleIndex": 13,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.0054,
+        "shapValue": 0.0078,
         "sampleIndex": 14,
         "featureValue": 4.1875,
         "normalizedVal": 0.4786
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0212,
+        "shapValue": 0.018,
         "sampleIndex": 15,
         "featureValue": 4.5,
         "normalizedVal": 0.5143
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0893,
+        "shapValue": 0.0829,
         "sampleIndex": 16,
         "featureValue": 6.4375,
         "normalizedVal": 0.7357
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0321,
+        "shapValue": 0.0326,
         "sampleIndex": 17,
         "featureValue": 4.1875,
         "normalizedVal": 0.4786
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.0049,
+        "shapValue": -0.0017,
         "sampleIndex": 18,
         "featureValue": 2.8125,
         "normalizedVal": 0.3214
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0084,
+        "shapValue": 0.0155,
         "sampleIndex": 19,
         "featureValue": 8.0,
         "normalizedVal": 0.9143
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.0791,
+        "shapValue": -0.0811,
         "sampleIndex": 20,
         "featureValue": 6.75,
         "normalizedVal": 0.7714
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.0321,
+        "shapValue": -0.0343,
         "sampleIndex": 21,
         "featureValue": 4.625,
         "normalizedVal": 0.5286
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.0334,
+        "shapValue": -0.0314,
         "sampleIndex": 22,
         "featureValue": 0.375,
         "normalizedVal": 0.0429
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.0275,
+        "shapValue": -0.03,
         "sampleIndex": 23,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0073,
+        "shapValue": 0.0129,
         "sampleIndex": 24,
         "featureValue": 4.5,
         "normalizedVal": 0.5143
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0134,
+        "shapValue": 0.0092,
         "sampleIndex": 25,
         "featureValue": 4.375,
         "normalizedVal": 0.5
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.1541,
+        "shapValue": -0.1634,
         "sampleIndex": 26,
         "featureValue": 7.0,
         "normalizedVal": 0.8
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.075,
+        "shapValue": 0.0789,
         "sampleIndex": 27,
         "featureValue": 6.0625,
         "normalizedVal": 0.6929
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.0015,
+        "shapValue": -0.0151,
         "sampleIndex": 28,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.0701,
+        "shapValue": -0.0708,
         "sampleIndex": 29,
         "featureValue": 4.125,
         "normalizedVal": 0.4714
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.0332,
+        "shapValue": -0.0282,
         "sampleIndex": 30,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0516,
+        "shapValue": 0.0549,
         "sampleIndex": 31,
         "featureValue": 5.0625,
         "normalizedVal": 0.5786
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0291,
+        "shapValue": 0.0359,
         "sampleIndex": 32,
         "featureValue": 8.0,
         "normalizedVal": 0.9143
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.1219,
+        "shapValue": 0.1269,
         "sampleIndex": 33,
         "featureValue": 6.3125,
         "normalizedVal": 0.7214
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0137,
+        "shapValue": 0.0119,
         "sampleIndex": 34,
         "featureValue": 2.8125,
         "normalizedVal": 0.3214
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.0733,
+        "shapValue": -0.0699,
         "sampleIndex": 35,
         "featureValue": 2.875,
         "normalizedVal": 0.3286
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0897,
+        "shapValue": 0.0822,
         "sampleIndex": 36,
         "featureValue": 5.8125,
         "normalizedVal": 0.6643
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0392,
+        "shapValue": 0.0412,
         "sampleIndex": 37,
         "featureValue": 2.75,
         "normalizedVal": 0.3143
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.067,
+        "shapValue": -0.073,
         "sampleIndex": 38,
         "featureValue": 4.125,
         "normalizedVal": 0.4714
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.0467,
+        "shapValue": -0.0434,
         "sampleIndex": 39,
         "featureValue": 4.125,
         "normalizedVal": 0.4714
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0071,
+        "shapValue": 0.0135,
         "sampleIndex": 40,
         "featureValue": 4.3125,
         "normalizedVal": 0.4929
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.081,
+        "shapValue": 0.0871,
         "sampleIndex": 41,
         "featureValue": 6.4375,
         "normalizedVal": 0.7357
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.0349,
+        "shapValue": -0.0331,
         "sampleIndex": 42,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.0128,
+        "shapValue": -0.0073,
         "sampleIndex": 43,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0698,
+        "shapValue": 0.0656,
         "sampleIndex": 44,
         "featureValue": 8.75,
         "normalizedVal": 1.0
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0107,
+        "shapValue": 0.0104,
         "sampleIndex": 45,
         "featureValue": 4.75,
         "normalizedVal": 0.5429
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.1305,
+        "shapValue": 0.1324,
         "sampleIndex": 46,
         "featureValue": 4.75,
         "normalizedVal": 0.5429
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.051,
+        "shapValue": 0.0681,
         "sampleIndex": 47,
         "featureValue": 6.625,
         "normalizedVal": 0.7571
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.038,
+        "shapValue": 0.0358,
         "sampleIndex": 48,
         "featureValue": 6.6875,
         "normalizedVal": 0.7643
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.0032,
+        "shapValue": -0.0071,
         "sampleIndex": 49,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.1324,
+        "shapValue": 0.1247,
         "sampleIndex": 50,
         "featureValue": 6.4375,
         "normalizedVal": 0.7357
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.1391,
+        "shapValue": 0.1334,
         "sampleIndex": 51,
         "featureValue": 6.4375,
         "normalizedVal": 0.7357
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0837,
+        "shapValue": 0.0831,
         "sampleIndex": 52,
         "featureValue": 6.625,
         "normalizedVal": 0.7571
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.0067,
+        "shapValue": -0.0125,
         "sampleIndex": 53,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.0054,
+        "shapValue": -0.0075,
         "sampleIndex": 54,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0092,
+        "shapValue": 0.0075,
         "sampleIndex": 55,
         "featureValue": 4.3125,
         "normalizedVal": 0.4929
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0648,
+        "shapValue": 0.0637,
         "sampleIndex": 56,
         "featureValue": 4.0625,
         "normalizedVal": 0.4643
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.0065,
+        "shapValue": -0.0022,
         "sampleIndex": 57,
         "featureValue": 4.3125,
         "normalizedVal": 0.4929
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0712,
+        "shapValue": 0.0721,
         "sampleIndex": 58,
         "featureValue": 5.5,
         "normalizedVal": 0.6286
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0175,
+        "shapValue": 0.0191,
         "sampleIndex": 59,
         "featureValue": 3.9375,
         "normalizedVal": 0.45
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0235,
+        "shapValue": 0.0226,
         "sampleIndex": 60,
         "featureValue": 7.1875,
         "normalizedVal": 0.8214
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.0388,
+        "shapValue": -0.0378,
         "sampleIndex": 61,
         "featureValue": 4.8125,
         "normalizedVal": 0.55
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.0426,
+        "shapValue": -0.0396,
         "sampleIndex": 62,
         "featureValue": 4.4375,
         "normalizedVal": 0.5071
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.035,
+        "shapValue": -0.0383,
         "sampleIndex": 63,
         "featureValue": 0.375,
         "normalizedVal": 0.0429
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.1776,
+        "shapValue": -0.1811,
         "sampleIndex": 64,
         "featureValue": 2.0625,
         "normalizedVal": 0.2357
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.0887,
+        "shapValue": -0.0994,
         "sampleIndex": 65,
         "featureValue": 7.0,
         "normalizedVal": 0.8
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.0306,
+        "shapValue": -0.0339,
         "sampleIndex": 66,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.1189,
+        "shapValue": -0.1211,
         "sampleIndex": 67,
         "featureValue": 2.0625,
         "normalizedVal": 0.2357
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0411,
+        "shapValue": 0.0477,
         "sampleIndex": 68,
         "featureValue": 8.0,
         "normalizedVal": 0.9143
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.0288,
+        "shapValue": -0.028,
         "sampleIndex": 69,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.0092,
+        "shapValue": -0.0115,
         "sampleIndex": 70,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.011,
+        "shapValue": 0.0153,
         "sampleIndex": 71,
         "featureValue": 5.5625,
         "normalizedVal": 0.6357
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0107,
+        "shapValue": 0.0111,
         "sampleIndex": 72,
         "featureValue": 3.125,
         "normalizedVal": 0.3571
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0175,
+        "shapValue": 0.0197,
         "sampleIndex": 73,
         "featureValue": 4.3125,
         "normalizedVal": 0.4929
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.0717,
+        "shapValue": -0.0728,
         "sampleIndex": 74,
         "featureValue": 3.6875,
         "normalizedVal": 0.4214
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.0126,
+        "shapValue": -0.0087,
         "sampleIndex": 75,
         "featureValue": 0.4375,
         "normalizedVal": 0.05
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0321,
+        "shapValue": 0.0364,
         "sampleIndex": 76,
         "featureValue": 4.3125,
         "normalizedVal": 0.4929
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0088,
+        "shapValue": 0.0065,
         "sampleIndex": 77,
         "featureValue": 4.5,
         "normalizedVal": 0.5143
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.0042,
+        "shapValue": -0.0,
         "sampleIndex": 78,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.0471,
+        "shapValue": -0.0418,
         "sampleIndex": 79,
         "featureValue": 4.4375,
         "normalizedVal": 0.5071
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.1203,
+        "shapValue": -0.1221,
         "sampleIndex": 80,
         "featureValue": 3.9375,
         "normalizedVal": 0.45
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.1395,
+        "shapValue": 0.1286,
         "sampleIndex": 81,
         "featureValue": 5.0625,
         "normalizedVal": 0.5786
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.046,
+        "shapValue": -0.0433,
         "sampleIndex": 82,
         "featureValue": 4.125,
         "normalizedVal": 0.4714
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0068,
+        "shapValue": 0.0109,
         "sampleIndex": 83,
         "featureValue": 4.3125,
         "normalizedVal": 0.4929
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0213,
+        "shapValue": 0.0196,
         "sampleIndex": 84,
         "featureValue": 7.0625,
         "normalizedVal": 0.8071
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0684,
+        "shapValue": 0.0623,
         "sampleIndex": 85,
         "featureValue": 6.8125,
         "normalizedVal": 0.7786
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.1148,
+        "shapValue": 0.1059,
         "sampleIndex": 86,
         "featureValue": 4.9375,
         "normalizedVal": 0.5643
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.0172,
+        "shapValue": -0.0159,
         "sampleIndex": 87,
         "featureValue": 4.1875,
         "normalizedVal": 0.4786
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0235,
+        "shapValue": 0.0295,
         "sampleIndex": 88,
         "featureValue": 4.625,
         "normalizedVal": 0.5286
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0651,
+        "shapValue": 0.0675,
         "sampleIndex": 89,
         "featureValue": 4.0625,
         "normalizedVal": 0.4643
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.018,
+        "shapValue": 0.0189,
         "sampleIndex": 90,
         "featureValue": 4.5,
         "normalizedVal": 0.5143
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.0368,
+        "shapValue": -0.0375,
         "sampleIndex": 91,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.051,
+        "shapValue": 0.0545,
         "sampleIndex": 92,
         "featureValue": 7.5,
         "normalizedVal": 0.8571
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.066,
+        "shapValue": 0.0685,
         "sampleIndex": 93,
         "featureValue": 4.1875,
         "normalizedVal": 0.4786
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.1029,
+        "shapValue": -0.1037,
         "sampleIndex": 94,
         "featureValue": 7.125,
         "normalizedVal": 0.8143
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.0556,
+        "shapValue": -0.0573,
         "sampleIndex": 95,
         "featureValue": 4.125,
         "normalizedVal": 0.4714
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.098,
+        "shapValue": -0.1002,
         "sampleIndex": 96,
         "featureValue": 6.5,
         "normalizedVal": 0.7429
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.0268,
+        "shapValue": -0.0269,
         "sampleIndex": 97,
         "featureValue": 5.5625,
         "normalizedVal": 0.6357
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0637,
+        "shapValue": 0.0685,
         "sampleIndex": 98,
         "featureValue": 4.1875,
         "normalizedVal": 0.4786
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0072,
+        "shapValue": 0.018,
         "sampleIndex": 99,
         "featureValue": 8.0,
         "normalizedVal": 0.9143
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.1593,
+        "shapValue": 0.1619,
         "sampleIndex": 100,
         "featureValue": 6.6875,
         "normalizedVal": 0.7643
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0362,
+        "shapValue": 0.0374,
         "sampleIndex": 101,
         "featureValue": 4.0625,
         "normalizedVal": 0.4643
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.0091,
+        "shapValue": -0.0098,
         "sampleIndex": 102,
         "featureValue": 0.4375,
         "normalizedVal": 0.05
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0014,
+        "shapValue": -0.0034,
         "sampleIndex": 103,
         "featureValue": 5.375,
         "normalizedVal": 0.6143
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0116,
+        "shapValue": 0.0044,
         "sampleIndex": 104,
         "featureValue": 7.3125,
         "normalizedVal": 0.8357
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0015,
+        "shapValue": -0.0108,
         "sampleIndex": 105,
         "featureValue": 5.8125,
         "normalizedVal": 0.6643
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0912,
+        "shapValue": 0.0807,
         "sampleIndex": 106,
         "featureValue": 5.5,
         "normalizedVal": 0.6286
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.0327,
+        "shapValue": -0.0323,
         "sampleIndex": 107,
         "featureValue": 4.125,
         "normalizedVal": 0.4714
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.0306,
+        "shapValue": -0.0297,
         "sampleIndex": 108,
         "featureValue": 4.0625,
         "normalizedVal": 0.4643
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.0147,
+        "shapValue": 0.0031,
         "sampleIndex": 109,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0091,
+        "shapValue": 0.0074,
         "sampleIndex": 110,
         "featureValue": 3.9375,
         "normalizedVal": 0.45
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.0019,
+        "shapValue": -0.0077,
         "sampleIndex": 111,
         "featureValue": 5.875,
         "normalizedVal": 0.6714
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0085,
+        "shapValue": 0.0115,
         "sampleIndex": 112,
         "featureValue": 4.3125,
         "normalizedVal": 0.4929
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0091,
+        "shapValue": 0.0112,
         "sampleIndex": 113,
         "featureValue": 4.3125,
         "normalizedVal": 0.4929
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.0297,
+        "shapValue": -0.0304,
         "sampleIndex": 114,
         "featureValue": 4.625,
         "normalizedVal": 0.5286
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.0094,
+        "shapValue": 0.0016,
         "sampleIndex": 115,
         "featureValue": 6.0625,
         "normalizedVal": 0.6929
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.1082,
+        "shapValue": -0.1173,
         "sampleIndex": 116,
         "featureValue": 3.9375,
         "normalizedVal": 0.45
     },
     {
         "group": "Active bases in range",
-        "shapValue": 0.0769,
+        "shapValue": 0.0742,
         "sampleIndex": 117,
         "featureValue": 5.5,
         "normalizedVal": 0.6286
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.2304,
+        "shapValue": -0.2328,
         "sampleIndex": 118,
         "featureValue": 2.0,
         "normalizedVal": 0.2286
     },
     {
         "group": "Active bases in range",
-        "shapValue": -0.0455,
+        "shapValue": -0.0415,
         "sampleIndex": 119,
         "featureValue": 4.125,
         "normalizedVal": 0.4714
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0242,
+        "shapValue": 0.0299,
         "sampleIndex": 0,
         "featureValue": 2.0,
         "normalizedVal": 0.2857
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.035,
+        "shapValue": -0.0281,
         "sampleIndex": 1,
         "featureValue": 2.0,
         "normalizedVal": 0.2857
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0543,
+        "shapValue": -0.0527,
         "sampleIndex": 2,
         "featureValue": 1.0,
         "normalizedVal": 0.1429
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0072,
+        "shapValue": 0.0104,
         "sampleIndex": 3,
         "featureValue": 2.0,
         "normalizedVal": 0.2857
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0231,
+        "shapValue": -0.0146,
         "sampleIndex": 4,
         "featureValue": 6.0,
         "normalizedVal": 0.8571
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0336,
+        "shapValue": 0.0287,
         "sampleIndex": 5,
         "featureValue": 4.0,
         "normalizedVal": 0.5714
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0222,
+        "shapValue": 0.0325,
         "sampleIndex": 6,
         "featureValue": 2.0,
         "normalizedVal": 0.2857
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0419,
+        "shapValue": 0.0485,
         "sampleIndex": 7,
         "featureValue": 3.0,
         "normalizedVal": 0.4286
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0033,
+        "shapValue": 0.0042,
         "sampleIndex": 8,
         "featureValue": 6.0,
         "normalizedVal": 0.8571
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0599,
+        "shapValue": -0.0656,
         "sampleIndex": 9,
         "featureValue": 1.0,
         "normalizedVal": 0.1429
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0029,
+        "shapValue": -0.0053,
         "sampleIndex": 10,
         "featureValue": 1.0,
         "normalizedVal": 0.1429
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0641,
+        "shapValue": -0.0663,
         "sampleIndex": 11,
         "featureValue": 5.0,
         "normalizedVal": 0.7143
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0505,
+        "shapValue": -0.0467,
         "sampleIndex": 12,
         "featureValue": 5.0,
         "normalizedVal": 0.7143
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0458,
+        "shapValue": 0.0435,
         "sampleIndex": 13,
         "featureValue": 0.0,
         "normalizedVal": 0.0
@@ -1786,1820 +1786,1820 @@
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0546,
+        "shapValue": -0.0609,
         "sampleIndex": 15,
         "featureValue": 1.0,
         "normalizedVal": 0.1429
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0221,
+        "shapValue": 0.0256,
         "sampleIndex": 16,
         "featureValue": 5.0,
         "normalizedVal": 0.7143
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0442,
+        "shapValue": -0.0424,
         "sampleIndex": 17,
         "featureValue": 2.0,
         "normalizedVal": 0.2857
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0002,
+        "shapValue": 0.0047,
         "sampleIndex": 18,
         "featureValue": 6.0,
         "normalizedVal": 0.8571
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.006,
+        "shapValue": 0.0024,
         "sampleIndex": 19,
         "featureValue": 4.0,
         "normalizedVal": 0.5714
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0205,
+        "shapValue": -0.0226,
         "sampleIndex": 20,
         "featureValue": 4.0,
         "normalizedVal": 0.5714
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0653,
+        "shapValue": -0.0665,
         "sampleIndex": 21,
         "featureValue": 2.0,
         "normalizedVal": 0.2857
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0152,
+        "shapValue": 0.0085,
         "sampleIndex": 22,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0203,
+        "shapValue": 0.0204,
         "sampleIndex": 23,
         "featureValue": 3.0,
         "normalizedVal": 0.4286
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0333,
+        "shapValue": 0.0345,
         "sampleIndex": 24,
         "featureValue": 3.0,
         "normalizedVal": 0.4286
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0281,
+        "shapValue": 0.0284,
         "sampleIndex": 25,
         "featureValue": 5.0,
         "normalizedVal": 0.7143
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.012,
+        "shapValue": -0.0022,
         "sampleIndex": 26,
         "featureValue": 7.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0036,
+        "shapValue": -0.0096,
         "sampleIndex": 27,
         "featureValue": 2.0,
         "normalizedVal": 0.2857
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0403,
+        "shapValue": 0.0395,
         "sampleIndex": 28,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0661,
+        "shapValue": -0.0658,
         "sampleIndex": 29,
         "featureValue": 2.0,
         "normalizedVal": 0.2857
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0201,
+        "shapValue": 0.019,
         "sampleIndex": 30,
         "featureValue": 3.0,
         "normalizedVal": 0.4286
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.015,
+        "shapValue": -0.0221,
         "sampleIndex": 31,
         "featureValue": 3.0,
         "normalizedVal": 0.4286
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0018,
+        "shapValue": 0.0047,
         "sampleIndex": 32,
         "featureValue": 2.0,
         "normalizedVal": 0.2857
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0253,
+        "shapValue": 0.0204,
         "sampleIndex": 33,
         "featureValue": 5.0,
         "normalizedVal": 0.7143
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0001,
+        "shapValue": 0.0088,
         "sampleIndex": 34,
         "featureValue": 2.0,
         "normalizedVal": 0.2857
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0437,
+        "shapValue": -0.0478,
         "sampleIndex": 35,
         "featureValue": 2.0,
         "normalizedVal": 0.2857
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0117,
+        "shapValue": -0.0042,
         "sampleIndex": 36,
         "featureValue": 5.0,
         "normalizedVal": 0.7143
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0161,
+        "shapValue": 0.0139,
         "sampleIndex": 37,
         "featureValue": 3.0,
         "normalizedVal": 0.4286
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0695,
+        "shapValue": -0.0653,
         "sampleIndex": 38,
         "featureValue": 2.0,
         "normalizedVal": 0.2857
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0354,
+        "shapValue": -0.0377,
         "sampleIndex": 39,
         "featureValue": 2.0,
         "normalizedVal": 0.2857
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0068,
+        "shapValue": -0.0062,
         "sampleIndex": 40,
         "featureValue": 4.0,
         "normalizedVal": 0.5714
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.037,
+        "shapValue": 0.0392,
         "sampleIndex": 41,
         "featureValue": 6.0,
         "normalizedVal": 0.8571
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0184,
+        "shapValue": 0.0198,
         "sampleIndex": 42,
         "featureValue": 3.0,
         "normalizedVal": 0.4286
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0424,
+        "shapValue": 0.0443,
         "sampleIndex": 43,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0101,
+        "shapValue": -0.0004,
         "sampleIndex": 44,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.003,
+        "shapValue": 0.0076,
         "sampleIndex": 45,
         "featureValue": 3.0,
         "normalizedVal": 0.4286
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0141,
+        "shapValue": -0.0163,
         "sampleIndex": 46,
         "featureValue": 2.0,
         "normalizedVal": 0.2857
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0222,
+        "shapValue": -0.0269,
         "sampleIndex": 47,
         "featureValue": 4.0,
         "normalizedVal": 0.5714
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0263,
+        "shapValue": -0.0257,
         "sampleIndex": 48,
         "featureValue": 2.0,
         "normalizedVal": 0.2857
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0427,
+        "shapValue": 0.0435,
         "sampleIndex": 49,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0158,
+        "shapValue": 0.0182,
         "sampleIndex": 50,
         "featureValue": 5.0,
         "normalizedVal": 0.7143
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0343,
+        "shapValue": -0.0377,
         "sampleIndex": 51,
         "featureValue": 2.0,
         "normalizedVal": 0.2857
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0188,
+        "shapValue": 0.0187,
         "sampleIndex": 52,
         "featureValue": 2.0,
         "normalizedVal": 0.2857
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0427,
+        "shapValue": 0.0454,
         "sampleIndex": 53,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0444,
+        "shapValue": 0.0401,
         "sampleIndex": 54,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0104,
+        "shapValue": -0.015,
         "sampleIndex": 55,
         "featureValue": 2.0,
         "normalizedVal": 0.2857
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.1118,
+        "shapValue": 0.1074,
         "sampleIndex": 56,
         "featureValue": 5.0,
         "normalizedVal": 0.7143
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0174,
+        "shapValue": 0.0165,
         "sampleIndex": 57,
         "featureValue": 2.0,
         "normalizedVal": 0.2857
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0006,
+        "shapValue": 0.0016,
         "sampleIndex": 58,
         "featureValue": 2.0,
         "normalizedVal": 0.2857
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.048,
+        "shapValue": 0.0471,
         "sampleIndex": 59,
         "featureValue": 3.0,
         "normalizedVal": 0.4286
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0,
+        "shapValue": 0.0079,
         "sampleIndex": 60,
         "featureValue": 6.0,
         "normalizedVal": 0.8571
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0467,
+        "shapValue": -0.0416,
         "sampleIndex": 61,
         "featureValue": 5.0,
         "normalizedVal": 0.7143
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.022,
+        "shapValue": -0.0201,
         "sampleIndex": 62,
         "featureValue": 3.0,
         "normalizedVal": 0.4286
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.006,
+        "shapValue": 0.0143,
         "sampleIndex": 63,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0213,
+        "shapValue": -0.019,
         "sampleIndex": 64,
         "featureValue": 1.0,
         "normalizedVal": 0.1429
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0103,
+        "shapValue": 0.02,
         "sampleIndex": 65,
         "featureValue": 2.0,
         "normalizedVal": 0.2857
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0226,
+        "shapValue": 0.0218,
         "sampleIndex": 66,
         "featureValue": 3.0,
         "normalizedVal": 0.4286
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0701,
+        "shapValue": -0.0627,
         "sampleIndex": 67,
         "featureValue": 2.0,
         "normalizedVal": 0.2857
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0177,
+        "shapValue": -0.0081,
         "sampleIndex": 68,
         "featureValue": 5.0,
         "normalizedVal": 0.7143
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.021,
+        "shapValue": 0.0164,
         "sampleIndex": 69,
         "featureValue": 3.0,
         "normalizedVal": 0.4286
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0347,
+        "shapValue": 0.0463,
         "sampleIndex": 70,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.027,
+        "shapValue": 0.02,
         "sampleIndex": 71,
         "featureValue": 2.0,
         "normalizedVal": 0.2857
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0637,
+        "shapValue": -0.0667,
         "sampleIndex": 72,
         "featureValue": 1.0,
         "normalizedVal": 0.1429
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0148,
+        "shapValue": -0.0167,
         "sampleIndex": 73,
         "featureValue": 1.0,
         "normalizedVal": 0.1429
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0472,
+        "shapValue": -0.0515,
         "sampleIndex": 74,
         "featureValue": 2.0,
         "normalizedVal": 0.2857
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0526,
+        "shapValue": -0.056,
         "sampleIndex": 75,
         "featureValue": 1.0,
         "normalizedVal": 0.1429
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0114,
+        "shapValue": -0.0101,
         "sampleIndex": 76,
         "featureValue": 2.0,
         "normalizedVal": 0.2857
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.06,
+        "shapValue": -0.0574,
         "sampleIndex": 77,
         "featureValue": 2.0,
         "normalizedVal": 0.2857
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0459,
+        "shapValue": 0.0458,
         "sampleIndex": 78,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0095,
+        "shapValue": 0.0141,
         "sampleIndex": 79,
         "featureValue": 5.0,
         "normalizedVal": 0.7143
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0179,
+        "shapValue": 0.0145,
         "sampleIndex": 80,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0436,
+        "shapValue": 0.0448,
         "sampleIndex": 81,
         "featureValue": 4.0,
         "normalizedVal": 0.5714
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0477,
+        "shapValue": 0.0536,
         "sampleIndex": 82,
         "featureValue": 3.0,
         "normalizedVal": 0.4286
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0067,
+        "shapValue": -0.0054,
         "sampleIndex": 83,
         "featureValue": 4.0,
         "normalizedVal": 0.5714
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0024,
+        "shapValue": -0.0067,
         "sampleIndex": 84,
         "featureValue": 6.0,
         "normalizedVal": 0.8571
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0132,
+        "shapValue": 0.0095,
         "sampleIndex": 85,
         "featureValue": 5.0,
         "normalizedVal": 0.7143
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0072,
+        "shapValue": -0.0053,
         "sampleIndex": 86,
         "featureValue": 2.0,
         "normalizedVal": 0.2857
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0481,
+        "shapValue": 0.0494,
         "sampleIndex": 87,
         "featureValue": 6.0,
         "normalizedVal": 0.8571
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0843,
+        "shapValue": 0.0826,
         "sampleIndex": 88,
         "featureValue": 5.0,
         "normalizedVal": 0.7143
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.1045,
+        "shapValue": 0.1033,
         "sampleIndex": 89,
         "featureValue": 5.0,
         "normalizedVal": 0.7143
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0552,
+        "shapValue": -0.0532,
         "sampleIndex": 90,
         "featureValue": 1.0,
         "normalizedVal": 0.1429
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0236,
+        "shapValue": 0.024,
         "sampleIndex": 91,
         "featureValue": 3.0,
         "normalizedVal": 0.4286
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0036,
+        "shapValue": 0.008,
         "sampleIndex": 92,
         "featureValue": 3.0,
         "normalizedVal": 0.4286
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0176,
+        "shapValue": -0.0147,
         "sampleIndex": 93,
         "featureValue": 1.0,
         "normalizedVal": 0.1429
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0348,
+        "shapValue": -0.0376,
         "sampleIndex": 94,
         "featureValue": 2.0,
         "normalizedVal": 0.2857
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0114,
+        "shapValue": -0.0102,
         "sampleIndex": 95,
         "featureValue": 3.0,
         "normalizedVal": 0.4286
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0222,
+        "shapValue": 0.0191,
         "sampleIndex": 96,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0067,
+        "shapValue": 0.0046,
         "sampleIndex": 97,
         "featureValue": 3.0,
         "normalizedVal": 0.4286
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0179,
+        "shapValue": -0.0196,
         "sampleIndex": 98,
         "featureValue": 2.0,
         "normalizedVal": 0.2857
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0126,
+        "shapValue": -0.0087,
         "sampleIndex": 99,
         "featureValue": 3.0,
         "normalizedVal": 0.4286
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0265,
+        "shapValue": 0.0228,
         "sampleIndex": 100,
         "featureValue": 6.0,
         "normalizedVal": 0.8571
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0394,
+        "shapValue": -0.0309,
         "sampleIndex": 101,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0529,
+        "shapValue": -0.0476,
         "sampleIndex": 102,
         "featureValue": 1.0,
         "normalizedVal": 0.1429
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.005,
+        "shapValue": -0.0001,
         "sampleIndex": 103,
         "featureValue": 1.0,
         "normalizedVal": 0.1429
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0045,
+        "shapValue": -0.0136,
         "sampleIndex": 104,
         "featureValue": 6.0,
         "normalizedVal": 0.8571
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0022,
+        "shapValue": 0.0064,
         "sampleIndex": 105,
         "featureValue": 1.0,
         "normalizedVal": 0.1429
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0057,
+        "shapValue": -0.0123,
         "sampleIndex": 106,
         "featureValue": 5.0,
         "normalizedVal": 0.7143
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0434,
+        "shapValue": 0.039,
         "sampleIndex": 107,
         "featureValue": 5.0,
         "normalizedVal": 0.7143
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0634,
+        "shapValue": 0.0665,
         "sampleIndex": 108,
         "featureValue": 5.0,
         "normalizedVal": 0.7143
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0443,
+        "shapValue": 0.0427,
         "sampleIndex": 109,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0279,
+        "shapValue": 0.025,
         "sampleIndex": 110,
         "featureValue": 3.0,
         "normalizedVal": 0.4286
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0017,
+        "shapValue": 0.0001,
         "sampleIndex": 111,
         "featureValue": 2.0,
         "normalizedVal": 0.2857
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0314,
+        "shapValue": 0.0276,
         "sampleIndex": 112,
         "featureValue": 5.0,
         "normalizedVal": 0.7143
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0094,
+        "shapValue": -0.0124,
         "sampleIndex": 113,
         "featureValue": 2.0,
         "normalizedVal": 0.2857
     },
     {
         "group": "Last attack target",
-        "shapValue": -0.0673,
+        "shapValue": -0.0597,
         "sampleIndex": 114,
         "featureValue": 1.0,
         "normalizedVal": 0.1429
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0137,
+        "shapValue": 0.0095,
         "sampleIndex": 115,
         "featureValue": 3.0,
         "normalizedVal": 0.4286
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.026,
+        "shapValue": 0.0328,
         "sampleIndex": 116,
         "featureValue": 3.0,
         "normalizedVal": 0.4286
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0155,
+        "shapValue": 0.0174,
         "sampleIndex": 117,
         "featureValue": 6.0,
         "normalizedVal": 0.8571
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0002,
+        "shapValue": -0.0033,
         "sampleIndex": 118,
         "featureValue": 3.0,
         "normalizedVal": 0.4286
     },
     {
         "group": "Last attack target",
-        "shapValue": 0.0547,
+        "shapValue": 0.0453,
         "sampleIndex": 119,
         "featureValue": 3.0,
         "normalizedVal": 0.4286
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0062,
+        "shapValue": 0.0108,
         "sampleIndex": 0,
         "featureValue": 19.125,
         "normalizedVal": 0.7067
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.018,
+        "shapValue": -0.0183,
         "sampleIndex": 1,
         "featureValue": 11.375,
         "normalizedVal": 0.4203
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0088,
+        "shapValue": -0.0097,
         "sampleIndex": 2,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0015,
+        "shapValue": 0.0006,
         "sampleIndex": 3,
         "featureValue": 26.625,
         "normalizedVal": 0.9838
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0055,
+        "shapValue": -0.0018,
         "sampleIndex": 4,
         "featureValue": 19.3125,
         "normalizedVal": 0.7136
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0252,
+        "shapValue": -0.0249,
         "sampleIndex": 5,
         "featureValue": 7.75,
         "normalizedVal": 0.2864
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0152,
+        "shapValue": 0.0198,
         "sampleIndex": 6,
         "featureValue": 16.1875,
         "normalizedVal": 0.5982
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0146,
+        "shapValue": -0.0124,
         "sampleIndex": 7,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0058,
+        "shapValue": 0.0026,
         "sampleIndex": 8,
         "featureValue": 26.75,
         "normalizedVal": 0.9885
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0226,
+        "shapValue": -0.0189,
         "sampleIndex": 9,
         "featureValue": 15.9375,
         "normalizedVal": 0.5889
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0168,
+        "shapValue": 0.0154,
         "sampleIndex": 10,
         "featureValue": 23.0,
         "normalizedVal": 0.8499
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0029,
+        "shapValue": 0.0009,
         "sampleIndex": 11,
         "featureValue": 19.1875,
         "normalizedVal": 0.709
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0062,
+        "shapValue": 0.0054,
         "sampleIndex": 12,
         "featureValue": 19.125,
         "normalizedVal": 0.7067
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0074,
+        "shapValue": -0.0061,
         "sampleIndex": 13,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0005,
+        "shapValue": -0.001,
         "sampleIndex": 14,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0138,
+        "shapValue": 0.0182,
         "sampleIndex": 15,
         "featureValue": 18.5,
         "normalizedVal": 0.6836
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0285,
+        "shapValue": 0.0257,
         "sampleIndex": 16,
         "featureValue": 22.9375,
         "normalizedVal": 0.8476
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0023,
+        "shapValue": -0.0012,
         "sampleIndex": 17,
         "featureValue": 18.5,
         "normalizedVal": 0.6836
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0158,
+        "shapValue": 0.0143,
         "sampleIndex": 18,
         "featureValue": 15.0625,
         "normalizedVal": 0.5566
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0128,
+        "shapValue": 0.0062,
         "sampleIndex": 19,
         "featureValue": 26.75,
         "normalizedVal": 0.9885
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.004,
+        "shapValue": -0.0008,
         "sampleIndex": 20,
         "featureValue": 20.4375,
         "normalizedVal": 0.7552
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0179,
+        "shapValue": -0.019,
         "sampleIndex": 21,
         "featureValue": 17.5625,
         "normalizedVal": 0.649
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0089,
+        "shapValue": -0.0078,
         "sampleIndex": 22,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0048,
+        "shapValue": -0.0076,
         "sampleIndex": 23,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0099,
+        "shapValue": -0.0089,
         "sampleIndex": 24,
         "featureValue": 17.5625,
         "normalizedVal": 0.649
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0031,
+        "shapValue": -0.0032,
         "sampleIndex": 25,
         "featureValue": 17.4375,
         "normalizedVal": 0.6443
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0094,
+        "shapValue": 0.0104,
         "sampleIndex": 26,
         "featureValue": 26.5625,
         "normalizedVal": 0.9815
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0124,
+        "shapValue": 0.013,
         "sampleIndex": 27,
         "featureValue": 11.0625,
         "normalizedVal": 0.4088
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0086,
+        "shapValue": -0.0073,
         "sampleIndex": 28,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0185,
+        "shapValue": -0.0181,
         "sampleIndex": 29,
         "featureValue": 12.625,
         "normalizedVal": 0.4665
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0066,
+        "shapValue": -0.0047,
         "sampleIndex": 30,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0068,
+        "shapValue": 0.0076,
         "sampleIndex": 31,
         "featureValue": 12.0625,
         "normalizedVal": 0.4457
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0055,
+        "shapValue": 0.0039,
         "sampleIndex": 32,
         "featureValue": 26.75,
         "normalizedVal": 0.9885
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0163,
+        "shapValue": 0.0122,
         "sampleIndex": 33,
         "featureValue": 22.125,
         "normalizedVal": 0.8176
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0073,
+        "shapValue": 0.0071,
         "sampleIndex": 34,
         "featureValue": 15.0625,
         "normalizedVal": 0.5566
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0177,
+        "shapValue": -0.0175,
         "sampleIndex": 35,
         "featureValue": 13.1875,
         "normalizedVal": 0.4873
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0242,
+        "shapValue": 0.0279,
         "sampleIndex": 36,
         "featureValue": 11.375,
         "normalizedVal": 0.4203
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0074,
+        "shapValue": -0.0086,
         "sampleIndex": 37,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0162,
+        "shapValue": -0.0168,
         "sampleIndex": 38,
         "featureValue": 12.625,
         "normalizedVal": 0.4665
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0242,
+        "shapValue": -0.0251,
         "sampleIndex": 39,
         "featureValue": 11.0625,
         "normalizedVal": 0.4088
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0056,
+        "shapValue": -0.0095,
         "sampleIndex": 40,
         "featureValue": 17.5625,
         "normalizedVal": 0.649
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0305,
+        "shapValue": 0.0307,
         "sampleIndex": 41,
         "featureValue": 22.9375,
         "normalizedVal": 0.8476
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0088,
+        "shapValue": -0.0065,
         "sampleIndex": 42,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.006,
+        "shapValue": -0.0089,
         "sampleIndex": 43,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0134,
+        "shapValue": 0.0135,
         "sampleIndex": 44,
         "featureValue": 23.75,
         "normalizedVal": 0.8776
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0139,
+        "shapValue": 0.0144,
         "sampleIndex": 45,
         "featureValue": 18.25,
         "normalizedVal": 0.6744
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0002,
+        "shapValue": -0.0021,
         "sampleIndex": 46,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0013,
+        "shapValue": -0.0071,
         "sampleIndex": 47,
         "featureValue": 19.125,
         "normalizedVal": 0.7067
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0127,
+        "shapValue": 0.0135,
         "sampleIndex": 48,
         "featureValue": 22.9375,
         "normalizedVal": 0.8476
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0093,
+        "shapValue": -0.0111,
         "sampleIndex": 49,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0169,
+        "shapValue": 0.0148,
         "sampleIndex": 50,
         "featureValue": 21.9375,
         "normalizedVal": 0.8106
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0211,
+        "shapValue": 0.017,
         "sampleIndex": 51,
         "featureValue": 21.9375,
         "normalizedVal": 0.8106
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0134,
+        "shapValue": 0.0102,
         "sampleIndex": 52,
         "featureValue": 19.125,
         "normalizedVal": 0.7067
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0082,
+        "shapValue": -0.0105,
         "sampleIndex": 53,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0106,
+        "shapValue": -0.0075,
         "sampleIndex": 54,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0145,
+        "shapValue": -0.0158,
         "sampleIndex": 55,
         "featureValue": 17.5625,
         "normalizedVal": 0.649
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0142,
+        "shapValue": 0.018,
         "sampleIndex": 56,
         "featureValue": 11.375,
         "normalizedVal": 0.4203
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0014,
+        "shapValue": 0.0019,
         "sampleIndex": 57,
         "featureValue": 12.0625,
         "normalizedVal": 0.4457
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0154,
+        "shapValue": 0.0147,
         "sampleIndex": 58,
         "featureValue": 11.125,
         "normalizedVal": 0.4111
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0023,
+        "shapValue": -0.0017,
         "sampleIndex": 59,
         "featureValue": 14.5625,
         "normalizedVal": 0.5381
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0057,
+        "shapValue": 0.0168,
         "sampleIndex": 60,
         "featureValue": 26.625,
         "normalizedVal": 0.9838
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0065,
+        "shapValue": 0.0047,
         "sampleIndex": 61,
         "featureValue": 16.0,
         "normalizedVal": 0.5912
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0119,
+        "shapValue": -0.0147,
         "sampleIndex": 62,
         "featureValue": 17.25,
         "normalizedVal": 0.6374
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0111,
+        "shapValue": -0.0083,
         "sampleIndex": 63,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0091,
+        "shapValue": -0.0139,
         "sampleIndex": 64,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0031,
+        "shapValue": 0.0003,
         "sampleIndex": 65,
         "featureValue": 26.5625,
         "normalizedVal": 0.9815
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0047,
+        "shapValue": -0.0068,
         "sampleIndex": 66,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0168,
+        "shapValue": -0.015,
         "sampleIndex": 67,
         "featureValue": 13.375,
         "normalizedVal": 0.4942
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0144,
+        "shapValue": 0.0082,
         "sampleIndex": 68,
         "featureValue": 26.75,
         "normalizedVal": 0.9885
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0077,
+        "shapValue": -0.0074,
         "sampleIndex": 69,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.009,
+        "shapValue": -0.0091,
         "sampleIndex": 70,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.017,
+        "shapValue": 0.0175,
         "sampleIndex": 71,
         "featureValue": 16.1875,
         "normalizedVal": 0.5982
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.013,
+        "shapValue": -0.0113,
         "sampleIndex": 72,
         "featureValue": 13.0,
         "normalizedVal": 0.4804
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0056,
+        "shapValue": -0.0058,
         "sampleIndex": 73,
         "featureValue": 17.1875,
         "normalizedVal": 0.6351
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0161,
+        "shapValue": -0.0175,
         "sampleIndex": 74,
         "featureValue": 15.25,
         "normalizedVal": 0.5635
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0124,
+        "shapValue": -0.0091,
         "sampleIndex": 75,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0155,
+        "shapValue": -0.0159,
         "sampleIndex": 76,
         "featureValue": 17.1875,
         "normalizedVal": 0.6351
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0202,
+        "shapValue": 0.0182,
         "sampleIndex": 77,
         "featureValue": 18.5,
         "normalizedVal": 0.6836
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0084,
+        "shapValue": -0.0064,
         "sampleIndex": 78,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0014,
+        "shapValue": -0.0053,
         "sampleIndex": 79,
         "featureValue": 17.25,
         "normalizedVal": 0.6374
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0133,
+        "shapValue": -0.014,
         "sampleIndex": 80,
         "featureValue": 15.1875,
         "normalizedVal": 0.5612
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0096,
+        "shapValue": -0.009,
         "sampleIndex": 81,
         "featureValue": 17.5,
         "normalizedVal": 0.6467
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0154,
+        "shapValue": -0.0144,
         "sampleIndex": 82,
         "featureValue": 12.625,
         "normalizedVal": 0.4665
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0047,
+        "shapValue": -0.0088,
         "sampleIndex": 83,
         "featureValue": 17.5625,
         "normalizedVal": 0.649
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0127,
+        "shapValue": 0.0167,
         "sampleIndex": 84,
         "featureValue": 26.5625,
         "normalizedVal": 0.9815
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.017,
+        "shapValue": 0.0156,
         "sampleIndex": 85,
         "featureValue": 27.0625,
         "normalizedVal": 1.0
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0113,
+        "shapValue": 0.01,
         "sampleIndex": 86,
         "featureValue": 8.375,
         "normalizedVal": 0.3095
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0103,
+        "shapValue": 0.0092,
         "sampleIndex": 87,
         "featureValue": 18.625,
         "normalizedVal": 0.6882
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0041,
+        "shapValue": -0.005,
         "sampleIndex": 88,
         "featureValue": 17.5625,
         "normalizedVal": 0.649
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0235,
+        "shapValue": 0.0195,
         "sampleIndex": 89,
         "featureValue": 11.375,
         "normalizedVal": 0.4203
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0138,
+        "shapValue": 0.0162,
         "sampleIndex": 90,
         "featureValue": 18.5,
         "normalizedVal": 0.6836
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.008,
+        "shapValue": -0.0064,
         "sampleIndex": 91,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0138,
+        "shapValue": 0.0175,
         "sampleIndex": 92,
         "featureValue": 23.125,
         "normalizedVal": 0.8545
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.01,
+        "shapValue": -0.0101,
         "sampleIndex": 93,
         "featureValue": 14.0,
         "normalizedVal": 0.5173
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0115,
+        "shapValue": 0.0059,
         "sampleIndex": 94,
         "featureValue": 22.4375,
         "normalizedVal": 0.8291
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0226,
+        "shapValue": -0.0217,
         "sampleIndex": 95,
         "featureValue": 11.0625,
         "normalizedVal": 0.4088
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0095,
+        "shapValue": 0.0075,
         "sampleIndex": 96,
         "featureValue": 19.0625,
         "normalizedVal": 0.7044
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0111,
+        "shapValue": 0.0108,
         "sampleIndex": 97,
         "featureValue": 16.1875,
         "normalizedVal": 0.5982
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0098,
+        "shapValue": -0.0104,
         "sampleIndex": 98,
         "featureValue": 14.0,
         "normalizedVal": 0.5173
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0002,
+        "shapValue": 0.003,
         "sampleIndex": 99,
         "featureValue": 26.75,
         "normalizedVal": 0.9885
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0196,
+        "shapValue": 0.0205,
         "sampleIndex": 100,
         "featureValue": 23.0,
         "normalizedVal": 0.8499
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.005,
+        "shapValue": -0.0029,
         "sampleIndex": 101,
         "featureValue": 11.375,
         "normalizedVal": 0.4203
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0102,
+        "shapValue": -0.0123,
         "sampleIndex": 102,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0287,
+        "shapValue": 0.0288,
         "sampleIndex": 103,
         "featureValue": 17.625,
         "normalizedVal": 0.6513
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0095,
+        "shapValue": 0.0128,
         "sampleIndex": 104,
         "featureValue": 26.75,
         "normalizedVal": 0.9885
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.025,
+        "shapValue": 0.0228,
         "sampleIndex": 105,
         "featureValue": 17.8125,
         "normalizedVal": 0.6582
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0244,
+        "shapValue": 0.0257,
         "sampleIndex": 106,
         "featureValue": 11.125,
         "normalizedVal": 0.4111
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0254,
+        "shapValue": -0.0271,
         "sampleIndex": 107,
         "featureValue": 11.0625,
         "normalizedVal": 0.4088
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0245,
+        "shapValue": -0.0225,
         "sampleIndex": 108,
         "featureValue": 14.375,
         "normalizedVal": 0.5312
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0078,
+        "shapValue": -0.0104,
         "sampleIndex": 109,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0029,
+        "shapValue": -0.0024,
         "sampleIndex": 110,
         "featureValue": 11.25,
         "normalizedVal": 0.4157
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0224,
+        "shapValue": 0.0271,
         "sampleIndex": 111,
         "featureValue": 17.8125,
         "normalizedVal": 0.6582
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0035,
+        "shapValue": -0.0043,
         "sampleIndex": 112,
         "featureValue": 17.1875,
         "normalizedVal": 0.6351
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0162,
+        "shapValue": -0.015,
         "sampleIndex": 113,
         "featureValue": 17.5625,
         "normalizedVal": 0.649
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0137,
+        "shapValue": -0.0123,
         "sampleIndex": 114,
         "featureValue": 17.5625,
         "normalizedVal": 0.649
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.016,
+        "shapValue": -0.0164,
         "sampleIndex": 115,
         "featureValue": 17.3125,
         "normalizedVal": 0.6397
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0179,
+        "shapValue": -0.0219,
         "sampleIndex": 116,
         "featureValue": 15.1875,
         "normalizedVal": 0.5612
     },
     {
         "group": "Highest base in range",
-        "shapValue": 0.0293,
+        "shapValue": 0.0278,
         "sampleIndex": 117,
         "featureValue": 11.125,
         "normalizedVal": 0.4111
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0079,
+        "shapValue": -0.009,
         "sampleIndex": 118,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Highest base in range",
-        "shapValue": -0.0142,
+        "shapValue": -0.0155,
         "sampleIndex": 119,
         "featureValue": 12.625,
         "normalizedVal": 0.4665
     },
     {
         "group": "Target base",
-        "shapValue": -0.0025,
+        "shapValue": -0.003,
         "sampleIndex": 0,
         "featureValue": 1.3125,
         "normalizedVal": 0.75
     },
     {
         "group": "Target base",
-        "shapValue": -0.0062,
+        "shapValue": -0.0057,
         "sampleIndex": 1,
         "featureValue": 0.9375,
         "normalizedVal": 0.5357
     },
     {
         "group": "Target base",
-        "shapValue": 0.0249,
+        "shapValue": 0.0222,
         "sampleIndex": 2,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Target base",
-        "shapValue": -0.0041,
+        "shapValue": -0.0033,
         "sampleIndex": 3,
         "featureValue": 1.75,
         "normalizedVal": 1.0
     },
     {
         "group": "Target base",
-        "shapValue": -0.0016,
+        "shapValue": -0.0028,
         "sampleIndex": 4,
         "featureValue": 1.3125,
         "normalizedVal": 0.75
     },
     {
         "group": "Target base",
-        "shapValue": -0.0048,
+        "shapValue": -0.0055,
         "sampleIndex": 5,
         "featureValue": 0.9375,
         "normalizedVal": 0.5357
     },
     {
         "group": "Target base",
-        "shapValue": -0.0066,
+        "shapValue": -0.005,
         "sampleIndex": 6,
         "featureValue": 1.75,
         "normalizedVal": 1.0
     },
     {
         "group": "Target base",
-        "shapValue": -0.0075,
+        "shapValue": -0.0076,
         "sampleIndex": 7,
         "featureValue": 0.625,
         "normalizedVal": 0.3571
     },
     {
         "group": "Target base",
-        "shapValue": -0.0036,
+        "shapValue": -0.0018,
         "sampleIndex": 8,
         "featureValue": 1.75,
         "normalizedVal": 1.0
     },
     {
         "group": "Target base",
-        "shapValue": -0.004,
+        "shapValue": -0.0043,
         "sampleIndex": 9,
         "featureValue": 0.9375,
         "normalizedVal": 0.5357
     },
     {
         "group": "Target base",
-        "shapValue": -0.0065,
+        "shapValue": -0.0063,
         "sampleIndex": 10,
         "featureValue": 1.75,
         "normalizedVal": 1.0
     },
     {
         "group": "Target base",
-        "shapValue": -0.0026,
+        "shapValue": -0.003,
         "sampleIndex": 11,
         "featureValue": 1.3125,
         "normalizedVal": 0.75
     },
     {
         "group": "Target base",
-        "shapValue": -0.0015,
+        "shapValue": -0.0018,
         "sampleIndex": 12,
         "featureValue": 1.3125,
         "normalizedVal": 0.75
     },
     {
         "group": "Target base",
-        "shapValue": 0.0149,
+        "shapValue": 0.0154,
         "sampleIndex": 13,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Target base",
-        "shapValue": 0.0118,
+        "shapValue": 0.011,
         "sampleIndex": 14,
         "featureValue": 0.375,
         "normalizedVal": 0.2143
     },
     {
         "group": "Target base",
-        "shapValue": -0.0069,
+        "shapValue": -0.0051,
         "sampleIndex": 15,
         "featureValue": 1.3125,
         "normalizedVal": 0.75
     },
     {
         "group": "Target base",
-        "shapValue": -0.0042,
+        "shapValue": -0.0026,
         "sampleIndex": 16,
         "featureValue": 1.75,
         "normalizedVal": 1.0
     },
     {
         "group": "Target base",
-        "shapValue": -0.0072,
+        "shapValue": -0.0086,
         "sampleIndex": 17,
         "featureValue": 1.3125,
         "normalizedVal": 0.75
     },
     {
         "group": "Target base",
-        "shapValue": -0.004,
+        "shapValue": -0.0041,
         "sampleIndex": 18,
         "featureValue": 1.3125,
         "normalizedVal": 0.75
     },
     {
         "group": "Target base",
-        "shapValue": -0.0036,
+        "shapValue": -0.002,
         "sampleIndex": 19,
         "featureValue": 1.75,
         "normalizedVal": 1.0
     },
     {
         "group": "Target base",
-        "shapValue": -0.0037,
+        "shapValue": -0.0022,
         "sampleIndex": 20,
         "featureValue": 1.75,
         "normalizedVal": 1.0
     },
     {
         "group": "Target base",
-        "shapValue": -0.008,
+        "shapValue": -0.0079,
         "sampleIndex": 21,
         "featureValue": 0.9375,
         "normalizedVal": 0.5357
     },
     {
         "group": "Target base",
-        "shapValue": 0.0186,
+        "shapValue": 0.0164,
         "sampleIndex": 22,
         "featureValue": 0.375,
         "normalizedVal": 0.2143
     },
     {
         "group": "Target base",
-        "shapValue": 0.0161,
+        "shapValue": 0.0149,
         "sampleIndex": 23,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Target base",
-        "shapValue": -0.0054,
+        "shapValue": -0.0057,
         "sampleIndex": 24,
         "featureValue": 0.9375,
         "normalizedVal": 0.5357
     },
     {
         "group": "Target base",
-        "shapValue": -0.0052,
+        "shapValue": -0.0049,
         "sampleIndex": 25,
         "featureValue": 0.9375,
         "normalizedVal": 0.5357
     },
     {
         "group": "Target base",
-        "shapValue": -0.0016,
+        "shapValue": -0.0015,
         "sampleIndex": 26,
         "featureValue": 1.75,
         "normalizedVal": 1.0
     },
     {
         "group": "Target base",
-        "shapValue": -0.007,
+        "shapValue": -0.0064,
         "sampleIndex": 27,
         "featureValue": 1.3125,
         "normalizedVal": 0.75
     },
     {
         "group": "Target base",
-        "shapValue": 0.0168,
+        "shapValue": 0.0191,
         "sampleIndex": 28,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Target base",
-        "shapValue": -0.0073,
+        "shapValue": -0.0077,
         "sampleIndex": 29,
         "featureValue": 0.625,
         "normalizedVal": 0.3571
     },
     {
         "group": "Target base",
-        "shapValue": 0.0185,
+        "shapValue": 0.0161,
         "sampleIndex": 30,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Target base",
-        "shapValue": -0.004,
+        "shapValue": -0.0033,
         "sampleIndex": 31,
         "featureValue": 1.3125,
         "normalizedVal": 0.75
     },
     {
         "group": "Target base",
-        "shapValue": -0.0037,
+        "shapValue": -0.0033,
         "sampleIndex": 32,
         "featureValue": 1.75,
         "normalizedVal": 1.0
     },
     {
         "group": "Target base",
-        "shapValue": -0.0042,
+        "shapValue": -0.0022,
         "sampleIndex": 33,
         "featureValue": 1.3125,
         "normalizedVal": 0.75
     },
     {
         "group": "Target base",
-        "shapValue": -0.0066,
+        "shapValue": -0.006,
         "sampleIndex": 34,
         "featureValue": 1.3125,
         "normalizedVal": 0.75
@@ -3613,133 +3613,133 @@
     },
     {
         "group": "Target base",
-        "shapValue": -0.0034,
+        "shapValue": -0.0035,
         "sampleIndex": 36,
         "featureValue": 1.3125,
         "normalizedVal": 0.75
     },
     {
         "group": "Target base",
-        "shapValue": 0.0232,
+        "shapValue": 0.0222,
         "sampleIndex": 37,
         "featureValue": 0.375,
         "normalizedVal": 0.2143
     },
     {
         "group": "Target base",
-        "shapValue": -0.0069,
+        "shapValue": -0.0071,
         "sampleIndex": 38,
         "featureValue": 0.625,
         "normalizedVal": 0.3571
     },
     {
         "group": "Target base",
-        "shapValue": -0.0116,
+        "shapValue": -0.0114,
         "sampleIndex": 39,
         "featureValue": 0.9375,
         "normalizedVal": 0.5357
     },
     {
         "group": "Target base",
-        "shapValue": -0.0054,
+        "shapValue": -0.0045,
         "sampleIndex": 40,
         "featureValue": 0.9375,
         "normalizedVal": 0.5357
     },
     {
         "group": "Target base",
-        "shapValue": -0.0029,
+        "shapValue": -0.0032,
         "sampleIndex": 41,
         "featureValue": 1.75,
         "normalizedVal": 1.0
     },
     {
         "group": "Target base",
-        "shapValue": 0.0184,
+        "shapValue": 0.018,
         "sampleIndex": 42,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Target base",
-        "shapValue": 0.0186,
+        "shapValue": 0.0145,
         "sampleIndex": 43,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Target base",
-        "shapValue": -0.0037,
+        "shapValue": -0.0038,
         "sampleIndex": 44,
         "featureValue": 1.75,
         "normalizedVal": 1.0
     },
     {
         "group": "Target base",
-        "shapValue": -0.0034,
+        "shapValue": -0.0031,
         "sampleIndex": 45,
         "featureValue": 1.3125,
         "normalizedVal": 0.75
     },
     {
         "group": "Target base",
-        "shapValue": 0.0153,
+        "shapValue": 0.0133,
         "sampleIndex": 46,
         "featureValue": 0.375,
         "normalizedVal": 0.2143
     },
     {
         "group": "Target base",
-        "shapValue": -0.0035,
+        "shapValue": -0.0037,
         "sampleIndex": 47,
         "featureValue": 1.3125,
         "normalizedVal": 0.75
     },
     {
         "group": "Target base",
-        "shapValue": -0.0057,
+        "shapValue": -0.006,
         "sampleIndex": 48,
         "featureValue": 1.75,
         "normalizedVal": 1.0
     },
     {
         "group": "Target base",
-        "shapValue": 0.017,
+        "shapValue": 0.0146,
         "sampleIndex": 49,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Target base",
-        "shapValue": -0.0025,
+        "shapValue": -0.0034,
         "sampleIndex": 50,
         "featureValue": 1.3125,
         "normalizedVal": 0.75
     },
     {
         "group": "Target base",
-        "shapValue": -0.0046,
+        "shapValue": -0.0055,
         "sampleIndex": 51,
         "featureValue": 1.3125,
         "normalizedVal": 0.75
     },
     {
         "group": "Target base",
-        "shapValue": -0.0052,
+        "shapValue": -0.0059,
         "sampleIndex": 52,
         "featureValue": 1.3125,
         "normalizedVal": 0.75
     },
     {
         "group": "Target base",
-        "shapValue": 0.0173,
+        "shapValue": 0.0144,
         "sampleIndex": 53,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Target base",
-        "shapValue": 0.0145,
+        "shapValue": 0.0158,
         "sampleIndex": 54,
         "featureValue": 0.0,
         "normalizedVal": 0.0
@@ -3753,77 +3753,77 @@
     },
     {
         "group": "Target base",
-        "shapValue": -0.0066,
+        "shapValue": -0.0062,
         "sampleIndex": 56,
         "featureValue": 1.3125,
         "normalizedVal": 0.75
     },
     {
         "group": "Target base",
-        "shapValue": -0.0041,
+        "shapValue": -0.0055,
         "sampleIndex": 57,
         "featureValue": 1.3125,
         "normalizedVal": 0.75
     },
     {
         "group": "Target base",
-        "shapValue": -0.0054,
+        "shapValue": -0.0071,
         "sampleIndex": 58,
         "featureValue": 1.3125,
         "normalizedVal": 0.75
     },
     {
         "group": "Target base",
-        "shapValue": -0.0071,
+        "shapValue": -0.0061,
         "sampleIndex": 59,
         "featureValue": 1.3125,
         "normalizedVal": 0.75
     },
     {
         "group": "Target base",
-        "shapValue": -0.0022,
+        "shapValue": -0.0006,
         "sampleIndex": 60,
         "featureValue": 1.75,
         "normalizedVal": 1.0
     },
     {
         "group": "Target base",
-        "shapValue": -0.0029,
+        "shapValue": -0.0023,
         "sampleIndex": 61,
         "featureValue": 1.3125,
         "normalizedVal": 0.75
     },
     {
         "group": "Target base",
-        "shapValue": -0.0038,
+        "shapValue": -0.0039,
         "sampleIndex": 62,
         "featureValue": 0.9375,
         "normalizedVal": 0.5357
     },
     {
         "group": "Target base",
-        "shapValue": 0.0181,
+        "shapValue": 0.0146,
         "sampleIndex": 63,
         "featureValue": 0.375,
         "normalizedVal": 0.2143
     },
     {
         "group": "Target base",
-        "shapValue": 0.015,
+        "shapValue": 0.0151,
         "sampleIndex": 64,
         "featureValue": 0.375,
         "normalizedVal": 0.2143
     },
     {
         "group": "Target base",
-        "shapValue": -0.0024,
+        "shapValue": -0.0019,
         "sampleIndex": 65,
         "featureValue": 1.75,
         "normalizedVal": 1.0
     },
     {
         "group": "Target base",
-        "shapValue": 0.0188,
+        "shapValue": 0.0191,
         "sampleIndex": 66,
         "featureValue": 0.0,
         "normalizedVal": 0.0
@@ -3837,84 +3837,84 @@
     },
     {
         "group": "Target base",
-        "shapValue": -0.002,
+        "shapValue": -0.0033,
         "sampleIndex": 68,
         "featureValue": 1.75,
         "normalizedVal": 1.0
     },
     {
         "group": "Target base",
-        "shapValue": 0.0174,
+        "shapValue": 0.018,
         "sampleIndex": 69,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Target base",
-        "shapValue": 0.0197,
+        "shapValue": 0.0151,
         "sampleIndex": 70,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Target base",
-        "shapValue": -0.0048,
+        "shapValue": -0.0055,
         "sampleIndex": 71,
         "featureValue": 1.75,
         "normalizedVal": 1.0
     },
     {
         "group": "Target base",
-        "shapValue": -0.0074,
+        "shapValue": -0.0071,
         "sampleIndex": 72,
         "featureValue": 0.9375,
         "normalizedVal": 0.5357
     },
     {
         "group": "Target base",
-        "shapValue": -0.0063,
+        "shapValue": -0.0056,
         "sampleIndex": 73,
         "featureValue": 0.9375,
         "normalizedVal": 0.5357
     },
     {
         "group": "Target base",
-        "shapValue": -0.0077,
+        "shapValue": -0.0078,
         "sampleIndex": 74,
         "featureValue": 0.9375,
         "normalizedVal": 0.5357
     },
     {
         "group": "Target base",
-        "shapValue": 0.0265,
+        "shapValue": 0.0292,
         "sampleIndex": 75,
         "featureValue": 0.375,
         "normalizedVal": 0.2143
     },
     {
         "group": "Target base",
-        "shapValue": -0.0057,
+        "shapValue": -0.0082,
         "sampleIndex": 76,
         "featureValue": 0.9375,
         "normalizedVal": 0.5357
     },
     {
         "group": "Target base",
-        "shapValue": -0.0075,
+        "shapValue": -0.0064,
         "sampleIndex": 77,
         "featureValue": 1.3125,
         "normalizedVal": 0.75
     },
     {
         "group": "Target base",
-        "shapValue": 0.0146,
+        "shapValue": 0.0167,
         "sampleIndex": 78,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Target base",
-        "shapValue": -0.0033,
+        "shapValue": -0.0028,
         "sampleIndex": 79,
         "featureValue": 0.9375,
         "normalizedVal": 0.5357
@@ -3928,252 +3928,252 @@
     },
     {
         "group": "Target base",
-        "shapValue": -0.0028,
+        "shapValue": -0.0035,
         "sampleIndex": 81,
         "featureValue": 0.9375,
         "normalizedVal": 0.5357
     },
     {
         "group": "Target base",
-        "shapValue": -0.007,
+        "shapValue": -0.0069,
         "sampleIndex": 82,
         "featureValue": 0.625,
         "normalizedVal": 0.3571
     },
     {
         "group": "Target base",
-        "shapValue": -0.0048,
+        "shapValue": -0.0051,
         "sampleIndex": 83,
         "featureValue": 0.9375,
         "normalizedVal": 0.5357
     },
     {
         "group": "Target base",
-        "shapValue": -0.0013,
+        "shapValue": -0.0019,
         "sampleIndex": 84,
         "featureValue": 1.75,
         "normalizedVal": 1.0
     },
     {
         "group": "Target base",
-        "shapValue": -0.0038,
+        "shapValue": -0.0044,
         "sampleIndex": 85,
         "featureValue": 1.75,
         "normalizedVal": 1.0
     },
     {
         "group": "Target base",
-        "shapValue": -0.0052,
+        "shapValue": -0.0058,
         "sampleIndex": 86,
         "featureValue": 1.3125,
         "normalizedVal": 0.75
     },
     {
         "group": "Target base",
-        "shapValue": -0.0031,
+        "shapValue": -0.0032,
         "sampleIndex": 87,
         "featureValue": 1.3125,
         "normalizedVal": 0.75
     },
     {
         "group": "Target base",
-        "shapValue": -0.0054,
+        "shapValue": -0.0039,
         "sampleIndex": 88,
         "featureValue": 0.9375,
         "normalizedVal": 0.5357
     },
     {
         "group": "Target base",
-        "shapValue": -0.006,
+        "shapValue": -0.0065,
         "sampleIndex": 89,
         "featureValue": 1.3125,
         "normalizedVal": 0.75
     },
     {
         "group": "Target base",
-        "shapValue": -0.0052,
+        "shapValue": -0.0049,
         "sampleIndex": 90,
         "featureValue": 1.3125,
         "normalizedVal": 0.75
     },
     {
         "group": "Target base",
-        "shapValue": 0.0182,
+        "shapValue": 0.0214,
         "sampleIndex": 91,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Target base",
-        "shapValue": -0.0049,
+        "shapValue": -0.0053,
         "sampleIndex": 92,
         "featureValue": 1.75,
         "normalizedVal": 1.0
     },
     {
         "group": "Target base",
-        "shapValue": -0.0063,
+        "shapValue": -0.0047,
         "sampleIndex": 93,
         "featureValue": 0.9375,
         "normalizedVal": 0.5357
     },
     {
         "group": "Target base",
-        "shapValue": -0.003,
+        "shapValue": -0.0024,
         "sampleIndex": 94,
         "featureValue": 1.3125,
         "normalizedVal": 0.75
     },
     {
         "group": "Target base",
-        "shapValue": -0.0082,
+        "shapValue": -0.0085,
         "sampleIndex": 95,
         "featureValue": 0.9375,
         "normalizedVal": 0.5357
     },
     {
         "group": "Target base",
-        "shapValue": -0.0008,
+        "shapValue": -0.0014,
         "sampleIndex": 96,
         "featureValue": 1.3125,
         "normalizedVal": 0.75
     },
     {
         "group": "Target base",
-        "shapValue": -0.005,
+        "shapValue": -0.0047,
         "sampleIndex": 97,
         "featureValue": 1.75,
         "normalizedVal": 1.0
     },
     {
         "group": "Target base",
-        "shapValue": -0.0053,
+        "shapValue": -0.0068,
         "sampleIndex": 98,
         "featureValue": 0.9375,
         "normalizedVal": 0.5357
     },
     {
         "group": "Target base",
-        "shapValue": -0.0034,
+        "shapValue": -0.0017,
         "sampleIndex": 99,
         "featureValue": 1.75,
         "normalizedVal": 1.0
     },
     {
         "group": "Target base",
-        "shapValue": -0.0033,
+        "shapValue": -0.0028,
         "sampleIndex": 100,
         "featureValue": 1.3125,
         "normalizedVal": 0.75
     },
     {
         "group": "Target base",
-        "shapValue": -0.009,
+        "shapValue": -0.01,
         "sampleIndex": 101,
         "featureValue": 1.3125,
         "normalizedVal": 0.75
     },
     {
         "group": "Target base",
-        "shapValue": 0.0281,
+        "shapValue": 0.0272,
         "sampleIndex": 102,
         "featureValue": 0.375,
         "normalizedVal": 0.2143
     },
     {
         "group": "Target base",
-        "shapValue": -0.0056,
+        "shapValue": -0.0063,
         "sampleIndex": 103,
         "featureValue": 0.9375,
         "normalizedVal": 0.5357
     },
     {
         "group": "Target base",
-        "shapValue": -0.002,
+        "shapValue": -0.0028,
         "sampleIndex": 104,
         "featureValue": 1.75,
         "normalizedVal": 1.0
     },
     {
         "group": "Target base",
-        "shapValue": -0.0065,
+        "shapValue": -0.0052,
         "sampleIndex": 105,
         "featureValue": 0.9375,
         "normalizedVal": 0.5357
     },
     {
         "group": "Target base",
-        "shapValue": -0.0039,
+        "shapValue": -0.0037,
         "sampleIndex": 106,
         "featureValue": 1.3125,
         "normalizedVal": 0.75
     },
     {
         "group": "Target base",
-        "shapValue": -0.0049,
+        "shapValue": -0.0045,
         "sampleIndex": 107,
         "featureValue": 0.9375,
         "normalizedVal": 0.5357
     },
     {
         "group": "Target base",
-        "shapValue": -0.0064,
+        "shapValue": -0.0065,
         "sampleIndex": 108,
         "featureValue": 0.9375,
         "normalizedVal": 0.5357
     },
     {
         "group": "Target base",
-        "shapValue": 0.0153,
+        "shapValue": 0.0141,
         "sampleIndex": 109,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Target base",
-        "shapValue": -0.0109,
+        "shapValue": -0.0104,
         "sampleIndex": 110,
         "featureValue": 1.3125,
         "normalizedVal": 0.75
     },
     {
         "group": "Target base",
-        "shapValue": -0.0055,
+        "shapValue": -0.0056,
         "sampleIndex": 111,
         "featureValue": 0.9375,
         "normalizedVal": 0.5357
     },
     {
         "group": "Target base",
-        "shapValue": -0.0042,
+        "shapValue": -0.0046,
         "sampleIndex": 112,
         "featureValue": 0.9375,
         "normalizedVal": 0.5357
     },
     {
         "group": "Target base",
-        "shapValue": -0.0076,
+        "shapValue": -0.0073,
         "sampleIndex": 113,
         "featureValue": 0.9375,
         "normalizedVal": 0.5357
     },
     {
         "group": "Target base",
-        "shapValue": -0.0072,
+        "shapValue": -0.0076,
         "sampleIndex": 114,
         "featureValue": 0.9375,
         "normalizedVal": 0.5357
     },
     {
         "group": "Target base",
-        "shapValue": -0.003,
+        "shapValue": -0.0031,
         "sampleIndex": 115,
         "featureValue": 0.9375,
         "normalizedVal": 0.5357
     },
     {
         "group": "Target base",
-        "shapValue": -0.0062,
+        "shapValue": -0.0067,
         "sampleIndex": 116,
         "featureValue": 0.9375,
         "normalizedVal": 0.5357
@@ -4187,49 +4187,49 @@
     },
     {
         "group": "Target base",
-        "shapValue": 0.011,
+        "shapValue": 0.0115,
         "sampleIndex": 118,
         "featureValue": 0.375,
         "normalizedVal": 0.2143
     },
     {
         "group": "Target base",
-        "shapValue": -0.0065,
+        "shapValue": -0.0072,
         "sampleIndex": 119,
         "featureValue": 0.625,
         "normalizedVal": 0.3571
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0019,
+        "shapValue": 0.0014,
         "sampleIndex": 0,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0064,
+        "shapValue": -0.0065,
         "sampleIndex": 1,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0009,
+        "shapValue": 0.0002,
         "sampleIndex": 2,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0015,
+        "shapValue": -0.0036,
         "sampleIndex": 3,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0022,
+        "shapValue": -0.0025,
         "sampleIndex": 4,
         "featureValue": 1.0,
         "normalizedVal": 1.0
@@ -4243,21 +4243,21 @@
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0003,
+        "shapValue": -0.0006,
         "sampleIndex": 6,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0039,
+        "shapValue": 0.0035,
         "sampleIndex": 7,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.002,
+        "shapValue": -0.0015,
         "sampleIndex": 8,
         "featureValue": 1.0,
         "normalizedVal": 1.0
@@ -4271,14 +4271,14 @@
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0023,
+        "shapValue": -0.0053,
         "sampleIndex": 10,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.001,
+        "shapValue": -0.0037,
         "sampleIndex": 11,
         "featureValue": 1.0,
         "normalizedVal": 1.0
@@ -4292,112 +4292,112 @@
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0001,
+        "shapValue": -0.0,
         "sampleIndex": 13,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.005,
+        "shapValue": -0.0001,
         "sampleIndex": 14,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0156,
+        "shapValue": 0.0186,
         "sampleIndex": 15,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0033,
+        "shapValue": -0.0031,
         "sampleIndex": 16,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0052,
+        "shapValue": -0.0057,
         "sampleIndex": 17,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0026,
+        "shapValue": 0.0024,
         "sampleIndex": 18,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0033,
+        "shapValue": 0.003,
         "sampleIndex": 19,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0053,
+        "shapValue": 0.005,
         "sampleIndex": 20,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0087,
+        "shapValue": -0.008,
         "sampleIndex": 21,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0012,
+        "shapValue": 0.0002,
         "sampleIndex": 22,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0019,
+        "shapValue": 0.003,
         "sampleIndex": 23,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0107,
+        "shapValue": 0.0105,
         "sampleIndex": 24,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0108,
+        "shapValue": -0.0098,
         "sampleIndex": 25,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0029,
+        "shapValue": 0.003,
         "sampleIndex": 26,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0013,
+        "shapValue": -0.0024,
         "sampleIndex": 27,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0008,
+        "shapValue": 0.0002,
         "sampleIndex": 28,
         "featureValue": 0.0,
         "normalizedVal": 0.0
@@ -4411,49 +4411,49 @@
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0019,
+        "shapValue": 0.0014,
         "sampleIndex": 30,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.002,
+        "shapValue": 0.0018,
         "sampleIndex": 31,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0032,
+        "shapValue": -0.0031,
         "sampleIndex": 32,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0123,
+        "shapValue": 0.0117,
         "sampleIndex": 33,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0024,
+        "shapValue": -0.0021,
         "sampleIndex": 34,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0073,
+        "shapValue": -0.0076,
         "sampleIndex": 35,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0011,
+        "shapValue": -0.0002,
         "sampleIndex": 36,
         "featureValue": 1.0,
         "normalizedVal": 1.0
@@ -4467,98 +4467,98 @@
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0034,
+        "shapValue": 0.0018,
         "sampleIndex": 38,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0033,
+        "shapValue": -0.0026,
         "sampleIndex": 39,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0147,
+        "shapValue": 0.0144,
         "sampleIndex": 40,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0045,
+        "shapValue": -0.0034,
         "sampleIndex": 41,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0016,
+        "shapValue": 0.0027,
         "sampleIndex": 42,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0012,
+        "shapValue": 0.0005,
         "sampleIndex": 43,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0071,
+        "shapValue": 0.0062,
         "sampleIndex": 44,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0027,
+        "shapValue": 0.0024,
         "sampleIndex": 45,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0055,
+        "shapValue": 0.004,
         "sampleIndex": 46,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0023,
+        "shapValue": 0.003,
         "sampleIndex": 47,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0083,
+        "shapValue": -0.0063,
         "sampleIndex": 48,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0001,
+        "shapValue": -0.0007,
         "sampleIndex": 49,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0114,
+        "shapValue": -0.0117,
         "sampleIndex": 50,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0127,
+        "shapValue": -0.0123,
         "sampleIndex": 51,
         "featureValue": 1.0,
         "normalizedVal": 1.0
@@ -4572,399 +4572,399 @@
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0011,
+        "shapValue": 0.0006,
         "sampleIndex": 53,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0004,
+        "shapValue": 0.0009,
         "sampleIndex": 54,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0117,
+        "shapValue": -0.0132,
         "sampleIndex": 55,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0022,
+        "shapValue": -0.0021,
         "sampleIndex": 56,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0011,
+        "shapValue": -0.0019,
         "sampleIndex": 57,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.002,
+        "shapValue": 0.0012,
         "sampleIndex": 58,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0041,
+        "shapValue": 0.0045,
         "sampleIndex": 59,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0012,
+        "shapValue": -0.0031,
         "sampleIndex": 60,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0022,
+        "shapValue": -0.0021,
         "sampleIndex": 61,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0103,
+        "shapValue": -0.0109,
         "sampleIndex": 62,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0009,
+        "shapValue": 0.0007,
         "sampleIndex": 63,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0002,
+        "shapValue": -0.0023,
         "sampleIndex": 64,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0028,
+        "shapValue": -0.0033,
         "sampleIndex": 65,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0013,
+        "shapValue": 0.0029,
         "sampleIndex": 66,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0,
+        "shapValue": 0.0003,
         "sampleIndex": 67,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0024,
+        "shapValue": -0.0057,
         "sampleIndex": 68,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0022,
+        "shapValue": -0.0017,
         "sampleIndex": 69,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0001,
+        "shapValue": 0.0008,
         "sampleIndex": 70,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0016,
+        "shapValue": -0.0008,
         "sampleIndex": 71,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0061,
+        "shapValue": -0.0069,
         "sampleIndex": 72,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0074,
+        "shapValue": 0.008,
         "sampleIndex": 73,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0072,
+        "shapValue": 0.0075,
         "sampleIndex": 74,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0009,
+        "shapValue": -0.0006,
         "sampleIndex": 75,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0117,
+        "shapValue": -0.0118,
         "sampleIndex": 76,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0155,
+        "shapValue": -0.014,
         "sampleIndex": 77,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0013,
+        "shapValue": 0.0002,
         "sampleIndex": 78,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0054,
+        "shapValue": -0.0066,
         "sampleIndex": 79,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0059,
+        "shapValue": 0.0086,
         "sampleIndex": 80,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.007,
+        "shapValue": -0.0071,
         "sampleIndex": 81,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0058,
+        "shapValue": 0.0055,
         "sampleIndex": 82,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0152,
+        "shapValue": 0.0141,
         "sampleIndex": 83,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0039,
+        "shapValue": -0.0017,
         "sampleIndex": 84,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0069,
+        "shapValue": -0.0084,
         "sampleIndex": 85,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0022,
+        "shapValue": -0.0015,
         "sampleIndex": 86,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0077,
+        "shapValue": 0.0096,
         "sampleIndex": 87,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0071,
+        "shapValue": 0.0063,
         "sampleIndex": 88,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0036,
+        "shapValue": 0.0035,
         "sampleIndex": 89,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0163,
+        "shapValue": 0.0168,
         "sampleIndex": 90,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0025,
+        "shapValue": 0.0014,
         "sampleIndex": 91,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0078,
+        "shapValue": -0.0086,
         "sampleIndex": 92,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0104,
+        "shapValue": 0.0102,
         "sampleIndex": 93,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.003,
+        "shapValue": -0.0037,
         "sampleIndex": 94,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0037,
+        "shapValue": 0.0049,
         "sampleIndex": 95,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0045,
+        "shapValue": -0.0036,
         "sampleIndex": 96,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0004,
+        "shapValue": 0.0003,
         "sampleIndex": 97,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0095,
+        "shapValue": -0.0094,
         "sampleIndex": 98,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0041,
+        "shapValue": 0.0047,
         "sampleIndex": 99,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0039,
+        "shapValue": -0.0025,
         "sampleIndex": 100,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0035,
+        "shapValue": 0.0036,
         "sampleIndex": 101,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0005,
+        "shapValue": -0.0028,
         "sampleIndex": 102,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0046,
+        "shapValue": 0.0034,
         "sampleIndex": 103,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0026,
+        "shapValue": -0.002,
         "sampleIndex": 104,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0085,
+        "shapValue": 0.0096,
         "sampleIndex": 105,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0005,
+        "shapValue": -0.0014,
         "sampleIndex": 106,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0001,
+        "shapValue": -0.0003,
         "sampleIndex": 107,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0039,
+        "shapValue": 0.0047,
         "sampleIndex": 108,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0008,
+        "shapValue": 0.0004,
         "sampleIndex": 109,
         "featureValue": 0.0,
         "normalizedVal": 0.0
@@ -4985,7 +4985,7 @@
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.009,
+        "shapValue": -0.0105,
         "sampleIndex": 112,
         "featureValue": 1.0,
         "normalizedVal": 1.0
@@ -4999,28 +4999,28 @@
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0106,
+        "shapValue": 0.0085,
         "sampleIndex": 114,
         "featureValue": 0.0,
         "normalizedVal": 0.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.0119,
+        "shapValue": -0.0117,
         "sampleIndex": 115,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": -0.008,
+        "shapValue": -0.0081,
         "sampleIndex": 116,
         "featureValue": 1.0,
         "normalizedVal": 1.0
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.001,
+        "shapValue": 0.0013,
         "sampleIndex": 117,
         "featureValue": 0.0,
         "normalizedVal": 0.0
@@ -5034,7 +5034,7 @@
     },
     {
         "group": "Type of last attack",
-        "shapValue": 0.0049,
+        "shapValue": 0.0063,
         "sampleIndex": 119,
         "featureValue": 0.0,
         "normalizedVal": 0.0
