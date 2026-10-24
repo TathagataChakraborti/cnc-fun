@@ -43,6 +43,21 @@ const fg_types = ['Base', 'Camp', 'Outposts'];
 const max_date = data[0].datetime;
 const min_date = data[data.length - 1].datetime;
 
+const model_names = [
+    {
+        name: 'y_base',
+        text: 'Next Base',
+    },
+    {
+        name: 'y_type',
+        text: 'FG Type',
+    },
+    {
+        name: 'y_time',
+        text: 'Time to attack',
+    },
+];
+
 const base_init = {
     hash_id: 0,
     id: 0,
@@ -57,6 +72,7 @@ const init_state = {
     report: null,
     feedback_msg: [],
     model_name: 'y_base',
+    selected_legends: [],
     data: {
         previous_attack: {
             name: '',
@@ -366,6 +382,7 @@ class ProductionModel extends React.Component {
         this.setState({
             ...this.state,
             model_name: e.name,
+            selected_legends: e.selected_legends ? e.selected_legends : [],
         });
     }
 
@@ -425,10 +442,17 @@ class ProductionModel extends React.Component {
                             lowContrast
                             selectionMode="automatic"
                             size="sm"
+                            selectedIndex={model_names
+                                .map(item => item.name)
+                                .indexOf(this.state.model_name)}
                             onChange={this.updateTabSelection.bind(this)}>
-                            <Switch name="y_base" text="Next Base" />
-                            <Switch name="y_type" text="FG Type" />
-                            <Switch name="y_time" text="Time to attack" />
+                            {model_names.map((item, index) => (
+                                <Switch
+                                    key={index}
+                                    name={item.name}
+                                    text={item.text}
+                                />
+                            ))}
                         </ContentSwitcher>
                         <br />
                         <br />
@@ -698,7 +722,13 @@ class ProductionModel extends React.Component {
                     <Column>
                         <br />
                         <br />
-                        <ShapleyPlots model_name={this.state.model_name} />
+                        <ShapleyPlots
+                            model_name={this.state.model_name}
+                            selected_legends={this.state.selected_legends}
+                            updateTabSelection={this.updateTabSelection.bind(
+                                this
+                            )}
+                        />
                     </Column>
                 </Column>
             </Grid>

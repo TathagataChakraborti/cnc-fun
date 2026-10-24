@@ -399,7 +399,6 @@ class Honeypot extends React.Component {
                         attacks{' '}
                         <Link
                             style={{ cursor: 'pointer' }}
-                            inline
                             onClick={() => {
                                 this.updateSelection({
                                     name: forgotten_types[1],
@@ -411,7 +410,6 @@ class Honeypot extends React.Component {
                         (or{' '}
                         <Link
                             style={{ cursor: 'pointer' }}
-                            inline
                             onClick={() => {
                                 this.updateSelection({
                                     name: forgotten_types.join(', '),

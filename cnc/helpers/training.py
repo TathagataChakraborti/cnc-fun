@@ -119,20 +119,20 @@ def generate_loss_curve(
 
     loss_data: list[LOSS] = []
 
-    for iteration, (train_loss, val_loss) in enumerate(zip(train_scores, val_scores)):
+    for iteration, (train_score, val_score) in enumerate(zip(train_scores, val_scores)):
         loss_data.append(
             LOSS(
-                group="Training Loss",
+                group="Training Score",
                 iteration=iteration + 1,
-                loss=round(float(train_loss), 4),
+                loss=round(float(train_score), 4),
             )
         )
 
         loss_data.append(
             LOSS(
-                group="Validation Loss",
+                group="Validation Score",
                 iteration=iteration + 1,
-                loss=round(float(val_loss), 4),
+                loss=round(float(val_score), 4),
             )
         )
 

@@ -1,301 +1,301 @@
 [
     {
-        "group": "Training Loss",
+        "group": "Training Score",
         "iteration": 1,
         "loss": -0.6931
     },
     {
-        "group": "Validation Loss",
+        "group": "Validation Score",
         "iteration": 1,
         "loss": -0.6932
     },
     {
-        "group": "Training Loss",
+        "group": "Training Score",
         "iteration": 2,
         "loss": -0.6728
     },
     {
-        "group": "Validation Loss",
+        "group": "Validation Score",
         "iteration": 2,
         "loss": -0.6739
     },
     {
-        "group": "Training Loss",
+        "group": "Training Score",
         "iteration": 3,
         "loss": -0.656
     },
     {
-        "group": "Validation Loss",
+        "group": "Validation Score",
         "iteration": 3,
         "loss": -0.6599
     },
     {
-        "group": "Training Loss",
+        "group": "Training Score",
         "iteration": 4,
         "loss": -0.6423
     },
     {
-        "group": "Validation Loss",
+        "group": "Validation Score",
         "iteration": 4,
         "loss": -0.6481
     },
     {
-        "group": "Training Loss",
+        "group": "Training Score",
         "iteration": 5,
         "loss": -0.6303
     },
     {
-        "group": "Validation Loss",
+        "group": "Validation Score",
         "iteration": 5,
         "loss": -0.6395
     },
     {
-        "group": "Training Loss",
+        "group": "Training Score",
         "iteration": 6,
         "loss": -0.62
     },
     {
-        "group": "Validation Loss",
+        "group": "Validation Score",
         "iteration": 6,
         "loss": -0.635
     },
     {
-        "group": "Training Loss",
+        "group": "Training Score",
         "iteration": 7,
         "loss": -0.6088
     },
     {
-        "group": "Validation Loss",
+        "group": "Validation Score",
         "iteration": 7,
         "loss": -0.6249
     },
     {
-        "group": "Training Loss",
+        "group": "Training Score",
         "iteration": 8,
         "loss": -0.6004
     },
     {
-        "group": "Validation Loss",
+        "group": "Validation Score",
         "iteration": 8,
         "loss": -0.6207
     },
     {
-        "group": "Training Loss",
+        "group": "Training Score",
         "iteration": 9,
         "loss": -0.5917
     },
     {
-        "group": "Validation Loss",
+        "group": "Validation Score",
         "iteration": 9,
         "loss": -0.6199
     },
     {
-        "group": "Training Loss",
+        "group": "Training Score",
         "iteration": 10,
         "loss": -0.5849
     },
     {
-        "group": "Validation Loss",
+        "group": "Validation Score",
         "iteration": 10,
         "loss": -0.6132
     },
     {
-        "group": "Training Loss",
+        "group": "Training Score",
         "iteration": 11,
         "loss": -0.5781
     },
     {
-        "group": "Validation Loss",
+        "group": "Validation Score",
         "iteration": 11,
         "loss": -0.6096
     },
     {
-        "group": "Training Loss",
+        "group": "Training Score",
         "iteration": 12,
         "loss": -0.5719
     },
     {
-        "group": "Validation Loss",
+        "group": "Validation Score",
         "iteration": 12,
         "loss": -0.6058
     },
     {
-        "group": "Training Loss",
+        "group": "Training Score",
         "iteration": 13,
         "loss": -0.5662
     },
     {
-        "group": "Validation Loss",
+        "group": "Validation Score",
         "iteration": 13,
         "loss": -0.6064
     },
     {
-        "group": "Training Loss",
+        "group": "Training Score",
         "iteration": 14,
         "loss": -0.5613
     },
     {
-        "group": "Validation Loss",
+        "group": "Validation Score",
         "iteration": 14,
         "loss": -0.6062
     },
     {
-        "group": "Training Loss",
+        "group": "Training Score",
         "iteration": 15,
         "loss": -0.5563
     },
     {
-        "group": "Validation Loss",
+        "group": "Validation Score",
         "iteration": 15,
         "loss": -0.6093
     },
     {
-        "group": "Training Loss",
+        "group": "Training Score",
         "iteration": 16,
         "loss": -0.5519
     },
     {
-        "group": "Validation Loss",
+        "group": "Validation Score",
         "iteration": 16,
         "loss": -0.6094
     },
     {
-        "group": "Training Loss",
+        "group": "Training Score",
         "iteration": 17,
         "loss": -0.5473
     },
     {
-        "group": "Validation Loss",
+        "group": "Validation Score",
         "iteration": 17,
         "loss": -0.6059
     },
     {
-        "group": "Training Loss",
+        "group": "Training Score",
         "iteration": 18,
         "loss": -0.5411
     },
     {
-        "group": "Validation Loss",
+        "group": "Validation Score",
         "iteration": 18,
         "loss": -0.6037
     },
     {
-        "group": "Training Loss",
+        "group": "Training Score",
         "iteration": 19,
         "loss": -0.537
     },
     {
-        "group": "Validation Loss",
+        "group": "Validation Score",
         "iteration": 19,
         "loss": -0.6012
     },
     {
-        "group": "Training Loss",
+        "group": "Training Score",
         "iteration": 20,
         "loss": -0.5331
     },
     {
-        "group": "Validation Loss",
+        "group": "Validation Score",
         "iteration": 20,
         "loss": -0.6
     },
     {
-        "group": "Training Loss",
+        "group": "Training Score",
         "iteration": 21,
         "loss": -0.5282
     },
     {
-        "group": "Validation Loss",
+        "group": "Validation Score",
         "iteration": 21,
         "loss": -0.6048
     },
     {
-        "group": "Training Loss",
+        "group": "Training Score",
         "iteration": 22,
         "loss": -0.5251
     },
     {
-        "group": "Validation Loss",
+        "group": "Validation Score",
         "iteration": 22,
         "loss": -0.6032
     },
     {
-        "group": "Training Loss",
+        "group": "Training Score",
         "iteration": 23,
         "loss": -0.5221
     },
     {
-        "group": "Validation Loss",
+        "group": "Validation Score",
         "iteration": 23,
         "loss": -0.6032
     },
     {
-        "group": "Training Loss",
+        "group": "Training Score",
         "iteration": 24,
         "loss": -0.5169
     },
     {
-        "group": "Validation Loss",
+        "group": "Validation Score",
         "iteration": 24,
         "loss": -0.6021
     },
     {
-        "group": "Training Loss",
+        "group": "Training Score",
         "iteration": 25,
         "loss": -0.5128
     },
     {
-        "group": "Validation Loss",
+        "group": "Validation Score",
         "iteration": 25,
         "loss": -0.6021
     },
     {
-        "group": "Training Loss",
+        "group": "Training Score",
         "iteration": 26,
         "loss": -0.5091
     },
     {
-        "group": "Validation Loss",
+        "group": "Validation Score",
         "iteration": 26,
         "loss": -0.6019
     },
     {
-        "group": "Training Loss",
+        "group": "Training Score",
         "iteration": 27,
         "loss": -0.5064
     },
     {
-        "group": "Validation Loss",
+        "group": "Validation Score",
         "iteration": 27,
         "loss": -0.6025
     },
     {
-        "group": "Training Loss",
+        "group": "Training Score",
         "iteration": 28,
         "loss": -0.5031
     },
     {
-        "group": "Validation Loss",
+        "group": "Validation Score",
         "iteration": 28,
         "loss": -0.603
     },
     {
-        "group": "Training Loss",
+        "group": "Training Score",
         "iteration": 29,
         "loss": -0.4978
     },
     {
-        "group": "Validation Loss",
+        "group": "Validation Score",
         "iteration": 29,
         "loss": -0.6037
     },
     {
-        "group": "Training Loss",
+        "group": "Training Score",
         "iteration": 30,
         "loss": -0.4952
     },
     {
-        "group": "Validation Loss",
+        "group": "Validation Score",
         "iteration": 30,
         "loss": -0.6019
     }

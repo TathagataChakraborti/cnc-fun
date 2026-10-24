@@ -79,7 +79,7 @@ const line_chart_options = {
     height: '400px',
 };
 
-const MonthlyDistribution = props => (
+const MonthlyDistribution = _ => (
     <Grid>
         <Column lg={4} md={4} sm={4}>
             <br />
