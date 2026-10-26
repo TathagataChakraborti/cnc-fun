@@ -4,6 +4,7 @@ import {
     Chemistry,
     Documentation,
     EarthAmericasFilled,
+    VideoFilled,
 } from '@carbon/icons-react';
 import {
     Grid,
@@ -117,7 +118,7 @@ const ForgottenPage = _ => {
                             <Button
                                 className="ghostish"
                                 size="md"
-                                kind="ghost"
+                                kind="ghost width"
                                 renderIcon={Chemistry}
                                 iconDescription="Hypothesis"
                                 onClick={() =>
@@ -127,7 +128,7 @@ const ForgottenPage = _ => {
                             </Button>
                             <br />
                             <Button
-                                className="ghostish"
+                                className="ghostish width"
                                 size="md"
                                 kind="ghost"
                                 renderIcon={Documentation}
@@ -137,7 +138,7 @@ const ForgottenPage = _ => {
                             </Button>
                             <br />
                             <Button
-                                className="ghostish"
+                                className="ghostish width"
                                 size="md"
                                 kind="ghost"
                                 href="https://www.youtube.com/watch?v=5Rs2m3lhg-k"
@@ -149,14 +150,27 @@ const ForgottenPage = _ => {
                                 </span>
                             </Button>
                             <br />
-                            <Button
-                                size="xs"
-                                kind="secondary"
-                                hasIconOnly
-                                renderIcon={EarthAmericasFilled}
-                                href="/migration"
-                                iconDescription="Migration"
-                            />
+                            <div>
+                                <Button
+                                    style={{ marginRight: '8px' }}
+                                    className="ghostish"
+                                    size="sm"
+                                    kind="untyped"
+                                    hasIconOnly
+                                    renderIcon={EarthAmericasFilled}
+                                    href="/migration"
+                                    iconDescription="Migration"
+                                />
+                                <Button
+                                    className="ghostish"
+                                    size="sm"
+                                    kind="untyped"
+                                    hasIconOnly
+                                    renderIcon={VideoFilled}
+                                    href="/movie"
+                                    iconDescription="Movie"
+                                />
+                            </div>
                         </TabListVertical>
                         <TabPanels>
                             <TabPanel>

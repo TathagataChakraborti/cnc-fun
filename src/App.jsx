@@ -11,6 +11,7 @@ import {
 
 import ForgottenPage from './content/ForgottenPage';
 import MigrationPage from './content/MigrationPage';
+import MoviePage from './content/MoviePage';
 import GitHubButton from 'react-github-btn';
 
 function withRouter(Component) {
@@ -40,6 +41,7 @@ class App extends Component {
                                 path="/migration"
                                 component={MigrationPage}
                             />
+                            <Route exact path="/movie" component={MoviePage} />
                         </Switch>
                     </Column>
                     <Column lg={2} md={4} sm={4}>

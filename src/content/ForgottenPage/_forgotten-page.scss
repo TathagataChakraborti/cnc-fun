@@ -32,8 +32,11 @@
 }
 
 .ghostish {
-    width: 175px;
     background-color: colors.$blue-10;
+}
+
+.ghostish.width {
+    width: 175px;
 }
 
 .note {

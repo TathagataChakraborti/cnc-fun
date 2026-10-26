@@ -20,6 +20,10 @@ const route_map = [
         to: 'migration',
         map: 'Migration',
     },
+    {
+        to: 'movie',
+        map: 'Movie',
+    },
 ];
 
 const PageHeader = _ => (

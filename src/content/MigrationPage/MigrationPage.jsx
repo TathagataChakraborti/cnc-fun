@@ -7,6 +7,7 @@ import {
     SkipForwardFilled,
     InterfaceUsage,
     Home,
+    VideoFilled,
 } from '@carbon/icons-react';
 import {
     Grid,
@@ -626,19 +627,30 @@ class MigrationPage extends React.Component {
                             <br />
                             <br />
                             <br />
-                            <Button
-                                size="xs"
-                                kind="secondary"
-                                hasIconOnly
-                                renderIcon={Home}
-                                href="/"
-                                iconDescription="Home"
+                            <div
                                 style={{
                                     position: 'fixed',
                                     bottom: 32,
                                     left: 32,
-                                }}
-                            />
+                                }}>
+                                <Button
+                                    style={{ marginRight: '8px' }}
+                                    size="sm"
+                                    kind="secondary"
+                                    hasIconOnly
+                                    renderIcon={Home}
+                                    href="/"
+                                    iconDescription="Home"
+                                />
+                                <Button
+                                    size="sm"
+                                    kind="secondary"
+                                    hasIconOnly
+                                    renderIcon={VideoFilled}
+                                    href="/movie"
+                                    iconDescription="Movie"
+                                />
+                            </div>
                         </Column>
                         <Column
                             lg={4}
